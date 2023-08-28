@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import TeamImage2023 from "@/public/assets/team/2023CompTeamPic.webp";
-import ImageBreaks from "../(shared)/ImageBreaks";
+import ImageBreaks from "../(shared-components)/ImageBreaks";
 
 type Props = {};
 

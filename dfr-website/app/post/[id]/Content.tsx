@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import { User, FormattedPost } from "@/app/types";
 import { PencilSquareIcon, XMarkIcon } from "@heroicons/react/24/solid";
 import Image from "next/image";
-import SocialLinks from "@/app/(shared)/SocialLinks";
+import SocialLinks from "@/app/(shared-components)/SocialLinks";
 import Editor from "@/app/post/Editor";
 
 type Props = {

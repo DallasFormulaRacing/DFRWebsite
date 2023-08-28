@@ -6,7 +6,7 @@ import Car from "@/app/(CarModel)/3DCarModel";
 import Research from "./Research";
 import Events from "./Events";
 import BetterEvents from "./BetterEvents";
-import NewsLetter from "@/app/(shared)/NewsLetter";
+import NewsLetter from "@/app/(shared-components)/NewsLetter";
 import Car2023 from "@/public/assets/car_gallery/2023Car.jpeg";
 import { prisma } from "@/app/api/client";
 import { Post } from ".prisma/client";

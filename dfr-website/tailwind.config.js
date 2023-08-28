@@ -3,6 +3,9 @@ module.exports = {
   content: ["./app/**/*.{js,ts,jsx,tsx}", "./components/**/*.{js,ts,jsx,tsx}"],
   theme: {
     extend: {
+      fontSize: {
+        "10xl": "10rem",
+      },
       spacing: {
         128: "32rem",
         144: "36rem",
@@ -16,6 +19,7 @@ module.exports = {
         "wh-0": "#FFFFFF",
         "wh-10": "#F4F4F4",
         "wh-50": "#FBFBFB",
+        "wh-75": "#F7F7F7",
         "wh-100": "#C9C9C9",
         "wh-300": "#939393",
         "wh-500": "#595959",

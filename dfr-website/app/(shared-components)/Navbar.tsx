@@ -2,7 +2,7 @@ import React from "react";
 import Link from "next/link";
 import Image from "next/image";
 import DFRLogo from "@/public/DFR-Logo.png";
-import SocialLinks from "@/app/(shared)/SocialLinks";
+import SocialLinks from "@/app/(shared-components)/SocialLinks";
 import Car2023 from "@/public/assets/car_gallery/2023Car.jpeg";
 1;
 type Props = {};

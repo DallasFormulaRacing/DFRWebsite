@@ -40,3 +40,9 @@ enum Role {
   SYSTEMLEAD
   ADMIN
 }
+
+model Sponsor{
+  name String @unique
+  logo String
+  link String
+}

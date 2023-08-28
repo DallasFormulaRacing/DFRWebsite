@@ -9,9 +9,9 @@ import OldCar from "@/public/assets/Cars/oldcar.jpg";
 import Sidebysidecars from "@/public/assets/Cars/2018_2019Cars.jpg";
 import About from "./car/page";
 import SampleProjects from "./(home)/SampleProjects";
-import ImageBreaks from "./(shared)/ImageBreaks";
+import ImageBreaks from "./(shared-components)/ImageBreaks";
 import { OrgInfo } from "./(home)/OrgInfo";
-import Sponsors from "./(shared)/Sponsors";
+import Sponsors from "./sponsors/Sponsors";
 import SponsorImage from "@/public/assets/sponsors/Sponsors.png";
 
 type Props = {};
@@ -19,11 +19,19 @@ type Props = {};
 export default function Home() {
   return (
     <main className={"px-0 leading-7"}>
-      <ImageBreaks
-        image={Car2022.src}
-        imageHeight={"h-256"}
-        imageFit={"object-fill"}
-      />
+      <div className={"relative"}>
+        <ImageBreaks
+          image={Car2022.src}
+          imageHeight={"h-256"}
+          imageFit={"object-fill"}
+        />
+        <div className={"absolute left-12 bottom-20"}>
+          <h1 className={"text-10xl font-bold text-wh-75"}>
+            DALLAS FORMULA RACING
+          </h1>
+        </div>
+      </div>
+
       <AboutUs />
       <ImageBreaks
         image={Sidebysidecars.src}
@@ -38,7 +46,7 @@ export default function Home() {
       />
       <OrgInfo />
       <ImageBreaks image={OldCar.src} imageHeight={"h-144"} />
-      <Sponsors />
+      {/* <Sponsors /> */}
     </main>
   );
 }
