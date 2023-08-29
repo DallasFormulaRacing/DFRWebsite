@@ -4,6 +4,7 @@
     "eslint": "^8.48.0",
     "mui": "^0.0.1",
     "next-transpile-modules": "^10.0.0",
+    "npx": "^10.2.2",
     "prettier": "^3.0.2",
     "styled-components": "^6.0.7"
   },

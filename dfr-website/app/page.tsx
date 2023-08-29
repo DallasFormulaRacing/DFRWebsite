@@ -17,36 +17,36 @@ import SponsorImage from "@/public/assets/sponsors/Sponsors.png";
 type Props = {};
 
 export default function Home() {
-  return (
-    <main className={"px-0 leading-7"}>
-      <div className={"relative"}>
-        <ImageBreaks
-          image={Car2022.src}
-          imageHeight={"h-256"}
-          imageFit={"object-fill"}
-        />
-        <div className={"absolute left-12 bottom-20"}>
-          <h1 className={"text-10xl font-bold text-wh-75"}>
-            DALLAS FORMULA RACING
-          </h1>
-        </div>
-      </div>
+    return (
+        <main className={"px-0 leading-7"}>
+            <div className={"relative"}>
+                <ImageBreaks
+                    image={Car2022.src}
+                    imageHeight={"h-256"}
+                    imageFit={"object-fill"}
+                />
+                <div className={"absolute left-12 bottom-20"}>
+                    <h1 className={"sm:text-5xl md:text-8xl lg:text-10xl font-bold text-wh-75"}>
+                        DALLAS FORMULA RACING
+                    </h1>
+                </div>
+            </div>
 
-      <AboutUs />
-      <ImageBreaks
-        image={Sidebysidecars.src}
-        imageHeight={"h-176"}
-        imageFit={"object-fill"}
-      />
-      <SampleProjects />
-      <ImageBreaks
-        image={Car2023.src}
-        imageHeight={"h-160"}
-        imageFit={"object-none"}
-      />
-      <OrgInfo />
-      <ImageBreaks image={OldCar.src} imageHeight={"h-144"} />
-      {/* <Sponsors /> */}
-    </main>
-  );
+            <AboutUs />
+            <ImageBreaks
+                image={Sidebysidecars.src}
+                imageHeight={"h-176"}
+                imageFit={"object-fill"}
+            />
+            <SampleProjects />
+            <ImageBreaks
+                image={Car2023.src}
+                imageHeight={"h-160"}
+                imageFit={"object-none"}
+            />
+            <OrgInfo />
+            <ImageBreaks image={OldCar.src} imageHeight={"h-144"} />
+            {/* <Sponsors /> */}
+        </main>
+    );
 }
