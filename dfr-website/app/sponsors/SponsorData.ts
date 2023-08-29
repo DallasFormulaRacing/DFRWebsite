@@ -48,12 +48,6 @@ export const SponsorData = [
     },
 
     {
-        name: "Kareless",
-        logo: "@/public/assets/sponsors/kareless.svg",
-        link: "https://kareless.com/",
-    },
-
-    {
         name: "Liqui Moly",
         logo: "@/public/assets/sponsors/liquimoly.svg",
         link: "https://www.liqui-moly.com",
@@ -75,12 +69,6 @@ export const SponsorData = [
         name: "Peterbilt",
         logo: "@/public/assets/sponsors/peterbilt.webp",
         link: "https://www.peterbilt.com/",
-    },
-
-    {
-        name: "Red Bull",
-        logo: "@/public/assets/sponsors/redbull.svg",
-        link: "https://www.redbull.com/us-en/",
     },
 
     {
