@@ -105,7 +105,7 @@ export const SponsorData: Array<Sponsor> = [
     
     {
         name: "Siemens",
-        logo: "/assets/sponsors/siemens.svg",
+        logo: "/assets/sponsors/siemens.png",
         link: "https://www.siemens.com/",
     },
     

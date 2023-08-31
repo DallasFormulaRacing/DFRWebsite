@@ -10,10 +10,10 @@ type Props = {
     index: number;
 };
 
-export const SponsorIcon = ({index}: Props) => {
+export const SponsorIcon = ({ index }: Props) => {
     const [sponsorList, setSponsorList] = useState<Sponsor[]>(SponsorData);
     return (
-        <div className={"basis-full relative w-auto h-32"}>
+        <div className={"item relative w-32 h-32"}>
             {sponsorList.map((sponsor, position, sponsors) => (
                 <a href={sponsors[index].link} rel={"noreferrer"}>
                     <Image
