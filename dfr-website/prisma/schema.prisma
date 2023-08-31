@@ -34,14 +34,13 @@ model Post {
   // userId    String   @db.ObjectId
 }
 
-
 enum Role {
   USER
   SYSTEMLEAD
   ADMIN
 }
 
-model Sponsor{
+model Sponsor {
   name String @unique
   logo String
   link String

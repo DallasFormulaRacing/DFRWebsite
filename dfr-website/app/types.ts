@@ -1,18 +1,24 @@
 export type User = {
-  id: string;
-  email: string;
-  name: string;
-  position: string;
-  //posts: FormattedPost[];
+    id: string;
+    email: string;
+    name: string;
+    position: string;
+    //posts: FormattedPost[];
 };
 export type FormattedPost = {
-  id: string;
-  createdAt: string;
-  updatedAt: string;
-  title: string;
-  category: string;
-  content: string;
-  author: string;
-  image: string;
-  snippet: string;
+    id: string;
+    createdAt: string;
+    updatedAt: string;
+    title: string;
+    category: string;
+    content: string;
+    author: string;
+    image: string;
+    snippet: string;
+};
+
+export type Sponsor = {
+    name: string;
+    logo: string;
+    link: string;
 };

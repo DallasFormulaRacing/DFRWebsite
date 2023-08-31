@@ -1,139 +1,141 @@
-export const SponsorData = [
+import { Sponsor } from "@/app/types";
+
+export const SponsorData: Array<Sponsor> = [
     {
         name: "AEZION",
-        logo: "@/public/assets/sponsors/aeizon.webp",
+        logo: "/assets/sponsors/aeizon.webp",
         link: "https://www.aezion.com/",
     },
 
     {
         name: "Al Lamb's Dallas Honda",
-        logo: "@/public/assets/sponsors/allamb.webp",
+        logo: "/assets/sponsors/allamb.webp",
         link: "https://dallashonda.com/",
     },
-
+    
     {
         name: "Altium Design",
-        logo: "@/public/assets/sponsors/altium.webp",
+        logo: "/assets/sponsors/altium.webp",
         link: "https://www.altium.com/",
     },
-
+    
     {
         name: "ANSYS",
-        logo: "@/public/assets/sponsors/ansys.svh",
+        logo: "/assets/sponsors/ansys.svg",
         link: "https://www.ansys.com/",
     },
-
+    
     {
         name: "CONVERGE CFD",
-        logo: "@/public/assets/sponsors/converge.svg",
+        logo: "/assets/sponsors/converge.svg",
         link: "https://convergecfd.com/",
     },
-
+    
     {
         name: "Evan Composites",
-        logo: "@/public/assets/sponsors/evancomposites.webp",
+        logo: "/assets/sponsors/evancomposites.webp",
         link: "https://www.evancomposites.com/",
     },
-
+    
     {
         name: "Fibre Glast",
-        logo: "@/public/assets/sponsors/fibreglast.webp",
+        logo: "/assets/sponsors/fibreglast.webp",
         link: "https://www.fibreglast.com/",
     },
-
+    
     {
         name: "HEXAGON",
-        logo: "@/public/assets/sponsors/hexagon.svh",
+        logo: "/assets/sponsors/hexagon.svg",
         link: "https://hexagon.com/",
     },
-
+    
     {
         name: "Liqui Moly",
-        logo: "@/public/assets/sponsors/liquimoly.svg",
+        logo: "/assets/sponsors/liquimoly.svg",
         link: "https://www.liqui-moly.com",
     },
-
+    
     {
         name: "Micro Measurements",
-        logo: "@/public/assets/sponsors/micromeasurements.svg",
+        logo: "/assets/sponsors/micromeasurements.svg",
         link: "https://micro-measurements.com/",
     },
-
+    
     {
         name: "NTBAA",
-        logo: "@/public/assets/sponsors/ntbaa.svg",
+        logo: "/assets/sponsors/ntbaa.svg",
         link: "https://ntbaaonline.com/",
     },
-
+    
     {
         name: "Peterbilt",
-        logo: "@/public/assets/sponsors/peterbilt.webp",
+        logo: "/assets/sponsors/peterbilt.webp",
         link: "https://www.peterbilt.com/",
     },
-
+    
     {
         name: "Rescale",
-        logo: "@/public/assets/sponsors/rescale.svg",
+        logo: "/assets/sponsors/rescale.svg",
         link: "https://www.rescale.com/",
     },
-
+    
     {
         name: "Rockwall MakerSpace",
-        logo: "@/public/assets/sponsors/rockwallmakerspace.webp",
+        logo: "/assets/sponsors/rockwallmakerspace.webp",
         link: "https://rockwallmakerspace.org/",
     },
-
+    
     {
         name: "SAE",
-        logo: "@/public/assets/sponsors/sae.svg",
+        logo: "/assets/sponsors/sae.svg",
         link: "https://www.sae.org/",
     },
-
+    
     {
         name: "Schroth Racing",
-        logo: "@/public/assets/sponsors/schroth.svg",
+        logo: "/assets/sponsors/schroth.svg",
         link: "https://www.schrothracing.com/",
     },
-
+    
     {
         name: "Sherwin Williams",
-        logo: "@/public/assets/sponsors/sherwinwilliams.webp",
+        logo: "/assets/sponsors/sherwinwilliams.webp",
         link: "https://www.sherwin-williams.com/",
     },
-
+    
     {
         name: "Siemens",
-        logo: "@/public/assets/sponsors/siemens.svg",
+        logo: "/assets/sponsors/siemens.svg",
         link: "https://www.siemens.com/",
     },
-
+    
     {
         name: "SKF",
-        logo: "@/public/assets/sponsors/skf_logo.webp",
+        logo: "/assets/sponsors/skf_logo.webp",
         link: "https://www.skf.com/us",
     },
-
+    
     {
         name: "SolidWorks",
-        logo: "@/public/assets/sponsors/solidworks.svg",
+        logo: "/assets/sponsors/solidworks.svg",
         link: "https://www.solidworks.com/",
     },
-
+    
     {
         name: "Tesla",
-        logo: "@/public/assets/sponsors/tesla.webp",
+        logo: "/assets/sponsors/tesla.webp",
         link: "https://www.tesla.com/",
     },
-
+    
     {
         name: "TTA",
-        logo: "@/public/assets/sponsors/tta.svg",
+        logo: "/assets/sponsors/tta.svg",
         link: "https://www.testtechnology.com/",
     },
-
+    
     {
         name: "UTD",
-        logo: "@/public/assets/sponsors/utd.svg",
+        logo: "/assets/sponsors/utd.svg",
         link: "https://www.utdallas.edu/",
     },
 ];

@@ -13,6 +13,7 @@ import ImageBreaks from "./(shared-components)/ImageBreaks";
 import { OrgInfo } from "./(home)/OrgInfo";
 import Sponsors from "./sponsors/Sponsors";
 import SponsorImage from "@/public/assets/sponsors/Sponsors.png";
+import ansys from "@/public/assets/sponsors/ansys.svg";
 
 type Props = {};
 
@@ -46,7 +47,8 @@ export default function Home() {
             />
             <OrgInfo />
             <ImageBreaks image={OldCar.src} imageHeight={"h-144"} />
-            {/* <Sponsors /> */}
+            <Sponsors />
+            {/* <ImageBreaks image={ansys.src} imageHeight={"h-32"}/> */}
         </main>
     );
 }
