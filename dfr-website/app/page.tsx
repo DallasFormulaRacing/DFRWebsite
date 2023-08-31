@@ -11,7 +11,7 @@ import About from "./car/page";
 import SampleProjects from "./(home)/SampleProjects";
 import ImageBreaks from "./(shared-components)/ImageBreaks";
 import { OrgInfo } from "./(home)/OrgInfo";
-import Sponsors from "./sponsors/Sponsors";
+import Sponsors from "./sponsors/SponsorComponent";
 import SponsorImage from "@/public/assets/sponsors/Sponsors.png";
 import ansys from "@/public/assets/sponsors/ansys.svg";
 
