@@ -5,11 +5,13 @@ import Image from "next/image";
 import DFRLogo from "@/public/DFR-Logo.png";
 import SocialLinks from "@/app/(shared-components)/SocialLinks";
 import Car2023 from "@/public/assets/car_gallery/2023Car.jpeg";
+import { Bars3Icon } from "@heroicons/react/24/solid";
 
 type Props = {};
 
 const Navbar = (props: Props) => {
     const [navbarToggle, setNavbarToggle] = useState<boolean>(false);
+    const [teamSectionToggle, setTeamSectionToggle] = useState<boolean>(false);
 
     return (
 
@@ -33,17 +35,20 @@ const Navbar = (props: Props) => {
                         />
                     </Link>
                 </div>
-                <div className={"flex justify-between items-center gap-10"}>
-                    <Link href={"/about"}>About</Link>
-                    <Link href={"/car"}>Car</Link>
-                    <Link href={"/team"}>Team</Link>
-                    <Link href={"/blog"}>News</Link>
-                    <Link href={"/sponsors"}>Sponsors</Link>
-                    <Link href={"/contact"}>Contact</Link>
-                </div>
-                <div>
+                <ol className={"flex justify-between items-center gap-10 text-2xl"}>
+                    <Link className={"hover:underline hover:text-accent-orange"} href={"/about"}>TEAM</Link>
+                    <Link className={"hover:underline hover:text-accent-orange"} href={"/car"}>CARS</Link>
+                    <Link className={"hover:underline hover:text-accent-orange"} href={"/blog"}>BLOG</Link>
+                    <Link className={"hover:underline hover:text-accent-orange"} href={"/sponsors"}>SPONSORS</Link>
+                    <Link className={"hover:underline hover:text-accent-orange"} href={"/contact"}>CONTACT US</Link>
+                    <Link className={"hover:underline hover:text-accent-orange"} href={"/donate"}>DONATE</Link>
+                </ol>
+                {/* <div>
                     <SocialLinks />
-                </div>
+                </div> */}
+                {/* <div className={"sm:hidden flex flex-1 justify-end items-center"}>
+                    <Bars3Icon className={navbarToggle ? close : menu}/>
+                </div> */}
             </nav>
             <hr className={"border-0"} />
         </header>

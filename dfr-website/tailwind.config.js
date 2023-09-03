@@ -42,6 +42,12 @@ module.exports = {
             sm: "768px",
             md: "1060px",
         },
+
+        navbarLink: {
+            fontSize: "1.25rem",
+            hoverColor: "#E87500",
+            hoverUnderline: true,
+        },
     },
     plugins: [require("@tailwindcss/typography")],
 };
