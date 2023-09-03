@@ -1,14 +1,17 @@
-import React from "react";
-import Image from "next/image";
-import CarVolunteering from "@/public/assets/Cars/volunteer_car.jpg";
-import CarwithBaloons from "@/public/assets/Cars/car_baloons.jpg";
+import React from 'react'
+import Image from 'next/image'
+import Car2022 from '@/public/assets/Cars/2022Michigan.jpg'
+import Car2021 from '@/public/assets/Cars/2021Car.jpg'
+import Car2019 from '@/public/assets/Cars/2019Car.jpg'
+import Car2018 from '@/public/assets/Cars/2018Car.jpg'
 
-type Props = {};
 
-export const SampleProjects = (props: Props) => {
-    return (
-        <section className={"mt-10 mx-12"}>
-            <div
+type Props = {}
+
+export const TeamHistory = (props: Props) => {
+  return (
+    <section className={"mt-10 mx-12"}>
+      <div
                 className={
                     "sm:grid sm:h-[500px] grid-cols-3 grid-rows-1 text-center"
                 }
@@ -17,7 +20,7 @@ export const SampleProjects = (props: Props) => {
                     <Image
                         alt={"2022AeroPackage"}
                         placeholder={"blur"}
-                        src={CarwithBaloons}
+                        src={Car2022}
                         sizes={
                             "(max-width: 480px) 100vw, (max-width: 480px) 100vw, (max-width: 768px) 75vw, (max-width: 1060px) 50vw, 33vw"
                         }
@@ -63,7 +66,7 @@ export const SampleProjects = (props: Props) => {
                     <Image
                         alt={"2022AeroPackage"}
                         placeholder={"blur"}
-                        src={CarVolunteering}
+                        src={Car2021}
                         sizes={
                             "(max-width: 480px) 100vw, (max-width: 480px) 100vw, (max-width: 768px) 75vw, (max-width: 1060px) 50vw, 33vw"
                         }
@@ -72,8 +75,6 @@ export const SampleProjects = (props: Props) => {
                     />
                 </div>
             </div>
-        </section>
-    );
-};
-
-export default SampleProjects;
+    </section>
+  )
+}

@@ -37,7 +37,7 @@ const Navbar = (props: Props) => {
                 </div>
                 <ol className={"flex justify-between items-center gap-10 text-2xl"}>
                     <Link className={"hover:underline hover:text-accent-orange"} href={"/about"}>TEAM</Link>
-                    <Link className={"hover:underline hover:text-accent-orange"} href={"/car"}>CARS</Link>
+                    <Link className={"hover:underline hover:text-accent-orange"} href={"/cars"}>CARS</Link>
                     <Link className={"hover:underline hover:text-accent-orange"} href={"/blog"}>BLOG</Link>
                     <Link className={"hover:underline hover:text-accent-orange"} href={"/sponsors"}>SPONSORS</Link>
                     <Link className={"hover:underline hover:text-accent-orange"} href={"/contact"}>CONTACT US</Link>
