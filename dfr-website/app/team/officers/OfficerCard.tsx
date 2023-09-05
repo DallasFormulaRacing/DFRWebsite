@@ -1,32 +1,28 @@
+"use client";
 import React from "react";
+import Card from "react-bootstrap/Card";
 import { Officer } from "@/app/types";
 import Image from "next/image";
-import style from "@/app/(styles)/OfficerCard.module.css";
 
 type Props = {};
 
 
 const OfficerCard = ({ officer }: { officer: Officer }) => {
     return (
-        <div className={"flex flex-col card w-80"}>
-            <figure className={"aspect-auto"}>
-                <Image
-                    className={"w-full object-cover rounded-lg z-0"}
-                    src={officer.image}
-                    priority={true}
-                    alt={officer.name}
-                    fill
-                />
-            </figure>
-            <div className={"bg-accent-orange card-body text-white z-10 rounded-md"}>
-                <h2 className={"card-title"}>
-                    {officer.name}
-                </h2>
-                <p>
-                    {officer.positions}
-                </p>
-            </div>
+        <Card style={{width: '18rem'}}>
+            <Card.Img variant="top" src={officer.image} />  
+        <Card.Body>
+            <Card.Title>{officer.name}</Card.Title>
+        </Card.Body>
+        <div className={"bg-accent-orange card-body text-white z-10 rounded-md"}>
+            <h2 className={"card-title"}>
+                {officer.name}
+            </h2>
+            <p>
+                {officer.positions}
+            </p>
         </div>
+    </Card>
     );
 }
 

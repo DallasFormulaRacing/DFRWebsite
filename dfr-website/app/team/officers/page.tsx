@@ -18,10 +18,15 @@ const testOfficer = {
 
 export default function Officers() {
     return (
-        <div className={"style.team"}>
+        <div className={"team"}>
             <h1 className={"pt-4"}>Admins</h1>
-            <div className={"style.officerCards"}>
-                {/* <OfficerCard officer={testOfficer}/> */}
+            <div className={"officerCards"}>
+                <div className={"flex flex-wrap content-center justify-center gap-8 gap-x-8"}>
+                    <div className={"flex min-h-[24rem]"}>
+                        <OfficerCard officer={testOfficer} />
+                    </div>
+                </div>
+                
             </div>
         </div>
     );
