@@ -5,6 +5,17 @@ export type User = {
     position: string;
     //posts: FormattedPost[];
 };
+
+export type Officer = {
+    name: string;
+    image: string;
+    positions: string;
+    year: string;
+    major: string;
+    linkedin?: string;
+    yearsOnTeam: string;
+};
+
 export type FormattedPost = {
     id: string;
     createdAt: string;

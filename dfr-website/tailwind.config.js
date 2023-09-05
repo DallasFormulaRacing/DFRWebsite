@@ -1,8 +1,12 @@
 /** @type {import('tailwindcss').Config} */
+const plugin = require("tailwindcss/plugin");
+
 module.exports = {
     content: [
         "./app/**/*.{js,ts,jsx,tsx}",
         "./components/**/*.{js,ts,jsx,tsx}",
+        "./app/(shared-components)/Navbar.tsx",
+        "./app/team/officers/OfficerCard.tsx",
     ],
     theme: {
         extend: {
@@ -29,6 +33,7 @@ module.exports = {
                 "wh-900": "#0F0F0F",
                 "accent-red": "#EA9648",
                 "accent-orange": "#E87500",
+                "officer-orange": "#EE9740",
                 "accent-green": "#2D8B49",
                 "or-10": "#ff841c",
             },
@@ -42,12 +47,19 @@ module.exports = {
             sm: "768px",
             md: "1060px",
         },
-
-        navbarLink: {
-            fontSize: "1.25rem",
-            hoverColor: "#E87500",
-            hoverUnderline: true,
-        },
     },
-    plugins: [require("@tailwindcss/typography")],
+    plugins: [
+        plugin(function ({ addComponents }) {
+            addComponents({
+                ".navbarLink": {
+                    fontSize: "1.5rem",
+                    "&:hover": {
+                        color: "#E87500",
+                        underline: true,
+                    },
+                },
+            });
+        }),
+        require("@tailwindcss/typography"),
+    ],
 };

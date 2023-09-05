@@ -35,13 +35,13 @@ const Navbar = (props: Props) => {
                         />
                     </Link>
                 </div>
-                <ol className={"flex justify-between items-center gap-10 text-2xl"}>
-                    <Link className={"hover:underline hover:text-accent-orange"} href={"/about"}>TEAM</Link>
-                    <Link className={"hover:underline hover:text-accent-orange"} href={"/cars"}>CARS</Link>
-                    <Link className={"hover:underline hover:text-accent-orange"} href={"/blog"}>BLOG</Link>
-                    <Link className={"hover:underline hover:text-accent-orange"} href={"/sponsors"}>SPONSORS</Link>
-                    <Link className={"hover:underline hover:text-accent-orange"} href={"/contact"}>CONTACT US</Link>
-                    <Link className={"hover:underline hover:text-accent-orange"} href={"/donate"}>DONATE</Link>
+                <ol className={"flex justify-between items-center gap-10"}>
+                    <Link className={"navbarLink"} href={"/about"}>TEAM</Link>
+                    <Link className={"navbarLink"} href={"/cars"}>CARS</Link>
+                    <Link className={"navbarLink"} href={"/blog"}>BLOG</Link>
+                    <Link className={"navbarLink"} href={"/sponsors"}>SPONSORS</Link>
+                    <Link className={"navbarLink"} href={"/contact"}>CONTACT US</Link>
+                    <Link className={"navbarLink"} href={"/donate"}>DONATE</Link>
                 </ol>
                 {/* <div>
                     <SocialLinks />
