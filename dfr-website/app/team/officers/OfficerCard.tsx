@@ -1,29 +1,54 @@
-"use client";
 import React from "react";
 import Card from "react-bootstrap/Card";
 import { Officer } from "@/app/types";
 import Image from "next/image";
+import Linkedin from "/public/assets/social_links/linkedin_blue.png";
+import Link from "next/link";
 
 type Props = {};
 
-
 const OfficerCard = ({ officer }: { officer: Officer }) => {
     return (
-        <Card style={{width: '18rem'}}>
-            <Card.Img variant="top" src={officer.image} />  
-        <Card.Body>
-            <Card.Title>{officer.name}</Card.Title>
-        </Card.Body>
-        <div className={"bg-accent-orange card-body text-white z-10 rounded-md"}>
-            <h2 className={"card-title"}>
-                {officer.name}
-            </h2>
-            <p>
-                {officer.positions}
-            </p>
+        <div className={"flex flex-col justify-center items-center w-[250px]"}>
+            <Image
+                src={officer.image}
+                alt={officer.name}
+                width={225}
+                height={225}
+                style={{ clipPath: "circle()" }}
+                className={"mb-4"}
+            />
+            <div className={"bg-officer-orange card-body text-black z-10 w-3/4"}>
+                <h1 className={"card-title text-xl text-center font-bold"}>
+                    {officer.name}
+                </h1>
+                <h2 className={"card-subtitle text-center"}>
+                    {officer.positions}
+                </h2>
+            </div>
+            <div className={"my-4"}>
+                <p className={"text-center"}>{officer.year}</p>
+                <p className={"text-center"}>{officer.major}</p>
+                <p className={"text-center"}>{officer.yearsOnTeam}</p>
+            </div>
+            <div className={""}>
+                {officer.linkedin ? (
+                    <Link href={officer.linkedin} rel={"noreferrer"}>
+                        <Image
+                            width={40}
+                            height={40}
+                            alt={"logo"}
+                            placeholder={"blur"}
+                            src={Linkedin}
+                            style={{ objectFit: "scale-down" }}
+                        />
+                    </Link>
+                ) : (
+                    <></>
+                )}
+            </div>
         </div>
-    </Card>
     );
-}
+};
 
 export default OfficerCard;

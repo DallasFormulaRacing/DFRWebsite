@@ -36,7 +36,7 @@ const Navbar = (props: Props) => {
                     </Link>
                 </div>
                 <ol className={"flex justify-between items-center gap-10"}>
-                    <Link className={"navbarLink"} href={"/about"}>TEAM</Link>
+                    <Link className={"navbarLink"} href={"/team"}>TEAM</Link>
                     <Link className={"navbarLink"} href={"/cars"}>CARS</Link>
                     <Link className={"navbarLink"} href={"/blog"}>BLOG</Link>
                     <Link className={"navbarLink"} href={"/sponsors"}>SPONSORS</Link>

@@ -12,7 +12,7 @@ export type Officer = {
     positions: string;
     year: string;
     major: string;
-    linkedin?: string;
+    linkedin?: string | null;
     yearsOnTeam: string;
 };
 

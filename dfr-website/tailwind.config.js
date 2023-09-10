@@ -35,6 +35,7 @@ module.exports = {
                 "accent-orange": "#E87500",
                 "officer-orange": "#EE9740",
                 "accent-green": "#2D8B49",
+                "accent-yellow": "#EDCA2C",
                 "or-10": "#ff841c",
             },
             backgroundImage: (theme) => ({
@@ -61,9 +62,8 @@ module.exports = {
                 ".team": {
                     display: "flex",
                     "flex-direction": "column",
-                    "justify-content": "center",
+                    // "justify-content": "center",
                     "align-items": "center",
-                    "background-color": "#ee9740",
                     height: "100%",
                 },
                 ".officerCards":{
@@ -71,7 +71,6 @@ module.exports = {
                     "flex-direction": "row",
                     "justify-content": "center",
                     "align-items": "center",
-                    "background-color": "#ee9740",
                     "flex-wrap": "wrap",
                     "justify-content": "space-between",
                 },
