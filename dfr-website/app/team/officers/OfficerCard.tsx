@@ -9,7 +9,7 @@ type Props = {};
 
 const OfficerCard = ({ officer }: { officer: Officer }) => {
     return (
-        <div className={"flex flex-col justify-center items-center w-[250px]"}>
+        <div className={"my-4 flex flex-col justify-center items-center w-[400px]"}>
             <Image
                 src={officer.image}
                 alt={officer.name}
@@ -18,7 +18,7 @@ const OfficerCard = ({ officer }: { officer: Officer }) => {
                 style={{ clipPath: "circle()" }}
                 className={"mb-4"}
             />
-            <div className={"bg-officer-orange card-body text-black z-10 w-3/4"}>
+            <div className={"bg-officer-orange card-body text-black z-10 w-1/2"}>
                 <h1 className={"card-title text-xl text-center font-bold"}>
                     {officer.name}
                 </h1>
