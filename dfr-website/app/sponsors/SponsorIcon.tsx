@@ -13,7 +13,7 @@ type Props = {
 export const SponsorIcon = ({ index }: Props) => {
     const [sponsorList, setSponsorList] = useState<Sponsor[]>(SponsorData);
     return (
-        <div className={"item relative w-32 h-32"}>
+        <div key={index} className={"item relative w-32 h-32"}>
             {sponsorList.map((sponsor, position, sponsors) => (
                 <a href={sponsors[index].link} rel={"noreferrer"}>
                     <Image
