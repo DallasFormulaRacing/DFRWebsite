@@ -1,5 +1,5 @@
 
-# Still a work in progress, not yet deployed. Planning for Oct 1st release. 
+# Still a work in progress, not yet deployed. Planning for mid October release. 
 
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
