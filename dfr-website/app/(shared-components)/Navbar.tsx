@@ -3,54 +3,222 @@ import React, { useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import DFRLogo from "@/public/DFR-Logo.png";
-import SocialLinks from "@/app/(shared-components)/SocialLinks";
-import Car2023 from "@/public/assets/car_gallery/2023Car.jpeg";
-import { Bars3Icon } from "@heroicons/react/24/solid";
+import { Menu , Button} from "antd";
+import {
+    MenuFoldOutlined,
+    MenuUnfoldOutlined,
+} from '@ant-design/icons';
 
-type Props = {};
+const NAV_LINKS = [
+    {
+      label:  (
+        <a href="/" rel="noopener noreferrer">
+          Home
+        </a>
+      ),
+      key: "/",
+    },
+    {
+      label: (
+        <a href="/join-the-team" rel="noopener noreferrer">
+          Join the Team
+        </a>
+      ),
+      key: "/join-the-team",
+      children: [
+        {
+          label: (
+            <a href="/team/aerodynamics" rel="noopener noreferrer">
+              Aerodynamics Team
+            </a>
+          ),
+          key: "/team/aerodynamics",
+        },
+        {
+          label: (
+            <a href="/team/business" rel="noopener noreferrer">
+              Business Team
+            </a>
+          ),
+          key: "/team/business",
+        },
+        {
+          label: (
+            <a href="/team/chassis" rel="noopener noreferrer">
+              Chassis Team
+            </a>
+          ),
+          key: "/team/chassis",
+        },
+        {
+          label: (
+            <a href="/team/electrical" rel="noopener noreferrer">
+              Electrical Team
+            </a>
+          ),
+          key: "/team/electrical",
+        },
+        {
+          label: (
+            <a href="/team/embedded" rel="noopener noreferrer">
+              Embedded Team
+            </a>
+          ),
+        },
+        {
+          label: (
+            <a href="/team/ergonomics" rel="noopener noreferrer">
+              Ergonomics Team
+            </a>
+          ),
+          key: "/team/ergonomics",
+        },
+        {
+          label: (
+            <a href="/team/manufacturing" rel="noopener noreferrer">
+              Manufacturing Team
+            </a>
+          ),
+          key: "/team/manufacturing",
+        },
+        {
+          label: (
+            <a href="/team/powertrain" rel="noopener noreferrer">
+              Powertrain Team
+            </a>
+          ),
+          key: "/team/powertrain",
+        },
+        {
+          label: (
+            <a href="/team/software" rel="noopener noreferrer">
+              Software Team
+            </a>
+          ),
+          key: "/team/software",
+        },
+        {
+          label: (
+            <a href="/team/steering" rel="noopener noreferrer">
+              Steering Team
+            </a>
+          ),
+          key: "/team/steering",
+        },
+        {
+          label: (
+            <a href="/team/suspension" rel="noopener noreferrer">
+              Suspension Team
+            </a>
+          ),
+          key: "/team/suspension",
+        },
+        {
+          label: (
+            <a href="/team/vehicle-dynamics" rel="noopener noreferrer">
+              EV Mechanical Team
+            </a>
+          ),
+          key: "/team/ev-mechanical",
+        },
+        {
+          label: (
+            <a href="/team/ev-electrical" rel="noopener noreferrer">
+              EV Electrical Team
+            </a>
+          ),
+          key: "/team/ev-electrical",
+        }
+      ]
+    },
+    {
+      label: (
+        <a href="/officers" rel="noopener noreferrer">
+          Officers
+        </a>
+      ),
+      key: "/officers",
+    },
+    {
+      label: (
+        <a href="/cars" rel="noopener noreferrer">
+          Cars
+        </a>
+      ),
+      key: "/cars",
+    },
+    {
+      label: (
+        <a href="/sponsors">
+          Sponsors
+        </a>
+      ),
+      key: "/sponsors",
+    },
+    {
+      label: (
+        <a href="/donate" rel="noopener noreferrer">
+          Donate
+        </a>
+      ),
+      key: "/donate",
+    },
+    {
+      label: (
+        <a href="/contact-us" rel="noopener noreferrer">
+          Contact Us
+        </a>
+      ),
+      key: "/contact-us",
+    },
+  ]
 
-const Navbar = (props: Props) => {
+
+const Navbar = () => {
     const [navbarToggle, setNavbarToggle] = useState<boolean>(false);
-    const [teamSectionToggle, setTeamSectionToggle] = useState<boolean>(false);
 
     return (
-
         <header className={"mb-0"}>
-            <nav
-                className={
-                    "flex justify-between items-center w-full bg-wh-900 text-wh-10 px-10 py-4 navbar"
-                }
-            >
-                <div className={"basis-1/6 relative w-auto h-32"}>
-                    <Link href={"/"} rel={"noreferrer"}>
+            <nav className="flex items-center w-full bg-wh-900 text-wh-10 px-10 py-4 navbar">
+                <div className="basis-1/6 relative w-auto h-16">
+                    <Link href="/" rel="noreferrer">
                         <Image
                             fill
-                            alt={"logo"}
-                            placeholder={"blur"}
+                            alt="logo"
+                            placeholder="blur"
                             src={DFRLogo}
-                            sizes={
-                                "(max-width: 480px) 100dvw, (max-width: 480px) 100dvw, (max-width: 768px) 75dvw, (max-width: 1060px) 50dvw, 25vw"
-                            }
-                            style={{ objectFit: "scale-down" }}
+                            className="object-contain"
                         />
                     </Link>
                 </div>
-                <ol className={"flex justify-between items-center gap-10"}>
-                    <Link className={"navbarLink"} href={"/team"}>TEAM</Link>
-                    <Link className={"navbarLink"} href={"/cars"}>CARS</Link>
-                    <Link className={"navbarLink"} href={"/blog"}>BLOG</Link>
-                    <Link className={"navbarLink"} href={"/sponsors"}>SPONSORS</Link>
-                    <Link className={"navbarLink"} href={"/contact"}>CONTACT US</Link>
-                    <Link className={"navbarLink"} href={"/donate"}>DONATE</Link>
-                </ol>
-                {/* <div>
-                    <SocialLinks />
-                </div> */}
-                {/* <div className={"sm:hidden flex flex-1 justify-end items-center"}>
-                    <Bars3Icon className={navbarToggle ? close : menu}/>
-                </div> */}
+
+                <div className="ml-auto w-0 invisible md:min-w-[625px] md:visible">
+                    <Menu 
+                        mode="horizontal" 
+                        theme="dark" 
+                        items={NAV_LINKS}
+                        className="bg-wh-900 flex items-end" 
+                    />
+                </div>
+
+                <div className="block ml-auto md:hidden">
+                    <Button 
+                        type="primary" 
+                        onClick={() => setNavbarToggle(!navbarToggle)}
+                    >
+                        {navbarToggle ? <MenuUnfoldOutlined /> : <MenuFoldOutlined />}
+                    </Button>
+
+                    {navbarToggle && (
+                        <Menu 
+                            mode="inline" 
+                            theme="dark" 
+                            items={NAV_LINKS} 
+                            className="bg-wh-900 absolute top-20 right-0 z-[9999] w-full" 
+                        />
+                    )}
+                </div>
             </nav>
-            <hr className={"border-0"} />
         </header>
     );
 };
