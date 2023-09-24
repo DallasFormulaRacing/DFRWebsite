@@ -10,3 +10,7 @@ body,
     width: 100%;
     @apply text-sm;
 }
+
+.ant-menu-item-selected, .ant-menu-submenu-selected {
+    background-color: #2d2f34 !important;
+}
