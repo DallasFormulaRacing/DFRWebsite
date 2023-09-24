@@ -37,6 +37,7 @@ export default function Home() {
             <div className="relative">
                 <Carousel
                     autoplay={true}
+                    autoplaySpeed={5000}
                     dotPosition="left"
                 >
                     {CAROUSEL_GALLERY.map((image, index) => (

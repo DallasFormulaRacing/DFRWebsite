@@ -8,6 +8,12 @@ export const SponsorData: Array<Sponsor> = [
     },
 
     {
+        name: "Airtech",
+        logo: "/assets/sponsors/airtech.webp",
+        link: "https://airtech.com/",
+    },
+
+    {
         name: "Al Lamb's Dallas Honda",
         logo: "/assets/sponsors/allamb.webp",
         link: "https://dallashonda.com/",
@@ -48,6 +54,12 @@ export const SponsorData: Array<Sponsor> = [
         logo: "/assets/sponsors/hexagon.svg",
         link: "https://hexagon.com/",
     },
+
+    {
+        name: "LabJack",
+        logo: "/assets/sponsors/labjack.webp",
+        link: "https://labjack.com/",
+    },
     
     {
         name: "Liqui Moly",
@@ -73,6 +85,12 @@ export const SponsorData: Array<Sponsor> = [
         link: "https://www.peterbilt.com/",
     },
     
+    {
+        name: "RedBull",
+        logo: "/assets/sponsors/redbull.webp",
+        link: "https://www.redbull.com/us-en/",
+    },
+
     {
         name: "Rescale",
         logo: "/assets/sponsors/rescale.svg",
@@ -137,6 +155,12 @@ export const SponsorData: Array<Sponsor> = [
         name: "UTD",
         logo: "/assets/sponsors/utd.svg",
         link: "https://www.utdallas.edu/",
+    },
+
+    {
+        name: "WelshAdvisors",
+        logo: "/assets/sponsors/welshadvisors.webp",
+        link: "https://www.welshadvisors.com/",
     },
 ];
 

@@ -70,7 +70,7 @@ const Footer = () => {
           <h4 className={"font-bold"}>Social Media</h4>
           <div className={"flex flex-row flex-wrap gap-4 mt-4"}>
             <a 
-              href={"https://www.facebook.com/DallasFormulaRacing"}
+              href={"https://www.linkedin.com/company/dallas-formula-racing/"}
               className="h-24 w-24"
               target={"_blank"}
               rel={"noreferrer"}
@@ -78,7 +78,7 @@ const Footer = () => {
               <LinkedinFilled className="text-6xl"/>
             </a>
             <a 
-              href={"https://www.instagram.com/dallasformularacing/"}
+              href={"https://www.youtube.com/@dallasformularacing3979"}
               className="h-24 w-24"
               target={"_blank"}
               rel={"noreferrer"}
@@ -94,7 +94,7 @@ const Footer = () => {
               <FacebookFilled className="text-6xl" />
             </a>
             <a 
-              href={"https://www.linkedin.com/company/dallas-formula-racing/"}
+              href={"https://www.instagram.com/dallasformularacing"}
               className="h-24 w-24"
               target={"_blank"}
               rel={"noreferrer"}
