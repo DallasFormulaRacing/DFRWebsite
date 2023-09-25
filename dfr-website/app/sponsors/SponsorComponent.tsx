@@ -10,7 +10,7 @@ export const Sponsors = (props: Props) => {
         <div className={"py-24 md:mx-40"}>
             <h1 className={"text-5xl font-bold text-center mb-12"}>Sponsors</h1>
             <div className={"grid grid-cols-3 md:grid-cols-5"}>
-                {Array.from(Array(23).keys()).map((index) => ( 
+                {Array.from(Array(27).keys()).map((index) => ( 
                     <div className="col-span-auto flex justify-center items-center"> 
                         <SponsorIcon index={index} />
                     </div>
