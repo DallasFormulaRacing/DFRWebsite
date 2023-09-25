@@ -6,7 +6,7 @@ type Props = {}
 const testOfficer = {
     name: "Test Officer",
     positions: "Test Position",
-    image: "/assets/Officers Page/test.jpg",
+    image: "/assets/team/Headshots/Derek Fuhr.png",
     year: "1 year",
     major: "Test Major",
     yearsOnTeam: "1 year",
