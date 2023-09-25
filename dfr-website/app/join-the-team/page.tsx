@@ -1,13 +1,15 @@
-import DallasFormulaRacingGaragaeOutside from "@/public/assets/team/Dallas_Formula_Racing_Web-29 1.png";
 import Image from "next/image";
 import Link from "next/link";
-import { QRCode, Space, Card, Collapse } from "antd";
 
-const text = `
-  A dog is a type of domesticated animal.
-  Known for its loyalty and faithfulness,
-  it can be found as a welcome guest in many households across the world.
-`;
+import DallasFormulaRacingGaragaeOutside from "@/public/assets/team/Dallas_Formula_Racing_Web-29 1.png";
+
+import OverviewSection from "./OverviewSection";
+import BecomeALeadSection from "./BecomeALeadSection";
+import DriverSeatSection from "./DriverSeatSection";
+import AttendingCompetitionSection from "./AttendingCompetitionSection";
+import FAQSection from "../(shared-components)/FAQSection";
+
+const text = `Hayden Bell`;
 
 const FAQ = [
     {
@@ -139,217 +141,11 @@ export default function Page() {
                 </div>
             </div>
 
-            {/* overview section */}
-            <section className="py-24">
-                <h1 className="font-bold text-center mb-8 text-4xl">
-                    General Overview
-                </h1>
-
-                <Space className="w-full" direction="vertical" size={"large"}>
-                    <Space
-                        direction="vertical"
-                        align="center"
-                        size={"middle"}
-                        className="w-full px-2"
-                    >
-                        <p className="text-center text-xl">
-                            Join Slack for all club updates
-                        </p>
-                        <p className="text-center text-xl">
-                            Slack Calendar has all sub-teams meeting times
-                        </p>
-                        <p className="text-center text-xl">
-                            You can be on more than one sub-team
-                        </p>
-                    </Space>
-
-                    <Space
-                        direction="vertical"
-                        align="center"
-                        className="w-full"
-                    >
-                        <QRCode
-                            value="https://forms.gle/6Z6Z1Z6Z6Z6Z6Z6Z6"
-                            className="w-48 h-48"
-                            icon="/dfr-logo-tyre.png"
-                        />
-                        <Link
-                            href="https://forms.gle/6Z6Z1Z6Z6Z6Z6Z6Z6"
-                            className="text-xl"
-                        >
-                            Let me join! (Click here)
-                        </Link>
-                        <p className="text-center px-2 mt-4 md:mx-24">
-                            We have a zero sexually harassment tolerance and an
-                            HR department if you ever have issues that need to
-                            be resolved. Respect University of Texas at Dallas
-                            Code of conduct.
-                        </p>
-                    </Space>
-                </Space>
-            </section>
-
-            <div className="h-176 relative text-white">
-                <Image
-                    src={DallasFormulaRacingGaragaeOutside.src}
-                    alt="team image"
-                    className="object-cover brightness-50"
-                    fill
-                />
-                <div className="absolute bottom-6 left-6">
-                    <h1 className="text-6xl font-bold italic w-full break-before-all sm:text-9xl">
-                        Become a Lead
-                    </h1>
-                </div>
-            </div>
-
-            <section className="p-12 sm:p-24">
-                <div className="flex flex-row flex-wrap justify-evenly">
-                    <Card className="w-full flex items-center justify-center h-[300px] border-none sm:w-1/3">
-                        <h1 className="text-4xl font-bold text-center">
-                            Experience
-                        </h1>
-                        <Space
-                            direction="vertical"
-                            align="center"
-                            className="w-full px-2 mt-4 md:text-lg"
-                        >
-                            <p className="text-center">
-                                Well versed in vehicle dynamics
-                            </p>
-                            <p className="text-center">
-                                Understand system limits
-                            </p>
-                            <p className="text-center">
-                                Effective engineering process
-                            </p>
-                        </Space>
-                    </Card>
-                    <Card className="w-full flex items-center justify-center h-[300px] border-none sm:w-1/3">
-                        <h1 className="text-4xl font-bold text-center">
-                            Leadership
-                        </h1>
-                        <Space
-                            direction="vertical"
-                            align="center"
-                            className="w-full px-2 mt-4 md:text-lg"
-                        >
-                            <p className="text-center">
-                                Be an effective teammate
-                            </p>
-                            <p className="text-center">
-                                Work closely with all leads
-                            </p>
-                            <p className="text-center">
-                                Communcation skills with your team
-                            </p>
-                        </Space>
-                    </Card>
-                    <Card className="w-full flex items-center justify-center h-[300px] border-none sm:w-1/3">
-                        <h1 className="text-4xl font-bold text-center">
-                            Dedication
-                        </h1>
-                        <Space
-                            direction="vertical"
-                            align="center"
-                            className="w-full px-2 mt-4 md:text-lg"
-                        >
-                            <p className="text-center">
-                                Be an active and hard-working member of DFR
-                            </p>
-                            <p className="text-center">
-                                Take initiative on projects
-                            </p>
-                            <p className="text-center">
-                                Contribute unique interpretations within FSAE
-                                limits
-                            </p>
-                        </Space>
-                    </Card>
-                </div>
-            </section>
-
-            <div className="h-176 relative text-white">
-                <Image
-                    src={DallasFormulaRacingGaragaeOutside.src}
-                    alt="team image"
-                    className="object-cover brightness-50"
-                    fill
-                />
-                <div className="absolute bottom-6 right-6 text-right">
-                    <h1 className="text-6xl font-bold italic break-before-all sm:text-9xl">
-                        Buckle up and Drive
-                    </h1>
-                </div>
-            </div>
-
-            <section className="p-12 sm:p-24">
-                <Card className="w-full flex items-center justify-center h-[300px] border-none">
-                    <h1 className="text-4xl font-bold text-center">
-                        Hop in the Driver's Seat
-                    </h1>
-                    <Space
-                        direction="vertical"
-                        align="center"
-                        className="w-full px-2 mt-4 md:text-lg"
-                    >
-                        <p className="text-center">
-                            Be an active and dedicated member
-                        </p>
-                        <p className="text-center">
-                            Practice hours on our racing simulator
-                        </p>
-                        <p className="text-center">
-                            Effective engineering process
-                        </p>
-                    </Space>
-                </Card>
-            </section>
-
-            <div className="h-176 relative text-white">
-                <Image
-                    src={DallasFormulaRacingGaragaeOutside.src}
-                    alt="team image"
-                    className="object-cover brightness-50"
-                    fill
-                />
-                <div className="absolute bottom-6 right-6 text-right">
-                    <h1 className="text-6xl font-bold italic break-before-all sm:text-9xl">
-                        Attending Competition
-                    </h1>
-                </div>
-            </div>
-
-            <section className="p-12 sm:p-24">
-                <Card className="w-full flex items-center justify-center h-[300px] border-none">
-                    <h1 className="text-4xl font-bold text-center">
-                        Invitations to Competition
-                    </h1>
-                    <Space
-                        direction="vertical"
-                        align="center"
-                        className="w-full px-2 mt-4 md:text-lg"
-                    >
-                        <p className="text-center">
-                            Being a leader of Dallas Formula Racing that
-                            represents the organization and reflects our values
-                        </p>
-                        <p className="text-center">
-                            Demonstrate soft and techincal skills that will
-                            assist the team stand out
-                        </p>
-                        <p className="text-center">
-                            Apply for positions when applications for
-                            competition open
-                        </p>
-                    </Space>
-                </Card>
-            </section>
-
-            <section id="FAQ-Section" className="p-12">
-                <h1 className="font-bold text-center mb-8 text-4xl">FAQ</h1>
-                <Collapse className="border-none bg-transparent text-lg" items={FAQ} />
-            </section>
+            <OverviewSection />
+            <BecomeALeadSection />
+            <DriverSeatSection />
+            <AttendingCompetitionSection />
+            <FAQSection faqItems={FAQ} />
         </main>
     );
 }
