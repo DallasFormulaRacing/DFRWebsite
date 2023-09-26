@@ -2,7 +2,6 @@ import Image from "next/image";
 import Script from "next/script";
 import THREE from "three";
 import React from "react";
-import Car from "@/app/(CarModel)/3DCarModel";
 import Research from "./Research";
 import Events from "./Events";
 import BetterEvents from "./BetterEvents";
