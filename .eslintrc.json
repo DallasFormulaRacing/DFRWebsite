@@ -1,3 +1,15 @@
 {
-    "extends": ["plugin:@next/next/recommended"]
+    "extends": [
+        "elsint:recommended",
+        "plugin:@import/recommended",
+        "plugin:import/typescript",
+        "plugin:@next/next/recommended"
+    ],
+
+    "settings": {
+        "import/resolver": {
+            "typescript": true,
+            "node": true
+        }
+    }
 }
