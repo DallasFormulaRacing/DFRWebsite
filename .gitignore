@@ -35,8 +35,3 @@ yarn-error.log*
 next-env.d.ts
 .env
 
-# car model
-public/car_model
-public/car_model/scene.gltf
-app/car/page.tsx
-app/(CarModel)/3DCarModel.tsx
