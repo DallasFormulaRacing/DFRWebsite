@@ -29,148 +29,145 @@ function getItem(
     } as MenuItem;
 }
 
-const items: MenuProps["items"] = [
-    getItem("Team", "sub1", null, [
-        getItem("ICE", "sub2", null, [
-            getItem("Option 1", "1"),
-            getItem("Option 2", "2"),
-        ]),
-        getItem("EV", "sub2", null, [
-            getItem("EV Mechanical", "1"),
-            getItem("EV Electrical", "2"),
-        ]),
-    ]),
-];
-
+const ICE_LINKS = {
+    label: (
+        <a href="/ice" rel="noopener noreferrer">
+            ICE
+        </a>
+    ),
+    key: "/join-the-team",
+    children: [
+        {
+            label: (
+                <a href="/team/aerodynamics" rel="noopener noreferrer">
+                    Aerodynamics Team
+                </a>
+            ),
+            key: "/team/aerodynamics",
+        },
+        {
+            label: (
+                <a href="/team/business" rel="noopener noreferrer">
+                    Business Team
+                </a>
+            ),
+            key: "/team/business",
+        },
+        {
+            label: (
+                <a href="/team/chassis" rel="noopener noreferrer">
+                    Chassis Team
+                </a>
+            ),
+            key: "/team/chassis",
+        },
+        {
+            label: (
+                <a href="/team/electrical" rel="noopener noreferrer">
+                    Electrical Team
+                </a>
+            ),
+            key: "/team/electrical",
+        },
+        {
+            label: (
+                <a href="/team/embedded" rel="noopener noreferrer">
+                    Embedded Team
+                </a>
+            ),
+        },
+        {
+            label: (
+                <a href="/team/ergonomics" rel="noopener noreferrer">
+                    Ergonomics Team
+                </a>
+            ),
+            key: "/team/ergonomics",
+        },
+        {
+            label: (
+                <a href="/team/manufacturing" rel="noopener noreferrer">
+                    Manufacturing Team
+                </a>
+            ),
+            key: "/team/manufacturing",
+        },
+        {
+            label: (
+                <a href="/team/powertrain" rel="noopener noreferrer">
+                    Powertrain Team
+                </a>
+            ),
+            key: "/team/powertrain",
+        },
+        {
+            label: (
+                <a href="/team/software" rel="noopener noreferrer">
+                    Software Team
+                </a>
+            ),
+            key: "/team/software",
+        },
+        {
+            label: (
+                <a href="/team/steering" rel="noopener noreferrer">
+                    Steering Team
+                </a>
+            ),
+            key: "/team/steering",
+        },
+        {
+            label: (
+                <a href="/team/suspension" rel="noopener noreferrer">
+                    Suspension Team
+                </a>
+            ),
+            key: "/team/suspension",
+        },
+    ],
+};
+const EV_LINKS = {
+    label: (
+        <a href="/ev" rel="noopener noreferrer">
+            EV
+        </a>
+    ),
+    key: "/ev",
+    children: [
+        {
+            label: (
+                <a href="/team/ev/mechanical" rel="noopener noreferrer">
+                    EV Mechanical Team
+                </a>
+            ),
+            key: "/team/ev/mechanical",
+        },
+        {
+            label: (
+                <a href="/team/ev/electrical" rel="noopener noreferrer">
+                    EV Electrical Team
+                </a>
+            ),
+            key: "/team/ev/electrical",
+        },
+    ],
+};
 const NAV_LINKS = [
     {
         label: (
             <a href="/" rel="noopener noreferrer">
-                Home
+                About
             </a>
         ),
-        key: "/",
+        key: "/about",
     },
     {
         label: (
-            <a href="/join-the-team" rel="noopener noreferrer">
-                Join the Team
-            </a>
-        ),
-        key: "/join-the-team",
-        children: [
-            {
-                label: (
-                    <a href="/team/aerodynamics" rel="noopener noreferrer">
-                        Aerodynamics Team
-                    </a>
-                ),
-                key: "/team/aerodynamics",
-            },
-            {
-                label: (
-                    <a href="/team/business" rel="noopener noreferrer">
-                        Business Team
-                    </a>
-                ),
-                key: "/team/business",
-            },
-            {
-                label: (
-                    <a href="/team/chassis" rel="noopener noreferrer">
-                        Chassis Team
-                    </a>
-                ),
-                key: "/team/chassis",
-            },
-            {
-                label: (
-                    <a href="/team/electrical" rel="noopener noreferrer">
-                        Electrical Team
-                    </a>
-                ),
-                key: "/team/electrical",
-            },
-            {
-                label: (
-                    <a href="/team/embedded" rel="noopener noreferrer">
-                        Embedded Team
-                    </a>
-                ),
-            },
-            {
-                label: (
-                    <a href="/team/ergonomics" rel="noopener noreferrer">
-                        Ergonomics Team
-                    </a>
-                ),
-                key: "/team/ergonomics",
-            },
-            {
-                label: (
-                    <a href="/team/manufacturing" rel="noopener noreferrer">
-                        Manufacturing Team
-                    </a>
-                ),
-                key: "/team/manufacturing",
-            },
-            {
-                label: (
-                    <a href="/team/powertrain" rel="noopener noreferrer">
-                        Powertrain Team
-                    </a>
-                ),
-                key: "/team/powertrain",
-            },
-            {
-                label: (
-                    <a href="/team/software" rel="noopener noreferrer">
-                        Software Team
-                    </a>
-                ),
-                key: "/team/software",
-            },
-            {
-                label: (
-                    <a href="/team/steering" rel="noopener noreferrer">
-                        Steering Team
-                    </a>
-                ),
-                key: "/team/steering",
-            },
-            {
-                label: (
-                    <a href="/team/suspension" rel="noopener noreferrer">
-                        Suspension Team
-                    </a>
-                ),
-                key: "/team/suspension",
-            },
-            {
-                label: (
-                    <a href="/team/vehicle-dynamics" rel="noopener noreferrer">
-                        EV Mechanical Team
-                    </a>
-                ),
-                key: "/team/ev-mechanical",
-            },
-            {
-                label: (
-                    <a href="/team/ev-electrical" rel="noopener noreferrer">
-                        EV Electrical Team
-                    </a>
-                ),
-                key: "/team/ev-electrical",
-            },
-        ],
-    },
-    {
-        label: (
-            <a href="/officers" rel="noopener noreferrer">
+            <a href="/team/officers" rel="noopener noreferrer">
                 Officers
             </a>
         ),
-        key: "/officers",
+        key: "/team/officers",
     },
     {
         label: (
@@ -202,6 +199,16 @@ const NAV_LINKS = [
     },
 ];
 
+const items: MenuProps["items"] = [
+    getItem("Team", "sub1", null, [ICE_LINKS, EV_LINKS]),
+    NAV_LINKS[0],
+    NAV_LINKS[1],
+    NAV_LINKS[2],
+    NAV_LINKS[3],
+    NAV_LINKS[4],
+    NAV_LINKS[5],
+];
+
 const Navbar = () => {
     const [navbarToggle, setNavbarToggle] = useState<boolean>(false);
 
@@ -218,15 +225,6 @@ const Navbar = () => {
                             className="object-contain"
                         />
                     </Link>
-                </div>
-
-                <div className="ml-auto w-0 invisible md:min-w-[625px] md:visible">
-                    <Menu
-                        mode="horizontal"
-                        theme="dark"
-                        items={NAV_LINKS}
-                        className="bg-wh-900 flex items-end"
-                    />
                 </div>
 
                 <div className="ml-auto w-0 invisible md:min-w-[625px] md:visible">
@@ -254,7 +252,7 @@ const Navbar = () => {
                         <Menu
                             mode="inline"
                             theme="dark"
-                            items={NAV_LINKS}
+                            items={items}
                             className="bg-wh-900 absolute top-20 right-0 z-[9999] w-full"
                         />
                     )}
