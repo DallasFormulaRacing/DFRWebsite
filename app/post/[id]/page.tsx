@@ -1,4 +1,4 @@
-// import React from "react";
+import React from "react";
 // //import sidebar
 // import { prisma } from "@/app/api/client";
 // import { User as UserType, Post as PostType } from "@prisma/client";
@@ -45,3 +45,7 @@
 // };
 
 // export default Post;
+
+export default function Post() {
+    return <div>post</div>;
+}
