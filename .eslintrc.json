@@ -1,6 +1,5 @@
 {
     "extends": [
-        "elsint:recommended",
         "plugin:@import/recommended",
         "plugin:import/typescript",
         "plugin:@next/next/recommended"
@@ -9,7 +8,9 @@
     "settings": {
         "import/resolver": {
             "typescript": true,
-            "node": true
+            "node": {
+                "extensions": [".js", ".jsx", ".ts", ".tsx"]
+            }
         }
     }
 }
