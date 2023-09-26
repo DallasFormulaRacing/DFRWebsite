@@ -1,16 +1,1 @@
-{
-    "extends": [
-        "plugin:@import/recommended",
-        "plugin:import/typescript",
-        "plugin:@next/next/recommended"
-    ],
 
-    "settings": {
-        "import/resolver": {
-            "typescript": true,
-            "node": {
-                "extensions": [".js", ".jsx", ".ts", ".tsx"]
-            }
-        }
-    }
-}
