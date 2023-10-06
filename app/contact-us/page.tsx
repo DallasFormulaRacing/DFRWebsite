@@ -10,13 +10,16 @@ type FormValues = {
 
 export default function Page() {
     return (
-        <main className="min-h-full bg-wh-900 flex flex-col justify-center items-center text-white text-center p-4 md:p-48">
-            <Space direction="vertical" size="large" className="min-h-1/2">
+        <main className="min-h-full bg-wh-900 flex flex-col justify-center items-center text-white text-center p-4 md:px-48">
+            <Space direction="vertical" size="large">
                 <h1 className="text-5xl sm:text-8xl font-bold">Get in Touch</h1>
-                <p className="text-xl">
-                    Want to learn more about Dallas Formula Racing? Interested
-                    in becoming a sponsor? We would love to hear from you!
-                </p>
+                <div>
+                    <p className="text-xl">
+                        Want to learn more about Dallas Formula Racing?
+                        Interested in becoming a sponsor?
+                    </p>
+                    <p className="text-xl">We would love to hear from you!</p>
+                </div>
 
                 <p className="text-xl">Visit: ECSW 1.455</p>
                 <p className="text-xl">Email: dallasformularacing@gmail.com</p>
