@@ -48,7 +48,7 @@ export default function Page() {
                         rules={[
                             {
                                 required: true,
-                                message: "Please enter your name",
+                                message: "Please enter your email",
                             },
                         ]}
                     >
