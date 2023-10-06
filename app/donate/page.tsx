@@ -7,7 +7,7 @@ const VENMO_LINK = "https://venmo.com/u/DFRacing";
 const UTD_DONATION_LINK = "https://giving.utdallas.edu/";
 
 // TODO: Update Venmo Link
-// TODO: Update UTD Donation Steps 
+// TODO: Update UTD Donation Steps
 
 export default function Page() {
     return (
