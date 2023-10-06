@@ -1,7 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
-import { QRCode, Space } from "antd";
-import VenmoLogo from "@/public/venmo-logo.png"
+import { QRCode } from "antd";
+import VenmoLogo from "@/public/venmo-logo.png";
 
 const VENMO_LINK = "https://venmo.com/u/DFRacing";
 const UTD_DONATION_LINK = "https://giving.utdallas.edu/";
@@ -53,7 +53,9 @@ export default function Page() {
                 </div>
                 <div className="flex flex-col justify-center">
                     <Image src={VenmoLogo} alt="Venmo logo" width={400} />
-                    <p className="text-2xl font-bold text-center mt-2">Scan to open Venmo and Donate</p>
+                    <p className="text-2xl font-bold text-center mt-2">
+                        Scan to open Venmo and Donate
+                    </p>
                 </div>
             </div>
         </main>
