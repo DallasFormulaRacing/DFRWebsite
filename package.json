@@ -13,6 +13,7 @@
         "postinstall": "prisma generate"
     },
     "dependencies": {
+        "@ant-design/cssinjs": "^1.17.0",
         "@ckeditor/ckeditor5-alignment": "^38.0.1",
         "@ckeditor/ckeditor5-autoformat": "^38.0.1",
         "@ckeditor/ckeditor5-basic-styles": "^38.0.1",

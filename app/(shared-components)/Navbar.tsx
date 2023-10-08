@@ -240,6 +240,7 @@ const Navbar = () => {
                     <Button
                         type="primary"
                         onClick={() => setNavbarToggle(!navbarToggle)}
+                        className="bg-wh-900 text-white"
                     >
                         {navbarToggle ? (
                             <MenuUnfoldOutlined />
