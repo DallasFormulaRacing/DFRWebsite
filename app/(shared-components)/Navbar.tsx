@@ -30,108 +30,108 @@ function getItem(
 }
 
 const ICE_LINKS = {
-    label: (
-        <a href="/ice" rel="noopener noreferrer">
-            ICE
-        </a>
-    ),
-    key: "/join-the-team",
+    label: <p>ICE</p>,
+    key: "/ice",
     children: [
         {
             label: (
-                <a href="/team/aerodynamics" rel="noopener noreferrer">
+                <a href="/team/ice/aerodynamics" rel="noopener noreferrer">
                     Aerodynamics Team
                 </a>
             ),
-            key: "/team/aerodynamics",
+            key: "/team/ice/aerodynamics",
         },
         {
             label: (
-                <a href="/team/business" rel="noopener noreferrer">
+                <a href="/team/ice/business" rel="noopener noreferrer">
                     Business Team
                 </a>
             ),
-            key: "/team/business",
+            key: "/team/ice/business",
         },
         {
             label: (
-                <a href="/team/chassis" rel="noopener noreferrer">
+                <a href="/team/ice/chassis" rel="noopener noreferrer">
                     Chassis Team
                 </a>
             ),
-            key: "/team/chassis",
+            key: "/team/ice/chassis",
         },
         {
             label: (
-                <a href="/team/electrical" rel="noopener noreferrer">
+                <a href="/team/ice/electrical" rel="noopener noreferrer">
                     Electrical Team
                 </a>
             ),
-            key: "/team/electrical",
+            key: "/team/ice/electrical",
         },
         {
             label: (
-                <a href="/team/embedded" rel="noopener noreferrer">
+                <a href="/team/ice/embedded" rel="noopener noreferrer">
                     Embedded Team
                 </a>
             ),
+            key: "/team/ice/embedded",
         },
         {
             label: (
-                <a href="/team/ergonomics" rel="noopener noreferrer">
+                <a href="/team/ice/ergonomics" rel="noopener noreferrer">
                     Ergonomics Team
                 </a>
             ),
-            key: "/team/ergonomics",
+            key: "/team/ice/ergonomics",
         },
         {
             label: (
-                <a href="/team/manufacturing" rel="noopener noreferrer">
+                <a href="/team/ice/manufacturing" rel="noopener noreferrer">
                     Manufacturing Team
                 </a>
             ),
-            key: "/team/manufacturing",
+            key: "/team/ice/manufacturing",
         },
         {
             label: (
-                <a href="/team/powertrain" rel="noopener noreferrer">
+                <a href="/team/ice/powertrain" rel="noopener noreferrer">
                     Powertrain Team
                 </a>
             ),
-            key: "/team/powertrain",
+            key: "/team/ice/powertrain",
         },
         {
             label: (
-                <a href="/team/software" rel="noopener noreferrer">
+                <a href="/team/ice/software" rel="noopener noreferrer">
                     Software Team
                 </a>
             ),
-            key: "/team/software",
+            key: "/team/ice/software",
         },
         {
             label: (
-                <a href="/team/steering" rel="noopener noreferrer">
+                <a href="/team/ice/steering" rel="noopener noreferrer">
                     Steering Team
                 </a>
             ),
-            key: "/team/steering",
+            key: "/team/ice/steering",
         },
         {
             label: (
-                <a href="/team/suspension" rel="noopener noreferrer">
+                <a href="/team/ice/suspension" rel="noopener noreferrer">
                     Suspension Team
                 </a>
             ),
-            key: "/team/suspension",
+            key: "/team/ice/suspension",
+        },
+        {
+            label: (
+                <a href="/team/officers" rel="noopener noreferrer">
+                    Officers
+                </a>
+            ),
         },
     ],
 };
 const EV_LINKS = {
-    label: (
-        <a href="/ev" rel="noopener noreferrer">
-            EV
-        </a>
-    ),
+    label: <p>EV</p>,
     key: "/ev",
     children: [
         {
@@ -155,19 +155,11 @@ const EV_LINKS = {
 const NAV_LINKS = [
     {
         label: (
-            <a href="/" rel="noopener noreferrer">
+            <a href="/about" rel="noopener noreferrer">
                 About
             </a>
         ),
         key: "/about",
-    },
-    {
-        label: (
-            <a href="/team/officers" rel="noopener noreferrer">
-                Officers
-            </a>
-        ),
-        key: "/team/officers",
     },
     {
         label: (
@@ -183,14 +175,6 @@ const NAV_LINKS = [
     },
     {
         label: (
-            <a href="/donate" rel="noopener noreferrer">
-                Donate
-            </a>
-        ),
-        key: "/donate",
-    },
-    {
-        label: (
             <a href="/contact-us" rel="noopener noreferrer">
                 Contact Us
             </a>
@@ -200,7 +184,14 @@ const NAV_LINKS = [
 ];
 
 const items: MenuProps["items"] = [
-    getItem("Team", "sub1", null, [ICE_LINKS, EV_LINKS]),
+    getItem(
+        <a className={"navbarLink"} href="/join-the-team" rel="noopener noreferrer">
+            Team
+        </a>,
+        "sub1",
+        null,
+        [ICE_LINKS, EV_LINKS]
+    ),
     NAV_LINKS[0],
     NAV_LINKS[1],
     NAV_LINKS[2],
