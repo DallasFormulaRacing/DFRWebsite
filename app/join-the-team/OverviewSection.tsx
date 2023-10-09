@@ -16,40 +16,36 @@ export default function OverviewSections() {
                     className="w-full px-2"
                 >
                     <p className="text-center text-xl">
-                        Join Slack for all club updates
+                        Join the Discord for all club updates
                     </p>
                     <p className="text-center text-xl">
-                        Slack Calendar has all sub-teams meeting times
+                        Discord #about channel has all sub-teams meeting times
                     </p>
                     <p className="text-center text-xl">
                         You can be on more than one sub-team
                     </p>
                 </Space>
 
-                <Space
-                    direction="vertical"
-                    align="center"
-                    className="w-full"
-                >
+                <Space direction="vertical" align="center" className="w-full">
                     <QRCode
-                        value="https://forms.gle/6Z6Z1Z6Z6Z6Z6Z6Z6"
+                        value="https://forms.gle/8qWnfY84g6GSEjte6"
                         className="w-48 h-48"
                         icon="/dfr-logo-tyre.png"
                     />
                     <Link
-                        href="https://forms.gle/6Z6Z1Z6Z6Z6Z6Z6Z6"
+                        href="https://forms.gle/8qWnfY84g6GSEjte6"
                         className="text-xl"
                     >
-                        Let me join! (Click here)
+                        Interest form to join the discord
                     </Link>
                     <p className="text-center px-2 mt-4 md:mx-24">
-                        We have a zero sexually harassment tolerance and an
-                        HR department if you ever have issues that need to
-                        be resolved. Respect University of Texas at Dallas
-                        Code of conduct.
+                        We have a zero sexually harassment tolerance and an HR
+                        department if you ever have issues that need to be
+                        resolved. Respect University of Texas at Dallas Code of
+                        conduct.
                     </p>
                 </Space>
             </Space>
         </section>
-    )
+    );
 }

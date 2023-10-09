@@ -9,7 +9,7 @@ import BecomeALeadSection from "./BecomeALeadSection";
 import DriverSeatSection from "./DriverSeatSection";
 import AttendingCompetitionSection from "./AttendingCompetitionSection";
 import FAQSection from "../(shared-components)/FAQSection";
-import { List } from "antd";
+import { List, Space } from "antd";
 
 const memberTasks = [
     "Part Design",
@@ -53,18 +53,21 @@ const FAQ = [
         children: (
             <List
                 header={
-                    <div>
+                    <Space
+                        direction="vertical"
+                        align="center"
+                        size={"middle"}
+                        className="w-full px-2"
+                    >
                         <p>
                             Welcome to the team. We are excited to have you! We
                             do not require any experience or requirements to
                             join. Our leads will teach you everything you need
                             to know.
                         </p>
-                        <br />
                         <p>
                             Here is how you can join the team and get involved:
                         </p>
-                        <br />
                         <a
                             href="https://forms.gle/8qWnfY84g6GSEjte6"
                             target="_blank"
@@ -72,7 +75,7 @@ const FAQ = [
                         >
                             Interest Form to Join the Discord
                         </a>
-                    </div>
+                    </Space>
                 }
                 bordered
                 dataSource={joinTheTeam}
@@ -113,7 +116,7 @@ const FAQ = [
         key: "3",
         label: "What if I'm not an Engineering major?",
         children: (
-            <div>
+            <Space>
                 <p>
                     All majors are welcome to join. If you do not have the
                     skills or knowledge for a certain subsystem, you can be
@@ -126,7 +129,7 @@ const FAQ = [
                     sub-team as well that works on marketing, event planning,
                     and fundraising.
                 </p>
-            </div>
+            </Space>
         ),
     },
     {
@@ -198,7 +201,12 @@ const FAQ = [
         key: "10",
         label: "How can I become a driver?",
         children: (
-            <div>
+            <Space
+                direction="vertical"
+                align="start"
+                size={"middle"}
+                className="w-full px-2"
+            >
                 <p>
                     Drivers are required to attend and assist testing day
                     procedures. The seat is earned through commitment to the
@@ -217,7 +225,7 @@ const FAQ = [
                     Do not expect to show up to a testing session and drive your
                     first time there.
                 </p>
-            </div>
+            </Space>
         ),
     },
 ];
