@@ -38,6 +38,9 @@ module.exports = {
                 "accent-yellow": "#EDCA2C",
                 "or-10": "#ff841c",
             },
+            opacity: {
+                65: 0.65,
+            },
             backgroundImage: (theme) => ({
                 "gradient-gradual":
                     "linear-gradient(180deg, rgba(116, 116, 116, 0) 66.15%, #000000 100%)",
@@ -53,10 +56,12 @@ module.exports = {
         plugin(function ({ addComponents }) {
             addComponents({
                 ".navbarLink": {
-                    fontSize: "1.5rem",
+                    color: "#FFFFFF",
+                    opacity: 0.65,
                     "&:hover": {
                         color: "#E87500",
                         underline: true,
+                        opacity: 1,
                     },
                 },
                 ".team": {
@@ -66,7 +71,7 @@ module.exports = {
                     "align-items": "center",
                     height: "100%",
                 },
-                ".officerCards":{
+                ".officerCards": {
                     display: "flex",
                     "flex-direction": "row",
                     "justify-content": "center",

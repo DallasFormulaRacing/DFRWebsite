@@ -23,6 +23,7 @@ const antDCustomizeTheme = {
     components: {
         Menu: {
             darkItemBg: "#0F0F0F",
+            darkItemHoverColor: "#ff841c",
         },
     },
 };
