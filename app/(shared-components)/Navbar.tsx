@@ -43,11 +43,11 @@ const ICE_LINKS = {
         },
         {
             label: (
-                <a href="/team/ice/business" rel="noopener noreferrer">
+                <a href="/team/business" rel="noopener noreferrer">
                     Business Team
                 </a>
             ),
-            key: "/team/ice/business",
+            key: "/team/business",
         },
         {
             label: (
