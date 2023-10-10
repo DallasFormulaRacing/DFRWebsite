@@ -1,9 +1,9 @@
 import OfficerSection from "./OfficerSection";
 import TitleSection from "./TitleSection";
 import Image from "next/image";
-import DennisYermakov from "@/public/assets/team/Headshots/Dennis Yermakov.png";
-import NabeelSalman from "@/public/assets/team/Headshots/Nabeel Salman.png";
-import PrestonWolfe from "@/public/assets/team/Headshots/Preston Wolfe.png";
+import DennisYermakov from "@/public/assets/team/Headshots/DennisYermakov.png";
+import NabeelSalman from "@/public/assets/team/Headshots/NabeelSalman.png";
+import PrestonWolfe from "@/public/assets/team/Headshots/PrestonWolfe.png";
 import AryanSharma from "@/public/assets/team/Headshots/Aryan Sharma.png";
 import SponsorshipImage from "@/public/assets/team/20220818_183355 1.png";
 import CommunityImage from "@/public/assets/team/IMG_3380 1.png";
