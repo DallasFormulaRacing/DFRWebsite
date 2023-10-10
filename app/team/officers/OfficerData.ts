@@ -21,8 +21,24 @@ const OfficerList: OfficerData = {
                 linkedin: "https://www.linkedin.com/in/rachelsoetarman",
             },
             {
+                name: "Aaryan Patel",
+                positions: "Secretary",
+                section: "Admin",
+                image: "/assets/team/Headshots/AaryanPatel.png",
+                email: "anp210006@utdallas.edu",
+            },
+            {
+                name: "Dennis Yermakov",
+                positions: "Business Director",
+                section: "Admin",
+                image: "/assets/team/Headshots/DennisYermakov.png",
+                email: "dny200000@utdallas.edu",
+                linkedin:
+                    "https://www.linkedin.com/in/dennis-yermakovs-profile",
+            },
+            {
                 name: "Zheer Seyan",
-                positions: "Cheif Engineer",
+                positions: "Chief Engineer",
                 section: "Admin",
                 image: "/assets/team/Headshots/ZheerSeyan.png",
                 email: "zjs210000@utdallas.edu",
@@ -35,22 +51,6 @@ const OfficerList: OfficerData = {
                 image: "/assets/team/Headshots/GrantMitchell.png",
                 email: "gpm200002@utdallas.edu",
                 linkedin: "https://www.linkedin.com/in/grantmitchell101/",
-            },
-            {
-                name: "Dennis Yermakov",
-                positions: "Business Director",
-                section: "Admin",
-                image: "/assets/team/Headshots/DennisYermakov.png",
-                email: "dny200000@utdallas.edu",
-                linkedin:
-                    "https://www.linkedin.com/in/dennis-yermakovs-profile",
-            },
-            {
-                name: "Aaryan Patel",
-                positions: "Secretary",
-                section: "Admin",
-                image: "/assets/team/Headshots/AaryanPatel.png",
-                email: "anp210006@utdallas.edu",
             },
         ],
     },

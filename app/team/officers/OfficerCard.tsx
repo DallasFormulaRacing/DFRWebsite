@@ -9,7 +9,11 @@ type Props = {};
 
 const OfficerCard = ({ officer }: { officer: Officer }) => {
     return (
-        <div className={"my-4 flex flex-col justify-center items-center w-[400px]"}>
+        <div
+            className={
+                "my-4 col-span-auto flex flex-col justify-center items-center w-[300px]"
+            }
+        >
             <Image
                 src={officer.image ? officer.image : BlankAvatar}
                 alt={officer.name}
@@ -18,7 +22,9 @@ const OfficerCard = ({ officer }: { officer: Officer }) => {
                 style={{ clipPath: "circle()" }}
                 className={"mb-4"}
             />
-            <div className={"bg-officer-orange card-body text-black z-10 w-1/2"}>
+            <div
+                className={"bg-officer-orange card-body text-black z-10 w-1/2"}
+            >
                 <h1 className={"card-title text-xl text-center font-bold"}>
                     {officer.name}
                 </h1>
@@ -44,7 +50,14 @@ const OfficerCard = ({ officer }: { officer: Officer }) => {
                         />
                     </Link>
                 ) : (
-                    <></>
+                    <Image
+                        width={40}
+                        height={40}
+                        alt={"logo"}
+                        placeholder={"blur"}
+                        src={Linkedin}
+                        style={{ objectFit: "scale-down", opacity: 0 }}
+                    />
                 )}
             </div>
         </div>

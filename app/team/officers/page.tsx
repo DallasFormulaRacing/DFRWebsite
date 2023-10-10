@@ -20,8 +20,9 @@ const testOfficer = {
 
 export default function Officers() {
     return (
-        <main className={"team"}>
-            <OfficerComponent />
+        <main className={""}>
+              <OfficerComponent />  
+            
         </main>
     );
 }

@@ -3,6 +3,7 @@ import React, { useState } from "react";
 import OfficerCard from "./OfficerCard";
 import { Officer, OfficerData } from "@/app/types";
 import OfficerList from "./OfficerData";
+import { Space } from "antd"
 
 type Props = {};
 
@@ -19,9 +20,11 @@ const testOfficer: Officer = {
 const OfficerComponent = (props: Props) => {
     const [officerList, setOfficerList] = useState<OfficerData>(OfficerList);
     return (
-        <div className={"w-3/4"}>
-            <h1 className={"text-4xl font-bold text-center my-10"}>Admins</h1>
-            <div className={"officerCards"}>
+        <div className={"w-5/6 mx-auto"}>
+            <h1 className={"text-5xl font-bold text-center my-12"}>
+                Admin
+            </h1>
+            <div className={"grid grid-cols-2 md:grid-cols-3"}>
                 {officerList.Admin.data.map((officer, index) => (
                     <OfficerCard officer={officer} />
                 ))}
