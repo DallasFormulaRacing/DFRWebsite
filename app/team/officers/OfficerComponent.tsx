@@ -1,12 +1,12 @@
 import React from 'react'
 import OfficerCard from './OfficerCard';
+import { Officer } from '@/app/types';
 
 type Props = {}
 
-const testOfficer = {
+const testOfficer: Officer = {
     name: "Test Officer",
     positions: "Test Position",
-    image: "/assets/team/Headshots/Derek Fuhr.png",
     year: "1 year",
     major: "Test Major",
     yearsOnTeam: "1 year",

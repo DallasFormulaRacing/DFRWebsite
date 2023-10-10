@@ -8,7 +8,7 @@ export type User = {
 
 export type Officer = {
     name: string;
-    image: string;
+    image?: string;
     positions: string;
     year: string;
     major: string;

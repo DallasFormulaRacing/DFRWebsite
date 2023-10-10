@@ -1,9 +1,9 @@
 import React from "react";
-import Card from "react-bootstrap/Card";
 import { Officer } from "@/app/types";
 import Image from "next/image";
 import Linkedin from "/public/assets/social_links/linkedin_blue.png";
 import Link from "next/link";
+import BlankAvatar from "/public/assets/team/Headshots/blank_avatar.png";
 
 type Props = {};
 
@@ -11,7 +11,7 @@ const OfficerCard = ({ officer }: { officer: Officer }) => {
     return (
         <div className={"my-4 flex flex-col justify-center items-center w-[400px]"}>
             <Image
-                src={officer.image}
+                src={officer.image ? officer.image : BlankAvatar}
                 alt={officer.name}
                 width={225}
                 height={225}
