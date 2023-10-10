@@ -3,6 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 
 import DallasFormulaRacingGaragaeOutside from "@/public/assets/team/Dallas_Formula_Racing_Web-29 1.png";
+import AutoCrossTeamPic from "@/public/assets/team/AutoCrossTeamPic.jpg";
 
 import OverviewSection from "./OverviewSection";
 import BecomeALeadSection from "./BecomeALeadSection";
@@ -236,7 +237,7 @@ export default function Page() {
             {/* hero section */}
             <div className="h-[80svh] relative text-white">
                 <Image
-                    src={DallasFormulaRacingGaragaeOutside.src}
+                    src={AutoCrossTeamPic.src}
                     alt="team image"
                     className="object-cover brightness-50"
                     fill

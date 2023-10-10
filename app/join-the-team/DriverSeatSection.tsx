@@ -1,13 +1,14 @@
 import { Card, Space } from "antd";
 import Image from "next/image";
 import BuckleUpAndDriveImage from "@/public/assets/team/20220303_115628 1.png";
+import DrivingImage from "@/public/assets/NewPictures/car_driving.jpg"
 
 export default function DriverSeatSection() {
     return (
         <>
             <div className="h-176 relative text-white">
                 <Image
-                    src={BuckleUpAndDriveImage.src}
+                    src={DrivingImage.src}
                     alt="team image"
                     className="object-cover"
                     fill

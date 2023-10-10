@@ -11,6 +11,7 @@ import { OrgInfo } from "./(home)/OrgInfo";
 import Sponsors from "./sponsors/SponsorComponent";
 import { Carousel } from "antd";
 import GroupPhoto from "@/public/assets/team/group_photo.jpeg";
+import car_blur from "@/public/assets/NewPictures/car_blur_in_motion.jpg";
 
 
 const CAROUSEL_GALLERY = [
@@ -77,7 +78,7 @@ export default function Home() {
             />
             <OrgInfo />
             <ImageBreaks 
-                image={OldCar.src} 
+                image={car_blur.src} 
                 imageHeight={"h-144"} 
                 imageFit={"object-cover"}
             />
