@@ -4,8 +4,6 @@ import Image from "next/image";
 import OfficerCard from "./OfficerCard";
 import OfficerComponent from "./OfficerComponent";
 
-
-
 type Props = {};
 
 const testOfficer = {
@@ -16,13 +14,12 @@ const testOfficer = {
     major: "Test Major",
     yearsOnTeam: "1 year",
     linkedin: "https://www.linkedin.com/in/kevin-chen-1b1b1b1b1/",
-}
+};
 
 export default function Officers() {
     return (
-        <main className={""}>
-              <OfficerComponent />  
-            
+        <main className={"flex justify-center min-h-full items-center"}>
+            <OfficerComponent />
         </main>
     );
 }
