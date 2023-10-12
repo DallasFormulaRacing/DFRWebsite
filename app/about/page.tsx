@@ -74,16 +74,13 @@ export default function About() {
             >
                 Org Chart
             </h1>
-            <div className={"basis-full relative w-400 h-256 mt-0 mb-4 ml-80"}>
+            <div className={"basis-full relative w-full h-[24svh] md:h-[56svh] mt-8 mb-24"}>
                 <Image
                     fill
                     alt={"OrgChart"}
                     placeholder={"blur"}
+                    className="object-contain"
                     src={OrgChart}
-                    sizes={
-                        "(max-width: 480px) 100vw, (max-width: 480px) 100vw, (max-width: 768px) 75vw, (max-width: 1060px) 50vw, 33vw"
-                    }
-                    style={{ objectFit: "contain" }}
                     unoptimized
                 />
             </div>
