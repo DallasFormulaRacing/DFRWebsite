@@ -32,10 +32,10 @@ const Footer = () => {
     return (
         <footer
             className={
-                "bg-wh-900 text-wh-50 py-10 px-10 flex justify-center items-center min-h-[200px]"
+                "bg-wh-900 text-wh-50 py-24 px-10 flex justify-center items-center min-h-[200px]"
             }
         >
-            <div className="w-full gap-8 py-8 grid grid-cols-1 md:w-3/5 sm:grid-cols-2 md:grid-cols-4">
+            <div className="w-full gap-24 md:gap-8 pb-24 grid grid-cols-1 md:w-3/5 sm:grid-cols-2 md:grid-cols-4">
                 <div className="flex flex-col gap-2">
                     <h3 className="text-2xl font-bold">Newsletter</h3>
                     <NewsletterSubcribeForm />
