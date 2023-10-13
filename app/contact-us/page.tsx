@@ -25,7 +25,7 @@ export default function Page() {
                 <p className="text-xl">Email: dallasformularacing@gmail.com</p>
             </Space>
 
-            <Form className="w-full mt-16">
+            <Form className="w-full p-2 md:w-2/3 mt-16">
                 <h2 className="text-xl font-bold text-white my-8">
                     Message Us
                 </h2>
