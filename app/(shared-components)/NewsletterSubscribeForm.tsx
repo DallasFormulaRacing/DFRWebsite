@@ -16,9 +16,8 @@ export default function NewsletterSubcribeForm() {
                     </label>
                     <input
                         type="email"
-                        defaultValue=""
                         name="EMAIL"
-                        className="required email mce_inline_error w-[146px]"
+                        className="required email mce_inline_error w-[146px] text-black p-2"
                         id="mce-EMAIL"
                         required
                         aria-required="true"
@@ -60,7 +59,7 @@ export default function NewsletterSubcribeForm() {
                     <div className="clear foot">
                         <input
                             type="submit"
-                            defaultValue="Subscribe"
+                            value="Subscribe"
                             name="subscribe"
                             id="mc-embedded-subscribe"
                             className="button bg-accent-green text-wh-0 text-md font-semibold w-32 h-12 rounded-md hover:cursor-pointer"
