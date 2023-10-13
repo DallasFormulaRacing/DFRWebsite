@@ -40,7 +40,7 @@ const Footer = () => {
                     <h3 className="text-2xl font-bold">Newsletter</h3>
                     <NewsletterSubcribeForm />
                 </div>
-                <div className="flex flex-col gap-6">
+                <div className="flex flex-col gap-16">
                     <div className="flex flex-col gap-2">
                         <h3 className="text-2xl font-bold">About</h3>
                         <Link href="/about#about-us">Our Story</Link>
@@ -67,7 +67,7 @@ const Footer = () => {
                         USA
                     </Link>
                 </div>
-                <div className="flex flex-col gap-6">
+                <div className="flex flex-col gap-16">
                     <div className="flex flex-col gap-2">
                         <h3 className="text-2xl font-bold">Contact</h3>
                         <Link href="mailto:dallasformularacing@gmail.com">
