@@ -29,7 +29,7 @@ export const AboutUs = (props: Props) => {
                             STEM applications through our diverse group.
                         </p>
                     </div>
-                    <Link href="/about-us">
+                    <Link href="/about">
                         <button 
                             className="bg-accent-green text-wh-0 text-lg font-semibold w-40 h-12 rounded-md mt-8"
                         >
