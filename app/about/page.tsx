@@ -25,7 +25,7 @@ export default function About() {
                     unoptimized
                 />
             </div>
-            <section className={"mt-10"}>
+            <section id="about-us" className={"mt-10"}>
                 <div
                     className={
                         "sm:grid sm:h-[400px] grid-cols-1 grid-rows-4 text-center"
@@ -68,6 +68,7 @@ export default function About() {
                 </div>
             </section>
             <h1
+                id="org-chart"
                 className={
                     "text-5xl font-bold col-span-1 row-span-1 text-center mt-40"
                 }

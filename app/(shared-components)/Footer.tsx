@@ -35,15 +35,17 @@ const Footer = () => {
                 "bg-wh-900 text-wh-50 py-10 px-10 flex justify-center items-center min-h-[200px]"
             }
         >
-            <div className="w-full gap-8 grid grid-cols-1 md:w-3/5 sm:grid-cols-2 md:grid-cols-4">
+            <div className="w-full gap-8 py-8 grid grid-cols-1 md:w-3/5 sm:grid-cols-2 md:grid-cols-4">
                 <div className="flex flex-col gap-2">
                     <h3 className="text-2xl font-bold">Newsletter</h3>
                     <NewsletterSubcribeForm />
                 </div>
                 <div className="flex flex-col gap-6">
-                    <Link className="text-2xl font-bold" href="/about">
-                        About
-                    </Link>
+                    <div className="flex flex-col gap-2">
+                        <h3 className="text-2xl font-bold">About</h3>
+                        <Link href="/about#about-us">Our Story</Link>
+                        <Link href="/about#org-chart">Org Chart</Link>
+                    </div>
                     <div className="flex flex-col gap-2">
                         <h3 className="text-2xl font-bold">Support</h3>
                         <Link href="/donate">Donate</Link>
