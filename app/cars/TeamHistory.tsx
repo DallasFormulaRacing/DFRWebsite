@@ -41,6 +41,7 @@ export const TeamHistory = (props: Props) => {
                     return {
                         children: (
                             <TimelineItem
+                                key={title}
                                 image={image}
                                 title={title}
                                 description={description}
