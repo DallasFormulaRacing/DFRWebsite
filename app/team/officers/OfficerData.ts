@@ -97,7 +97,7 @@ const OfficerList: OfficerData = {
             },
             {
                 name: "Carrigan Glatz",
-                positions: "Composits",
+                positions: "Composites",
                 section: "Engineering",
                 image: "/assets/team/Headshots/CarriganGlatz.png",
                 email: "cvg210002@utdallas.edu",
@@ -106,14 +106,14 @@ const OfficerList: OfficerData = {
             },
             {
                 name: "Derek Fuhr",
-                positions: "Composits",
+                positions: "Composites",
                 section: "Engineering",
                 image: "/assets/team/Headshots/DerekFuhr.png",
                 email: "daf200000@utdallas.edu",
             },
             {
                 name: "Sam Madhanmohan",
-                positions: "Composits",
+                positions: "Composites",
                 section: "Engineering",
                 image: "/assets/team/Headshots/Sam.png",
                 email: "sxm190033@utdallas.edu",
