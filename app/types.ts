@@ -8,12 +8,29 @@ export type User = {
 
 export type Officer = {
     name: string;
-    image: string;
+    image?: string;
     positions: string;
-    year: string;
-    major: string;
+    section: string;
+    year?: string;
+    major?: string;
+    email?: string;
     linkedin?: string | null;
-    yearsOnTeam: string;
+    yearsOnTeam?: string;
+};
+
+export type OfficerData = {
+    Admin: {
+        data: Officer[];
+    };
+    Business: {
+        data: Officer[];
+    };
+    Engineering: {
+        data: Officer[];
+    };
+    EV: {
+        data: Officer[];
+    };
 };
 
 export type FormattedPost = {

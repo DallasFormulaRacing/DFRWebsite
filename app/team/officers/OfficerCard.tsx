@@ -1,24 +1,30 @@
 import React from "react";
-import Card from "react-bootstrap/Card";
 import { Officer } from "@/app/types";
 import Image from "next/image";
 import Linkedin from "/public/assets/social_links/linkedin_blue.png";
 import Link from "next/link";
+import BlankAvatar from "/public/assets/team/Headshots/blank_avatar.png";
 
 type Props = {};
 
 const OfficerCard = ({ officer }: { officer: Officer }) => {
     return (
-        <div className={"my-4 flex flex-col justify-center items-center w-[400px]"}>
+        <div
+            className={
+                "my-4 mx-8 col-span-auto flex flex-col justify-center items-center w-[300px]"
+            }
+        >
             <Image
-                src={officer.image}
+                src={officer.image ? officer.image : BlankAvatar}
                 alt={officer.name}
                 width={225}
                 height={225}
                 style={{ clipPath: "circle()" }}
                 className={"mb-4"}
             />
-            <div className={"bg-officer-orange card-body text-black z-10 w-1/2"}>
+            <div
+                className={"bg-officer-orange card-body text-black z-10 w-1/2"}
+            >
                 <h1 className={"card-title text-xl text-center font-bold"}>
                     {officer.name}
                 </h1>
@@ -44,7 +50,14 @@ const OfficerCard = ({ officer }: { officer: Officer }) => {
                         />
                     </Link>
                 ) : (
-                    <></>
+                    <Image
+                        width={40}
+                        height={40}
+                        alt={"logo"}
+                        placeholder={"blur"}
+                        src={Linkedin}
+                        style={{ objectFit: "scale-down", opacity: 0 }}
+                    />
                 )}
             </div>
         </div>
