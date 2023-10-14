@@ -11,7 +11,7 @@ const OfficerCard = ({ officer }: { officer: Officer }) => {
     return (
         <div
             className={
-                "my-4 col-span-auto flex flex-col justify-center items-center w-[300px]"
+                "my-4 mx-8 col-span-auto flex flex-col justify-center items-center w-[300px]"
             }
         >
             <Image
