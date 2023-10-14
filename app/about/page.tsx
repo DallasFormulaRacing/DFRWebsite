@@ -28,15 +28,15 @@ export default function About() {
             <section id="about-us" className={"mt-10"}>
                 <div
                     className={
-                        "sm:grid sm:h-[400px] grid-cols-1 grid-rows-4 text-center"
+                        "text-center space-y-8"
                     }
                 >
-                    <h1 className={"text-5xl font-bold col-span-1 row-span-1"}>
+                    <h1 className={"text-5xl font-bold"}>
                         About Us
                     </h1>
                     <p
                         className={
-                            "col-span-1 row-span-1 w-4/5 mx-auto text-2xl"
+                            "w-4/5 mx-auto text-2xl"
                         }
                     >
                         Dallas Formula Racing is a student-led orginization at
@@ -48,7 +48,7 @@ export default function About() {
                     </p>
                     <p
                         className={
-                            "col-span-1 row-span-1 w-4/5 mx-auto text-2xl"
+                            "w-4/5 mx-auto text-2xl"
                         }
                     >
                         We are commited to sharing our passion for engineering
@@ -60,7 +60,7 @@ export default function About() {
                     </p>
                     <button
                         className={
-                            "bg-accent-green text-wh-0 text-lg font-semibold w-40 h-12 rounded-md mt-8 col-span-1 row-span-1 mx-auto"
+                            "bg-accent-green text-wh-0 text-lg font-semibold w-40 h-12 rounded-md mt-8"
                         }
                     >
                         Learn More
