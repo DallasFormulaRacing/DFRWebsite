@@ -7,6 +7,8 @@ import (
 	_ "github.com/lib/pq"
 )
 
+//TODO: Most of this should work but the new methods might be wrong
+
 type PostgresStore struct { // cannot import type from db package
 	db *sql.DB
 }
