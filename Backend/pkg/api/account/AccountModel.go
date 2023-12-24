@@ -9,7 +9,7 @@ import (
 
 //TODO: Most of this should work but the new methods might be wrong
 
-type PostgresStore struct { // cannot import type from db package
+type AccountStoreDb struct {
 	db *sql.DB
 }
 
@@ -21,14 +21,21 @@ type AccountStore interface {
 	UpdateAccount(*types.Account) error
 }
 
-func (s *PostgresStore) Init() error {
+//TODO: tf is this? I think it might work though
+func NewAccountStore(db *sql.DB) *AccountStoreDb {
+	return &AccountStoreDb{
+		db: db,
+	}
+}
+
+func (s *AccountStoreDb) Init() error {
 	if err := s.CreateAccountTable(); err != nil {
 		return err
 	}
 	return nil
 }
 
-func (s *PostgresStore) CreateAccountTable() error {
+func (s *AccountStoreDb) CreateAccountTable() error {
 	query := `CREATE TABEL if not exists account (
 		id UUID PRIMARY KEY,
 		first_name VARCHAR(255) NOT NULL,
@@ -41,7 +48,7 @@ func (s *PostgresStore) CreateAccountTable() error {
 	return err
 }
 
-func (s *PostgresStore) CreateAccount(account *types.Account) error {
+func (s *AccountStoreDb) CreateAccount(account *types.Account) error {
 	query := `INSERT INTO account
 	(id, first_name, last_name, email, position, created_at)
 	VALUES ($1, $2, $3, $4, $5, $6)`
@@ -62,13 +69,13 @@ func (s *PostgresStore) CreateAccount(account *types.Account) error {
 	return nil
 }
 
-func (s *PostgresStore) DeleteAccount(id string) error {
+func (s *AccountStoreDb) DeleteAccount(id string) error {
 	query := `DELETE FROM account WHERE id = $1`
 	_, err := s.db.Exec(query, id)
 	return err
 }
 
-func (s *PostgresStore) GetAccountByUUID(id string) (*types.Account, error) {
+func (s *AccountStoreDb) GetAccountByUUID(id string) (*types.Account, error) {
 	query := `SELECT * FROM account WHERE id = $1`
 	rows, err := s.db.Query(query, id)
 
@@ -83,7 +90,7 @@ func (s *PostgresStore) GetAccountByUUID(id string) (*types.Account, error) {
 	return nil, fmt.Errorf("account %s not found", id)
 }
 
-func (s *PostgresStore) GetAccounts() ([]*types.Account, error) {
+func (s *AccountStoreDb) GetAccounts() ([]*types.Account, error) {
 	query := `SELECT * FROM account`
 	rows, err := s.db.Query(query)
 	if err != nil {
@@ -103,7 +110,7 @@ func (s *PostgresStore) GetAccounts() ([]*types.Account, error) {
 }
 
 //TODO: Check is this actually works because not tested yet
-func (s *PostgresStore) UpdateAccount(account *types.Account) error {
+func (s *AccountStoreDb) UpdateAccount(account *types.Account) error {
 	// query := `UPDATE account
 	// SET id = $1, first_name = $2, last_name = $3,
 	// email = $4, position = $5, created_at = $6`

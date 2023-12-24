@@ -7,7 +7,7 @@ import (
 	_ "github.com/lib/pq"
 )
 
-type PostgresStore struct { // cannot import type from db package
+type SponsorStoreDb struct { // cannot import type from db package
 	db *sql.DB
 }
 
@@ -20,14 +20,20 @@ type SponsorStore interface {
 	UpdateSponsor(*types.Sponsor) error
 }
 
-func (s *PostgresStore) Init() error {
+func NewSponsorStore(db *sql.DB) *SponsorStoreDb {
+	return &SponsorStoreDb{
+		db: db,
+	}
+}
+
+func (s *SponsorStoreDb) Init() error {
 	if err := s.CreateSponsorTable(); err != nil {
 		return err
 	}
 	return nil
 }
 
-func (s *PostgresStore) CreateSponsorTable() error {
+func (s *SponsorStoreDb) CreateSponsorTable() error {
 	query := `CREATE TABEL if not exists sponsor (
 		id UUID PRIMARY KEY,
 		name VARCHAR(255) NOT NULL,
@@ -38,7 +44,7 @@ func (s *PostgresStore) CreateSponsorTable() error {
 	return err
 }
 
-func (s *PostgresStore) CreateSponsor(sponsor *types.Sponsor) error {
+func (s *SponsorStoreDb) CreateSponsor(sponsor *types.Sponsor) error {
 	query := `INSERT INTO sponsor
 	(id, name, logo, link)
 	VALUES ($1, $2, $3, $4)`
@@ -57,14 +63,14 @@ func (s *PostgresStore) CreateSponsor(sponsor *types.Sponsor) error {
 	return nil
 }
 
-func (s *PostgresStore) DeleteSponsor(id string) error {
+func (s *SponsorStoreDb) DeleteSponsor(id string) error {
 	query := `DELETE FROM sponsor WHERE id = $1`
 	_, err := s.db.Exec(query, id)
 	return err
 }
 
 // TODO: look into switching query to qureryRow
-func (s *PostgresStore) GetSponsorByUUID(id string) (*types.Sponsor, error) {
+func (s *SponsorStoreDb) GetSponsorByUUID(id string) (*types.Sponsor, error) {
 	query := `SELECT * FROM sponsor WHERE id = $1`
 	rows, err := s.db.Query(query, id)
 
@@ -79,7 +85,7 @@ func (s *PostgresStore) GetSponsorByUUID(id string) (*types.Sponsor, error) {
 	return nil, fmt.Errorf("sponsor %s not found", id)
 }
 
-func (s *PostgresStore) GetSponsorByName(name string) (*types.Sponsor, error) {
+func (s *SponsorStoreDb) GetSponsorByName(name string) (*types.Sponsor, error) {
 	query := `SELECT * FROM sponsor WHERE name = $1`
 	rows, err := s.db.Query(query, name)
 
@@ -94,7 +100,7 @@ func (s *PostgresStore) GetSponsorByName(name string) (*types.Sponsor, error) {
 	return nil, fmt.Errorf("sponsor %s not found", name)
 }
 
-func (s *PostgresStore) GetSponsors() ([]*types.Sponsor, error) {
+func (s *SponsorStoreDb) GetSponsors() ([]*types.Sponsor, error) {
 	query := `SELECT * FROM sponsor`
 	rows, err := s.db.Query(query)
 	if err != nil {
@@ -114,7 +120,7 @@ func (s *PostgresStore) GetSponsors() ([]*types.Sponsor, error) {
 	return sponsors, nil
 }
 
-func (s *PostgresStore) UpdateSponsor(sponsor *types.Sponsor) error {
+func (s *SponsorStoreDb) UpdateSponsor(sponsor *types.Sponsor) error {
 	query := `UPDATE sponsor
 	SET name = $2,
 	logo = $3,

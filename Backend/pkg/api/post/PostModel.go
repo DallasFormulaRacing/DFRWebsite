@@ -8,7 +8,7 @@ import (
 )
 
 // TODO: test this, havent used this model before
-type PostgresStore struct { // cannot import type from db package
+type PostStoreDb struct { // cannot import type from db package
 	db *sql.DB
 }
 
@@ -20,14 +20,20 @@ type PostStore interface {
 	UpdatePost(*types.Post) error
 }
 
-func (s *PostgresStore) Init() error {
+func NewPostStore(db *sql.DB) *PostStoreDb {
+	return &PostStoreDb{
+		db: db,
+	}
+}
+
+func (s *PostStoreDb) Init() error {
 	if err := s.CreatePostTable(); err != nil {
 		return err
 	}
 	return nil
 }
 
-func (s *PostgresStore) CreatePostTable() error {
+func (s *PostStoreDb) CreatePostTable() error {
 	query := `CREATE TABEL if not exists post (
 		id UUID PRIMARY KEY,
 		author VARCHAR(255) NOT NULL,
@@ -40,7 +46,7 @@ func (s *PostgresStore) CreatePostTable() error {
 	return err
 }
 
-func (s *PostgresStore) CreatePost(post *types.Post) error {
+func (s *PostStoreDb) CreatePost(post *types.Post) error {
 	query := `INSERT INTO post
 	(id, author, title, tags, body, created_at)
 	VALUES ($1, $2, $3, $4, $5, $6)`
@@ -61,7 +67,7 @@ func (s *PostgresStore) CreatePost(post *types.Post) error {
 	return nil
 }
 
-func (s *PostgresStore) DeletePost(id string) error {
+func (s *PostStoreDb) DeletePost(id string) error {
 	query := `DELETE FROM post WHERE id = $1`
 	resp, err := s.db.Exec(query, id)
 	if err != nil {
@@ -72,7 +78,7 @@ func (s *PostgresStore) DeletePost(id string) error {
 	return nil
 }
 
-func (s *PostgresStore) GetPostByUUID(id string) (*types.Post, error) {
+func (s *PostStoreDb) GetPostByUUID(id string) (*types.Post, error) {
 	query := `SELECT * FROM post WHERE id = $1`
 	rows, err := s.db.Query(query, id)
 
@@ -87,7 +93,7 @@ func (s *PostgresStore) GetPostByUUID(id string) (*types.Post, error) {
 	return nil, fmt.Errorf("no post with id %s", id)
 }
 
-func (s *PostgresStore) GetPosts() ([]*types.Post, error) {
+func (s *PostStoreDb) GetPosts() ([]*types.Post, error) {
 	query := `SELECT * FROM post`
 	rows, err := s.db.Query(query)
 
@@ -108,7 +114,7 @@ func (s *PostgresStore) GetPosts() ([]*types.Post, error) {
 	return posts, nil
 }
 
-func (s *PostgresStore) UpdatePost(post *types.Post) error {
+func (s *PostStoreDb) UpdatePost(post *types.Post) error {
 	query := `UPDATE post
 	SET author = $1,
 		title = $2,
