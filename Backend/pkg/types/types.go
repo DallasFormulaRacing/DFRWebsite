@@ -2,10 +2,11 @@ package types
 
 import (
 	"time"
+	"github.com/google/uuid"
 )
 
 type Account struct {
-	ID        string    `json:"id"`
+	ID        uuid.UUID `gorm:"primarykey"`
 	FirstName string    `json:"firstName"`
 	LastName  string    `json:"lastName"`
 	Email     string    `json:"email"`
@@ -14,7 +15,7 @@ type Account struct {
 }
 
 type Post struct {
-	ID        string    `json:"id"`
+	ID        uuid.UUID `gorm:"primarykey"`
 	Author    string    `json:"author"`
 	Title     string    `json:"title"`
 	Tags      []string  `json:"tags"`
@@ -23,7 +24,7 @@ type Post struct {
 }
 
 type FormattedPost struct {
-	ID        string    `json:"id"`
+	ID        uuid.UUID `gorm:"primarykey"`
 	Author    string    `json:"author"`
 	Title     string    `json:"title"`
 	Tags      []string  `json:"tags"`
@@ -35,7 +36,7 @@ type FormattedPost struct {
 }
 
 type Event struct {
-	ID        string    `json:"id"`
+	ID        uuid.UUID `gorm:"primarykey"`
 	Name      string    `json:"name"`
 	Location  string    `json:"location"`
 	StartTime time.Time `json:"startTime"`
@@ -44,7 +45,7 @@ type Event struct {
 }
 
 type Sponsor struct {
-	ID   string `json:"id"`
+	ID   uuid.UUID `gorm:"primarykey"`
 	Name string `json:"name"`
 	Logo string `json:"logo"`
 	Link string `json:"link"`
