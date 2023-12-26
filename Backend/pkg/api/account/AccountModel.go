@@ -3,6 +3,7 @@ package account
 import (
 	"database/sql"
 	"fmt"
+
 	types "github.com/DallasFormulaRacing/DFRWebsite/Backend/pkg/types"
 	_ "github.com/lib/pq"
 )
@@ -21,7 +22,7 @@ type AccountStore interface {
 	UpdateAccount(*types.Account) error
 }
 
-//TODO: tf is this? I think it might work though
+// TODO: tf is this? I think it might work though
 func NewAccountStore(db *sql.DB) *AccountStoreDb {
 	return &AccountStoreDb{
 		db: db,
@@ -109,7 +110,7 @@ func (s *AccountStoreDb) GetAccounts() ([]*types.Account, error) {
 	return accounts, nil
 }
 
-//TODO: Check is this actually works because not tested yet
+// TODO: Check is this actually works because not tested yet
 func (s *AccountStoreDb) UpdateAccount(account *types.Account) error {
 	// query := `UPDATE account
 	// SET id = $1, first_name = $2, last_name = $3,

@@ -3,6 +3,7 @@ package sponsors
 import (
 	"database/sql"
 	"fmt"
+
 	types "github.com/DallasFormulaRacing/DFRWebsite/Backend/pkg/types"
 	_ "github.com/lib/pq"
 )

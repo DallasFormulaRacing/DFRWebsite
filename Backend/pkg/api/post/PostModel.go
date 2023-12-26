@@ -3,6 +3,7 @@ package post
 import (
 	"database/sql"
 	"fmt"
+
 	types "github.com/DallasFormulaRacing/DFRWebsite/Backend/pkg/types"
 	_ "github.com/lib/pq"
 )
@@ -153,4 +154,15 @@ func scanIntoPost(rows *sql.Rows) (*types.Post, error) {
 		return nil, err
 	}
 	return post, nil
+}
+
+func NewPost(author string, title string, tags []string, body string) *types.Post {
+	return &types.Post{
+		ID:        types.NewUUID(),
+		Author:    author,
+		Title:     title,
+		Tags:      tags,
+		Body:      body,
+		CreatedAt: types.CreateTimeStamp(),
+	}
 }
