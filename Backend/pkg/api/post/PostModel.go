@@ -155,3 +155,14 @@ func scanIntoPost(rows *sql.Rows) (*types.Post, error) {
 	}
 	return post, nil
 }
+
+func NewPost(author string, title string, tags []string, body string) *types.Post {
+	return &types.Post{
+		ID:        types.NewUUID(),
+		Author:    author,
+		Title:     title,
+		Tags:      tags,
+		Body:      body,
+		CreatedAt: types.CreateTimeStamp(),
+	}
+}

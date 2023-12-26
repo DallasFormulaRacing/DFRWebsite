@@ -24,6 +24,13 @@ type Post struct {
 	CreatedAt time.Time `json:"createdAt"`
 }
 
+type CreatePostRequest struct {
+	Author string   `json:"author"`
+	Title  string   `json:"title"`
+	Tags   []string `json:"tags"`
+	Body   string   `json:"body"`
+}
+
 type FormattedPost struct {
 	ID        uuid.UUID `gorm:"primarykey"`
 	Author    string    `json:"author"`
@@ -50,4 +57,12 @@ type Sponsor struct {
 	Name string    `json:"name"`
 	Logo string    `json:"logo"`
 	Link string    `json:"link"`
+}
+
+func NewUUID() uuid.UUID {
+	return uuid.New()
+}
+
+func CreateTimeStamp() time.Time {
+	return time.Now()
 }

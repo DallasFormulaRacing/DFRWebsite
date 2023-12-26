@@ -14,3 +14,7 @@ func WriteJSON(w http.ResponseWriter, status int, v any) error {
 	w.WriteHeader(status)
 	return json.NewEncoder(w).Encode(v)
 }
+
+func BindJSON(r *http.Request, v any) error {
+	return json.NewDecoder(r.Body).Decode(v)
+}
