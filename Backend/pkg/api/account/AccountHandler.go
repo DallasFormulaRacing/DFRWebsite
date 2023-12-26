@@ -4,6 +4,7 @@ import (
 	"fmt"
 
 	"github.com/DallasFormulaRacing/DFRWebsite/Backend/pkg/api"
+	mid "github.com/DallasFormulaRacing/DFRWebsite/Backend/pkg/api/router/middleware"
 	// "github.com/DallasFormulaRacing/DFRWebsite/Backend/pkg/db"
 	"net/http"
 	// "database/sql"
@@ -11,7 +12,7 @@ import (
 
 type AccountServer struct {
 	api api.APIServer
-	db AccountStoreDb
+	db  AccountStoreDb
 }
 
 func (s *AccountServer) HandleAccount(w http.ResponseWriter, r *http.Request) error {
@@ -26,6 +27,5 @@ func (s *AccountServer) handleGetAccounts(w http.ResponseWriter, r *http.Request
 	if err != nil {
 		return err
 	}
-	return api.WriteJSON(w, http.StatusOK, accounts)
+	return mid.WriteJSON(w, http.StatusOK, accounts)
 }
-

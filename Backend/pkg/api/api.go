@@ -1,8 +1,9 @@
 package api
 
 import (
-	"encoding/json"
 	"net/http"
+
+	e "github.com/DallasFormulaRacing/DFRWebsite/Backend/pkg/api/err"
 )
 
 type APIServer struct {
@@ -21,16 +22,10 @@ func NewAPIServer(listAddr string) (*APIServer, error) {
 	}, nil
 }
 
-func WriteJSON(w http.ResponseWriter, status int, v any) error {
-	w.Header().Add("Content-Type", "application/json")
-	w.WriteHeader(status)
-	return json.NewEncoder(w).Encode(v)
-}
-
 func MakeHTTPHandleFunc(f apiFunc) http.HandlerFunc {
 	return func(w http.ResponseWriter, r *http.Request) {
 		if err := f(w, r); err != nil {
-			WriteJSON(w, http.StatusBadRequest, ApiError{Error: err.Error()})
+			e.ServerError(w, err)
 		}
 	}
 }

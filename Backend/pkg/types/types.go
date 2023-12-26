@@ -2,6 +2,7 @@ package types
 
 import (
 	"time"
+
 	"github.com/google/uuid"
 )
 
@@ -46,7 +47,7 @@ type Event struct {
 
 type Sponsor struct {
 	ID   uuid.UUID `gorm:"primarykey"`
-	Name string `json:"name"`
-	Logo string `json:"logo"`
-	Link string `json:"link"`
+	Name string    `json:"name"`
+	Logo string    `json:"logo"`
+	Link string    `json:"link"`
 }

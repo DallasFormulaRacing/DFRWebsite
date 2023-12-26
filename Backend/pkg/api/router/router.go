@@ -10,7 +10,7 @@ import (
 )
 
 type Server struct {
-	api api.APIServer
+	api     api.APIServer
 	account account.AccountServer
 }
 
