@@ -64,8 +64,6 @@
         "@reduxjs/toolkit": "^2.0.1",
         "@tailwindcss/line-clamp": "^0.4.4",
         "@tailwindcss/typography": "^0.5.9",
-        "@types/react": "18.2.6",
-        "@types/react-dom": "18.2.4",
         "@webspellchecker/wproofreader-ckeditor5": "^2.2.1",
         "antd": "^5.9.2",
         "autoprefixer": "10.4.14",
