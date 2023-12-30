@@ -82,7 +82,7 @@ export const createPostAsync = createAsyncThunk(
 
 export const updatePostAsync = createAsyncThunk(
     "posts/updatePost",
-    async (UpdatePostData: PostFormData) => {
+    async (UpdatePostData: PostUpdateData) => {
         const response = await updatePost(UpdatePostData);
         return response;
     }

@@ -2,6 +2,7 @@ import {
     AccountState,
     AccountFormData,
     AccountDeleteData,
+    AccountUpdateData,
 } from "./AccountSlice";
 
 const API_URL = "http://localhost:3000/"; // TODO: move to config file
@@ -39,7 +40,7 @@ export async function createAccount(formData: AccountFormData) {
         });
 }
 
-export async function updateAccount(payload: AccountFormData) {
+export async function updateAccount(payload: AccountUpdateData) {
     const account = payload.account;
     return fetch(`${API_URL}/accounts/${account.id}.json`, {
         method: "PUT",

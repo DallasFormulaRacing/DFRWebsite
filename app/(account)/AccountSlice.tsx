@@ -85,7 +85,7 @@ export const createAccountAsync = createAsyncThunk(
 
 export const updateAccountAsync = createAsyncThunk(
     "accounts/updateAccount",
-    async (AccountUpdateData: AccountFormData) => {
+    async (AccountUpdateData: AccountUpdateData) => {
         const response = await updateAccount(AccountUpdateData);
         return response;
     }
