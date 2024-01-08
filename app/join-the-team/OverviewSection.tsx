@@ -25,12 +25,12 @@ export default function OverviewSections() {
 
                 <Space direction="vertical" align="center" className="w-full">
                     <QRCode
-                        value="https://dallasformularacing.org/join-the-team/apply"
+                        value="https://forms.office.com/Pages/ResponsePage.aspx?id=HR0ojU2c90uxbgMtFd6fbGDVZ4AHaLJJuusb0JoC9oNUQllFVjc0MUVHUFNBRFJZVzhNVTlKOFNSQS4u"
                         className="w-48 h-48"
                         icon="/dfr-logo-tyre.png"
                     />
                     <Link
-                        href="https://dallasformularacing.org/join-the-team/apply"
+                        href="https://forms.office.com/Pages/ResponsePage.aspx?id=HR0ojU2c90uxbgMtFd6fbGDVZ4AHaLJJuusb0JoC9oNUQllFVjc0MUVHUFNBRFJZVzhNVTlKOFNSQS4u"
                         className="text-xl"
                     >
                         Interest form to join the team
