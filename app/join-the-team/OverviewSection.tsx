@@ -16,27 +16,24 @@ export default function OverviewSections() {
                     className="w-full px-2"
                 >
                     <p className="text-center text-xl">
-                        Join the Discord for all club updates
+                        Open to students of all majors and skill levels at UTD
                     </p>
                     <p className="text-center text-xl">
-                        Discord #about channel has all sub-teams meeting times
-                    </p>
-                    <p className="text-center text-xl">
-                        You can be on more than one sub-team
+                        Join the Discord for all team updates
                     </p>
                 </Space>
 
                 <Space direction="vertical" align="center" className="w-full">
                     <QRCode
-                        value="https://forms.gle/8qWnfY84g6GSEjte6"
+                        value="https://dallasformularacing.org/join-the-team/apply"
                         className="w-48 h-48"
                         icon="/dfr-logo-tyre.png"
                     />
                     <Link
-                        href="https://forms.gle/8qWnfY84g6GSEjte6"
+                        href="https://dallasformularacing.org/join-the-team/apply"
                         className="text-xl"
                     >
-                        Interest form to join the discord
+                        Interest form to join the team
                     </Link>
                     <p className="text-center px-2 mt-4 md:mx-24">
                         We have a zero sexually harassment tolerance and an HR
