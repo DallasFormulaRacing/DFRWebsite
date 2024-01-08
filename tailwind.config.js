@@ -64,6 +64,14 @@ module.exports = {
                         opacity: 1,
                     },
                 },
+                ".buttonEffect": {
+                    color: "#FFFFFF",
+                    "&:hover": {
+                        color: "#E87500",
+                        underline: true,
+                        opacity: 1,
+                    },
+                },
                 ".team": {
                     display: "flex",
                     "flex-direction": "column",

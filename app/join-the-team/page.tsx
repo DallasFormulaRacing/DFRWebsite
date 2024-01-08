@@ -243,9 +243,17 @@ export default function Page() {
                     fill
                 />
                 <div className="absolute top-1/3 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center w-full">
-                    <h1 className="text-5xl sm:text-8xl font-bold italic">
-                        Join the Team
-                    </h1>
+                    <div className="flex flex-col justify-center">
+                        <h1 className="text-5xl sm:text-8xl font-bold">
+                            Join the Team
+                        </h1>
+                        <Link href="/join-the-team/apply">
+                            <button className="bg-accent-green w-32 sm:text-lg font-semibold sm:w-48 h-14 rounded-md mt-8 buttonEffect shadow-accent-green shadow-sm">
+                                Apply Now
+                            </button>
+                        </Link>
+                    </div>
+
                     <div className="flex flex-row justify-center mt-8 text-xs sm:text-xl">
                         <p className="px-4 border-r-2">
                             No previous experience needed
@@ -256,28 +264,11 @@ export default function Page() {
                     </div>
                 </div>
                 <div className="absolute bottom-[15%] sm:bottom-1/4 left-1/2 transform -translate-x-1/2 text-center">
-                    <div className="flex flex-row gap-4 justify-between">
-                        <Link href="/about-us">
-                            <button className="bg-accent-green text-wh-0 text-xs w-32 sm:text-lg font-semibold sm:w-48 h-14 rounded-md mt-8">
-                                Becoming a Lead
-                            </button>
-                        </Link>
-                        <Link href="/about-us">
-                            <button className="bg-accent-green text-wh-0 text-xs w-32 sm:text-lg font-semibold sm:w-48 h-14 rounded-md mt-8">
-                                Attending Competition
-                            </button>
-                        </Link>
-                        <Link href="/about-us">
-                            <button className="bg-accent-green text-wh-0 text-xs w-32  sm:text-lg font-semibold sm:w-48 h-14 rounded-md mt-8">
-                                Becoming a Driver
-                            </button>
-                        </Link>
-                    </div>
 
-                    <div className="mt-8 text-xl sm:text-3xl">
-                        <Link href="/join-the-team/#FAQ-Section">FAQ</Link>
+                    <div className="mt-4 text-xl sm:text-3xl">
+                        <Link className="text-accent-orange underline" href="/join-the-team/#FAQ-Section">FAQ</Link>
                         <p className="mt-4">
-                            Officer/Shop Location: ECSW RM 1.455
+                            Shop Location: ECSW RM 1.455
                         </p>
                     </div>
                 </div>
