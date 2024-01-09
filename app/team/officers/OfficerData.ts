@@ -117,6 +117,7 @@ const OfficerList: OfficerData = {
                 section: "Engineering",
                 image: "/assets/team/Headshots/Sam.png",
                 email: "sxm190033@utdallas.edu",
+                linkedin: "https://www.linkedin.com/in/sam-madhanmohan-96b645289/"
             },
             {
                 name: "Liam Hubbard",
@@ -162,6 +163,7 @@ const OfficerList: OfficerData = {
                 positions: "Software",
                 section: "Engineering",
                 email: "nxj190008@utdallas.edu",
+                linkedin: "https://www.linkedin.com/in/noel-j-3b82b5105/"
             },
             {
                 name: "Dillon Saulsberry",
