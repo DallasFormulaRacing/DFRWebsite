@@ -3,6 +3,7 @@ import React, { useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import DFRLogo from "@/public/DFR-Logo.png";
+import DFRTyreLogo from "@/public/dfr-logo-tyre.png";
 import type { MenuProps } from "antd";
 import { Menu, Button } from "antd";
 import {
@@ -29,17 +30,17 @@ function getItem(
     } as MenuItem;
 }
 
-const ICE_LINKS = {
-    label: <p>ICE</p>,
-    key: "/ice",
+const IC_LINKS = {
+    label: <p>IC</p>,
+    key: "/ic",
     children: [
         {
             label: (
-                <a href="/team/ice/aerodynamics" rel="noopener noreferrer">
+                <a href="/team/ic/aerodynamics" rel="noopener noreferrer">
                     Aerodynamics Team
                 </a>
             ),
-            key: "/team/ice/aerodynamics",
+            key: "/team/ic/aerodynamics",
         },
         {
             label: (
@@ -51,75 +52,75 @@ const ICE_LINKS = {
         },
         {
             label: (
-                <a href="/team/ice/chassis" rel="noopener noreferrer">
+                <a href="/team/ic/chassis" rel="noopener noreferrer">
                     Chassis Team
                 </a>
             ),
-            key: "/team/ice/chassis",
+            key: "/team/ic/chassis",
         },
         {
             label: (
-                <a href="/team/ice/electrical" rel="noopener noreferrer">
+                <a href="/team/ic/electrical" rel="noopener noreferrer">
                     Electrical Team
                 </a>
             ),
-            key: "/team/ice/electrical",
+            key: "/team/ic/electrical",
         },
         {
             label: (
-                <a href="/team/ice/embedded" rel="noopener noreferrer">
+                <a href="/team/ic/embedded" rel="noopener noreferrer">
                     Embedded Team
                 </a>
             ),
-            key: "/team/ice/embedded",
+            key: "/team/ic/embedded",
         },
         {
             label: (
-                <a href="/team/ice/ergonomics" rel="noopener noreferrer">
+                <a href="/team/ic/ergonomics" rel="noopener noreferrer">
                     Ergonomics Team
                 </a>
             ),
-            key: "/team/ice/ergonomics",
+            key: "/team/ic/ergonomics",
         },
         {
             label: (
-                <a href="/team/ice/manufacturing" rel="noopener noreferrer">
+                <a href="/team/ic/manufacturing" rel="noopener noreferrer">
                     Manufacturing Team
                 </a>
             ),
-            key: "/team/ice/manufacturing",
+            key: "/team/ic/manufacturing",
         },
         {
             label: (
-                <a href="/team/ice/powertrain" rel="noopener noreferrer">
+                <a href="/team/ic/powertrain" rel="noopener noreferrer">
                     Powertrain Team
                 </a>
             ),
-            key: "/team/ice/powertrain",
+            key: "/team/ic/powertrain",
         },
         {
             label: (
-                <a href="/team/ice/software" rel="noopener noreferrer">
+                <a href="/team/ic/software" rel="noopener noreferrer">
                     Software Team
                 </a>
             ),
-            key: "/team/ice/software",
+            key: "/team/ic/software",
         },
         {
             label: (
-                <a href="/team/ice/steering" rel="noopener noreferrer">
+                <a href="/team/ic/steering" rel="noopener noreferrer">
                     Steering Team
                 </a>
             ),
-            key: "/team/ice/steering",
+            key: "/team/ic/steering",
         },
         {
             label: (
-                <a href="/team/ice/suspension" rel="noopener noreferrer">
+                <a href="/team/ic/suspension" rel="noopener noreferrer">
                     Suspension Team
                 </a>
             ),
-            key: "/team/ice/suspension",
+            key: "/team/ic/suspension",
         },
         {
             label: (
@@ -198,7 +199,7 @@ const items: MenuProps["items"] = [
         </a>,
         "sub1",
         null,
-        [ICE_LINKS, EV_LINKS]
+        [IC_LINKS, EV_LINKS]
     ),
     NAV_LINKS[0],
     NAV_LINKS[1],
@@ -213,14 +214,14 @@ const Navbar = () => {
 
     return (
         <header className={"mb-0"}>
-            <nav className="flex items-center w-full bg-wh-900 text-wh-10 px-10 py-4 navbar">
-                <div className="basis-1/6 relative w-auto h-16">
+            <nav className="flex items-center w-full bg-wh-900 text-wh-10 px-4 py-4">
+                <div className="basis-[10%] relative w-auto h-16">
                     <Link href="/" rel="noreferrer">
                         <Image
                             fill
                             alt="logo"
                             placeholder="blur"
-                            src={DFRLogo}
+                            src={DFRTyreLogo}
                             className="object-contain"
                         />
                     </Link>
