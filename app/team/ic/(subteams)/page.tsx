@@ -1,5 +1,5 @@
 import React from 'react'
-import SubTeamHeader from '../(components)/SubTeamHeader'
+import SubTeamHeader from '../(components)/LeadHeader'
 
 type Props = {}
 
