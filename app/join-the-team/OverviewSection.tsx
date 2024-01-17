@@ -16,7 +16,7 @@ export default function OverviewSections() {
                     className="w-full px-2"
                 >
                     <p className="text-center text-xl">
-                        Open to students of all majors and skill levels at UTD
+                        Open to all majors
                     </p>
                     <p className="text-center text-xl">
                         Join the Discord for all team updates
@@ -36,10 +36,14 @@ export default function OverviewSections() {
                         Interest form to join the team
                     </Link>
                     <p className="text-center px-2 mt-4 md:mx-24">
-                        We have a zero sexually harassment tolerance and an HR
-                        department if you ever have issues that need to be
-                        resolved. Respect University of Texas at Dallas Code of
-                        conduct.
+                        All members are required to fill out the interest form
+                        as proof of signing the code of conduct. Dallas Formula
+                        Racing members are expected to create a supportive work
+                        environment that is free from harassment, intimidation,
+                        bias, and discrimination. Our code of conduct is to help
+                        maintain a healthy team culture that enables all members
+                        to feel respected, safe, and allows everyone to grow
+                        into better engineers and people.
                     </p>
                 </Space>
             </Space>

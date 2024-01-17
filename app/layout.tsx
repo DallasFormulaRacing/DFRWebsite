@@ -1,11 +1,15 @@
 import "./globals.css";
-import { Inter, Open_Sans } from "next/font/google";
+import { Inter, Open_Sans, Raleway } from "next/font/google";
 import Navbar from "@/app/(shared-components)/Navbar";
 import Footer from "@/app/(shared-components)/Footer";
 import StyledComponentsRegistry from "@/lib/AntdRegistry";
 import { ConfigProvider } from "antd";
 
 const openSans = Open_Sans({
+    subsets: ["latin"],
+});
+
+const raleway = Raleway({
     subsets: ["latin"],
 });
 
@@ -34,7 +38,7 @@ export default function RootLayout({
     children: React.ReactNode;
 }) {
     return (
-        <html className={openSans.className} lang="en">
+        <html className={raleway.className} lang="en">
             <body>
                 <StyledComponentsRegistry>
                     <ConfigProvider theme={antDCustomizeTheme}>
