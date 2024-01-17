@@ -24,14 +24,14 @@ export const SampleProjects = (props: Props) => {
                         2022 Aerodynamics Package
                     </h1>
                     <p className="indent-8 w-11/12 md:w-4/5 text-2xl mt-8">
-                        Using Simens StarCCM+, hundreds of configurations were
-                        analyzed and evaluated allowing us to estimate on track
-                        performance impact. This aero package was the catalyst
-                        to expanding the team's aerodynamics capabilities, and
-                        with continued devlopment, increasing vehicle
-                        performance while allowing us to validate our simulation
-                        model and estimate on-track performance in many more
-                        dynamic conditions.
+                        Using Siemens StarCCM+, hundreds of configurations were
+                        analyzed and evaluated, allowing us to estimate the
+                        impact on on-track performance. This aero package was
+                        the catalyst for expanding the team's aerodynamics
+                        capabilities and, with continued development, increasing
+                        vehicle performance while allowing us to validate our
+                        simulation model and estimate on-track performance in
+                        many more dynamic conditions.
                     </p>
                 </div>
             </div>
@@ -50,15 +50,20 @@ export const SampleProjects = (props: Props) => {
                     </p>
 
                     <p className="indent-8 w-11/12 text-2xl mt-8 md:w-4/5">
-                        We talk to K-12 students at these events about the engineering that is needed to build our car and talk about the unique experiences they can gain in higher education. Through these event we hope to get them excited about math and science and encourage them to continue their education in the STEM field.
+                        We talk to K-12 students at these events about the
+                        engineering that is needed to build our car and talk
+                        about the unique experiences they can gain in higher
+                        education. Through these event we hope to get them
+                        excited about math and science and encourage them to
+                        continue their education in the STEM field.
                     </p>
 
                     <div className="w-11/12 md:w-4/5 text-right mt-12 md:mt-24">
-                    <Link href="/join-the-team">
-                        <button className="bg-accent-green text-wh-0 text-lg font-semibold w-40 h-12 rounded-md">
-                            Join the Team
-                        </button>
-                    </Link>
+                        <Link href="/join-the-team">
+                            <button className="bg-accent-green text-wh-0 text-lg font-semibold w-40 h-12 rounded-md">
+                                Join the Team
+                            </button>
+                        </Link>
                     </div>
                 </div>
                 <div className="col-span-1 row-span-1 mt-8 flex justify-center md:block md:mt-0">
