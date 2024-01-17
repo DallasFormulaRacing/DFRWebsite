@@ -161,8 +161,8 @@ const FAQ = [
         label: "How Can I be successful on the team?",
         children: (
             <p>
-                Some tips to be successful on the team are: 1. be willing to
-                learn, 2. ask questions, 3. take initiative
+                Some tips to be successful on the team are: 1. Be willing to
+                learn, 2. Ask questions, 3. Take initiative
             </p>
         ),
     },
