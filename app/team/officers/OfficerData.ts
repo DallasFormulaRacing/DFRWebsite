@@ -4,21 +4,26 @@ const OfficerList: OfficerData = {
     Admin: {
         data: [
             {
-                name: "Rayyan Sappayani",
+                name: "Ryan Hopke",
                 positions: "President",
-                image: "/assets/team/Headshots/RayyanSappayani.png",
+                image: "/assets/team/Spring2024Officers/Ryan Hopke - President.jpg",
                 section: "Admin",
+                year: "Junior",
                 major: "Mechanical Engineering",
-                email: "rms180006@utdallas.edu",
-                linkedin:
-                    "https://www.linkedin.com/in/rayyan-sappayani-92230b191",
+                yearsOnTeam: "3",
+                email: "ryan.hopke@utdallas.edu",
+                linkedin: "https://www.linkedin.com/in/ryan-hopke/",
             },
             {
-                name: "Rachel Soetarman",
+                name: "Jennifer Briseno",
                 positions: "Vice President",
+                image: "/assets/team/Spring2024Officers/Jennifer Briseno - Vice President.jpg",
                 section: "Admin",
-                email: "rms210003@utdallas.edu",
-                linkedin: "https://www.linkedin.com/in/rachelsoetarman",
+                year: "Junior",
+                major: "Mechanical Engineering",
+                yearsOnTeam: "2",
+                email: "jennifer.briseno@utdallas.edu",
+                linkedin: "https://linkedin.com/in/jenniferbriseno002",
             },
             {
                 name: "Aaryan Patel",
