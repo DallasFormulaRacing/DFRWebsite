@@ -18,7 +18,7 @@ const EventCard = ({ className, post }: EventCardProps) => {
   return (
     <Link
       className={`${className} sm:mt-0 sm:h-auto relative mt-7 block w-full h-96 hover:opacity-70`}
-      href={`${process.env.NEXT_PUBLIC_URL}/post/${post?.id}`}
+      href={`/post/${post?.id}`}
     >
       <div className={"z-0 relative w-full h-full"}>
         <Image
@@ -26,9 +26,7 @@ const EventCard = ({ className, post }: EventCardProps) => {
           alt={"Events"}
           //placeholder={"blur"}
           src={post?.image}
-          sizes={
-            "(max-width: 480px) 100vw, (max-width: 480px) 100vw, (max-width: 768px) 75vw, (max-width: 1060px) 50vw, 33vw"
-          }
+          
           style={{ objectFit: "fill" }}
         />
       </div>
@@ -62,23 +60,23 @@ const BetterEvents = ({ eventPosts }: Props) => {
         <div className={"bg-wh-900 py-2 px-8 text-wh-10 text-sm font-bold"}>
           Events
         </div>
-        <p className={"text-sm"}>Something here</p>
+        {/* <p className={"text-sm"}>Something here</p> */}
       </div>
       <div
         className={"sm:grid gap-5 grid-cols-4 grid-rows-2 sm:h-[600px] my-3"}
       >
         <EventCard
-          className={"col-span-2 row-span-2 bg-wh-500"}
+          className={"col-span-3 row-span-2 bg-wh-500"}
           post={eventPosts[0]}
         ></EventCard>
-        <EventCard
+        {/* <EventCard
           className={"col-span-2 row-span-1 bg-wh-500"}
           post={eventPosts[0]}
         ></EventCard>
         <EventCard
           className={"col-span-1 row-span-1 bg-wh-500"}
           post={eventPosts[0]}
-        ></EventCard>
+        ></EventCard> */}
       </div>
     </section>
   );
