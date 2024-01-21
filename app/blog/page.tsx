@@ -3,8 +3,9 @@
 // import THREE from "three";
 import React from "react";
 // import Research from "./Research";
-// import Events from "./Events";
-// import BetterEvents from "./BetterEvents";
+import Events from "./Events";
+import BetterEvents from "./BetterEvents";
+import EventData from "./EventData";
 // import NewsLetter from "@/app/(shared-components)/NewsLetter";
 // import Car2023 from "@/public/assets/car_gallery/2023Car.jpeg";
 // import { prisma } from "@/app/api/client";
@@ -74,5 +75,9 @@ import React from "react";
 type Props = {};
 
 export default function Blog() {
-    return <div>blog</div>;
+    return (
+        <main className={"px-8 leading-7"}>
+            <BetterEvents eventPosts={EventData}/>
+        </main>
+    );
 }
