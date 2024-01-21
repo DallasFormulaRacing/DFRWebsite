@@ -12,17 +12,21 @@ const OfficerCard = ({ officer }: { officer: Officer }) => {
     return (
         <div
             className={
-                "my-4 mx-8 col-span-auto flex flex-col justify-center items-center w-[550px]"
+                "my-4 mx-8 col-span-auto flex flex-col justify-end items-center w-[560px] h-[560px]"
             }
         >
-            <Image
-                src={officer.image ? officer.image : BlankAvatar}
-                alt={officer.name}
-                width={225}
-                height={225}
-                style={{ clipPath: "circle()" }}
-                className={"mb-4"}
-            />
+                <Image
+                    src={officer.image ? officer.image : BlankAvatar}
+                    alt={officer.name}
+                    width={225}
+                    height={225}
+                    style={{ clipPath: "circle()" }}
+                    className={"h-full"}
+                    loading="eager"
+                    placeholder={"blur"}
+                    blurDataURL="/assets/team/Headshots/blank_avatar.png"
+                />
+
             <div
                 className={
                     "bg-accent-orange-light shadow-lg rounded-xl z-10 w-1/2 text-center"

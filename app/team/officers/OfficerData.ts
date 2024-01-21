@@ -29,31 +29,34 @@ const OfficerList: OfficerData = {
                 name: "Aaryan Patel",
                 positions: "Secretary",
                 section: "Admin",
-                image: "/assets/team/Headshots/AaryanPatel.png",
-                email: "anp210006@utdallas.edu",
+                image: "/assets/team/Spring2024Officers/Aaryan Patel - Secretary.jpg",
+                email: "aaryan.patel@utdallas.edu",
             },
             {
                 name: "Dennis Yermakov",
                 positions: "Business Director",
                 section: "Admin",
-                image: "/assets/team/Headshots/DennisYermakov.png",
-                email: "dny200000@utdallas.edu",
+                year: "Junior",
+                major: "ITSS",
+                yearsOnTeam: "3",
+                image: "/assets/team/Spring2024Officers/Dennis Yermakov - Business Director.jpg",
+                email: "dennis.yermakov@utdallas.edu",
                 linkedin:
                     "https://www.linkedin.com/in/dennis-yermakovs-profile",
             },
             {
                 name: "Zheer Seyan",
-                positions: "Chief Engineer",
+                positions: "Chief Engineer | Suspension",
                 section: "Admin",
-                image: "/assets/team/Headshots/ZheerSeyan.png",
-                email: "zjs210000@utdallas.edu",
+                image: "/assets/team/Spring2024Officers/Zheer Seyan - Chief Engineer 2025.jpg",
+                email: "zheer.seyan@utdallas.edu",
                 linkedin: "https://www.linkedin.com/in/zheer-seyan-ab157b239/",
             },
             {
                 name: "Grant Mitchell",
                 positions: "Chief Engineer",
                 section: "Admin",
-                image: "/assets/team/Headshots/GrantMitchell.png",
+                image: "/assets/team/Spring2024Officers/Grant Mitchell - Chief Engineer 2024.jpg",
                 email: "gpm200002@utdallas.edu",
                 linkedin: "https://www.linkedin.com/in/grantmitchell101/",
             },
@@ -122,7 +125,8 @@ const OfficerList: OfficerData = {
                 section: "Engineering",
                 image: "/assets/team/Headshots/Sam.png",
                 email: "sxm190033@utdallas.edu",
-                linkedin: "https://www.linkedin.com/in/sam-madhanmohan-96b645289/"
+                linkedin:
+                    "https://www.linkedin.com/in/sam-madhanmohan-96b645289/",
             },
             {
                 name: "Liam Hubbard",
@@ -168,7 +172,7 @@ const OfficerList: OfficerData = {
                 positions: "Software",
                 section: "Engineering",
                 email: "nxj190008@utdallas.edu",
-                linkedin: "https://www.linkedin.com/in/noel-j-3b82b5105/"
+                linkedin: "https://www.linkedin.com/in/noel-j-3b82b5105/",
             },
             {
                 name: "Dillon Saulsberry",
