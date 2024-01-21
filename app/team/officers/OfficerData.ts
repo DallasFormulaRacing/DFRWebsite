@@ -211,8 +211,12 @@ const OfficerList: OfficerData = {
                 name: "Zoe Lao",
                 positions: "Ergonomics",
                 section: "Engineering",
+                year: "Junior",
+                major: "Mechanical Engineering",
+                yearsOnTeam: "0.5",
                 image: "/assets/team/Spring2024Officers/Zoe Lao - Ergonomics.jpg",
                 email: "zoe.lao@utdallas.edu",
+                linkedin: "https://www.linkedin.com/in/zoe-l-619474198/",
             },
             {
                 name: "Nolan Westrope",
