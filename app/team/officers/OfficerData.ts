@@ -291,7 +291,7 @@ const OfficerList: OfficerData = {
                 major: "Mechanical Engineering",
                 yearsOnTeam: "2",
                 image: "/assets/team/Spring2024Officers/Connor Myers - EV Mechanical.jpg",
-                email: "connor.myers@utdallas.edu",
+                email: "connor.myers2@utdallas.edu",
                 linkedin: "LinkedIn.com/in/connor-my/",
             },
             {
