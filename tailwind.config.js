@@ -33,6 +33,7 @@ module.exports = {
                 "wh-900": "#0F0F0F",
                 "accent-red": "#EA9648",
                 "accent-orange": "#E87500",
+                "accent-orange-light": "#ff9933",   
                 "officer-orange": "#EE9740",
                 "accent-green": "#2D8B49",
                 "accent-yellow": "#EDCA2C",
