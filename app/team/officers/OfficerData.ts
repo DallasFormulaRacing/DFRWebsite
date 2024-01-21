@@ -230,6 +230,9 @@ const OfficerList: OfficerData = {
                 name: "Brandon Shaffer",
                 positions: "Powertrain",
                 section: "Engineering",
+                year: "Senior",
+                major: "Mechanical Engineering",
+                yearsOnTeam: "2",
                 image: "/assets/team/Spring2024Officers/Brandon Shaffer - Powertrain.jpg",
                 email: "brandon.shaffer@utdallas.edu",
                 linkedin:
@@ -285,7 +288,7 @@ const OfficerList: OfficerData = {
         data: [
             {
                 name: "Connor Myers",
-                positions: "Mechanical",
+                positions: "Mechanical | Packaging",
                 section: "EV",
                 year: "Junior",
                 major: "Mechanical Engineering",
