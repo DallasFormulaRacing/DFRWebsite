@@ -20,7 +20,7 @@ const OfficerCard = ({ officer }: { officer: Officer }) => {
                     alt={officer.name}
                     width={225}
                     height={225}
-                    style={{ clipPath: "circle()"}}
+                    style={{ clipPath: "circle()", objectFit: "cover" }}
                     className={"h-full"}
                     loading="eager"
                     placeholder={"blur"}
