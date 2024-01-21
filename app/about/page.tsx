@@ -1,8 +1,13 @@
 import React from "react";
 import Image from "next/image";
 import Car2023 from "@/public/assets/car_gallery/2023Car.jpeg";
+import CarDash from "@/public/assets/NewPictures/car_dash.jpg";
 import LowCar from "@/public/assets/NewPictures/low_rh_car.jpg";
 import OrgChart from "@/public/assets/team/Org-Chart-2023-scaled.webp";
+import ImageBreaks from "../(shared-components)/ImageBreaks";
+import StatsSection from "../(shared-components)/StatsSection";
+import Link from "next/link";
+import { Card, Space } from "antd";
 
 type Props = {};
 
@@ -12,19 +17,7 @@ export default function About() {
             {/*<div className={"w-1/2 h-1/2"}>*/}
             {/*  <Car />*/}
             {/*</div>*/}
-            <div className={"basis-full relative w-auto h-176 mt-0 mb-4"}>
-                <Image
-                    fill
-                    alt={"LowCar"}
-                    placeholder={"blur"}
-                    src={LowCar}
-                    sizes={
-                        "(max-width: 480px) 100vw, (max-width: 480px) 100vw, (max-width: 768px) 75vw, (max-width: 1060px) 50vw, 33vw"
-                    }
-                    style={{ objectFit: "cover" }}
-                    unoptimized
-                />
-            </div>
+            <ImageBreaks image={LowCar.src} imageHeight={"h-176"} />
             <section id="about-us" className={"mt-10"}>
                 <div className={"text-center space-y-8"}>
                     <h1 className={"text-5xl font-bold"}>About Us</h1>
@@ -34,7 +27,7 @@ export default function About() {
                         in 2014 and has successfully built three formula-style
                         vehicles for the Formula SAE competition. The diverse
                         array of projects on our team results in student
-                        collaboration among four different schools at UT Dallas.
+                        collaboration from all backgrounds and experience.
                     </p>
                     <p className={"w-4/5 mx-auto text-2xl"}>
                         We are dedicated to imparting our enthusiasm for
@@ -44,13 +37,53 @@ export default function About() {
                         impression on future innovators by demonstrating various
                         STEM applications through our diverse group.
                     </p>
-                    <button
-                        className={
-                            "bg-accent-green text-wh-0 text-lg font-semibold w-40 h-12 rounded-md mt-8"
-                        }
-                    >
-                        Learn More
-                    </button>
+                </div>
+            </section>
+            <section id="Mission Statement" className={"my-14"}>
+                <div className={"text-center space-y-8"}>
+                    <h1 className={"text-5xl font-bold"}>Mission Statement</h1>
+                    <p className={"w-4/5 mx-auto text-2xl"}>
+                        Our goal is to cultivate well-rounded engineers by
+                        fostering technical skills, teamwork, and business
+                        acumen through the entire engineering and design cycle.
+                        We strive to challenge and inspire students to pursue
+                        their passions while giving them a platform to showcase
+                        their abilities through participation in the Formula SAE
+                        competition.
+                    </p>
+                    <Link href="/join-the-team">
+                        <button className="bg-accent-green w-32 sm:text-lg font-semibold sm:w-48 h-14 rounded-md my-8 buttonEffect shadow-sm">
+                            Join
+                        </button>
+                    </Link>
+                </div>
+            </section>
+            <ImageBreaks image={CarDash.src} imageHeight={"h-144"} />
+            <StatsSection />
+            <section id="about-us" className={"mt-10"}>
+                <div className={"text-center space-y-8"}>
+                    <h1 className={"text-5xl font-bold"}>About Formula SAE</h1>
+                    <p className={"w-4/5 mx-auto text-2xl"}>
+                        Formula SAE is an international competition hosted by
+                        the Society of Automotive Engineers (SAE). This
+                        Collegiate Design Series (CDS) competition pushes
+                        students to go beyond classroom material by challenging
+                        them to design, build, and test the performance of a
+                        formula-style vehicle. Each vehicle is inspected in a
+                        series of tests to comply with all competition rules to
+                        ensure safety. Students are tested and scored on their
+                        knowledge of their vehicle design by experts in various
+                        industries and cars are tested on numerous tracks
+                        including acceleration, autocross, endurance, and skid
+                        pad.
+                    </p>
+                    <p className={"w-4/5 mx-auto text-2xl"}>
+                        Formula SAE promotes careers and excellence in
+                        engineering as it encompasses all aspects of the
+                        automotive industry including research, design,
+                        manufacturing, testing, developing, marketing,
+                        management, and finances.
+                    </p>
                 </div>
             </section>
             <h1
