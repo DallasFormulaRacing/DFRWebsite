@@ -12,7 +12,7 @@ const OfficerCard = ({ officer }: { officer: Officer }) => {
     return (
         <div
             className={
-                "my-4 mx-8 col-span-auto flex flex-col justify-end items-center w-[560px] h-[560px]"
+                "my-4 mx-8 col-span-auto flex flex-col justify-end items-center w-[620px] h-[600px]"
             }
         >
                 <Image
@@ -20,7 +20,7 @@ const OfficerCard = ({ officer }: { officer: Officer }) => {
                     alt={officer.name}
                     width={225}
                     height={225}
-                    style={{ clipPath: "circle()" }}
+                    style={{ clipPath: "circle()"}}
                     className={"h-full"}
                     loading="eager"
                     placeholder={"blur"}
@@ -29,10 +29,10 @@ const OfficerCard = ({ officer }: { officer: Officer }) => {
 
             <div
                 className={
-                    "bg-accent-orange-light shadow-lg rounded-xl z-10 w-1/2 text-center"
+                    "bg-accent-orange-light shadow-lg rounded-xl z-10 w-1/2 text-center h-[400px]"
                 }
             >
-                <h1 className={"card-title text-3xl text-center font-bold"}>
+                <h1 className={"card-title text-3xl text-center font-bold mt-2"}>
                     {officer.name}
                 </h1>
                 <h2 className={"card-subtitle text-center text-2xl"}>
