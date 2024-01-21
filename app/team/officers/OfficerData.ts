@@ -262,10 +262,11 @@ const OfficerList: OfficerData = {
                 positions: "2019 Rebuild Chief Engineer",
                 section: "Engineering",
                 year: "Freshman",
-                major: "Mechanical Engineering",
+                major: "Computer Engineering",
                 yearsOnTeam: "0.5",
                 image: "/assets/team/Spring2024Officers/Apurva Betgar - 2019 Rebuild Chief Engineer.jpg",
                 email: "apurva.betgar@utdallas.edu",
+                linkedin: "www.linkedin.com/in/apurva-betgar",
             },
             {
                 name: "Rayyan Sappayani",
