@@ -258,6 +258,16 @@ const OfficerList: OfficerData = {
                 linkedin: "https://www.linkedin.com/in/dillon-saulsberry/",
             },
             {
+                name: "Apurva Betgar",
+                positions: "2019 Rebuild Chief Engineer",
+                section: "Engineering",
+                year: "Freshman",
+                major: "Mechanical Engineering",
+                yearsOnTeam: "0.5",
+                image: "/assets/team/Spring2024Officers/Apurva Betgar - 2019 Rebuild Chief Engineer.jpg",
+                email: "apurva.betgar@utdallas.edu",
+            },
+            {
                 name: "Rayyan Sappayani",
                 section: "Engineering",
                 year: "Senior",
