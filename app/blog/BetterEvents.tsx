@@ -1,5 +1,6 @@
 import React from "react";
-import { Post } from ".prisma/client";
+// import { Post } from ".prisma/client";
+import { FormattedPost } from "../types";
 import Link from "next/link";
 import Image from "next/image";
 import AeroMap from "@/public/AeroMap.jpg";
@@ -10,7 +11,7 @@ import SLB from "/public/assets/events/super_lap_battle.jpg";
 type EventCardProps = {
   className?: string;
   //image: string;
-  post: Post;
+  post: FormattedPost;
 };
 
 const EventCard = ({ className, post }: EventCardProps) => {
@@ -28,7 +29,7 @@ const EventCard = ({ className, post }: EventCardProps) => {
           sizes={
             "(max-width: 480px) 100vw, (max-width: 480px) 100vw, (max-width: 768px) 75vw, (max-width: 1060px) 50vw, 33vw"
           }
-          style={{ objectFit: "cover" }}
+          style={{ objectFit: "fill" }}
         />
       </div>
       <div
@@ -51,7 +52,7 @@ const EventCard = ({ className, post }: EventCardProps) => {
 };
 
 type Props = {
-  eventPosts: Array<Post>;
+  eventPosts: Array<FormattedPost>;
 };
 
 const BetterEvents = ({ eventPosts }: Props) => {
