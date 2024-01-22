@@ -18,7 +18,7 @@ const testOfficer = {
 
 export default function Officers() {
     return (
-        <main className={"flex justify-center min-h-full items-center"}>
+        <main className={"flex justify-evenly items-center"}>
             <OfficerComponent />
         </main>
     );
