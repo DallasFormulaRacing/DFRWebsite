@@ -92,7 +92,7 @@ const OfficerList: OfficerData = {
             },
             {
                 name: "Manuel De Jesus Contreras",
-                positions: "Chief Engineer",
+                positions: "EV Chief Engineer",
                 section: "Admin",
                 year: "Sophomore",
                 major: "Electrical Engineering",
