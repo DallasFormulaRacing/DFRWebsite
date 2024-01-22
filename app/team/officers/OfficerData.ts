@@ -290,17 +290,6 @@ const OfficerList: OfficerData = {
                 email: "francis.cao@utdallas.edu",
                 linkedin: "www.linkedin.com/in/ francis-cao370978",
             },
-            {
-                name: "Rayyan Sappayani",
-                section: "Engineering",
-                year: "Senior",
-                major: "Mechanical Engineering",
-                yearsOnTeam: "4",
-                image: "/assets/team/Headshots/RayyanSappayani.png",
-                email: "rayyan.sappayani@utdallas.edu",
-                linkedin:
-                    "https://www.linkedin.com/in/rayyan-sappayani-92230b191",
-            },
         ],
     },
     EV: {
