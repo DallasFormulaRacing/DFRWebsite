@@ -212,6 +212,17 @@ const OfficerList: OfficerData = {
                 linkedin: "https://www.linkedin.com/in/crsz/",
             },
             {
+                name: "James Moushegian",
+                positions: "Ergonomics",
+                section: "Engineering",
+                major: "Mechanical Engineering",
+                year: "Senior",
+                yearsOnTeam: "2",
+                image: "/assets/team/Spring2024Officers/James Moushegian - Ergonomics.jpg",
+                email: "james.moushegian@utdallas.edu",
+                linkedin: "https://www.linkedin.com/in/j-moushegian/",
+            },
+            {
                 name: "Zoe Lao",
                 positions: "Ergonomics",
                 section: "Engineering",
