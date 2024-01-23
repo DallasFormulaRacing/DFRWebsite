@@ -13,18 +13,15 @@ type Props = {
 export const SponsorIcon = ({ index }: Props) => {
     const [sponsorList, setSponsorList] = useState<Sponsor[]>(SponsorData);
     return (
-        <div key={index} className={"item relative w-48 h-48"}>
+        <div key={index} className={"item relative w-64 h-64"}>
             {sponsorList.map((sponsor, position, sponsors) => (
                 <a href={sponsors[index].link} rel={"noreferrer"}>
                     <Image
                         fill
                         alt={sponsors[index].name}
-                        //placeholder={"blur"}
+                        // placeholder={"blur"}
                         src={sponsors[index].logo}
-                        sizes={
-                            "(max-width: 480px) 100dvw, (max-width: 480px) 100dvw, (max-width: 768px) 75dvw, (max-width: 1060px) 50dvw, 25dvw"
-                        }
-                        style={{ objectFit: "scale-down" }}
+                        style={{ objectFit: "contain" }}
                     />
                 </a>
             ))}
