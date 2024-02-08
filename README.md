@@ -1,38 +1,77 @@
 
-# Still a work in progress, not yet deployed. Planning for mid October release. 
+# Still a work in progress, not yet deployed. Planning for mid-October release. 
 
+## Prerequisites
+1. Download and install [Node.js](https://nodejs.org/en/download) for Next.js development.
+2. For version control, download and install [Git](https://git-scm.com/downloads) or [GitHub Desktop](https://desktop.github.com).
+3. (Optional) Interested in contributing to the backend with Go? Download and install [Go](https://go.dev/doc/install) to explore backend development opportunities alongside Next.js frontend tasks. (With Hayden)
 
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## Frontend Stack
+- [NextJs](https://nextjs.org/) - overall framework that is built on [React](https://react.dev/)
+- [TailwindCSS](https://tailwindcss.com/) - styling framework that provides a pool of pre-defined classes to speed up the design
+- [Ant Design](https://ant.design/) - React Component library that allows us to use pre-defined components
 
 ## Getting Started
+Start by cloning the repository using the command:
+```
+git clone git@github.com:DallasFormulaRacing/DFRWebsite.git
+```
+This will download the project files to your local machine.
 
-First, run the development server:
+Once cloned, navigate into the project directory and install the dependencies by running:
+```
+npm install
+```
+This command will ensure all required packages are installed and ready for use.
 
-```bash
+To launch the development server, execute the following command:
+```
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
+```
+This will start the server, enabling you to preview your changes in real time.
+
+Open your web browser and go to http://localhost:3000/ to view the live website.
+
+Start editing any page you want! Changes you make will automatically update the page, allowing you to see your modifications instantly!
+
+## Frontend File System
+```
+├── app // main source of the frontend code, most of the development is going to happen here
+│   ├── api // Can be used to create api endpoints handled by Next.js (can be ignored for now)
+│   ├── (CarModel) // folders with parenthesis are just for organization by grouping different components under something
+│   ├── about // each folder is a page on the website that don't have (), and a contain a page.tsx
+│   │   ├── page.tsx
+│   ├── page.tsx // main entry point of the website (home page)
+├── public // images can be found here
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Contributing
+You don't need to adhere strictly to every detail, as the primary focus is on working in separate branches to maintain a cleaner version control history and have fun. 
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+However, it's crucial to recognize the broader significance: through this process, you can hone essential job-related skills like crafting effective commits, monitoring issues, and providing detailed pull request descriptions. Furthermore, showcasing this workflow in interviews can greatly impress potential employers. While perfection isn't necessary, don't hesitate to embrace the opportunity to learn and improve.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+-- written by ChatGPT
 
-## Learn More
+### Creating Issues
+- **Summary**: Concise description of the issue/task.
+- **Explanation**: 
+  - **What**: Clearly state the problem or task.
+  - **Where**: Specify where it occurs.
+  - **How (if possible)**: Provide details on how to reproduce or context.
 
-To learn more about Next.js, take a look at the following resources:
+### Pull Request
+1. Ideally make a new branch for each issue
+2. Make a pull request when done just for a small review (just to get the feeling on how the workplace is)
+3. Add a summary of the work done
+4. Once approved go ahead and merge the pull request
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Ex:
+```
+Implement EV Team Page
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+Implemented the EV Team Page as per the provided design specifications.
+The page now includes separate components for different sections, incorporating images
+and populating content from a newly created dataset.
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+[image](src)
+```
