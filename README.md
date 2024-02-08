@@ -75,3 +75,9 @@ and populating content from a newly created dataset.
 
 [image](src)
 ```
+
+## Resources
+- https://nextjs.org/docs
+- https://v2.tailwindcss.com/docs
+- https://www.atlassian.com/git
+- https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/getting-started/best-practices-for-pull-requests
