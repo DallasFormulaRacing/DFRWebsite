@@ -17,7 +17,7 @@ export default function About() {
             {/*<div className={"w-1/2 h-1/2"}>*/}
             {/*  <Car />*/}
             {/*</div>*/}
-            <ImageBreaks image={LowCar.src} imageHeight={"h-176"} />
+            <ImageBreaks image={LowCar.src} imageHeight={"h-176"} imageFit={"object-cover"} />
             <section id="about-us" className={"mt-10"}>
                 <div className={"text-center space-y-8"}>
                     <h1 className={"text-5xl font-bold"}>About Us</h1>
@@ -58,7 +58,7 @@ export default function About() {
                     </Link>
                 </div>
             </section>
-            <ImageBreaks image={CarDash.src} imageHeight={"h-144"} />
+            <ImageBreaks image={CarDash.src} imageFit={"object-cover"} imageHeight={"h-144"} />
             <StatsSection />
             <section id="about-us" className={"mt-10"}>
                 <div className={"text-center space-y-8"}>
