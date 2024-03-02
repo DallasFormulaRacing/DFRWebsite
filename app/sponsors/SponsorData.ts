@@ -1,4 +1,4 @@
-import { Sponsor } from "@/app/types";
+import { Sponsor } from "@/types/types";
 
 export const SponsorData: Array<Sponsor> = [
     {

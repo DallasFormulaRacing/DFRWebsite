@@ -4,7 +4,7 @@ import React, { useState } from "react";
 import Image from "next/image";
 import SponsorData from "./SponsorData";
 import DFRLogo from "@/public/DFR-Logo.png";
-import { Sponsor } from "../types";
+import { Sponsor } from "../../types/types";
 
 type Props = {
     index: number;
