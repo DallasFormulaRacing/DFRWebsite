@@ -1,4 +1,4 @@
-import { Officer, OfficerData } from "../../types";
+import { Officer, OfficerData } from "../../../types/types";
 
 const OfficerList: OfficerData = {
     Admin: {

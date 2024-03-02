@@ -1,7 +1,7 @@
 "use client";
 import React, { useState } from "react";
 import OfficerCard from "./OfficerCard";
-import { Officer, OfficerData } from "@/app/types";
+import { Officer, OfficerData } from "@/types/types";
 import OfficerList from "./OfficerData";
 import { Space } from "antd";
 

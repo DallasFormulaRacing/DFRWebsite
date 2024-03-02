@@ -1,5 +1,5 @@
 import React from "react";
-import { Officer } from "@/app/types";
+import { Officer } from "@/types/types";
 import Image from "next/image";
 import Linkedin from "/public/assets/social_links/linkedin_blue.png";
 import Link from "next/link";
