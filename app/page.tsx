@@ -13,7 +13,6 @@ import { Carousel } from "antd";
 import GroupPhoto from "@/public/assets/team/group_photo.jpeg";
 import car_blur from "@/public/assets/NewPictures/car_blur_in_motion.jpg";
 
-
 const CAROUSEL_GALLERY = [
     {
         src: Car2022,
@@ -63,6 +62,7 @@ export default function Home() {
                     </h1>
                 </div>
             </div>
+
 
             <AboutUs />
             <ImageBreaks

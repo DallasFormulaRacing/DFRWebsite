@@ -1,15 +1,23 @@
+"use client";
+
 import React from "react";
 import Image from "next/image";
 import CarVolunteering from "@/public/assets/Cars/volunteer_car.jpg";
 import CarwithBaloons from "@/public/assets/Cars/car_baloons.jpg";
 import Link from "next/link";
+import { motion } from "framer-motion";
 
 type Props = {};
 
 export const SampleProjects = (props: Props) => {
     return (
         <section className="mt-10 py-24 mx-8 md:mx-24">
-            <div className="sm:grid sm:h-[500px] grid-cols-3 grid-rows-1 gap-16">
+            <motion.div
+                initial={{ opacity: 0, y: 50 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                className="sm:grid sm:h-[500px] grid-cols-3 grid-rows-1 gap-16"
+            >
                 <div className="col-span-1 row-span-1 flex justify-center md:block">
                     <Image
                         alt={"2022AeroPackage"}
@@ -34,8 +42,13 @@ export const SampleProjects = (props: Props) => {
                         many more dynamic conditions.
                     </p>
                 </div>
-            </div>
-            <div className="sm:grid sm:h-[500px] grid-cols-3 grid-rows-1 my-10">
+            </motion.div>
+            <motion.div
+                initial={{ opacity: 0, y: 50 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                className="sm:grid sm:h-[500px] grid-cols-3 grid-rows-1 my-10"
+            >
                 <div className="col-span-2 row-span-1">
                     <h1 className="text-5xl font-bold mt-8">
                         STEM Volunteering
@@ -75,7 +88,7 @@ export const SampleProjects = (props: Props) => {
                         unoptimized
                     />
                 </div>
-            </div>
+            </motion.div>
         </section>
     );
 };

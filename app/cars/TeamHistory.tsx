@@ -1,5 +1,8 @@
+"use client";
+
 import React from "react";
 import Image from "next/image";
+import {motion} from "framer-motion";
 import { StaticImageData } from "next/image";
 import Car2022 from "@/public/assets/Cars/2022Michigan.jpg";
 import Car2021 from "@/public/assets/Cars/2021Car.jpg";
@@ -81,19 +84,25 @@ function TimelineItem({
     description: string;
 }) {
     return (
-        <div className="pb-32 min-h-[400px] px-2">
+        <motion.div
+        initial={{ opacity: 0, y: 50 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        viewport={{ once: true }} className="pb-32 min-h-[400px] px-2">
             {image && <TimelineImage image={image} />}
             <div>
                 <h1 className={"text-5xl font-bold mt-10 md:mt-0"}>{title}</h1>
                 <p className={"text-2xl mt-4"}>{description}</p>
             </div>
-        </div>
+        </motion.div>
     );
 }
 
 function TimelineImage({ image }: { image: StaticImageData }) {
     return (
-        <div className="relative h-[400px]">
+        <motion.div
+        initial={{ opacity: 0, y: 50 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        viewport={{ once: true }} className="relative h-[400px]">
             <Image
                 alt={"2022AeroPackage"}
                 placeholder={"blur"}
@@ -102,6 +111,6 @@ function TimelineImage({ image }: { image: StaticImageData }) {
                 className="object-cover rounded-xl"
                 unoptimized
             />
-        </div>
+        </motion.div>
     );
 }
