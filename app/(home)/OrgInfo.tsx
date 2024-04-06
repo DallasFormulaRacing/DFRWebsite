@@ -14,7 +14,6 @@ export const OrgInfo = (props: Props) => {
                     initial={{ opacity: 0, y: 50 }}
                     whileInView={{ opacity: 1, y: 0 }}
                     viewport={{ once: true }}
-                    div
                     className={"text-center my-4"}
                 >
                     <h1 className={"font-bold text-5xl"}>Mission Statement</h1>
@@ -29,7 +28,6 @@ export const OrgInfo = (props: Props) => {
                     initial={{ opacity: 0, y: 50 }}
                     whileInView={{ opacity: 1, y: 0 }}
                     viewport={{ once: true }}
-                    div
                     className={"text-center my-4"}
                 >
                     <h1 className={"font-bold text-5xl"}>About Formula SAE</h1>
@@ -62,7 +60,6 @@ export const OrgInfo = (props: Props) => {
                     initial={{ opacity: 0, y: 50 }}
                     whileInView={{ opacity: 1, y: 0 }}
                     viewport={{ once: true }}
-                    div
                     className={"text-center"}
                 >
                     <h1 className={"font-bold text-5xl mb-8"}>Stats</h1>
@@ -92,7 +89,6 @@ export const OrgInfo = (props: Props) => {
                             initial={{ opacity: 0, y: 50 }}
                             whileInView={{ opacity: 1, y: 0 }}
                             viewport={{ once: true }}
-                            button
                             className="bg-accent-green text-wh-0 text-lg font-semibold w-40 h-12 rounded-md"
                         >
                             Our Cars
