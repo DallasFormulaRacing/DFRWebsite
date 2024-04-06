@@ -12,7 +12,7 @@ export const Sponsors = (props: Props) => {
             <h1 className={"text-5xl font-bold text-center mb-12"}>Sponsors</h1>
             <div className={"grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4"}>
                 {SponsorData.map((_ ,index) => ( 
-                    <div className="flex justify-center">
+                    <div key={index} className="flex justify-center">
                         <SponsorIcon index={index} />
                     </div>
                 ))}
