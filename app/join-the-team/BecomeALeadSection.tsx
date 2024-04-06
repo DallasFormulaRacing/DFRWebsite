@@ -18,9 +18,9 @@ export default function BecomeALeadSection() {
                     </h1>
                 </div>
             </div>
-            <section className="px-2 py-12 sm:p-24">
-                <div className="flex flex-row flex-wrap justify-evenly">
-                    <Card className="w-full flex items-center justify-center h-[300px] border-none sm:w-1/3">
+            <section className="px-2 py-24 min-h-[68svh] flex justify-center items-center">
+                <div className="flex flex-row flex-wrap justify-center gap-4 w-full">
+                    <Card className="flex items-center justify-center h-[300px] border-none w-full md:w-1/4" bordered={false}>
                         <h1 className="text-4xl font-bold text-center">
                             Experience
                         </h1>
@@ -40,7 +40,7 @@ export default function BecomeALeadSection() {
                             </p>
                         </Space>
                     </Card>
-                    <Card className="w-full flex items-center justify-center h-[300px] border-none sm:w-1/3">
+                    <Card className="flex items-center justify-center h-[300px] border-none w-full md:w-1/4" bordered={false}>
                         <h1 className="text-4xl font-bold text-center">
                             Leadership
                         </h1>
@@ -60,7 +60,7 @@ export default function BecomeALeadSection() {
                             </p>
                         </Space>
                     </Card>
-                    <Card className="w-full flex items-center justify-center h-[300px] border-none sm:w-1/3">
+                    <Card className="flex items-center justify-center h-[300px] border-none w-full md:w-1/4" bordered={false}>
                         <h1 className="text-4xl font-bold text-center">
                             Dedication
                         </h1>
