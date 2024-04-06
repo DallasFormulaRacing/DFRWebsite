@@ -156,11 +156,15 @@ export const SponsorData: Array<Sponsor> = [
         logo: "/assets/sponsors/utd.svg",
         link: "https://www.utdallas.edu/",
     },
-
     {
         name: "WelshAdvisors",
         logo: "/assets/sponsors/welshadvisors.webp",
         link: "https://www.welshadvisors.com/",
+    },
+    {
+        name: "Omni Powertrain",
+        logo: "/assets/sponsors/omnipowertrain.png",
+        link: "https://www.omnipowertrain.com/",
     },
 ];
 
