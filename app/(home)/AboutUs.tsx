@@ -1,5 +1,8 @@
+"use client";
+
 import React from "react";
 import Link from "next/link";
+import { motion } from "framer-motion";
 
 type Props = {};
 
@@ -8,8 +11,20 @@ export const AboutUs = (props: Props) => {
         <main className="px-0 leading-7 py-24">
             <section>
                 <div className="flex flex-col justify-center items-center min-h-[500px] p-4">
-                    <h1 className="text-5xl font-bold">About Us</h1>
-                    <div className="my-8 text-center flex flex-col items-center">
+                    <motion.h1
+                        initial={{ opacity: 0, y: 50 }}
+                        whileInView={{ opacity: 1, y: 0 }}
+                        viewport={{ once: true }}
+                        className="text-5xl font-bold"
+                    >
+                        About Us
+                    </motion.h1>
+                    <motion.div
+                        initial={{ opacity: 0, y: 50 }}
+                        whileInView={{ opacity: 1, y: 0 }}
+                        viewport={{ once: true }}
+                        className="my-8 text-center flex flex-col items-center"
+                    >
                         <p className="text-2xl my-4 md:w-4/5 md:text-3xl">
                             Dallas Formula Racing is a student-led organization
                             at the University of Texas in Dallas. Our team was
@@ -28,11 +43,16 @@ export const AboutUs = (props: Props) => {
                             demonstrating various STEM applications through our
                             diverse group.
                         </p>
-                    </div>
+                    </motion.div>
                     <Link href="/about">
-                        <button className="bg-accent-green text-wh-0 text-lg font-semibold w-40 h-12 rounded-md mt-8">
+                        <motion.button
+                            initial={{ opacity: 0, y: 50 }}
+                            whileInView={{ opacity: 1, y: 0 }}
+                            viewport={{ once: true }}
+                            className="bg-accent-green text-wh-0 text-lg font-semibold w-40 h-12 rounded-md mt-8"
+                        >
                             Learn More
-                        </button>
+                        </motion.button>
                     </Link>
                 </div>
             </section>

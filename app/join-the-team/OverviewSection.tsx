@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export default function OverviewSections() {
     return (
-        <section className="px-2 py-12 sm:p-24">
+        <section className="px-2 py-24 min-h-[68svh] flex flex-col justify-center items-center">
             <h1 className="font-bold text-center mb-8 text-4xl">
                 General Overview
             </h1>

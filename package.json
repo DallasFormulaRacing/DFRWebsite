@@ -70,6 +70,7 @@
         "css-loader": "^5.2.7",
         "eslint": "8.40.0",
         "eslint-config-next": "13.4.2",
+        "framer-motion": "^11.0.25",
         "gltf-loader": "^1.0.0",
         "heroicons": "^2.0.18",
         "immer": "^10.0.3",
