@@ -1,1 +1,47 @@
-{}
+{ 
+    "aerodynamics": {
+        "title": "Aerodynamics",
+        "meetingTime": "Thursdays @ 4 pm",
+        "description": "This team focuses on aerodynamic development in the search for reducing lap times. The main component focus will be on downforce devices, bodywork drag reduction, and cooling.",
+        "header": {
+          "image": "/AeroMap.jpg",
+          "lead": {
+            "image": "/assets/team/Spring2024Officers/Aaryan Patel - Secretary.jpg", 
+            "name": "John McAlister",
+            "email": "john.mcalister@utdallas.edu",
+            "title": "AERODYNAMICS Lead",
+            "quote": "\"This team has been the perfect opportunity for me to explore my passion for motorsport engineering and has let me find a niche at UTD that I deeply care about. This team has let me teach other passionate individuals about topics I care about, which is something I'm very grateful for. I hope I can continue this process of learning and teaching for future members to continue to benefit from.\""
+          }
+        },
+        "projects": [{
+          "title": "DESIGN",
+          "description": "Design of front and rear wing. Researching undertray, sidepods, turning vanes, and dive plane."
+        },
+        {
+          "title": "AUTOMATION",
+          "description": "Streamlining design process with Siemens NX and HPC and making large amounts of data easy to understand"
+        },
+        {
+            "title": "VEHICLE DYNAMICS",
+            "description": "Understanding of how a car responds to driver input and static conditions - downforce goals for aero balance"
+        },
+        {
+            "title": "SIMULATIONS",
+            "description": "Understanding the vehicle's behavior before running physical parts"
+        }],
+        "gallery": [{
+          "source": "/assets/NewPictures/IMG_6808-2.jpg",
+          "alt": "placeholder alt text"
+        }],
+        "skills": {
+          "title": "SKILLS",
+          "description": "New members can expect to gain practical experience with aero and vehicle dynamics. They will experience the full engineering process, from research & development, prototyping, design, and finally testing & validation. Throughout the design process members will gain proficiency with professional software such as SolidWorks and StarCCM+ to aid in their design process. They will get opportunities to manage projects and work with other sub-teams to make their projects more effective. Additionally, members should expect to gain a plethora of soft skills such as speaking, collaboration, and more. This should lead to well-rounded members that can easily transition into the industry.",
+          "image": "/AeroMap.jpg"
+        },
+        "newMembers": {
+          "title": "NEW MEMBERS",
+          "description": "New members will walk through a semester long course to prepare them for component design in spring. Throughout each stage in the learning process, members will take part in projects that support the necessary concepts and will act as a metric for their progress. In the end, we aim to provide a practical aerospace experience that is not present anywhere else at UTD.",
+          "image": "/AeroMap.jpg"
+        }
+      }
+}
