@@ -35,9 +35,11 @@ export interface Config {
   export interface Skills {
     title: string
     description: string
+    image: string
   }
   
   export interface NewMembers {
     title: string
     description: string
+    image: string
   }
