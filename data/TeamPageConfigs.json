@@ -1,47 +1,100 @@
-{ 
+{
     "aerodynamics": {
         "title": "Aerodynamics",
         "meetingTime": "Thursdays @ 4 pm and 5:30 pm",
         "description": "This team focuses on aerodynamic development in the search for reducing lap times. The main component focus will be on downforce devices, bodywork drag reduction, and cooling.",
         "header": {
-          "image": "/AeroMap.jpg",
-          "lead": {
-            "image": "/assets/team/Spring2024Officers/John McAlister - Aerodynamics.jpg", 
-            "name": "John McAlister",
-            "email": "john.mcalister@utdallas.edu",
-            "title": "AERODYNAMICS Lead",
-            "quote": "\"This team has been the perfect opportunity for me to explore my passion for motorsport engineering and has let me find a niche at UTD that I deeply care about. This team has let me teach other passionate individuals about topics I care about, which is something I'm very grateful for. I hope I can continue this process of learning and teaching for future members to continue to benefit from.\""
-          }
+            "image": "/AeroMap.jpg",
+            "lead": {
+                "image": "/assets/team/Spring2024Officers/JohnMcAlister.jpg",
+                "name": "John McAlister",
+                "email": "john.mcalister@utdallas.edu",
+                "title": "AERODYNAMICS Lead",
+                "quote": "\"This team has been the perfect opportunity for me to explore my passion for motorsport engineering and has let me find a niche at UTD that I deeply care about. This team has let me teach other passionate individuals about topics I care about, which is something I'm very grateful for. I hope I can continue this process of learning and teaching for future members to continue to benefit from.\""
+            }
         },
-        "projects": [{
-          "title": "DESIGN",
-          "description": "Design of front and rear wing. Researching undertray, sidepods, turning vanes, and dive plane."
-        },
-        {
-          "title": "AUTOMATION",
-          "description": "Streamlining design process with Siemens NX and HPC and making large amounts of data easy to understand"
-        },
-        {
-            "title": "VEHICLE DYNAMICS",
-            "description": "Understanding of how a car responds to driver input and static conditions - downforce goals for aero balance"
-        },
-        {
-            "title": "SIMULATIONS",
-            "description": "Understanding the vehicle's behavior before running physical parts"
-        }],
-        "gallery": [{
-          "source": "/assets/NewPictures/IMG_6808-2.jpg",
-          "alt": "placeholder alt text"
-        }],
+        "projects": [
+            {
+                "title": "DESIGN",
+                "description": "Design of front and rear wing. Researching undertray, sidepods, turning vanes, and dive plane."
+            },
+            {
+                "title": "AUTOMATION",
+                "description": "Streamlining design process with Siemens NX and HPC and making large amounts of data easy to understand"
+            },
+            {
+                "title": "VEHICLE DYNAMICS",
+                "description": "Understanding of how a car responds to driver input and static conditions - downforce goals for aero balance"
+            },
+            {
+                "title": "SIMULATIONS",
+                "description": "Understanding the vehicle's behavior before running physical parts"
+            }
+        ],
+        "gallery": [
+            {
+                "source": "/assets/NewPictures/IMG_6808-2.jpg",
+                "alt": "placeholder alt text"
+            }
+        ],
         "skills": {
-          "title": "SKILLS",
-          "description": "New members can expect to gain practical experience with aero and vehicle dynamics. They will experience the full engineering process, from research & development, prototyping, design, and finally testing & validation. Throughout the design process members will gain proficiency with professional software such as SolidWorks and StarCCM+ to aid in their design process. They will get opportunities to manage projects and work with other sub-teams to make their projects more effective. Additionally, members should expect to gain a plethora of soft skills such as speaking, collaboration, and more. This should lead to well-rounded members that can easily transition into the industry.",
-          "image": "/AeroMap.jpg"
+            "title": "SKILLS",
+            "description": "New members can expect to gain practical experience with aero and vehicle dynamics. They will experience the full engineering process, from research & development, prototyping, design, and finally testing & validation. Throughout the design process members will gain proficiency with professional software such as SolidWorks and StarCCM+ to aid in their design process. They will get opportunities to manage projects and work with other sub-teams to make their projects more effective. Additionally, members should expect to gain a plethora of soft skills such as speaking, collaboration, and more. This should lead to well-rounded members that can easily transition into the industry.",
+            "image": "/assets/team/ICPages/Aerodynamics/22aeropackage.png"
         },
         "newMembers": {
-          "title": "NEW MEMBERS",
-          "description": "New members will walk through a semester long course to prepare them for component design in spring. Throughout each stage in the learning process, members will take part in projects that support the necessary concepts and will act as a metric for their progress. In the end, we aim to provide a practical aerospace experience that is not present anywhere else at UTD.",
-          "image": "/AeroMap.jpg"
+            "title": "NEW MEMBERS",
+            "description": "New members will walk through a semester long course to prepare them for component design in spring. Throughout each stage in the learning process, members will take part in projects that support the necessary concepts and will act as a metric for their progress. In the end, we aim to provide a practical aerospace experience that is not present anywhere else at UTD.",
+            "image": "/assets/team/ICPages/Aerodynamics/AeroStreamlines.png"
         }
-      }
+    },
+    "chassis": {
+        "title": "Chassis",
+        "meetingTime": "",
+        "description": "Working as the backbone of the vehicle, a well-designed chassis will promote better performance of the vehicle, safety, and comfort to the driver. Strict FSAE rules must be followed to ensure a properly designed frame will protect the driver at all times. This being the case, there continue to be endless design possibilities that allow young engineers to design a chassis that can take a vehicles performance to its fullest extent. An understanding of vehicle dynamics, manufacturing, driver ergonomics, and integration of other vehicle subsystems is needed to successfully build a chassis. For this reason, members with diverse set skills and passion to learn is required. ",
+        "header": {
+            "image": "/assets/team/ICPages/Chassis/Chasis-1.png",
+            "lead": {
+                "image": "/assets/team/Spring2024Officers/EthanGamero.jpg",
+                "name": "Ethan Gamero",
+                "email": "eag180006@utdallas.edu",
+                "title": "Chassis Lead",
+                "quote": "\"I'm exicted to be your 2024 and 2025 chassis lead!\""
+            }
+        },
+        "projects": [
+            {
+                "title": "DESIGN",
+                "description": "Design of front and rear wing. Researching undertray, sidepods, turning vanes, and dive plane."
+            },
+            {
+                "title": "AUTOMATION",
+                "description": "Streamlining design process with Siemens NX and HPC and making large amounts of data easy to understand"
+            },
+            {
+                "title": "VEHICLE DYNAMICS",
+                "description": "Understanding of how a car responds to driver input and static conditions - downforce goals for aero balance"
+            },
+            {
+                "title": "SIMULATIONS",
+                "description": "Understanding the vehicle's behavior before running physical parts"
+            }
+        ],
+        "gallery": [
+            {
+                "source": "/assets/team/ICPages/Chassis/2024Chassis.jpeg",
+                "alt": "placeholder alt text"
+            }
+        ],
+        "skills": {
+            "title": "SKILLS",
+            "description": "New members can expect to gain practical experience with aero and vehicle dynamics. They will experience the full engineering process, from research & development, prototyping, design, and finally testing & validation. Throughout the design process members will gain proficiency with professional software such as SolidWorks and StarCCM+ to aid in their design process. They will get opportunities to manage projects and work with other sub-teams to make their projects more effective. Additionally, members should expect to gain a plethora of soft skills such as speaking, collaboration, and more. This should lead to well-rounded members that can easily transition into the industry.",
+            "image": "/assets/team/ICPages/Aerodynamics/22aeropackage.png"
+        },
+        "newMembers": {
+            "title": "NEW MEMBERS",
+            "description": "New members will walk through a semester long course to prepare them for component design in spring. Throughout each stage in the learning process, members will take part in projects that support the necessary concepts and will act as a metric for their progress. In the end, we aim to provide a practical aerospace experience that is not present anywhere else at UTD.",
+            "image": "/assets/team/ICPages/Aerodynamics/AeroStreamlines.png"
+        }
+    }
 }
