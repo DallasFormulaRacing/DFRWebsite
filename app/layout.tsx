@@ -1,7 +1,7 @@
 import "./globals.css";
 import { Inter, Open_Sans, Raleway } from "next/font/google";
-import Navbar from "@/app/(shared-components)/Navbar";
-import Footer from "@/app/(shared-components)/Footer";
+import Navbar from "@/app/components/Navbar";
+import Footer from "@/app/components/Footer";
 import StyledComponentsRegistry from "@/lib/AntdRegistry";
 import { ConfigProvider } from "antd";
 

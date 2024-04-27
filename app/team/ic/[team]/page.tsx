@@ -1,4 +1,4 @@
-import ICLayout from "../(components)/ICLayout";
+import ICLayout from "../ICLayout";
 import TeamPageConfigs from "../../../../data/TeamPageConfigs.json";
 import { Config } from "../../../../types/ICPageConfig";
 

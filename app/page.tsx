@@ -1,13 +1,13 @@
 import React from "react";
 import Image from "next/image";
-import AboutUs from "./(home)/AboutUs";
+import AboutUs from "./components/home/AboutUs";
 import Car2023 from "@/public/assets/car_gallery/2023Car.jpeg";
 import Car2022 from "@/public/assets/Cars/2022Car.jpg";
 import OldCar from "@/public/assets/Cars/oldcar.jpg";
 import Sidebysidecars from "@/public/assets/Cars/2018_2019Cars.jpg";
-import SampleProjects from "./(home)/SampleProjects";
-import ImageBreaks from "./(shared-components)/ImageBreaks";
-import { OrgInfo } from "./(home)/OrgInfo";
+import SampleProjects from "./components/home/SampleProjects";
+import ImageBreaks from "./components/ImageBreaks";
+import { OrgInfo } from "./components/home/OrgInfo";
 import Sponsors from "./sponsors/SponsorComponent";
 import { Carousel } from "antd";
 import GroupPhoto from "@/public/assets/team/group_photo.jpeg";

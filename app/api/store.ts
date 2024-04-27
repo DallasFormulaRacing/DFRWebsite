@@ -1,6 +1,6 @@
 import { configureStore, ThunkAction, Action } from "@reduxjs/toolkit";
 import postsReducer from "../post/PostSlice";
-import accountReducer from "../(account)/AccountSlice";
+import accountReducer from "../components/account/AccountSlice";
 import sponsorReducer from "../sponsors/SponsorSlice";
 
 import rootReducer from "./rootReducer";

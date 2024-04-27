@@ -1,5 +1,5 @@
 import React from "react";
-import Card from "@/app/(shared-components)/Card";
+import Card from "@/app/components/Card";
 import CAC from "/public/assets/events/car_and_comets.jpg";
 import CGD from "/public/assets/events/comet_giving_day.jpg";
 import SLB from "/public/assets/events/super_lap_battle.jpg";

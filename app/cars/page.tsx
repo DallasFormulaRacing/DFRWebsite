@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import ImageBreaks from "../(shared-components)/ImageBreaks";
+import ImageBreaks from "../components/ImageBreaks";
 import { TeamHistory } from "./TeamHistory";
 import Car2022CloseUp from "@/public/assets/Cars/2022CloseUp.jpg";
 import DFRTyreLogo from "@/public/dfr-logo-tyre.png";
