@@ -9,7 +9,7 @@ import OverviewSection from "./OverviewSection";
 import BecomeALeadSection from "./BecomeALeadSection";
 import DriverSeatSection from "./DriverSeatSection";
 import AttendingCompetitionSection from "./AttendingCompetitionSection";
-import FAQSection from "../(shared-components)/FAQSection";
+import FAQSection from "../../components/FAQSection";
 import { List, Space } from "antd";
 
 const memberTasks = [

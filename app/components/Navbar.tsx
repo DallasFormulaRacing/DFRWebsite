@@ -5,11 +5,12 @@ import Image from "next/image";
 import DFRLogo from "@/public/DFR-Logo.png";
 import DFRTyreLogo from "@/public/dfr-logo-tyre.png";
 import type { MenuProps } from "antd";
-import { Menu, Button } from "antd";
+import { Menu, Button, Dropdown } from "antd";
 import {
     MenuFoldOutlined,
     MenuUnfoldOutlined,
-    MailOutlined,
+    ArrowDownOutlined,
+    CaretDownOutlined
 } from "@ant-design/icons";
 
 type MenuItem = Required<MenuProps>["items"][number];
@@ -30,6 +31,18 @@ function getItem(
     } as MenuItem;
 }
 
+const DropdownLabel = ({ label, href, rel }: { label: string, href: string, rel: string }) => {
+    return (
+        <a
+            className={"navbarLink"}
+            href={href}
+            rel={rel}
+        >
+            {label} <CaretDownOutlined />
+        </a>
+    );
+};
+
 const IC_LINKS = {
     label: <p>IC</p>,
     key: "/ic",
@@ -41,14 +54,6 @@ const IC_LINKS = {
                 </a>
             ),
             key: "/team/ic/aerodynamics",
-        },
-        {
-            label: (
-                <a href="/team/business" rel="noopener noreferrer">
-                    Business Team
-                </a>
-            ),
-            key: "/team/business",
         },
         {
             label: (
@@ -122,13 +127,6 @@ const IC_LINKS = {
             ),
             key: "/team/ic/suspension",
         },
-        {
-            label: (
-                <a href="/team/officers" rel="noopener noreferrer">
-                    Officers
-                </a>
-            ),
-        },
     ],
 };
 const EV_LINKS = {
@@ -153,6 +151,7 @@ const EV_LINKS = {
         },
     ],
 };
+
 const NAV_LINKS = [
     {
         label: (
@@ -194,12 +193,21 @@ const NAV_LINKS = [
 
 const items: MenuProps["items"] = [
     getItem(
-        <a className={"navbarLink"} href="/join-the-team" rel="noopener noreferrer">
-            Team
-        </a>,
-        "sub1",
+        <DropdownLabel label="Team" href="/team" rel="noopener noreferrer" />,
+        "/team/join-the-team",
         null,
-        [IC_LINKS, EV_LINKS]
+        [
+            {
+                label: (
+                    <a href="/team/officers" rel="noopener noreferrer">
+                        Officers
+                    </a>
+                ),
+                key: "/team/officers",
+            },
+            IC_LINKS,
+            EV_LINKS,
+        ]
     ),
     NAV_LINKS[0],
     NAV_LINKS[1],
@@ -232,7 +240,11 @@ const Navbar = () => {
                         mode="horizontal"
                         theme="dark"
                         items={items}
-                        className="bg-wh-900 flex items-end"
+                        className="bg-wh-900"
+                        style={{
+                            display: "flex",
+                            justifyContent: "flex-end",
+                        }}
                     />
                 </div>
 

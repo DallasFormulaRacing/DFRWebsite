@@ -1,5 +1,5 @@
 import React from "react";
-import ImageBreaks from "../(shared-components)/ImageBreaks";
+import ImageBreaks from "../components/ImageBreaks";
 import Car2023 from "@/public/assets/car_gallery/2023Car.jpeg";
 
 type props = {};

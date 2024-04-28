@@ -1,4 +1,4 @@
-import ImageBreaks from "@/app/(shared-components)/ImageBreaks";
+import ImageBreaks from "@/app/components/ImageBreaks";
 import React from "react";
 import Image from "next/image";
 import OfficerCard from "./OfficerCard";

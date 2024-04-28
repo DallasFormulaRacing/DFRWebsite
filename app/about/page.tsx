@@ -4,8 +4,8 @@ import Car2023 from "@/public/assets/car_gallery/2023Car.jpeg";
 import CarDash from "@/public/assets/NewPictures/car_dash.jpg";
 import LowCar from "@/public/assets/NewPictures/low_rh_car.jpg";
 import OrgChart from "@/public/assets/team/Org-Chart-2023-scaled.webp";
-import ImageBreaks from "../(shared-components)/ImageBreaks";
-import StatsSection from "../(shared-components)/StatsSection";
+import ImageBreaks from "../components/ImageBreaks";
+import StatsSection from "../components/StatsSection";
 import Link from "next/link";
 import { Card, Space } from "antd";
 

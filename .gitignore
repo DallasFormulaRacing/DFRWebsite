@@ -1,39 +1,38 @@
-# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+# Ignore Next.js build output
+.next/
 
-# dependencies
-/node_modules
-/.pnp
-.pnp.js
-
-# testing
-/coverage
-
-# next.js
-/.next/
+# Ignore build artifacts
 /out/
+/.next/
+/.vercel/
 
-# production
-/build
+# Ignore environment variables
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
 
-# misc
+# Ignore Node.js dependencies
+node_modules/
+
+# Ignore development server files
+.nuxt/
+
+# Ignore IDE and editor-specific files
+.vscode/
+.idea/
+*.iml
+
+# Ignore OS-generated files
 .DS_Store
-*.pem
+Thumbs.db
 
-# debug
+# Ignore npm debugging logs
 npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
 
-# local env files
-.env*.local
-
-# vercel
-.vercel
-
-# typescript
-*.tsbuildinfo
-next-env.d.ts
-.env
-
-/.idea
-
+# Ignore backend-specific files and directories
+# Add more if needed based on your backend setup
+# For example, if you're using Express.js, you might ignore the 'build' directory
+# Or if you're using a database, you might ignore data files or logs
+/build/
+/logs/

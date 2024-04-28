@@ -2,7 +2,7 @@
 
 import React, { useState } from "react";
 import Image from "next/image";
-import SponsorData from "./SponsorData";
+import SponsorData from "@/data/SponsorData.json";
 import DFRLogo from "@/public/DFR-Logo.png";
 import { motion } from "framer-motion";
 import { Sponsor } from "../../types/types";

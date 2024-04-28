@@ -2,7 +2,7 @@ import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 import SponsorIcon from "./SponsorIcon";
-import SponsorData from "./SponsorData";
+import SponsorData from "@/data/SponsorData.json";
 
 type Props = {};
 
