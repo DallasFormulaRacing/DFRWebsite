@@ -163,14 +163,6 @@ const NAV_LINKS = [
     },
     {
         label: (
-            <a href="/blog" rel="noopener noreferrer">
-                News
-            </a>
-        ),
-        key: "/news",
-    },
-    {
-        label: (
             <a href="/cars" rel="noopener noreferrer">
                 Cars
             </a>
