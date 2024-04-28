@@ -4,6 +4,7 @@ import Link from "next/link";
 import Image from "next/image";
 import DFRLogo from "@/public/DFR-Logo.png";
 import DFRTyreLogo from "@/public/dfr-logo-tyre.png";
+import TeamPageConfigs from "@/data/TeamPageConfigs.json";
 import type { MenuProps } from "antd";
 import { Menu, Button, Dropdown } from "antd";
 import {
@@ -58,6 +59,14 @@ const IC_LINKS = {
         </a>
       ),
       key: "/team/ic/chassis",
+    },
+    {
+      label: (
+        <a href="/team/ic/composites" rel="noopener noreferrer">
+          Composites Team
+        </a>
+      ),
+      key: "/team/ic/composites",
     },
     {
       label: (
@@ -197,7 +206,6 @@ const items: MenuProps["items"] = [
         key: "/team/officers",
       },
       IC_LINKS,
-      EV_LINKS,
     ]
   ),
   NAV_LINKS[1],

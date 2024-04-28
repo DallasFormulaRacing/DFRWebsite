@@ -1,100 +1,639 @@
 {
-    "aerodynamics": {
-        "title": "Aerodynamics",
-        "meetingTime": "Thursdays @ 4 pm and 5:30 pm",
-        "description": "This team focuses on aerodynamic development in the search for reducing lap times. The main component focus will be on downforce devices, bodywork drag reduction, and cooling.",
-        "header": {
-            "image": "/AeroMap.jpg",
-            "lead": {
-                "image": "/assets/team/Spring2024Officers/JohnMcAlister.jpg",
-                "name": "John McAlister",
-                "email": "john.mcalister@utdallas.edu",
-                "title": "AERODYNAMICS Lead",
-                "quote": "\"This team has been the perfect opportunity for me to explore my passion for motorsport engineering and has let me find a niche at UTD that I deeply care about. This team has let me teach other passionate individuals about topics I care about, which is something I'm very grateful for. I hope I can continue this process of learning and teaching for future members to continue to benefit from.\""
-            }
-        },
-        "projects": [
-            {
-                "title": "DESIGN",
-                "description": "Design of front and rear wing. Researching undertray, sidepods, turning vanes, and dive plane."
-            },
-            {
-                "title": "AUTOMATION",
-                "description": "Streamlining design process with Siemens NX and HPC and making large amounts of data easy to understand"
-            },
-            {
-                "title": "VEHICLE DYNAMICS",
-                "description": "Understanding of how a car responds to driver input and static conditions - downforce goals for aero balance"
-            },
-            {
-                "title": "SIMULATIONS",
-                "description": "Understanding the vehicle's behavior before running physical parts"
-            }
-        ],
-        "gallery": [
-            {
-                "source": "/assets/NewPictures/IMG_6808-2.jpg",
-                "alt": "placeholder alt text"
-            }
-        ],
-        "skills": {
-            "title": "SKILLS",
-            "description": "New members can expect to gain practical experience with aero and vehicle dynamics. They will experience the full engineering process, from research & development, prototyping, design, and finally testing & validation. Throughout the design process members will gain proficiency with professional software such as SolidWorks and StarCCM+ to aid in their design process. They will get opportunities to manage projects and work with other sub-teams to make their projects more effective. Additionally, members should expect to gain a plethora of soft skills such as speaking, collaboration, and more. This should lead to well-rounded members that can easily transition into the industry.",
-            "image": "/assets/team/ICPages/Aerodynamics/22aeropackage.png"
-        },
-        "newMembers": {
-            "title": "NEW MEMBERS",
-            "description": "New members will walk through a semester long course to prepare them for component design in spring. Throughout each stage in the learning process, members will take part in projects that support the necessary concepts and will act as a metric for their progress. In the end, we aim to provide a practical aerospace experience that is not present anywhere else at UTD.",
-            "image": "/assets/team/ICPages/Aerodynamics/AeroStreamlines.png"
-        }
+  "aerodynamics": {
+    "title": "Aerodynamics",
+    "meetingTime": "Thursdays @ 4 pm and 5:30 pm",
+    "description": "This team focuses on aerodynamic development in the search for reducing lap times. The main component focus will be on downforce devices, bodywork drag reduction, and cooling.",
+    "header": {
+      "image": "/AeroMap.jpg",
+      "lead": {
+        "image": "/assets/team/Spring2024Officers/JohnMcAlister.jpg",
+        "name": "John McAlister",
+        "email": "john.mcalister@utdallas.edu",
+        "title": "AERODYNAMICS Lead",
+        "quote": "\"This team has been the perfect opportunity for me to explore my passion for motorsport engineering and has let me find a niche at UTD that I deeply care about. This team has let me teach other passionate individuals about topics I care about, which is something I'm very grateful for. I hope I can continue this process of learning and teaching for future members to continue to benefit from.\""
+      }
     },
-    "chassis": {
-        "title": "Chassis",
-        "meetingTime": "",
-        "description": "Working as the backbone of the vehicle, a well-designed chassis will promote better performance of the vehicle, safety, and comfort to the driver. Strict FSAE rules must be followed to ensure a properly designed frame will protect the driver at all times. This being the case, there continue to be endless design possibilities that allow young engineers to design a chassis that can take a vehicles performance to its fullest extent. An understanding of vehicle dynamics, manufacturing, driver ergonomics, and integration of other vehicle subsystems is needed to successfully build a chassis. For this reason, members with diverse set skills and passion to learn is required. ",
-        "header": {
-            "image": "/assets/team/ICPages/Chassis/Chasis-1.png",
-            "lead": {
-                "image": "/assets/team/Spring2024Officers/EthanGamero.jpg",
-                "name": "Ethan Gamero",
-                "email": "eag180006@utdallas.edu",
-                "title": "Chassis Lead",
-                "quote": "\"I'm exicted to be your 2024 and 2025 chassis lead!\""
-            }
-        },
-        "projects": [
-            {
-                "title": "DESIGN",
-                "description": "Design of front and rear wing. Researching undertray, sidepods, turning vanes, and dive plane."
-            },
-            {
-                "title": "AUTOMATION",
-                "description": "Streamlining design process with Siemens NX and HPC and making large amounts of data easy to understand"
-            },
-            {
-                "title": "VEHICLE DYNAMICS",
-                "description": "Understanding of how a car responds to driver input and static conditions - downforce goals for aero balance"
-            },
-            {
-                "title": "SIMULATIONS",
-                "description": "Understanding the vehicle's behavior before running physical parts"
-            }
-        ],
-        "gallery": [
-            {
-                "source": "/assets/team/ICPages/Chassis/2024Chassis.jpeg",
-                "alt": "placeholder alt text"
-            }
-        ],
-        "skills": {
-            "title": "SKILLS",
-            "description": "New members can expect to gain practical experience with aero and vehicle dynamics. They will experience the full engineering process, from research & development, prototyping, design, and finally testing & validation. Throughout the design process members will gain proficiency with professional software such as SolidWorks and StarCCM+ to aid in their design process. They will get opportunities to manage projects and work with other sub-teams to make their projects more effective. Additionally, members should expect to gain a plethora of soft skills such as speaking, collaboration, and more. This should lead to well-rounded members that can easily transition into the industry.",
-            "image": "/assets/team/ICPages/Aerodynamics/22aeropackage.png"
-        },
-        "newMembers": {
-            "title": "NEW MEMBERS",
-            "description": "New members will walk through a semester long course to prepare them for component design in spring. Throughout each stage in the learning process, members will take part in projects that support the necessary concepts and will act as a metric for their progress. In the end, we aim to provide a practical aerospace experience that is not present anywhere else at UTD.",
-            "image": "/assets/team/ICPages/Aerodynamics/AeroStreamlines.png"
-        }
+    "projects": [
+      {
+        "title": "DESIGN",
+        "description": "Design of front and rear wing. Researching undertray, sidepods, turning vanes, and dive plane."
+      },
+      {
+        "title": "AUTOMATION",
+        "description": "Streamlining design process with Siemens NX and HPC and making large amounts of data easy to understand"
+      },
+      {
+        "title": "VEHICLE DYNAMICS",
+        "description": "Understanding of how a car responds to driver input and static conditions - downforce goals for aero balance"
+      },
+      {
+        "title": "SIMULATIONS",
+        "description": "Understanding the vehicle's behavior before running physical parts"
+      }
+    ],
+    "gallery": [
+      {
+        "source": "/assets/NewPictures/IMG_6808-2.jpg",
+        "alt": "placeholder alt text"
+      }
+    ],
+    "skills": {
+      "title": "SKILLS",
+      "description": "New members can expect to gain practical experience with aero and vehicle dynamics. They will experience the full engineering process, from research & development, prototyping, design, and finally testing & validation. Throughout the design process members will gain proficiency with professional software such as SolidWorks and StarCCM+ to aid in their design process. They will get opportunities to manage projects and work with other sub-teams to make their projects more effective. Additionally, members should expect to gain a plethora of soft skills such as speaking, collaboration, and more. This should lead to well-rounded members that can easily transition into the industry.",
+      "image": "/assets/team/ICPages/Aerodynamics/22aeropackage.png"
+    },
+    "newMembers": {
+      "title": "NEW MEMBERS",
+      "description": "New members will walk through a semester long course to prepare them for component design in spring. Throughout each stage in the learning process, members will take part in projects that support the necessary concepts and will act as a metric for their progress. In the end, we aim to provide a practical aerospace experience that is not present anywhere else at UTD.",
+      "image": "/assets/team/ICPages/Aerodynamics/AeroStreamlines.png"
     }
+  },
+  "chassis": {
+    "title": "Chassis",
+    "meetingTime": "",
+    "description": "Working as the backbone of the vehicle, a well-designed chassis will promote better performance of the vehicle, safety, and comfort to the driver. Strict FSAE rules must be followed to ensure a properly designed frame will protect the driver at all times. This being the case, there continue to be endless design possibilities that allow young engineers to design a chassis that can take a vehicles performance to its fullest extent. An understanding of vehicle dynamics, manufacturing, driver ergonomics, and integration of other vehicle subsystems is needed to successfully build a chassis. For this reason, members with diverse set skills and passion to learn is required. ",
+    "header": {
+      "image": "/assets/team/ICPages/Chassis/Chasis-1.png",
+      "lead": {
+        "image": "/assets/team/Spring2024Officers/EthanGamero.jpg",
+        "name": "Ethan Gamero",
+        "email": "eag180006@utdallas.edu",
+        "title": "Chassis Lead",
+        "quote": "\"I'm exicted to be your 2024 and 2025 chassis lead!\""
+      }
+    },
+    "projects": [
+      {
+        "title": "DESIGN",
+        "description": "Design of front and rear wing. Researching undertray, sidepods, turning vanes, and dive plane."
+      },
+      {
+        "title": "AUTOMATION",
+        "description": "Streamlining design process with Siemens NX and HPC and making large amounts of data easy to understand"
+      },
+      {
+        "title": "VEHICLE DYNAMICS",
+        "description": "Understanding of how a car responds to driver input and static conditions - downforce goals for aero balance"
+      },
+      {
+        "title": "SIMULATIONS",
+        "description": "Understanding the vehicle's behavior before running physical parts"
+      }
+    ],
+    "gallery": [
+      {
+        "source": "/assets/team/ICPages/Chassis/2024Chassis.jpeg",
+        "alt": "placeholder alt text"
+      }
+    ],
+    "skills": {
+      "title": "SKILLS",
+      "description": "New members can expect to gain practical experience with aero and vehicle dynamics. They will experience the full engineering process, from research & development, prototyping, design, and finally testing & validation. Throughout the design process members will gain proficiency with professional software such as SolidWorks and StarCCM+ to aid in their design process. They will get opportunities to manage projects and work with other sub-teams to make their projects more effective. Additionally, members should expect to gain a plethora of soft skills such as speaking, collaboration, and more. This should lead to well-rounded members that can easily transition into the industry.",
+      "image": "/assets/team/ICPages/Aerodynamics/22aeropackage.png"
+    },
+    "newMembers": {
+      "title": "NEW MEMBERS",
+      "description": "New members will walk through a semester long course to prepare them for component design in spring. Throughout each stage in the learning process, members will take part in projects that support the necessary concepts and will act as a metric for their progress. In the end, we aim to provide a practical aerospace experience that is not present anywhere else at UTD.",
+      "image": "/assets/team/ICPages/Aerodynamics/AeroStreamlines.png"
+    }
+  },
+  "composites": {
+    "title": "Composites",
+    "meetingTime": "Thursdays @ 7 pm",
+    "description": "Composites manufactures all body panels including the body covering. We work with the Aerodynamics Team to build feasible designs.",
+    "header": {
+      "image": "",
+      "lead": {
+        "image": "/assets/team/Spring2024Officers/DerekFuhr.jpg",
+        "name": "Derek Fuhr",
+        "email": "Email: daf200000@utdallas.edu",
+        "title": "Composites Lead",
+        "quote": ""
+      }
+    },
+    "projects": [
+      {
+        "title": "Aero Package",
+        "description": "Work with sponsors to integrate composite manufacturing techniques: resin infusion, wet layups, and pre-preg"
+      },
+      {
+        "title": "Sidepods & Nosecone",
+        "description": "Work closely with the aerodynamics team to develop carbon fiber nosecone and sidepods"
+      },
+      {
+        "title": "Vehicle Dynamics",
+        "description": "Develop an understanding of carbon fiber’s weight reduction on high speeds"
+      },
+      {
+        "title": "",
+        "description": ""
+      }
+    ],
+    "gallery": [
+      {
+        "source": "/assets/team/ICPages/Composites/Skills.png",
+        "alt": "placeholder alt text"
+      }
+    ],
+    "skills": {
+      "title": "SKILLS",
+      "description": "Design molds using CAD software. Use CAD software to do finite element analysis and verify others Oversee and consult on manufacturable composite parts. Report and document the engineering process. Determine which materials to use and how to use them safely. Utilizing CAD software, conduct finite element analysis, oversee manufacturable composite parts, report engineering processes, determine materials and safety protocols, ensuring team members grasp material usage, manufacturing techniques, inter-team communication, and project management.",
+      "image": ""
+    },
+    "newMembers": {
+      "title": "NEW MEMBERS",
+      "description": "Joining the composites team offers more than mold-making; biweekly classes delve into composite theory, supplemented by hands-on lab sessions for practical experience in layups and techniques.",
+      "image": ""
+    }
+  },
+  "electrical": {
+    "title": "Electrical",
+    "meetingTime": "Undetermined",
+    "description": "The electrical sub team is responsible for the design and execution of the vehicle’s electrical systems, including the ECU, wire harness, safety systems, and data acquisition.",
+    "header": {
+      "image": "",
+      "lead": {
+        "image": "/assets/team/Spring2024Officers/NateHo.jpg",
+        "name": "Nate Ho",
+        "email": "Email: nate.ho@utdallas.edu",
+        "title": "Electrial Lead",
+        "quote": "Working with DFR has been my most enjoyable way in building experience while exploring the different technologies that are available to me as a potential career path. The amount of exposure and knowledge I received over the years is invaluable. I am looking forward to sharing these experiences with future members and see the fruit of their work on a functional formula race car!"
+      }
+    },
+    "projects": [
+      {
+        "title": "Wire harness",
+        "description": "Using the PE3 ECU for the custom wiring harness. Working with mechanical relays, fuses, logics and other sensors to ensure that the harness can make the car run"
+      },
+      {
+        "title": "PCB",
+        "description": "Custom PCB are used to allow for the embedded system to come in a better package. It allows for professional packing and waterproof connector"
+      },
+      {
+        "title": "EV",
+        "description": "This is a brand new division within the team that leading the team in transitioning the team from internal combustion to electric."
+      },
+      {
+        "title": "",
+        "description": ""
+      }
+    ],
+    "gallery": [
+      {
+        "source": "/assets/team/ICPages/Electrical/Skills.png",
+        "alt": "placeholder alt text"
+      }
+    ],
+    "skills": {
+      "title": "SKILLS",
+      "description": "The all projects regardless if you are working on the gasoline or electric car, we don’t required you to have the knowledge. What we look for is dedication and communication within the team. For both sides of the team you will be spending a lot of time looking of part data sheets, ruling basic calculation. Communication is a very critical part of the team espically in EV car development since this is a frontier for everyone involved.",
+      "image": ""
+    },
+    "newMembers": {
+      "title": "NEW MEMBERS",
+      "description": "Members aren’t required to have any outside knowledge. I was intimidated by the electrical team due to all the parts that were involved. However, we want members who are willing to learn and stick with the team. Our goal is to make sure that each dedicated member is confident in taking on projects and leading members within the team.",
+      "image": ""
+    }
+  },
+  "embedded": {
+    "title": "Embedded",
+    "meetingTime": "Wednesdays @ 1 pm",
+    "description": "The Embedded sub-team is responsible for designing the Dashboard Infotainment Display, Wireless Communication, and Data Acquisition (DAQ) system for sampling data from sensors. To accomplish this, we leverage various platforms and program them to suit our needs — bringing firmware to the hardware.",
+    "header": {
+      "image": "",
+      "lead": {
+        "image": "/assets/team/Spring2024Officers/CristianCruz.jpg",
+        "name": "Cristian Cruz",
+        "email": "Email: cac190010@utdallas.edu",
+        "title": "Embedded Lead",
+        "quote": "Working with DFR has been my most enjoyable way in building experience while exploring the different technologies that are available to me as a potential career path. The amount of exposure and knowledge I received over the years is invaluable. I am looking forward to sharing these experiences with future members and see the fruit of their work on a functional formula race car!"
+      }
+    },
+    "projects": [
+      {
+        "title": "Data Acquisition System (DAQ)",
+        "description": "Interfacing with sensors \n Data logging"
+      },
+      {
+        "title": "Dashboard Display",
+        "description": "Reading data from the ECU & DAQ \n Display infotainment to the driver"
+      },
+      {
+        "title": "R&D",
+        "description": "Wireless communication \n Sensor fusion"
+      },
+      {
+        "title": "",
+        "description": ""
+      }
+    ],
+    "gallery": [
+      {
+        "source": "/assets/team/ICPages/Embedded/Skills.png",
+        "alt": "placeholder alt text"
+      }
+    ],
+    "skills": {
+      "title": "SKILLS",
+      "description": "New members will build experience in programming in a low-level language in such a way where the resulting code is robust enough to be re-usable, clean, and maintainable — this is done using Object-Oriented Programming and Polymorphism. Working with embedded systems will bring exposure to bit shifting matching, communication protocols, and interfacing with external devices. Members will be distributed their own projects of prototyping a feature, while following an Agile workflow, and be exposed to both bare-metal programming and embedded Linux.",
+      "image": ""
+    },
+    "newMembers": {
+      "title": "NEW MEMBERS",
+      "description": "New members will begin with programming components that are closely intertwined with electrical hardware. By doing so, members will become exposed to the low-level development environment, version control, team workflow, and testing. The resulting implementation will be added as a feature of the vehicle’s embedded system.",
+      "image": "/assets/team/ICPages/Embedded/NewMembers.png"
+    }
+  },
+  "ergonomics": {
+    "title": "Ergonomics",
+    "meetingTime": "Mondays @ 6 pm",
+    "description": "This team focuses on crucial ergonomic and control systems of the vehicle including the steering wheel, brakes system, and shifting system.",
+    "header": {
+      "image": "",
+      "lead": {
+        "image": "/assets/team/Spring2024Officers/JamesMoushegian.jpg",
+        "name": "James Moushegian",
+        "email": "Email: jam170010@utdallas.edu",
+        "title": "Ergonomics Lead",
+        "quote": "This team has introduced me to the real world of engineering. I have been able to develop myself as an engineer by working as a part of a dedicated engineering team and gaining experience that will help me in the real world. I find myself surrounded by like-minded and passionate individuals all working together towards a common goal, being fast!"
+      }
+    },
+    "projects": [
+      {
+        "title": "Pedal Box",
+        "description": "Work on the mechanical system, including the throttle and brake pedals, and associated mounting mechanisms, to ensure optimum driver feel and endurance for autocross-style racing events."
+      },
+      {
+        "title": "Steering and Dash",
+        "description": "Optimize the driver's interface for smooth gear changes by ensuring optimal mounting of switches, displays, and dash/DAQ, facilitating seamless integration and functionality."
+      },
+      {
+        "title": "Braking System",
+        "description": "Manage braking system components to achieve compliance with SAE rules by enabling all four-wheel lockup while minimizing weight to enhance vehicle dynamics."
+      },
+      {
+        "title": "Driver Ergonomics",
+        "description": "Ensure optimal driver environment within the chassis to maximize lap times by fine-tuning all associated systems."
+      }
+    ],
+    "gallery": [
+      {
+        "source": "/assets/team/ICPages/Ergonomics/Gallery1.png",
+        "alt": "placeholder alt text"
+      }
+    ],
+    "skills": {
+      "title": "SKILLS",
+      "description": "Solidworks, Microsoft Excel, and MATLAB are commonly used software tools in engineering.",
+      "image": "/assets/team/ICPages/Ergonomics/Skills.png"
+    },
+    "newMembers": {
+      "title": "NEW MEMBERS",
+      "description": "At first, you may be faced with challenges, but if you allow yourself to persevere through them you will find yourself learning new things that will stick with you for the rest of your career. The experience you can gain on this team is invaluable to you as an individual. This team is a family and we are always more than happy to open our arms to more passionate individuals.",
+      "image": ""
+    }
+  },
+  "manufacturing": {
+    "title": "Manufacturing",
+    "meetingTime": "Contact Nolan on Discord",
+    "description": "The electrical sub team is responsible for the design and execution of the vehicle’s electrical systems, including the ECU, wire harness, safety systems, and data acquisition.",
+    "header": {
+      "image": "",
+      "lead": {
+        "image": "/assets/team/Spring2024Officers/NolanWestrope.jpg",
+        "name": "Nolan Westrope",
+        "email": "Email: njw200000@utdallas.edu",
+        "title": "Manufacturing Lead",
+        "quote": "This team helped me expand my knowledge not only in mechanical engineering but also in the fabrication of parts. By having some understanding of the fabrication process, I can design better parts that are more feasible, and I understand the drawbacks that each manufacturing process has."
+      }
+    },
+    "projects": [
+      {
+        "title": "Component Design",
+        "description": "Designing the chassis jigs for the new chassis Machining the rear uprights."
+      },
+      {
+        "title": "Research and Development",
+        "description": "Planning the next few months for the manufacturing Documenting every step of the process."
+      },
+      {
+        "title": "",
+        "description": ""
+      },
+      {
+        "title": "",
+        "description": ""
+      }
+    ],
+    "gallery": [
+      {
+        "source": "/assets/team/ICPages/Ergonomics/Skills.png",
+        "alt": "placeholder alt text"
+      }
+    ],
+    "skills": {
+      "title": "SKILLS",
+      "description": "Use CAD programming to design jigs and fixtures Determine and oversee the manufacturing process for making parts Measure and reduce tolerances Work with others to plan out the manufacturing process for certain components Report and document engineering processes. Members will work hands on with parts and engineering drawings provided by the design teams. The manufacturing process will require members to design, weld, and machine various parts for the car. This process involves working closely with other subteams in order to see through the entire manufacturing process.",
+      "image": ""
+    },
+    "newMembers": {
+      "title": "NEW MEMBERS",
+      "description": "New members can expect to learn how the car is manufactured and how the different components are made. They can learn how to design jigs and fixtures for welding and machining, what the different machines are used for, and how to design parts and engineering drawings for specific machines. New members also can learn how to weld and, by becoming a machine shop student worker, they can learn directly from professional machinists and can use more advanced machines.",
+      "image": ""
+    }
+  },
+  "powertrain": {
+    "title": "Powertrain",
+    "meetingTime": "Mondays @ 5:30 pm",
+    "description": "Our powertrain team deals with the engine and all supporting systems to get that power to the wheels, ending at the outer axle bearings. We are responsible for getting as much power out of a sub-700cc engine as necessary, using tools as an engine dynamometer, flow benches, along with wheel dynamometer to analyze and improve our package.",
+    "header": {
+      "image": "",
+      "lead": {
+        "image": "/assets/team/Spring2024Officers/BrandonShaffer.jpg",
+        "name": "Brandon Shaffer",
+        "email": "Email: bws210000@utdallas.edu",
+        "title": "Powertrain Lead",
+        "quote": "The engine and drivetrain are the heart of the racecar. Through our work on the team, it is important to understand the power that a small spark can have when in the perfect environment. My goal on the powertrain is to provide that perfect environment so that every spark achieves its maximum potential and has the greatest impact- both figuratively on the team and literally within the engine. Bridging the gap between the textbook and the track is one of the most challenging aspects of engineering; we chase it steadily, one lap at a time."
+      }
+    },
+    "projects": [
+      {
+        "title": "Intake and Exhaust",
+        "description": "Design a 3d printed intake manifold with the primary goal of providing equal airflow to all four cylinders. Future plans include optimizing plenum volume and runner length for low-end torque. Design an equal-length header exhaust optimizing scavenging while maintaining manufacturability"
+      },
+      {
+        "title": "Drivetrain",
+        "description": "Choosing the best differential for the vehicle’s use and creating a differential mount to withstand the forces applied while maintaining a final drive ratio that prioritizes the highest traction limit."
+      },
+      {
+        "title": "Cooling",
+        "description": "Designing an efficient radiator that can be easily validated along with the ergonomics of the cooling system."
+      },
+      {
+        "title": "Fuel",
+        "description": "Designing a fuel tank in order to prevent sloshing and starving the engine of fuel with baffles, as well as tuning the engine for reliability with an optimal air-fuel ratio."
+      }
+    ],
+    "gallery": [
+      {
+        "source": "/assets/team/ICPages/Powertrain/Skills.png",
+        "alt": "placeholder alt text"
+      }
+    ],
+    "skills": {
+      "title": "SKILLS",
+      "description": "Being a member of Powertrain (this applies to many other subteams as well), you can learn concepts taught in senior-level engineering courses and beyond, such as Solidworks and FEA/fluid simulations, fluid mechanics, heat transfer, design of mechanical systems, and statics/dynamics.",
+      "image": ""
+    },
+    "newMembers": {
+      "title": "NEW MEMBERS",
+      "description": "The number one quality of a new member is motivation and being eager to learn. We would much rather work with someone who does not know anything about cars but is willing to learn, than someone that thinks they know everything. FSAE is a lot more work than your average organization, so those that continue to stick with it and always looking for ways to improve are the ones that stand out.",
+      "image": ""
+    }
+  },
+  "software": {
+    "title": "Software",
+    "meetingTime": "Mondays @ 5:30 pm",
+    "description": "The software subteam specializes in creating programs that help collect and analyze data for our race car. Whenever we push our car to the limit, we need to make sure that all of our components are running smoothly. Our projects like DataAnalyzer and PitSoftware help us do just that.",
+    "header": {
+      "image": "",
+      "lead": {
+        "image": "/assets/team/Spring2024Officers/NoelJohnson.jpg",
+        "name": "Noel Johnson",
+        "email": "Email: nxj190008@utdallas.edu",
+        "title": "Software Lead",
+        "quote": "Being a part of this team has taught me so much about the parts of the car and how they interact with each other. I came into this team with a passion for programming and engineering and was able to watch both of these disciplines interact with each other to form a cohesive product. I hope to involve more people and teach them how to program and how we use it to analyze vehicle dynamics."
+      }
+    },
+    "projects": [
+      {
+        "title": "Visualizations",
+        "description": "Creating visualizations for steering, pedals, throttle, and brakes. Designing accelerometer"
+      },
+      {
+        "title": "GPS",
+        "description": "Overlaying speed to show where someone is accelerating, braking. Setting starting/ending points of a lap"
+      },
+      {
+        "title": "Custom Math Channels",
+        "description": "Converting abstract data into tangible figures. Using equations and applying transformations."
+      },
+      {
+        "title": "Quality of Life",
+        "description": "Enchancing user experience."
+      }
+    ],
+    "gallery": [
+      {
+        "source": "/assets/team/ICPages/Software/Skills.png",
+        "alt": "placeholder alt text"
+      }
+    ],
+    "skills": {
+      "title": "SKILLS",
+      "description": "New members can learn about how to use Git and how we use repositories to manage and add contributions. They will also learn about programming in a group environment and interacting with engineers to cater to their needs. These members will also learn how to code in Java Swing and create GUIs.",
+      "image": ""
+    },
+    "newMembers": {
+      "title": "NEW MEMBERS",
+      "description": "New members joining the team can gain insight into the role of data in optimizing vehicle setup and develop skills in creating user-friendly products for fellow sub-team members. They will also learn to collaborate with other sub-teams to integrate their ideas into the DataAnalyzer project. Our primary focus currently is on enhancing the functionality of the DataAnalyzer program, dedicated to analyzing data from the car's ECU and sensors, with ongoing efforts to incorporate additional channels for analysis.",
+      "image": ""
+    }
+  },
+  "steering": {
+    "title": "Steering",
+    "meetingTime": "Undetermined",
+    "description": "",
+    "header": {
+      "image": "",
+      "lead": {
+        "image": "/assets/team/Spring2024Officers/DillonSaulsberry.jpg",
+        "name": "Dillon Saulsberry",
+        "email": "Email: dxs200078@utdallas.edu",
+        "title": "Steering Lead",
+        "quote": "In the past few years of my time here at UTD, I would say that the best decision I made was most definitely joining Dallas Formula Racing back in my freshman year. With this team, I was able to jump-start my growth as a young mechanical engineer and further strengthen my love for automotive design through the team’s provision of exciting engineering projects and guidance from seniors. In addition, I’ve had many wonderful experiences outside of engineering through my interactions with my loveable, kindhearted, and talented peers. I’m looking forward to continuing my role as steering lead and sharing my learning experiences with all who decide to join my team!"
+      }
+    },
+    "projects": [
+      {
+        "title": "Design",
+        "description": " The scaled-down 3D printed steering system model comprises a steering column, bevel gearbox, steering rack, tie-rods, and steering arms."
+      },
+      {
+        "title": "Development",
+        "description": "Conduct research into power-assisted steering and rear-wheel steering technologies."
+      },
+      {
+        "title": "Dynamics",
+        "description": "Model and optimize lap-time devices, focusing on steady-state cornering as well as modeling and optimizing transient cornering dynamics."
+      },
+      {
+        "title": "",
+        "description": ""
+      }
+    ],
+    "gallery": [
+      {
+        "source": "/assets/team/ICPages/Steering/Gallery1.png",
+        "alt": "placeholder alt text"
+      }
+    ],
+    "skills": {
+      "title": "SKILLS",
+      "description": "Members will engage in mechanical design, vehicle dynamics, and computer-aided design (CAD) using tools like SolidWorks for modeling and structural finite element analysis (FEA), as well as simulation software such as Ansys and MATLAB/Simulink for microcontroller programming. Throughout projects, they will follow the engineering design process, from problem identification to research, prototyping, design, verification, overseeing manufacturing, and validation. Additionally, members will document their progress through organizers and research papers, preparing progress presentations each semester, while also acquiring other technical skills relevant to their projects.",
+      "image": "/assets/team/ICPages/Steering/Skills.png"
+    },
+    "newMembers": {
+      "title": "NEW MEMBERS",
+      "description": "New members are expected to learn the fundamentals of FSAE steering systems which includes their mechanical/electrical components, geometry, and dynamic behavior. To ensure that people of all skill levels are accommodated, projects will be provided based on a member’s expertise and from thereon, an increase in difficulty per project completion. Members are given the freedom to work on their projects at their own pace, however, it’s highly recommended that a member puts in the effort to attend all weekly meetings, learn their subject (e.g. reading textbooks, reading research articles, researching online, etc.), produce quality work, and complete assigned tasks by their deadline.",
+      "image": ""
+    }
+  },
+  "suspension": {
+    "title": "Suspension",
+    "meetingTime": "Undetermined",
+    "description": "The suspension system is designed to maintain the tire’s contact patch with the road in the optimal position during steady-state and transient conditions. The suspension must absorb bumps in the road to allow the sprung mass (chassis, driver, engine, etc.), which is the components supported by the springs, to actuate under accelerations. The suspension geometry controls the motion relative motion between the wheel and the unsprung mass, which are the components of the vehicle not supported by the springs (wheel, upright, hub, caliper, etc.), and the sprung mass, and allows the force to be transferred between them.",
+    "header": {
+      "image": "",
+      "lead": {
+        "image": "/assets/team/Spring2024Officers/ZheerSeyan.jpg",
+        "name": "Zheer Seyan",
+        "email": "Email: zjs210000@utdallas.edu",
+        "title": "Suspension Lead",
+        "quote": "Dallas Formula Racing has given me the opportunity to develop my skills as a young engineer while keeping my passion for motorsports alive. Experiencing the engineering design process through hands-on work is one of the most exciting aspects of this team and something I can apply elsewhere and into the future. I have grown a lot through the help of mentors and challenging projects, and I hope to continue this cycle for many passionate engineers."
+      }
+    },
+    "projects": [
+      {
+        "title": "Develop",
+        "description": "Components that can be easily manufactured."
+      },
+      {
+        "title": "Understand",
+        "description": "Vehicle dynamics and how the system (car), should behave as a whole."
+      },
+      {
+        "title": "Matlab",
+        "description": "Run Matlab for simulation scripts and handling large sets of data."
+      },
+      {
+        "title": "Analyze",
+        "description": "Tire behaviors and tire graphs."
+      }
+    ],
+    "gallery": [
+      {
+        "source": "/assets/team/ICPages/Suspension/Skills.png",
+        "alt": ""
+      }
+    ],
+    "skills": {
+      "title": "SKILLS",
+      "description": "Utilizing Solidworks for CAD, conduct kinematic analysis alongside FEA for fatigue and buckling analysis, while emphasizing communication and project management skills.",
+      "image": ""
+    },
+    "newMembers": {
+      "title": "NEW MEMBERS",
+      "description": "The suspension team has one main objective which is to make the car handle and perform as best as possible. Formula SAE tracks consist of almost 80% corners and turns so the performance comes from mechanical grip. Our goal is to get the most out of our tires as possible. Our goal for new team members is to teach them as much as we can so we can make this happen as a team.",
+      "image": ""
+    }
+  },
+  "ev-mechanical": {
+    "title": "EV Mechanical",
+    "meetingTime": "Undetermined",
+    "description": "The suspension system is designed to maintain the tire’s contact patch with the road in the optimal position during steady-state and transient conditions. The suspension must absorb bumps in the road to allow the sprung mass (chassis, driver, engine, etc.), which is the components supported by the springs, to actuate under accelerations. The suspension geometry controls the motion relative motion between the wheel and the unsprung mass, which are the components of the vehicle not supported by the springs (wheel, upright, hub, caliper, etc.), and the sprung mass, and allows the force to be transferred between them.",
+    "header": {
+      "image": "",
+      "lead": {
+        "image": "/assets/team/Spring2024Officers/ZheerSeyan.jpg",
+        "name": "Zheer Seyan",
+        "email": "Email: zjs210000@utdallas.edu",
+        "title": "Suspension Lead",
+        "quote": "Dallas Formula Racing has given me the opportunity to develop my skills as a young engineer while keeping my passion for motorsports alive. Experiencing the engineering design process through hands-on work is one of the most exciting aspects of this team and something I can apply elsewhere and into the future. I have grown a lot through the help of mentors and challenging projects, and I hope to continue this cycle for many passionate engineers."
+      }
+    },
+    "projects": [
+      {
+        "title": "Develop",
+        "description": "Components that can be easily manufactured."
+      },
+      {
+        "title": "Understand",
+        "description": "Vehicle dynamics and how the system (car), should behave as a whole."
+      },
+      {
+        "title": "Matlab",
+        "description": "Run Matlab for simulation scripts and handling large sets of data."
+      },
+      {
+        "title": "Analyze",
+        "description": "Tire behaviors and tire graphs."
+      }
+    ],
+    "gallery": [
+      {
+        "source": "/assets/team/ICPages/Suspension/Skills.png",
+        "alt": ""
+      }
+    ],
+    "skills": {
+      "title": "SKILLS",
+      "description": "Utilizing Solidworks for CAD, conduct kinematic analysis alongside FEA for fatigue and buckling analysis, while emphasizing communication and project management skills.",
+      "image": ""
+    },
+    "newMembers": {
+      "title": "NEW MEMBERS",
+      "description": "The suspension team has one main objective which is to make the car handle and perform as best as possible. Formula SAE tracks consist of almost 80% corners and turns so the performance comes from mechanical grip. Our goal is to get the most out of our tires as possible. Our goal for new team members is to teach them as much as we can so we can make this happen as a team.",
+      "image": ""
+    }
+  },
+  "ev-electrical": {
+    "title": "EV Electrical",
+    "meetingTime": "Undetermined",
+    "description": "The suspension system is designed to maintain the tire’s contact patch with the road in the optimal position during steady-state and transient conditions. The suspension must absorb bumps in the road to allow the sprung mass (chassis, driver, engine, etc.), which is the components supported by the springs, to actuate under accelerations. The suspension geometry controls the motion relative motion between the wheel and the unsprung mass, which are the components of the vehicle not supported by the springs (wheel, upright, hub, caliper, etc.), and the sprung mass, and allows the force to be transferred between them.",
+    "header": {
+      "image": "",
+      "lead": {
+        "image": "/assets/team/Spring2024Officers/ZheerSeyan.jpg",
+        "name": "Zheer Seyan",
+        "email": "Email: zjs210000@utdallas.edu",
+        "title": "Suspension Lead",
+        "quote": "Dallas Formula Racing has given me the opportunity to develop my skills as a young engineer while keeping my passion for motorsports alive. Experiencing the engineering design process through hands-on work is one of the most exciting aspects of this team and something I can apply elsewhere and into the future. I have grown a lot through the help of mentors and challenging projects, and I hope to continue this cycle for many passionate engineers."
+      }
+    },
+    "projects": [
+      {
+        "title": "Develop",
+        "description": "Components that can be easily manufactured."
+      },
+      {
+        "title": "Understand",
+        "description": "Vehicle dynamics and how the system (car), should behave as a whole."
+      },
+      {
+        "title": "Matlab",
+        "description": "Run Matlab for simulation scripts and handling large sets of data."
+      },
+      {
+        "title": "Analyze",
+        "description": "Tire behaviors and tire graphs."
+      }
+    ],
+    "gallery": [
+      {
+        "source": "/assets/team/ICPages/Suspension/Skills.png",
+        "alt": ""
+      }
+    ],
+    "skills": {
+      "title": "SKILLS",
+      "description": "Utilizing Solidworks for CAD, conduct kinematic analysis alongside FEA for fatigue and buckling analysis, while emphasizing communication and project management skills.",
+      "image": ""
+    },
+    "newMembers": {
+      "title": "NEW MEMBERS",
+      "description": "The suspension team has one main objective which is to make the car handle and perform as best as possible. Formula SAE tracks consist of almost 80% corners and turns so the performance comes from mechanical grip. Our goal is to get the most out of our tires as possible. Our goal for new team members is to teach them as much as we can so we can make this happen as a team.",
+      "image": ""
+    }
+  }
 }
