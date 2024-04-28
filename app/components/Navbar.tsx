@@ -193,7 +193,7 @@ const NAV_LINKS = [
 
 const items: MenuProps["items"] = [
     getItem(
-        <DropdownLabel label="Team" href="/team" rel="noopener noreferrer" />,
+        <DropdownLabel label="Team" href="/team/join-the-team" rel="noopener noreferrer" />,
         "/team/join-the-team",
         null,
         [
