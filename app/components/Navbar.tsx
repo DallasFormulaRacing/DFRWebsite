@@ -9,7 +9,8 @@ import { Menu, Button, Dropdown } from "antd";
 import {
     MenuFoldOutlined,
     MenuUnfoldOutlined,
-    ArrowDownOutlined
+    ArrowDownOutlined,
+    CaretDownOutlined
 } from "@ant-design/icons";
 
 type MenuItem = Required<MenuProps>["items"][number];
@@ -29,6 +30,18 @@ function getItem(
         type,
     } as MenuItem;
 }
+
+const DropdownLabel = ({ label, href, rel }: { label: string, href: string, rel: string }) => {
+    return (
+        <a
+            className={"navbarLink"}
+            href={href}
+            rel={rel}
+        >
+            {label} <CaretDownOutlined />
+        </a>
+    );
+};
 
 const IC_LINKS = {
     label: <p>IC</p>,
@@ -180,14 +193,8 @@ const NAV_LINKS = [
 
 const items: MenuProps["items"] = [
     getItem(
-        <a
-            className={"navbarLink"}
-            href="/join-the-team"
-            rel="noopener noreferrer"
-        >
-            Join the Team
-        </a>,
-        "/join-the-team",
+        <DropdownLabel label="Team" href="/team" rel="noopener noreferrer" />,
+        "/team/join-the-team",
         null,
         [
             {
