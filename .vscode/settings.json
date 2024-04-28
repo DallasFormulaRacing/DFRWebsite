@@ -1,7 +1,0 @@
-{
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
-    "prettier.tabWidth": 4,
-    "[prisma]": {
-        "editor.defaultFormatter": "Prisma.prisma"
-    }
-}
