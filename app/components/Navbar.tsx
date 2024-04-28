@@ -31,22 +31,6 @@ function getItem(
   } as MenuItem;
 }
 
-const DropdownLabel = ({
-  label,
-  href,
-  rel,
-}: {
-  label: string;
-  href: string;
-  rel: string;
-}) => {
-  return (
-    <a className={"navbarLink"} href={href} rel={rel}>
-      {label} <CaretDownOutlined />
-    </a>
-  );
-};
-
 const IC_LINKS = {
   label: <p>IC</p>,
   key: "/ic",
@@ -55,6 +39,14 @@ const IC_LINKS = {
       label: (
         <a href="/team/ic/aerodynamics" rel="noopener noreferrer">
           Aerodynamics Team
+        </a>
+      ),
+      key: "/team/ic/aerodynamics",
+    },
+    {
+      label: (
+        <a href="/team/ic/business" rel="noopener noreferrer">
+          Business Team
         </a>
       ),
       key: "/team/ic/aerodynamics",
@@ -190,11 +182,9 @@ const NAV_LINKS = [
 const items: MenuProps["items"] = [
   NAV_LINKS[0],
   getItem(
-    <DropdownLabel
-      label="Team"
-      href="/team/join-the-team"
-      rel="noopener noreferrer"
-    />,
+    <a href="/team/join-the-team" rel="noopener noreferrer" className="navbarLink">
+      Team
+    </a>,
     "/team/join-the-team",
     null,
     [
