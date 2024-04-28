@@ -38,7 +38,7 @@ Start editing any page you want! Changes you make will automatically update the 
 ```
 ├── app // main source of the frontend code, most of the development is going to happen here
 │   ├── api // Can be used to create api endpoints handled by Next.js (can be ignored for now)
-│   ├── (CarModel) // folders with parenthesis are just for organization by grouping different components under something
+│   ├── components // holds some components for pages
 │   ├── about // each folder is a page on the website that don't have (), and a contain a page.tsx
 │   │   ├── page.tsx
 │   ├── page.tsx // main entry point of the website (home page)
