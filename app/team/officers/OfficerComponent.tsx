@@ -2,20 +2,10 @@
 import React, { useState } from "react";
 import OfficerCard from "./OfficerCard";
 import { Officer, OfficerData } from "@/types/types";
-import OfficerList from "./OfficerData";
+import OfficerList from "@/data/OfficerData.json";
 import { Space } from "antd";
 
 type Props = {};
-
-const testOfficer: Officer = {
-    name: "Test Officer",
-    positions: "Test Position",
-    section: "admin",
-    year: "1 year",
-    major: "Test Major",
-    yearsOnTeam: "1 year",
-    linkedin: "https://www.linkedin.com/in/kevin-chen-1b1b1b1b1/",
-};
 
 const OfficerComponent = (props: Props) => {
     const [officerList, setOfficerList] = useState<OfficerData>(OfficerList);
@@ -32,7 +22,7 @@ const OfficerComponent = (props: Props) => {
                     }
                 >
                     {officerList.Admin.data.map((officer, index) => (
-                        <OfficerCard officer={officer} />
+                        <OfficerCard officer={officer} key={index} />
                     ))}
                 </div>
             </div>
@@ -46,7 +36,7 @@ const OfficerComponent = (props: Props) => {
                     }
                 >
                     {officerList.Engineering.data.map((officer, index) => (
-                        <OfficerCard officer={officer} />
+                        <OfficerCard officer={officer} key={index} />
                     ))}
                 </div>
             </div>
@@ -60,7 +50,7 @@ const OfficerComponent = (props: Props) => {
                     }
                 >
                     {officerList.Business.data.map((officer, index) => (
-                        <OfficerCard officer={officer} />
+                        <OfficerCard officer={officer} key={index} />
                     ))}
                 </div>
             </div>
@@ -72,7 +62,7 @@ const OfficerComponent = (props: Props) => {
                     }
                 >
                     {officerList.EV.data.map((officer, index) => (
-                        <OfficerCard officer={officer} />
+                        <OfficerCard officer={officer} key={index} />
                     ))}
                 </div>
             </div>
