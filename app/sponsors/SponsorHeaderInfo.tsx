@@ -9,7 +9,7 @@ export const SponsorHeaderInfo = (props: props) => {
         <div className={"relative"}>
             <ImageBreaks
                 image={Car2023.src}
-                imageHeight={"h-144"}
+                imageHeight={"h-224"}
                 imageFit={"object-cover"}
                 imageBrightness={"brightness-50"}
             />
