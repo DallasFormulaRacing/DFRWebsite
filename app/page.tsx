@@ -10,7 +10,8 @@ import { OrgInfo } from "./components/home/OrgInfo";
 import Sponsors from "./sponsors/SponsorComponent";
 import Hero from "./components/home/Hero";
 import GroupPhoto from "@/public/assets/team/group_photo.jpeg";
-import car_blur from "@/public/assets/NewPictures/car_blur_in_motion.jpg";
+import Car2024 from "@/public/assets/Cars/2024/2024_3.png";
+
 import Head from "next/head";
 import { motion } from "framer-motion";
 
@@ -39,20 +40,20 @@ export default function Home() {
       <AboutUs />
       <ImageBreaks
         image={Sidebysidecars.src}
-        imageHeight={"h-176"}
+        imageHeight={"h-224"}
         imageFit={"object-cover"}
       />
       <SampleProjects />
       <ImageBreaks
         image={Car2023.src}
-        imageHeight={"h-160"}
+        imageHeight={"h-224"}
         imageFit={"object-cover"}
       />
       <OrgInfo />
       <ImageBreaks
-        image={car_blur.src}
-        imageHeight={"h-144"}
-        imageFit={"object-cover"}
+        image={Car2024.src}
+        imageHeight={"h-224"}
+        imageFit={"object-cover object-bottom"}
       />
       <Sponsors />
     </main>
