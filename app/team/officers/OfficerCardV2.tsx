@@ -21,7 +21,11 @@ const OfficerCard = ({ officer }: { officer: Officer }) => {
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true }}
     >
-      <div>
+      <div
+        className={
+          "border-officer-orange border-t-2 border-x-2 w-full p-2"
+        }
+      >
         <h1 className={"text-2xl font-bold text-center mt-2"}>
           {officer.name}
         </h1>
