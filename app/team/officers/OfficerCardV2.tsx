@@ -77,7 +77,7 @@ const OfficerCard = ({ officer }: { officer: Officer }) => {
 
         <div className={"mt-4 flex justify-center gap-4 w-full"}>
           {officer.linkedin ? (
-            <Link href={officer.linkedin} rel={"noreferrer"}>
+            <Link href={officer.linkedin} target="_blank" rel={"noreferrer"}>
               <Image
                 width={40}
                 height={40}
