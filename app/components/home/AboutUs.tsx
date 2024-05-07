@@ -43,7 +43,7 @@ export const AboutUs = (props: Props) => {
           </motion.div>
 
           <iframe
-            className="w-full md:w-1/2 h-144 rounded-xl hover:scale-105 transition-transform duration-300"
+            className="w-full md:w-3/5 aspect-video rounded-xl"
             src="https://www.youtube.com/embed/vZLfhvGu2Mg"
             title="Dallas Formula Racing | FSAE Michigan 2023"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
