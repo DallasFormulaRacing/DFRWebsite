@@ -13,9 +13,11 @@ export default function Gallery() {
             <Image
               src={image.src}
               alt={`Gallery photo ${index + 1}`}
-              layout="fill"
+              fill
               objectFit="cover"
               className="object-center"
+              placeholder="blur"
+              blurDataURL="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw=="
             />
           </div>
         ))}
