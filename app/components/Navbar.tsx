@@ -175,6 +175,14 @@ const NAV_LINKS = [
     key: "/cars",
   },
   {
+    label: (
+      <a href="/gallery" rel="noopener noreferrer">
+        Gallery
+      </a>
+    ),
+    key: "/gallery"
+  },
+  {
     label: <a href="/sponsors">Sponsors</a>,
     key: "/sponsors",
   },

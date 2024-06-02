@@ -79,9 +79,10 @@ const Footer = () => {
                     <div className="flex flex-col gap-2">
                         <h3 className="text-2xl font-bold">Connect</h3>
                         <div className="flex flex-row gap-4">
-                            {SOCIAL_MEDIA.map(({ href, icon }) => {
+                            {SOCIAL_MEDIA.map(({ href, icon }, index) => {
                                 return (
                                     <a
+                                        key={index}
                                         href={href}
                                         target={"_blank"}
                                         rel={"noreferrer"}
