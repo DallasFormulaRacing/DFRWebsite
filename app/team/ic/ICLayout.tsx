@@ -3,7 +3,7 @@ import { Config } from "../../../types/ICPageConfig";
 export default function ICLayout({ config }: { config: Config }) {
     return (
     <> 
-        <section id="lead" className={"flex flex-col items-center pb-16 space-y-8 min-h-[100svh]"}>
+        <section id="lead" className={"flex flex-col justify-center items-center pb-16 space-y-8 min-h-[100svh]"}>
             <div className={"flex flex-col items-center space-y-8 pt-24 pb-10 px-8"}>
                 <div className={"font-bold text-[48px]"}>{config["title"]}</div>
                 <div className={"font-bold text-[20px] text-center"}>{"Meetings: " + config["meetingTime"]}</div>
@@ -13,7 +13,7 @@ export default function ICLayout({ config }: { config: Config }) {
             <div className="space-y-24">
                 <div className={"flex justify-center items-center flex-col px-8 md:px-32 md:flex-row"}>
                     <div className="flex justify-center flex-col py-4">
-                        <img src={config["header"]["lead"]["image"]} alt="headshot of lead" className="max-w-[300px] md:max-w-[400px] rounded-xl"/>
+                        <img src={config["header"]["lead"]["image"]} alt="headshot of lead" className="max-w-[300px] md:max-w-[400px]"/>
                         <div className={"py-4 text-center"}>
                             <div className={"p-2 font-semibold text-[32px]"}>{config["header"]["lead"]["name"]}</div>
                             <div className={"p-2 font-light text-[16px]"}>{config["header"]["lead"]["email"]}</div>
@@ -54,7 +54,7 @@ export default function ICLayout({ config }: { config: Config }) {
                 <img src={config["gallery"][0]["source"]} alt={config["gallery"][0]["alt"]} className="w-full h-full object-cover"/>
             </div>
         </section>
-        <section id="skills" className="min-h-[100svh] flex flex-col justify-center items-center">
+        <section id="skills" className="min-h-[100svh] flex flex-col justify-center items-center py-24">
             <div id="skillDesc" className={"flex justify-around flex-col md:flex-row items-center text-center leading-relaxed p-8"}>
                 <div className={"w-full md:w-2/5"}>
                     <h1 className={"font-medium text-[20px]"}>{config["skills"]["title"]}</h1>
