@@ -73,7 +73,7 @@ const Footer = () => {
                         <Link href="mailto:dallasformularacing@gmail.com">
                             Email
                         </Link>
-                        <Link href="/contact-us">Send a Message</Link>
+                        {/* <Link href="/contact-us">Send a Message</Link> */}
                     </div>
 
                     <div className="flex flex-col gap-2">

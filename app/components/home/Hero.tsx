@@ -1,13 +1,16 @@
 "use client";
 
 import { motion } from "framer-motion";
+import Image from "next/image";
+import DFRLogo from "@/public/DFR-Logo.png";
+import SAELogo from '@/public/sae_logo.png';
 
 export default function Header() {
   return (
     <div className="relative overflow-x-hidden">
       <video
         src="/assets/videos/ParkingLot.mov"
-        className="w-full h-[92svh] object-cover"
+        className="w-full min-h-[92svh] max-h-[92svh] object-cover"
         autoPlay
         muted
         loop
@@ -19,22 +22,45 @@ export default function Header() {
         animate={{ opacity: 1 }}
         transition={{ duration: 0.4, delay: 0.4 }}
       >
-        <h1 className="text-5xl md:text-8xl font-bold text-wh-75 italic">
+        <h1 className="text-5xl md:text-8xl font-extrabold text-wh-75 italic break-words">
           <motion.span
-            className="text-green-600 inline-block"
+            className="inline-block"
             animate={{ x: [-200, 0] }}
             transition={{ duration: 0.4, delay: 0.4 }}
           >
-            DALLAS FORMULA
+            UTD SAE
           </motion.span>{" "}
           <motion.span
-            className="text-orange-600 inline-block"
+            className="font-extrabold inline-block"
             animate={{ x: [200, 0] }}
             transition={{ duration: 0.4, delay: 0.4 }}
           >
-            RACING
+            Student Chapter
           </motion.span>
         </h1>
+
+        <div className="flex flex-row justify-evenly gap-8">
+          <div className="w-48 md:w-96 aspect-square relative">
+            <Image
+              src={DFRLogo}
+              alt="Dfr logo"
+              fill
+              className="object-contain"
+              placeholder="blur"
+              blurDataURL="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw=="
+              />
+          </div>
+          <div className="w-32 md:w-64 aspect-square relative">
+            <Image
+              src={SAELogo}
+              alt="Dfr logo"
+              fill
+              className="object-contain"
+              placeholder="blur"
+              blurDataURL="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw=="
+              />
+          </div>
+        </div>
       </motion.div>
     </div>
   );
