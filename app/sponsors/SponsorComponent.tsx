@@ -7,7 +7,7 @@ import SponsorIcon from "./SponsorIcon";
 import SponsorData from "@/data/SponsorData.json";
 import { motion } from "framer-motion";
 
-export const Sponsors = (props: Props) => {
+export const Sponsors = () => {
     return (
         <div className={"py-24 px-2 md:mx-40 min-h-screen"}>
             <h1 className={"text-6xl font-extrabold mt-8 text-[#045295] text-center mb-12"}>Sponsors</h1>
