@@ -11,27 +11,36 @@ type Props = {};
 
 export const SampleProjects = (props: Props) => {
     return (
-        <section className="mt-10 py-24 mx-8 md:mx-24">
+        <section className="mt-10 py-24 mx-8 min-h-screen md:mx-24">
+         <motion.h1
+            initial={{ opacity: 0, y: 50 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            className="text-6xl font-extrabold text-[#045295] mb-20"
+          >
+            Sample Projects
+          </motion.h1>
             <motion.div
                 initial={{ opacity: 0, y: 50 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
-                className="sm:grid sm:h-[500px] grid-cols-3 grid-rows-1 gap-16"
+                className="sm:grid sm:min-h-[500px] grid-cols-3 grid-rows-1 gap-16"
             >
-                <div className="col-span-1 row-span-1 flex justify-center md:block">
+                <div className="col-span-1 row-span-1 justify-center hidden md:block">
                     <Image
                         alt={"2022AeroPackage"}
                         placeholder={"blur"}
                         src={CarwithBaloons}
                         style={{ objectFit: "cover" }}
                         unoptimized
+                        className="rounded-lg"
                     />
                 </div>
-                <div className="col-span-2 row-span-1">
-                    <h1 className="text-5xl font-bold mt-8">
+                <div className="col-span-3 md:col-span-2 row-span-1">
+                    <h1 className="text-5xl font-bold text-[#045295]">
                         2022 Aerodynamics Package
                     </h1>
-                    <p className="indent-8 w-11/12 md:w-4/5 text-2xl mt-8">
+                    <p className="indent-8 leading-10 w-11/12 md:w-4/5 text-3xl mt-8">
                         Using Siemens StarCCM+, hundreds of configurations were
                         analyzed and evaluated, allowing us to estimate the
                         impact on on-track performance. This aero package was
@@ -47,13 +56,13 @@ export const SampleProjects = (props: Props) => {
                 initial={{ opacity: 0, y: 50 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
-                className="sm:grid sm:h-[500px] grid-cols-3 grid-rows-1 my-10"
+                className="sm:grid sm:min-h-[500px] grid-cols-3 grid-rows-1 my-10"
             >
-                <div className="col-span-2 row-span-1">
-                    <h1 className="text-5xl font-bold mt-8">
+                <div className="col-span-3 md:col-span-2 row-span-1">
+                    <h1 className="text-5xl font-bold text-[#045295]">
                         STEM Volunteering
                     </h1>
-                    <p className="indent-8 w-11/12 text-2xl mt-8 md:w-4/5">
+                    <p className="indent-8 w-11/12 text-3xl mt-8 md:w-4/5 leading-10">
                         Dallas Formula Racing attends various STEM events to
                         further our team's impact on a broader range of
                         students. Some of the events we have attended include
@@ -62,7 +71,7 @@ export const SampleProjects = (props: Props) => {
                         WISE kick-off meeting.
                     </p>
 
-                    <p className="indent-8 w-11/12 text-2xl mt-8 md:w-4/5">
+                    <p className="indent-8 w-11/12 text-3xl mt-8 md:w-4/5 leading-10">
                         We talk to K-12 students at these events about the
                         engineering needed to build our car and the unique
                         experiences they can gain in higher education. Through
@@ -72,20 +81,26 @@ export const SampleProjects = (props: Props) => {
                     </p>
 
                     <div className="w-11/12 md:w-4/5 text-right mt-12 md:mt-24">
-                        <Link href="/join-the-team">
-                            <button className="bg-accent-green text-wh-0 text-lg font-semibold w-40 h-12 rounded-md">
-                                Join the Team
-                            </button>
+                        <Link href="/team/join-the-team">
+                            <motion.button
+                                initial={{ opacity: 0, y: 50 }}
+                                whileInView={{ opacity: 1, y: 0 }}
+                                viewport={{ once: true }}
+                                className="bg-[#E87500] text-wh-0 text-lg font-semibold min-w-[10rem] rounded-md p-4 mt-8"
+                            >
+                                Join the team
+                            </motion.button>
                         </Link>
                     </div>
                 </div>
-                <div className="col-span-1 row-span-1 mt-8 flex justify-center md:block md:mt-0">
+                <div className="col-span-1 row-span-1 mt-8  justify-center hidden md:block md:mt-0">
                     <Image
                         alt={"2022AeroPackage"}
                         placeholder={"blur"}
                         src={CarVolunteering}
                         style={{ objectFit: "cover" }}
                         unoptimized
+                        className="rounded-lg"
                     />
                 </div>
             </motion.div>

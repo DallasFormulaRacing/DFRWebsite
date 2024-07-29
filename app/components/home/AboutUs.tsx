@@ -8,14 +8,13 @@ type Props = {};
 
 export const AboutUs = (props: Props) => {
   return (
-    <main className="px-0 leading-7 py-24">
-      <section>
-        <div className="flex flex-col justify-center items-center min-h-[500px] p-4">
+    <section className="px-8 md:px-24 py-28 min-h-screen flex flex-col justify-center items-center md:flex-row">
+        <div className="w-full min-h-[500px] md:w-1/2">
           <motion.h1
             initial={{ opacity: 0, y: 50 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
-            className="text-5xl font-bold"
+            className="text-6xl font-extrabold text-[#045295]"
           >
             About Us
           </motion.h1>
@@ -23,9 +22,9 @@ export const AboutUs = (props: Props) => {
             initial={{ opacity: 0, y: 50 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
-            className="my-8 text-center flex flex-col items-center"
+            className="my-8 flex flex-col"
           >
-            <p className="text-2xl my-4 md:w-4/5 md:text-3xl">
+            <p className="text-3xl my-4 w-11/12 leading-10">
               Dallas Formula Racing is a student-led organization at the
               University of Texas in Dallas. Our team was founded in 2014 and
               has successfully built three formula-style vehicles for the
@@ -33,36 +32,33 @@ export const AboutUs = (props: Props) => {
               results in student collaboration among four different schools at
               UT Dallas.
             </p>
-            <p className="text-2xl my-4 md:w-4/5 md:text-3xl">
+            <p className="text-3xl my-4 w-11/12 leading-10">
               We are dedicated to imparting our enthusiasm for engineering and
               math to aspiring individuals. We volunteer at STEM fairs in the
               DFW area to encourage new students to take similar paths. We leave
               a lasting impression on future innovators by demonstrating various
               STEM applications through our diverse group.
             </p>
+            <Link href="/team/join-the-team">
+              <motion.button
+                initial={{ opacity: 0, y: 50 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                className="bg-[#E87500] text-wh-0 text-lg font-semibold min-w-[10rem] rounded-md p-4 mt-8"
+              >
+                Take me to the form
+              </motion.button>
+            </Link>
           </motion.div>
-
-          <iframe
-            className="w-full md:w-3/5 aspect-video rounded-xl"
-            src="https://www.youtube.com/embed/vZLfhvGu2Mg"
-            title="Dallas Formula Racing | FSAE Michigan 2023"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            allowFullScreen
-          ></iframe>
-
-          <Link href="/about">
-            <motion.button
-              initial={{ opacity: 0, y: 50 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
-              className="bg-accent-green text-wh-0 text-lg font-semibold w-40 h-12 rounded-md mt-8"
-            >
-              Learn More
-            </motion.button>
-          </Link>
         </div>
-      </section>
-    </main>
+        <iframe
+          className="w-full h-[500px] md:w-1/2 aspect-video rounded-lg"
+          src="https://www.youtube.com/embed/vZLfhvGu2Mg"
+          title="Dallas Formula Racing | FSAE Michigan 2023"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowFullScreen
+        ></iframe>
+    </section>
   );
 };
 

@@ -4,6 +4,7 @@ import Link from "next/link";
 import Image from "next/image";
 import DFRLogo from "@/public/DFR-Logo.png";
 import DFRTyreLogo from "@/public/dfr-logo-tyre.png";
+import DFRSAELogo from "@/public/dfr-sae.png"
 import TeamPageConfigs from "@/data/TeamPageConfigs.json";
 import type { MenuProps } from "antd";
 import { Menu, Button, Dropdown } from "antd";
@@ -186,14 +187,14 @@ const NAV_LINKS = [
     label: <a href="/sponsors">Sponsors</a>,
     key: "/sponsors",
   },
-  {
-    label: (
-      <a href="/contact-us" rel="noopener noreferrer">
-        Contact Us
-      </a>
-    ),
-    key: "/contact-us",
-  },
+  // {
+  //   label: (
+  //     <a href="/contact-us" rel="noopener noreferrer">
+  //       Contact Us
+  //     </a>
+  //   ),
+  //   key: "/contact-us",
+  // },
 ];
 
 const items: MenuProps["items"] = [
@@ -229,13 +230,13 @@ const Navbar = () => {
   return (
     <header className={"mb-0"}>
       <nav className="flex items-center w-full bg-wh-900 text-wh-10 px-4 py-4">
-        <div className="basis-[10%] relative w-auto h-16">
+        <div className="relative w-48 md:w-96 h-16">
           <Link href="/" rel="noreferrer">
             <Image
               fill
               alt="logo"
               placeholder="blur"
-              src={DFRTyreLogo}
+              src={DFRSAELogo}
               className="object-contain"
             />
           </Link>

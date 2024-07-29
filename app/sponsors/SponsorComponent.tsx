@@ -1,15 +1,16 @@
+"use client";
+
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 import SponsorIcon from "./SponsorIcon";
 import SponsorData from "@/data/SponsorData.json";
-
-type Props = {};
+import { motion } from "framer-motion";
 
 export const Sponsors = (props: Props) => {
     return (
-        <div className={"py-24 px-2 md:mx-40"}>
-            <h1 className={"text-5xl font-bold text-center mb-12"}>Sponsors</h1>
+        <div className={"py-24 px-2 md:mx-40 min-h-screen"}>
+            <h1 className={"text-6xl font-extrabold mt-8 text-[#045295] text-center mb-12"}>Sponsors</h1>
             <div className={"grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4"}>
                 {SponsorData.map((_ ,index) => ( 
                     <div key={index} className="flex justify-center">
@@ -18,11 +19,16 @@ export const Sponsors = (props: Props) => {
                 ))}
             </div>
             <div className="flex items-center justify-center mt-8 md:mt-16">
-                <Link href="/contact-us">
-                    <button className="bg-accent-green text-wh-0 text-lg font-semibold w-44 h-12 rounded-md">
-                        Sponsor the Team
-                    </button>
-                </Link>
+            <Link href="/sponsors">
+                            <motion.button
+                                initial={{ opacity: 0, y: 50 }}
+                                whileInView={{ opacity: 1, y: 0 }}
+                                viewport={{ once: true }}
+                                className="bg-[#E87500] text-wh-0 text-lg font-semibold min-w-[10rem] rounded-md p-4 mt-8"
+                            >
+                                Sponsor the team
+                            </motion.button>
+                        </Link>
             </div>
         </div>
     );
