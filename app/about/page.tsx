@@ -51,7 +51,7 @@ export default function About() {
             showcase their abilities through participation in the Formula SAE
             competition.
           </p>
-          <Link href="/join-the-team">
+          <Link href="/team/join-the-team">
             <button className="bg-accent-green w-32 sm:text-lg font-semibold sm:w-48 h-14 rounded-md my-8 buttonEffect shadow-sm">
               Join
             </button>

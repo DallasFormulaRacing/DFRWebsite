@@ -70,7 +70,7 @@ const FAQ = [
                             Here is how you can join the team and get involved:
                         </p>
                         <a
-                            href="https://forms.gle/8qWnfY84g6GSEjte6"
+                            href="https://forms.office.com/r/EACF3H7WbV"
                             target="_blank"
                             rel="noopener noreferrer"
                         >
@@ -247,7 +247,7 @@ export default function Page() {
                         <h1 className="text-5xl sm:text-8xl font-bold">
                             Join the Team
                         </h1>
-                        <Link href="https://forms.office.com/Pages/ResponsePage.aspx?id=HR0ojU2c90uxbgMtFd6fbGDVZ4AHaLJJuusb0JoC9oNUQllFVjc0MUVHUFNBRFJZVzhNVTlKOFNSQS4u">
+                        <Link href="https://forms.office.com/r/EACF3H7WbV">
                             <button className="bg-accent-green w-32 sm:text-lg font-semibold sm:w-48 h-14 rounded-md mt-8 buttonEffect shadow-sm">
                                 Apply Now
                             </button>
