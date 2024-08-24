@@ -1,0 +1,54 @@
+[
+  {
+    "Major": "Accounting",
+    "Amount": 1
+  },
+  {
+    "Major": "ATEC",
+    "Amount": 1
+  },
+  {
+    "Major": "Biomedical Engineering",
+    "Amount": 3
+  },
+  {
+    "Major": "Business Administration",
+    "Amount": 8
+  },
+  {
+    "Major": "Computer Engineering",
+    "Amount": 18
+  },
+  {
+    "Major": "Computer Science",
+    "Amount": 71
+  },
+  {
+    "Major": "Electrical Engineering",
+    "Amount": 22
+  },
+  {
+    "Major": "Finance",
+    "Amount": 7
+  },
+  {
+    "Major": "Marketing",
+    "Amount": 3
+  },
+  {
+    "Major": "Mechanical Engineering",
+    "Amount": 96
+  },
+  {
+    "Major": "Physics",
+    "Amount": 1
+  },
+  {
+    "Major": "Software Engineering",
+    "Amount": 7
+  },
+  {
+    "Major": "Supply Chain Management",
+    "Amount": 4
+  }
+]
