@@ -10,7 +10,7 @@ export default function Header() {
   return (
     <div className="relative overflow-x-hidden">
       <video
-        src="/assets/videos/BrollDrivingCompressed1.mp4"
+        src="/assets/videos/BrollDrivingCompressed.mp4"
         className="w-full min-h-[92svh] max-h-[92svh] object-cover"
         autoPlay
         muted
