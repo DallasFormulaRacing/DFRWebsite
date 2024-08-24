@@ -70,13 +70,8 @@ export default function About() {
         imageFit={"object-cover"}
         imageHeight={"h-144"}
       />
-      <StatsSection />
-      <section
-        className="py-8 mx-4 grid grid-cols-2 grid-flow-row gap-2 shadow-md"
-        suppressHydrationWarning={true}
-      >
-        {/* <Demographics /> */}
-      </section>
+      {/* <StatsSection /> */}
+      {/* <Demographics /> */}
       <section id="about-us" className={"mt-10"}>
         <div className={"text-center space-y-8"}>
           <h1 className={"text-5xl font-bold text-accent-orange"}>
