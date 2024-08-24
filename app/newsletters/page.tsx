@@ -6,7 +6,7 @@ export default function Newsletters() {
   return (
     <div className="w-full">
       <section className="px-8 md:px-24 py-10">
-        <h1 className="text-6xl font-extrabold text-[#045295] mb-20">
+        <h1 className="text-6xl font-extrabold text-accent-orange mb-20">
           Newsletters
         </h1>
         <div className="flex flex-wrap justify-evenly gap-24">
@@ -34,7 +34,7 @@ export default function Newsletters() {
                 <Link
                   href={newsletter.url}
                   target="_blank"
-                  className="text-blue-600 hover:underline block text-center mt-auto"
+                  className="text-accent-orange hover:underline block text-center mt-auto"
                 >
                   Read More
                 </Link>
