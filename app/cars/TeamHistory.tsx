@@ -100,7 +100,9 @@ function TimelineItem({
     >
       {image && <TimelineImage image={image} />}
       <div>
-        <h1 className={"text-5xl font-bold mt-10 md:mt-0"}>{title}</h1>
+        <h1 className={"text-5xl font-bold mt-10 md:mt-0 text-accent-orange"}>
+          {title}
+        </h1>
         <p className={"text-2xl mt-4"}>{description}</p>
       </div>
     </motion.div>

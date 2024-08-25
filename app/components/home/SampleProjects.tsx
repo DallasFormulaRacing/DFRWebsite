@@ -3,6 +3,7 @@
 import React from "react";
 import Image from "next/image";
 import CarVolunteering from "@/public/assets/Cars/volunteer_car.jpg";
+import STEMTours from "@/public/assets/events/women_in_stem.jpg";
 import CarwithBaloons from "@/public/assets/Cars/car_baloons.jpg";
 import Link from "next/link";
 import { motion } from "framer-motion";
@@ -62,11 +63,11 @@ export const SampleProjects = (props: Props) => {
             STEM Volunteering
           </h1>
           <p className="indent-8 w-11/12 text-3xl mt-8 md:w-4/5 leading-10">
-            Dallas Formula Racing attends various STEM events to further our
-            team's impact on a broader range of students. Some of the events we
-            have attended include Westwood Jr High's Math, Science & Technology
-            Celebration Day, STEM in the Park, eWeek, and the Young WISE
-            kick-off meeting.
+            Dallas Formula Racing attends various STEM events and holds tours to
+            further our team's impact on a broader range of students. Some of
+            the events we have attended include Westwood Jr High's Math, Science
+            & Technology Celebration Day, STEM in the Park, eWeek, and the Young
+            WISE kick-off meeting.
           </p>
 
           <p className="indent-8 w-11/12 text-3xl mt-8 md:w-4/5 leading-10">
@@ -94,7 +95,7 @@ export const SampleProjects = (props: Props) => {
           <Image
             alt={"2022AeroPackage"}
             placeholder={"blur"}
-            src={CarVolunteering}
+            src={STEMTours}
             style={{ objectFit: "cover" }}
             unoptimized
             className="rounded-lg"

@@ -25,14 +25,18 @@ export const Sponsors = () => {
         ))}
       </div>
       <div className="flex items-center justify-center mt-8 md:mt-16">
-        <Link href="/sponsors">
+        <Link
+          href="/assets/sponsors/DFR_Sponsorship_Packet2024.pdf"
+          target="_blank"
+          rel="noopener"
+        >
           <motion.button
             initial={{ opacity: 0, y: 50 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             className="bg-[#E87500] text-wh-0 text-lg font-semibold min-w-[10rem] rounded-md p-4 mt-8"
           >
-            Sponsor the team
+            Learn More
           </motion.button>
         </Link>
       </div>

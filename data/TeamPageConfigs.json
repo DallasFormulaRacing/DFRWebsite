@@ -229,14 +229,14 @@
     ],
     "gallery": [
       {
-        "source": "/assets/team/ICPages/Embedded/Skills.png",
+        "source": "/assets/team/ICPages/Embedded/Projects.png",
         "alt": "placeholder alt text"
       }
     ],
     "skills": {
       "title": "SKILLS",
       "description": "New members will build experience in programming in a low-level language in such a way where the resulting code is robust enough to be re-usable, clean, and maintainable — this is done using Object-Oriented Programming and Polymorphism. Working with embedded systems will bring exposure to bit shifting matching, communication protocols, and interfacing with external devices. Members will be distributed their own projects of prototyping a feature, while following an Agile workflow, and be exposed to both bare-metal programming and embedded Linux.",
-      "image": ""
+      "image": "/assets/team/ICPages/Embedded/Skills.png"
     },
     "newMembers": {
       "title": "NEW MEMBERS",
@@ -251,9 +251,9 @@
     "header": {
       "image": "",
       "lead": {
-        "image": "/assets/team/Spring2024Officers/JamesMoushegian.jpg",
-        "name": "James Moushegian",
-        "email": "Email: jam170010@utdallas.edu",
+        "image": "/assets/team/Spring2024Officers/ZoeLao.jpg",
+        "name": "Zoe Lao",
+        "email": "Email: zoe.lao@utdallas.edu",
         "title": "Ergonomics Lead",
         "quote": "This team has introduced me to the real world of engineering. I have been able to develop myself as an engineer by working as a part of a dedicated engineering team and gaining experience that will help me in the real world. I find myself surrounded by like-minded and passionate individuals all working together towards a common goal, being fast!"
       }
@@ -349,9 +349,9 @@
     "header": {
       "image": "",
       "lead": {
-        "image": "/assets/team/Spring2024Officers/BrandonShaffer.jpg",
-        "name": "Brandon Shaffer",
-        "email": "Email: bws210000@utdallas.edu",
+        "image": "/assets/team/Spring2024Officers/ApurvaBetgar.jpg",
+        "name": "Apurva Betgar",
+        "email": "Email: apurva.betgar@utdallas.edu",
         "title": "Powertrain Lead",
         "quote": "The engine and drivetrain are the heart of the racecar. Through our work on the team, it is important to understand the power that a small spark can have when in the perfect environment. My goal on the powertrain is to provide that perfect environment so that every spark achieves its maximum potential and has the greatest impact- both figuratively on the team and literally within the engine. Bridging the gap between the textbook and the track is one of the most challenging aspects of engineering; we chase it steadily, one lap at a time."
       }
@@ -432,7 +432,7 @@
     "skills": {
       "title": "SKILLS",
       "description": "New members can learn about how to use Git and how we use repositories to manage and add contributions. They will also learn about programming in a group environment and interacting with engineers to cater to their needs. These members will also learn how to code in Java Swing and create GUIs.",
-      "image": ""
+      "image": "/assets/team/ICPages/Software/Projects.png"
     },
     "newMembers": {
       "title": "NEW MEMBERS",
