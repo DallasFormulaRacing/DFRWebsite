@@ -30,7 +30,7 @@ export const OrgInfo = (props: Props) => {
           </p>
           <div className="w-full border-b-2 bg-wh-500 md:inline-block md:h-[150px] md:w-0.5"></div>
           <p className={"py-8 text-3xl w-11/12 md:w-2/12 px-8"}>
-            Over 4 different UTD schools involved
+            Placed 29/108 teams in May 2024
           </p>
           <div className="w-full border-b-2 bg-wh-500 md:inline-block md:h-[150px] md:w-0.5"></div>
           <p className={"py-8 text-3xl w-11/12 md:w-2/12 px-8"}>

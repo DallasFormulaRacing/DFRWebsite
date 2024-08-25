@@ -5,7 +5,7 @@ import Image from "next/image";
 import { motion } from "framer-motion";
 import { StaticImageData } from "next/image";
 import Car2024 from "@/public/assets/Cars/2024/2024_3.png";
-import Car2023 from "@/public/assets/Cars/2023Car.jpg";
+import Car2023 from "@/public/assets/Cars/rescalepromo23pic.png";
 import Car2022 from "@/public/assets/Cars/2022Michigan.jpg";
 import Car2021 from "@/public/assets/Cars/2021Car.jpg";
 import Car2019 from "@/public/assets/Cars/Car2019.jpg";

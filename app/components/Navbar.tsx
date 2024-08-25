@@ -141,19 +141,43 @@ const EV_LINKS = {
   children: [
     {
       label: (
-        <a href="/team/ev/mechanical" rel="noopener noreferrer">
-          EV Mechanical Team
-        </a>
-      ),
-      key: "/team/ev/mechanical",
-    },
-    {
-      label: (
         <a href="/team/ev/electrical" rel="noopener noreferrer">
-          EV Electrical Team
+          Electrical
         </a>
       ),
       key: "/team/ev/electrical",
+    },
+    {
+      label: (
+        <a href="/team/ev/embedded" rel="noopener noreferrer">
+          Embedded
+        </a>
+      ),
+      key: "/team/ev/embedded",
+    },
+    {
+      label: (
+        <a href="/team/ev/packaging" rel="noopener noreferrer">
+          Packaging
+        </a>
+      ),
+      key: "/team/ev/packaging",
+    },
+    {
+      label: (
+        <a href="/team/ev/powertrain" rel="noopener noreferrer">
+          Powertrain
+        </a>
+      ),
+      key: "/team/ev/powertrain",
+    },
+    {
+      label: (
+        <a href="/team/ev/thermals" rel="noopener noreferrer">
+          Thermals
+        </a>
+      ),
+      key: "/team/ev/thermals",
     },
   ],
 };
@@ -223,6 +247,7 @@ const items: MenuProps["items"] = [
         key: "/team/officers",
       },
       IC_LINKS,
+      EV_LINKS,
     ]
   ),
   NAV_LINKS[1],
