@@ -12,6 +12,7 @@ import Hero from "./components/home/Hero";
 import GroupPhoto from "@/public/assets/team/group_photo.jpeg";
 import Car2024 from "@/public/assets/Cars/2024/2024_3.png";
 import NewslettersPreview from "./components/home/Newsletters";
+import EventsPreview from "./components/home/Events";
 
 import Head from "next/head";
 import { motion } from "framer-motion";
@@ -39,6 +40,7 @@ export default function Home() {
     <main className={"px-0 leading-7"}>
       <Hero />
       <AboutUs />
+      <EventsPreview />
       <OrgInfo />
       {/* <ImageBreaks
         image={Sidebysidecars.src}
