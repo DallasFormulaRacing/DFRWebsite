@@ -187,7 +187,7 @@
     "skills": {
       "title": "SKILLS",
       "description": "The all projects regardless if you are working on the gasoline or electric car, we don’t required you to have the knowledge. What we look for is dedication and communication within the team. For both sides of the team you will be spending a lot of time looking of part data sheets, ruling basic calculation. Communication is a very critical part of the team espically in EV car development since this is a frontier for everyone involved.",
-      "image": ""
+      "image": "/assets/team/ICPages/Electrical/Projects.png"
     },
     "newMembers": {
       "title": "NEW MEMBERS",
@@ -296,9 +296,9 @@
   "manufacturing": {
     "title": "Manufacturing",
     "meetingTime": "Contact Nolan on Discord",
-    "description": "The electrical sub team is responsible for the design and execution of the vehicle’s electrical systems, including the ECU, wire harness, safety systems, and data acquisition.",
+    "description": "The manufacturing subteam is responsible for welding, waterjetting, and overall manufacturing all non electrical and composite components of the car",
     "header": {
-      "image": "",
+      "image": "/assets/team/ICPages/Manufacturing/Projects.jpg",
       "lead": {
         "image": "/assets/team/Spring2024Officers/NolanWestrope.jpg",
         "name": "Nolan Westrope",
@@ -334,12 +334,12 @@
     "skills": {
       "title": "SKILLS",
       "description": "Use CAD programming to design jigs and fixtures Determine and oversee the manufacturing process for making parts Measure and reduce tolerances Work with others to plan out the manufacturing process for certain components Report and document engineering processes. Members will work hands on with parts and engineering drawings provided by the design teams. The manufacturing process will require members to design, weld, and machine various parts for the car. This process involves working closely with other subteams in order to see through the entire manufacturing process.",
-      "image": ""
+      "image": "/assets/team/ICPages/Manufacturing/Projects2.jpg"
     },
     "newMembers": {
       "title": "NEW MEMBERS",
       "description": "New members can expect to learn how the car is manufactured and how the different components are made. They can learn how to design jigs and fixtures for welding and machining, what the different machines are used for, and how to design parts and engineering drawings for specific machines. New members also can learn how to weld and, by becoming a machine shop student worker, they can learn directly from professional machinists and can use more advanced machines.",
-      "image": ""
+      "image": "/assets/team/ICPages/Manufacturing/NewMembers.jpg"
     }
   },
   "powertrain": {
@@ -396,7 +396,7 @@
     "meetingTime": "Mondays @ 5:30 pm",
     "description": "The software subteam specializes in creating programs that help collect and analyze data for our race car. Whenever we push our car to the limit, we need to make sure that all of our components are running smoothly. Our projects like DataAnalyzer and PitSoftware help us do just that.",
     "header": {
-      "image": "",
+      "image": "/assets/team/ICPages/Software/Infrastructure.png",
       "lead": {
         "image": "/assets/team/Spring2024Officers/NoelJohnson.jpg",
         "name": "Noel Johnson",
@@ -407,37 +407,37 @@
     },
     "projects": [
       {
-        "title": "Visualizations",
-        "description": "Creating visualizations for steering, pedals, throttle, and brakes. Designing accelerometer"
+        "title": "Web Dashboard",
+        "description": "Creating dashboard with react/flask to visualize for steering, pedals, throttle, and brakes. Designing accelerometer"
       },
       {
-        "title": "GPS",
-        "description": "Overlaying speed to show where someone is accelerating, braking. Setting starting/ending points of a lap"
+        "title": "Data Collection",
+        "description": "Read and deserialize data from DAQ sytems on the car"
       },
       {
-        "title": "Custom Math Channels",
-        "description": "Converting abstract data into tangible figures. Using equations and applying transformations."
+        "title": "Pit Lane Data Parser",
+        "description": "Pipeline to convert, process, filter and analyze data in the pit for prompt performance feedback when testing the car"
       },
       {
-        "title": "Quality of Life",
-        "description": "Enchancing user experience."
+        "title": "API Integration",
+        "description": "Hook into Box and Discord APIs to transfer and store data for ease of access for the rest of the team"
       }
     ],
     "gallery": [
       {
-        "source": "/assets/team/ICPages/Software/Skills.png",
+        "source": "/assets/team/ICPages/Software/Labjack.png",
         "alt": "placeholder alt text"
       }
     ],
     "skills": {
       "title": "SKILLS",
-      "description": "New members can learn about how to use Git and how we use repositories to manage and add contributions. They will also learn about programming in a group environment and interacting with engineers to cater to their needs. These members will also learn how to code in Java Swing and create GUIs.",
-      "image": "/assets/team/ICPages/Software/Projects.png"
+      "description": "New members can learn about how to use Git and how we use repositories to manage and add contributions. They will also learn about programming OOP, CI/CD, Devops, ML, data analysis, agile, and web dev techinques used in the real world.",
+      "image": "/assets/team/ICPages/Software/Dashboard.png"
     },
     "newMembers": {
       "title": "NEW MEMBERS",
       "description": "New members joining the team can gain insight into the role of data in optimizing vehicle setup and develop skills in creating user-friendly products for fellow sub-team members. They will also learn to collaborate with other sub-teams to integrate their ideas into the DataAnalyzer project. Our primary focus currently is on enhancing the functionality of the DataAnalyzer program, dedicated to analyzing data from the car's ECU and sensors, with ongoing efforts to incorporate additional channels for analysis.",
-      "image": ""
+      "image": "/assets/team/ICPages/Software/Projects.png"
     }
   },
   "steering": {
@@ -494,7 +494,7 @@
     "meetingTime": "Undetermined",
     "description": "The suspension system is designed to maintain the tire’s contact patch with the road in the optimal position during steady-state and transient conditions. The suspension must absorb bumps in the road to allow the sprung mass (chassis, driver, engine, etc.), which is the components supported by the springs, to actuate under accelerations. The suspension geometry controls the motion relative motion between the wheel and the unsprung mass, which are the components of the vehicle not supported by the springs (wheel, upright, hub, caliper, etc.), and the sprung mass, and allows the force to be transferred between them.",
     "header": {
-      "image": "",
+      "image": "/assets/team/ICPages/Suspension/NewMembers.png",
       "lead": {
         "image": "/assets/team/Spring2024Officers/ZheerSeyan.jpg",
         "name": "Zheer Seyan",
@@ -530,12 +530,12 @@
     "skills": {
       "title": "SKILLS",
       "description": "Utilizing Solidworks for CAD, conduct kinematic analysis alongside FEA for fatigue and buckling analysis, while emphasizing communication and project management skills.",
-      "image": ""
+      "image": "/assets/team/ICPages/Suspension/Projects.png"
     },
     "newMembers": {
       "title": "NEW MEMBERS",
       "description": "The suspension team has one main objective which is to make the car handle and perform as best as possible. Formula SAE tracks consist of almost 80% corners and turns so the performance comes from mechanical grip. Our goal is to get the most out of our tires as possible. Our goal for new team members is to teach them as much as we can so we can make this happen as a team.",
-      "image": ""
+      "image": "/assets/team/ICPages/Suspension/Projects2.png"
     }
   },
   "ev-mechanical": {

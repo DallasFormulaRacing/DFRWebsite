@@ -1,0 +1,247 @@
+{
+  "electrical": {
+    "title": "EV Electrical",
+    "meetingTime": "TBD",
+    "description": "This team focuses on all electrical aspects of designing and buliding an EV car including wire-harness and pcb circuit design.",
+    "header": {
+      "image": "",
+      "lead": {
+        "image": "/assets/team/Spring2024Officers/AlanFrias.jpg",
+        "name": "Alan Frias",
+        "email": "alan.frias@utdallas.edu",
+        "title": "EV Electrical Lead",
+        "quote": "\"This team has been the perfect opportunity for me to explore my passion for motorsport engineering and has let me find a niche at UTD that I deeply care about. This team has let me teach other passionate individuals about topics I care about, which is something I'm very grateful for. I hope I can continue this process of learning and teaching for future members to continue to benefit from.\""
+      }
+    },
+    "projects": [
+      {
+        "title": "Wire-Harness",
+        "description": "Design of front and rear wing. Researching undertray, sidepods, turning vanes, and dive plane."
+      },
+      {
+        "title": "Circuit Design",
+        "description": "Design PCBs, and schematics"
+      },
+      {
+        "title": "Safety and Reliability",
+        "description": "Ensure all electrical components are properly tested to be safe and reliable"
+      },
+      {
+        "title": "Charge Cart",
+        "description": "Build and design efficient wiring and schematics for fast and safe charging of batteries"
+      }
+    ],
+    "gallery": [
+      {
+        "source": "/assets/team/EVPages/Electrical/Skills.png",
+        "alt": "placeholder alt text"
+      }
+    ],
+    "skills": {
+      "title": "SKILLS",
+      "description": "The all projects regardless if you are working on the gasoline or electric car, we don’t required you to have the knowledge. What we look for is dedication and communication within the team. For both sides of the team you will be spending a lot of time looking of part data sheets, ruling basic calculation. Communication is a very critical part of the team espically in EV car development since this is a frontier for everyone involved.",
+      "image": "/assets/team/EVPages/Electrical/Skills2.png"
+    },
+    "newMembers": {
+      "title": "NEW MEMBERS",
+      "description": "Members aren't required to have any outside knowledge. I was intimidated by the electrical team due to all the parts that were involved. However, we want members who are willing to learn and stick with the team. Our goal is to make sure that each dedicated member is confident in taking on projects and leading members within the team.",
+      "image": "/assets/team/EVPages/Electrical/Projects.png"
+    }
+  },
+  "embedded": {
+    "title": "EV Embedded",
+    "meetingTime": "TBD",
+    "description": "The EV Embedded sub-team is responsible for designing the Dashboard Infotainment Display, Wireless Communication, and Data Acquisition (DAQ) system for sampling data from sensors. To accomplish this, we leverage various platforms and program them to suit our needs — bringing firmware to the hardware.",
+    "header": {
+      "image": "",
+      "lead": {
+        "image": "/assets/team/Spring2024Officers/ChadMelhem.jpg",
+        "name": "Chad Melhem",
+        "email": "chad.melhem@utdallas.edu",
+        "title": "EV Embedde",
+        "quote": "\"This team has been the perfect opportunity for me to explore my passion for motorsport engineering and has let me find a niche at UTD that I deeply care about. This team has let me teach other passionate individuals about topics I care about, which is something I'm very grateful for. I hope I can continue this process of learning and teaching for future members to continue to benefit from.\""
+      }
+    },
+    "projects": [
+      {
+        "title": "Data Communication",
+        "description": "Communication and integration between battery management system, inverter, pedals, DAQ, and VCU"
+      },
+      {
+        "title": "System Design",
+        "description": "Design circuits and PCB through simulations for integration with CAN bus"
+      },
+      {
+        "title": "VCU Calibration",
+        "description": ""
+      },
+      {
+        "title": "Motor Testing",
+        "description": ""
+      }
+    ],
+    "gallery": [
+      {
+        "source": "/assets/team/EVPages/Embedded/Skills.png",
+        "alt": "placeholder alt text"
+      }
+    ],
+    "skills": {
+      "title": "SKILLS",
+      "description": "New members will build experience in programming in a low-level language in such a way where the resulting code is robust enough to be re-usable, clean, and maintainable — this is done using Object-Oriented Programming and Polymorphism. Working with embedded systems will bring exposure to bit shifting matching, communication protocols, and interfacing with external devices. Members will be distributed their own projects of prototyping a feature, while following an Agile workflow, and be exposed to both bare-metal programming and embedded Linux.",
+      "image": ""
+    },
+    "newMembers": {
+      "title": "NEW MEMBERS",
+      "description": "New members will begin with programming components that are closely intertwined with electrical hardware. By doing so, members will become exposed to the low-level development environment, version control, team workflow, and testing. The resulting implementation will be added as a feature of the vehicle's embedded system.",
+      "image": ""
+    }
+  },
+  "packaging": {
+    "title": "EV Packaging",
+    "meetingTime": "TBD",
+    "description": "This team focuses on the organization and mounting of all systems on car as well as the chassis as a whole to ensure proper compactness, serviceability, safety, and rules compliance.",
+    "header": {
+      "image": "/assets/team/EVPages/Packaging/Header.png",
+      "lead": {
+        "image": "/assets/team/Spring2024Officers/ConnorMyers.jpg",
+        "name": "Connor Myers",
+        "email": "connor.myers@utdallas.edu",
+        "title": "EV Packaging Lead",
+        "quote": "\"This team has been the perfect opportunity for me to explore my passion for motorsport engineering and has let me find a niche at UTD that I deeply care about. This team has let me teach other passionate individuals about topics I care about, which is something I'm very grateful for. I hope I can continue this process of learning and teaching for future members to continue to benefit from.\""
+      }
+    },
+    "projects": [
+      {
+        "title": "Chassis",
+        "description": "Design and manufacturing of the EV chassis"
+      },
+      {
+        "title": "Charge Cart Manufacturing",
+        "description": ""
+      },
+      {
+        "title": "Battery Mounting",
+        "description": ""
+      },
+      {
+        "title": "I/O Panel",
+        "description": ""
+      }
+    ],
+    "gallery": [
+      {
+        "source": "",
+        "alt": ""
+      }
+    ],
+    "skills": {
+      "title": "SKILLS",
+      "description": "New members can expect to gain practical experience with with load analysis, manufacturing principles, cross-disciplinary collaboration, and proper CAD techniques.",
+      "image": "/assets/team/EVPages/Packaging/Skills.png"
+    },
+    "newMembers": {
+      "title": "NEW MEMBERS",
+      "description": "New members can expect to learn how the car is manufactured and how the different components are made. They can learn how to design jigs and fixtures for welding and machining, what the different machines are used for, and how to design parts and engineering drawings for specific machines. New members also can learn how to weld and, by becoming a machine shop student worker, they can learn directly from professional machinists and can use more advanced machines.",
+      "image": "/assets/team/EVPages/Packaging/Projects.png"
+    }
+  },
+  "powertrain": {
+    "title": "EV Powertrain",
+    "meetingTime": "TBD",
+    "description": "This team focused on the analysis, mounting, and creation of all powertrain systems on the EV car ensuring proper function and durability",
+    "header": {
+      "image": "/assets/team/EVPages/Powertrain/Projects.png",
+      "lead": {
+        "image": "/assets/team/Spring2024Officers/MatthewCarolla.jpg",
+        "name": "Matthew Carolla",
+        "email": "matthew.carolla@utdallas.edu",
+        "title": "EV Powertrain Lead",
+        "quote": "\"This team has been the perfect opportunity for me to explore my passion for motorsport engineering and has let me find a niche at UTD that I deeply care about. This team has let me teach other passionate individuals about topics I care about, which is something I'm very grateful for. I hope I can continue this process of learning and teaching for future members to continue to benefit from.\""
+      }
+    },
+    "projects": [
+      {
+        "title": "Design",
+        "description": ""
+      },
+      {
+        "title": "Testing",
+        "description": ""
+      },
+      {
+        "title": "Manufacturing",
+        "description": ""
+      },
+      {
+        "title": "Safety and Reliability",
+        "description": ""
+      }
+    ],
+    "gallery": [
+      {
+        "source": "",
+        "alt": ""
+      }
+    ],
+    "skills": {
+      "title": "SKILLS",
+      "description": "Being a member of Powertrain (this applies to many other subteams as well), you can learn concepts taught in senior-level engineering courses and beyond, such as Solidworks and FEA/fluid simulations, fluid mechanics, heat transfer, design of mechanical systems, and statics/dynamics.",
+      "image": "/assets/team/EVPages/Powertrain/Skills.png"
+    },
+    "newMembers": {
+      "title": "NEW MEMBERS",
+      "description": "The number one quality of a new member is motivation and being eager to learn. We would much rather work with someone who does not know anything about cars but is willing to learn, than someone that thinks they know everything. FSAE is a lot more work than your average organization, so those that continue to stick with it and always looking for ways to improve are the ones that stand out.",
+      "image": ""
+    }
+  },
+  "thermals": {
+    "title": "EV Thermals",
+    "meetingTime": "TBD",
+    "description": "This team focuses on running thermal-fluid simulations to analyze our designs to validate proper cooling to ensure safety",
+    "header": {
+      "image": "/assets/team/EVPages/Thermals/Projects.png",
+      "lead": {
+        "image": "/assets/team/Headshots/blank_avatar.png",
+        "name": "Tuan Nguyen",
+        "email": "tuan.nguyen@utdallas.edu",
+        "title": "EV Thermals Lead",
+        "quote": "\"This team has been the perfect opportunity for me to explore my passion for motorsport engineering and has let me find a niche at UTD that I deeply care about. This team has let me teach other passionate individuals about topics I care about, which is something I'm very grateful for. I hope I can continue this process of learning and teaching for future members to continue to benefit from.\""
+      }
+    },
+    "projects": [
+      {
+        "title": "Simulations",
+        "description": "Conduct thermal-fluid analysis simulations to validate designs"
+      },
+      {
+        "title": "Fuseology Test Engineering",
+        "description": ""
+      },
+      {
+        "title": "Accumulatror Intake",
+        "description": "Design accumulator in for proper cooling requirments based on simulations"
+      },
+      {
+        "title": "Battery Cell Tests",
+        "description": "Build a test bench to test batter cells"
+      }
+    ],
+    "gallery": [
+      {
+        "source": "/assets/team/EVPages/Thermals/Projects2.png",
+        "alt": "placeholder alt text"
+      }
+    ],
+    "skills": {
+      "title": "SKILLS",
+      "description": "New members can expect to gain practical experience with aero and vehicle dynamics. They will experience the full engineering process, from research & development, prototyping, design, and finally testing & validation. Throughout the design process members will gain proficiency with professional software such as SolidWorks and Ansys Fluent to aid in their design process. They will get opportunities to manage projects and work with other sub-teams to make their projects more effective. Additionally, members should expect to gain a plethora of soft skills such as speaking, collaboration, and more. This should lead to well-rounded members that can easily transition into the industry.",
+      "image": "/assets/team/EVPages/Thermals/NewMembers.png"
+    },
+    "newMembers": {
+      "title": "NEW MEMBERS",
+      "description": "New members will walk through a semester long course to prepare them for component design in spring. Throughout each stage in the learning process, members will take part in projects that support the necessary concepts and will act as a metric for their progress. In the end, we aim to provide a practical aerospace experience that is not present anywhere else at UTD.",
+      "image": ""
+    }
+  }
+}
