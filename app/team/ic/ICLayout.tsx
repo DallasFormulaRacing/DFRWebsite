@@ -17,7 +17,7 @@ export default function ICLayout({ config }: { config: Config }) {
                         <div className={"py-4 text-center"}>
                             <div className={"p-2 font-semibold text-[32px]"}>{config["header"]["lead"]["name"]}</div>
                             <div className={"p-2 font-light text-[16px]"}>{config["header"]["lead"]["email"]}</div>
-                            <div className={"p-2 font-regular text-[24px]"}>{config["header"]["lead"]["title"]}</div>
+                            <div className={"p-1 font-regular text-[24px]"}>{config["header"]["lead"]["title"]}</div>
                         </div>
                     </div>
                     <div className={"flex flex-col items-center text-center gap-8"}>

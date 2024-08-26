@@ -3,13 +3,14 @@
 import { motion } from "framer-motion";
 import Image from "next/image";
 import DFRLogo from "@/public/DFR-Logo.png";
-import SAELogo from '@/public/sae_logo.png';
+import SAELogo from "@/public/sae_logo.png";
+import DFRSAE from "@/public/dfr-sae.png";
 
 export default function Header() {
   return (
     <div className="relative overflow-x-hidden">
       <video
-        src="/assets/videos/ParkingLot.mov"
+        src="/assets/videos/BrollDrivingCompressed.mp4"
         className="w-full min-h-[92svh] max-h-[92svh] object-cover"
         autoPlay
         muted
@@ -48,17 +49,17 @@ export default function Header() {
               className="object-contain"
               placeholder="blur"
               blurDataURL="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw=="
-              />
+            />
           </div>
-          <div className="w-32 md:w-64 aspect-square relative">
+          <div className="w-48 md:w-96 aspect-square relative">
             <Image
-              src={SAELogo}
+              src={DFRSAE}
               alt="Dfr logo"
               fill
               className="object-contain"
               placeholder="blur"
               blurDataURL="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw=="
-              />
+            />
           </div>
         </div>
       </motion.div>

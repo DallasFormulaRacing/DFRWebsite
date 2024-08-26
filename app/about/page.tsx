@@ -1,11 +1,15 @@
+"use client";
 import React from "react";
 import Image from "next/image";
 import CarDash from "@/public/assets/NewPictures/car_dash.jpg";
 import Car2024 from "@/public/assets/Cars/2024/2024_1.png";
-import OrgChart from "@/public/assets/team/Org-Chart-2023-scaled.webp";
+import OrgChart from "@/public/assets/team/OrgChart2024.png";
 import ImageBreaks from "../components/ImageBreaks";
 import StatsSection from "../components/StatsSection";
+import dynamic from "next/dynamic";
 import Link from "next/link";
+
+const Demographics = dynamic(() => import("./Demographics"), { ssr: false });
 
 type Props = {};
 
@@ -23,13 +27,14 @@ export default function About() {
 
       <section id="about-us" className={"mt-10 py-24"}>
         <div className={"text-center space-y-8"}>
-          <h1 className={"text-5xl font-bold"}>About Us</h1>
+          <h1 className={"text-5xl font-bold text-accent-orange"}>About Us</h1>
           <p className={"w-4/5 mx-auto text-2xl"}>
-            Dallas Formula Racing is a student-led organization at the
-            University of Texas in Dallas. Our team was founded in 2014 and has
-            successfully built three formula-style vehicles for the Formula SAE
-            competition. The diverse array of projects on our team results in
-            student collaboration from all backgrounds and experience.
+            Dallas Formula Racing is a student-led organization and is the
+            chapter for SAE International at the University of Texas at Dallas.
+            Our team was founded in 2014 and has successfully built three
+            formula-style vehicles for the Formula SAE competition. The diverse
+            array of projects on our team results in student collaboration from
+            all backgrounds and experience.
           </p>
           <p className={"w-4/5 mx-auto text-2xl"}>
             We are dedicated to imparting our enthusiasm for engineering and
@@ -42,7 +47,9 @@ export default function About() {
       </section>
       <section id="Mission Statement" className={"my-14"}>
         <div className={"text-center space-y-8"}>
-          <h1 className={"text-5xl font-bold"}>Mission Statement</h1>
+          <h1 className={"text-5xl font-bold text-accent-orange"}>
+            Mission Statement
+          </h1>
           <p className={"w-4/5 mx-auto text-2xl"}>
             Our goal is to cultivate well-rounded engineers by fostering
             technical skills, teamwork, and business acumen through the entire
@@ -63,10 +70,13 @@ export default function About() {
         imageFit={"object-cover"}
         imageHeight={"h-144"}
       />
-      <StatsSection />
+      {/* <StatsSection /> */}
+      {/* <Demographics /> */}
       <section id="about-us" className={"mt-10"}>
         <div className={"text-center space-y-8"}>
-          <h1 className={"text-5xl font-bold"}>About Formula SAE</h1>
+          <h1 className={"text-5xl font-bold text-accent-orange"}>
+            About Formula SAE
+          </h1>
           <p className={"w-4/5 mx-auto text-2xl"}>
             Formula SAE is an international competition hosted by the Society of
             Automotive Engineers (SAE). This Collegiate Design Series (CDS)
@@ -89,7 +99,9 @@ export default function About() {
       </section>
       <h1
         id="org-chart"
-        className={"text-5xl font-bold col-span-1 row-span-1 text-center mt-40"}
+        className={
+          "text-5xl font-bold col-span-1 row-span-1 text-center mt-40 text-accent-orange"
+        }
       >
         Org Chart
       </h1>
