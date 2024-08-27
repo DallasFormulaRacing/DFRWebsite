@@ -23,7 +23,7 @@ export default function Header() {
         animate={{ opacity: 1 }}
         transition={{ duration: 0.4, delay: 0.4 }}
       >
-        <h1 className="text-5xl md:text-8xl font-extrabold text-wh-75 italic break-words">
+        {/* <h1 className="text-5xl md:text-8xl font-extrabold text-wh-75 italic break-words">
           <motion.span
             className="inline-block"
             animate={{ x: [-200, 0] }}
@@ -38,7 +38,7 @@ export default function Header() {
           >
             Student Chapter
           </motion.span>
-        </h1>
+        </h1> */}
 
         <div className="flex flex-row justify-evenly gap-8">
           <div className="w-48 md:w-96 aspect-square relative">
