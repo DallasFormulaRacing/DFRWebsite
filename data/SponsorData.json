@@ -163,5 +163,10 @@
         "name": "Omni Powertrain",
         "logo": "/assets/sponsors/omnipowertrain.png",
         "link": "https://www.omnipowertrain.com/"
+    },
+    {
+        "name": "ELEGOO",
+        "logo": "/assets/sponsors/elegoo.png",
+        "link": "https://www.elegoo.com/"
     }
 ]
