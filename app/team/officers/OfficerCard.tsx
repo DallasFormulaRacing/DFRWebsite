@@ -13,8 +13,7 @@ const OfficerCard = ({ officer }: { officer: Officer }) => {
     <div
       className={
         "my-8 mx-8 col-span-auto flex flex-col justify-end items-center w-[635px] h-[525px]"
-      }
-    >
+      }>
       <Image
         src={officer.image ? officer.image : BlankAvatar}
         alt={officer.name}
@@ -30,8 +29,7 @@ const OfficerCard = ({ officer }: { officer: Officer }) => {
       <div
         className={
           "bg-accent-orange-light shadow-lg rounded-xl z-10 w-1/2 text-center h-[400px]"
-        }
-      >
+        }>
         <h1 className={"card-title text-3xl text-center font-bold mt-2"}>
           {officer.name}
         </h1>
@@ -44,8 +42,7 @@ const OfficerCard = ({ officer }: { officer: Officer }) => {
             <Col className="ml-2 text-lg">
               <a
                 className="text-black underline"
-                href={`mailto:${officer.email}`}
-              >
+                href={`mailto:${officer.email}`}>
                 {officer.email}
               </a>
             </Col>

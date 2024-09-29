@@ -346,9 +346,9 @@
   "powertrain": {
     "title": "Powertrain",
     "meetingTime": "Thursdays @ 6 PM",
-    "description": "Our powertrain team deals with the engine and all supporting systems to get that power to the wheels, ending at the outer axle bearings. We are responsible for getting as much power out of a sub-700cc engine as necessary, using tools as an engine dynamometer, flow benches, along with wheel dynamometer to analyze and improve our package.",
+    "description": "Our powertrain team deals with the engine and all supporting systems to get that power to the wheels, ending at the outer axle bearings. We are responsible for getting as much power out of a sub-700cc engine as necessary, using tools as an engine dynamometer, flow benches, along with wheel dynamometer to analyze and improve our package. The engine and drivetrain are the heart of the racecar. Through our work on the team, it is important to understand the power that a small spark can have when in the perfect environment. Our goal on the powertrain is to provide that perfect environment so that every spark achieves its maximum potential and has the greatest impact- both figuratively on the team and literally within the engine. Bridging the gap between the textbook and the track is one of the most challenging aspects of engineering; we chase it steadily, one lap at a time.",
     "header": {
-      "image": "",
+      "image": "/assets/team/ICPages/Powertrain/header.jpg",
       "lead": {
         "image": "/assets/team/Spring2024Officers/ApurvaBetgar.jpg",
         "name": "Apurva Betgar",
@@ -360,36 +360,36 @@
     "projects": [
       {
         "title": "Intake and Exhaust",
-        "description": "Design a 3d printed intake manifold with the primary goal of providing equal airflow to all four cylinders. Future plans include optimizing plenum volume and runner length for low-end torque. Design an equal-length header exhaust optimizing scavenging while maintaining manufacturability"
+        "description": "The intake project is responsible for designing an intake manifold to maximize the mass air flow rate equally in each cylinder through a 20mm restrictor given by rules. The exhaust is responsible for designing an exhaust manifold that minimizes blow back and maximizes volumetric efficiency through scavenging."
       },
       {
         "title": "Drivetrain",
-        "description": "Choosing the best differential for the vehicle’s use and creating a differential mount to withstand the forces applied while maintaining a final drive ratio that prioritizes the highest traction limit."
+        "description": "Drivetrain is responsible for putting power down to the wheels by optimization of the final drive and the differential mount which entails proper design to handle the strenuous forces created by the drivetrain assembly."
       },
       {
-        "title": "Cooling",
-        "description": "Designing an efficient radiator that can be easily validated along with the ergonomics of the cooling system."
+        "title": "Cooling and Catch Cans",
+        "description": "Cooling is responsible for designing a radiator that cools the engine to keep it at operating temperature while minimizing weight. Catch cans are responsible for catching excess fluid while still maintaining the engineering principles of simplicity and minimizing weight."
       },
       {
         "title": "Fuel",
-        "description": "Designing a fuel tank in order to prevent sloshing and starving the engine of fuel with baffles, as well as tuning the engine for reliability with an optimal air-fuel ratio."
+        "description": " Fuel is responsible for designing a fuel system that appropriately delivers fuel to the engine for a better fuel efficiency and design of a fuel tank that is light, minimizes sloshing, and is properly sized."
       }
     ],
     "gallery": [
       {
-        "source": "/assets/team/ICPages/Powertrain/Skills.png",
+        "source": "/assets/team/ICPages/Powertrain/projects2.jpg",
         "alt": "placeholder alt text"
       }
     ],
     "skills": {
       "title": "SKILLS",
-      "description": "Being a member of Powertrain (this applies to many other subteams as well), you can learn concepts taught in senior-level engineering courses and beyond, such as Solidworks and FEA/fluid simulations, fluid mechanics, heat transfer, design of mechanical systems, and statics/dynamics.",
-      "image": ""
+      "description": "Being a member of Powertrain, you can learn concepts taught in senior-level engineering courses and industry including but not limited to the following: Solidworks/ CAD (Computer Aided Design), FEA (Finite Element Analysis), DFMEA (Design Failure Mode Effects Analysis) ,CFD (Computational Fluid Dynamics), heat transfer, problem solving and critical thinking, and collaboration",
+      "image": "/assets/team/ICPages/Powertrain/projects.jpg"
     },
     "newMembers": {
       "title": "NEW MEMBERS",
-      "description": "The number one quality of a new member is motivation and being eager to learn. We would much rather work with someone who does not know anything about cars but is willing to learn, than someone that thinks they know everything. FSAE is a lot more work than your average organization, so those that continue to stick with it and always looking for ways to improve are the ones that stand out.",
-      "image": ""
+      "description": "New members can expect to learn how to design a well-engineered part, engine tuning, rebuilding an engine, working with sponsors and so much more. The number one quality of a new member is motivation and being eager to learn. We would much rather work with someone who does not know anything about cars but is willing to learn, than someone that thinks they know everything. FSAE is a lot more work than your average organization, so those that continue to stick with it and always looking for ways to improve are the ones that stand out.",
+      "image": "/assets/team/ICPages/Powertrain/newmembers.jpg"
     }
   },
   "software": {

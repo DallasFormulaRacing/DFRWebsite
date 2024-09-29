@@ -6,12 +6,12 @@ import { SponsorHeaderInfo } from "./SponsorHeaderInfo";
 type props = {};
 
 export default function Sponsors(props: props) {
-    return (
-        <main className={"px-0 leading-7"}>
-            <div>
-                <SponsorHeaderInfo />
-                <SponsorsComponent />
-            </div>
-        </main>
-    );
+  return (
+    <main className={"px-0 leading-7"}>
+      <div>
+        <SponsorHeaderInfo />
+        <SponsorsComponent />
+      </div>
+    </main>
+  );
 }

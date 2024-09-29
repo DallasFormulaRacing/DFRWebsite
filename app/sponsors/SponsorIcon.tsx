@@ -19,14 +19,12 @@ export const SponsorIcon = ({ index }: Props) => {
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true }}
       key={index}
-      className={"item relative w-48 h-48"}
-    >
+      className={"item relative w-48 h-48"}>
       {sponsorList.map((sponsor, position, sponsors) => (
         <a
           href={sponsors[index].link}
           rel={"noreferrer"}
-          key={sponsors[index].name}
-        >
+          key={sponsors[index].name}>
           <Image
             fill
             alt={sponsors[index].name}

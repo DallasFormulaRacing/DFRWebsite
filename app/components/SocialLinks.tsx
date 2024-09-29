@@ -24,7 +24,7 @@ const SocialLinks = ({ isDark = false }: Props) => {
           height={30}
         />
       </a>
-      
+
       <a href={"https://instagram.com"} target={"_blank"} rel={"noreferrer"}>
         <Image
           className={`${isDark ? "brightness-0" : ""} hover:opacity-50`}
@@ -44,7 +44,7 @@ const SocialLinks = ({ isDark = false }: Props) => {
           height={20}
         />
       </a>
-      
+
       <a href={"https://discord.com"} target={"_blank"} rel={"noreferrer"}>
         <Image
           className={`${isDark ? "brightness-0" : ""} hover:opacity-50`}

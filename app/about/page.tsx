@@ -60,8 +60,7 @@ const FAQ = [
             direction="vertical"
             align="center"
             size={"middle"}
-            className="w-full px-2"
-          >
+            className="w-full px-2">
             <p>
               Welcome to the team. We are excited to have you! We do not require
               any experience or requirements to join. Our leads will teach you
@@ -71,16 +70,14 @@ const FAQ = [
             <a
               href="https://forms.office.com/r/EACF3H7WbV"
               target="_blank"
-              rel="noopener noreferrer"
-            >
+              rel="noopener noreferrer">
               Interest Form to Join the Discord
             </a>
           </Space>
         }
         bordered
         dataSource={joinTheTeam}
-        renderItem={(item) => <List.Item>{item}</List.Item>}
-      ></List>
+        renderItem={(item) => <List.Item>{item}</List.Item>}></List>
     ),
   },
   {
@@ -107,8 +104,7 @@ const FAQ = [
         }
         bordered
         dataSource={memberTasks}
-        renderItem={(item) => <List.Item>{item}</List.Item>}
-      ></List>
+        renderItem={(item) => <List.Item>{item}</List.Item>}></List>
     ),
   },
   {
@@ -191,8 +187,7 @@ const FAQ = [
         }
         bordered
         dataSource={becomeALead}
-        renderItem={(item) => <List.Item>{item}</List.Item>}
-      ></List>
+        renderItem={(item) => <List.Item>{item}</List.Item>}></List>
     ),
   },
   {
@@ -203,8 +198,7 @@ const FAQ = [
         direction="vertical"
         align="start"
         size={"middle"}
-        className="w-full px-2"
-      >
+        className="w-full px-2">
         <p>
           Drivers are required to attend and assist testing day procedures. The
           seat is earned through commitment to the team and earning the trust of
@@ -315,15 +309,13 @@ export default function About() {
         id="org-chart"
         className={
           "text-5xl font-bold col-span-1 row-span-1 text-center mt-40 text-accent-orange"
-        }
-      >
+        }>
         Org Chart
       </h1>
       <div
         className={
           "basis-full relative w-full h-[24svh] md:h-[56svh] mt-8 mb-24"
-        }
-      >
+        }>
         <Image
           fill
           alt={"OrgChart"}

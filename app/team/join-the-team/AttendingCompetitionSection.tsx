@@ -21,16 +21,14 @@ export default function AttendingCompetition() {
       <section className="px-2 py-24 min-h-[68svh] flex justify-center items-center">
         <Card
           className="w-full flex items-center justify-center h-[300px] border-none"
-          bordered={false}
-        >
+          bordered={false}>
           <h1 className="text-4xl font-bold text-center">
             Invitations to Competition
           </h1>
           <Space
             direction="vertical"
             align="center"
-            className="w-full px-2 mt-4 md:text-lg"
-          >
+            className="w-full px-2 mt-4 md:text-lg">
             <p className="text-center">
               Being a leader of Dallas Formula Racing that represents the
               organization and reflects our values

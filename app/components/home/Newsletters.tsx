@@ -14,8 +14,7 @@ export default function NewslettersPreview() {
           {NewsletterArchive.slice(0, 3).map((newsletter, index) => (
             <article
               key={index}
-              className="bg-white shadow-lg w-[20rem] md:w-[36rem] min-h-[24rem] rounded-lg overflow-hidden flex flex-col"
-            >
+              className="bg-white shadow-lg w-[20rem] md:w-[36rem] min-h-[24rem] rounded-lg overflow-hidden flex flex-col">
               <div className="relative h-48 w-full">
                 <Image
                   src={newsletter.previewImage}
@@ -35,8 +34,7 @@ export default function NewslettersPreview() {
                 <Link
                   href={newsletter.url}
                   target="_blank"
-                  className="text-accent-orange hover:underline block text-center mt-auto"
-                >
+                  className="text-accent-orange hover:underline block text-center mt-auto">
                   Read More
                 </Link>
               </div>

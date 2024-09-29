@@ -14,8 +14,7 @@ export default function EventsPreview() {
           {EventsArchive.slice(0, 3).map((events, index) => (
             <article
               key={index}
-              className="bg-white shadow-lg w-[20rem] md:w-[36rem] min-h-[24rem] rounded-lg overflow-hidden flex flex-col"
-            >
+              className="bg-white shadow-lg w-[20rem] md:w-[36rem] min-h-[24rem] rounded-lg overflow-hidden flex flex-col">
               <div className="relative h-48 w-full">
                 <Image
                   src={events.previewImage}

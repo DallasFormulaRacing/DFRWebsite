@@ -58,8 +58,7 @@ const FAQ = [
             direction="vertical"
             align="center"
             size={"middle"}
-            className="w-full px-2"
-          >
+            className="w-full px-2">
             <p>
               Welcome to the team. We are excited to have you! We do not require
               any experience or requirements to join. Our leads will teach you
@@ -69,16 +68,14 @@ const FAQ = [
             <a
               href="https://forms.office.com/r/EACF3H7WbV"
               target="_blank"
-              rel="noopener noreferrer"
-            >
+              rel="noopener noreferrer">
               Interest Form to Join the Discord
             </a>
           </Space>
         }
         bordered
         dataSource={joinTheTeam}
-        renderItem={(item) => <List.Item>{item}</List.Item>}
-      ></List>
+        renderItem={(item) => <List.Item>{item}</List.Item>}></List>
     ),
   },
   {
@@ -105,8 +102,7 @@ const FAQ = [
         }
         bordered
         dataSource={memberTasks}
-        renderItem={(item) => <List.Item>{item}</List.Item>}
-      ></List>
+        renderItem={(item) => <List.Item>{item}</List.Item>}></List>
     ),
   },
   {
@@ -189,8 +185,7 @@ const FAQ = [
         }
         bordered
         dataSource={becomeALead}
-        renderItem={(item) => <List.Item>{item}</List.Item>}
-      ></List>
+        renderItem={(item) => <List.Item>{item}</List.Item>}></List>
     ),
   },
   {
@@ -201,8 +196,7 @@ const FAQ = [
         direction="vertical"
         align="start"
         size={"middle"}
-        className="w-full px-2"
-      >
+        className="w-full px-2">
         <p>
           Drivers are required to attend and assist testing day procedures. The
           seat is earned through commitment to the team and earning the trust of
@@ -257,8 +251,7 @@ export default function Page() {
           <div className="mt-4 text-xl sm:text-3xl">
             <Link
               className="text-accent-orange underline"
-              href="/team/join-the-team/#FAQ-Section"
-            >
+              href="/team/join-the-team/#FAQ-Section">
               FAQ
             </Link>
             <p className="mt-4">Shop Location: ECSW RM 1.455</p>

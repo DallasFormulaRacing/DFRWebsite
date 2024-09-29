@@ -17,16 +17,14 @@ export const SampleProjects = (props: Props) => {
         initial={{ opacity: 0, y: 50 }}
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true }}
-        className="text-6xl font-extrabold text-accent-orange mb-20"
-      >
+        className="text-6xl font-extrabold text-accent-orange mb-20">
         Sample Projects
       </motion.h1>
       <motion.div
         initial={{ opacity: 0, y: 50 }}
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true }}
-        className="sm:grid sm:min-h-[500px] grid-cols-3 grid-rows-1 gap-16"
-      >
+        className="sm:grid sm:min-h-[500px] grid-cols-3 grid-rows-1 gap-16">
         <div className="col-span-1 row-span-1 justify-center hidden md:block">
           <Image
             alt={"2022AeroPackage"}
@@ -56,8 +54,7 @@ export const SampleProjects = (props: Props) => {
         initial={{ opacity: 0, y: 50 }}
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true }}
-        className="sm:grid sm:min-h-[500px] grid-cols-3 grid-rows-1 my-10"
-      >
+        className="sm:grid sm:min-h-[500px] grid-cols-3 grid-rows-1 my-10">
         <div className="col-span-3 md:col-span-2 row-span-1">
           <h1 className="text-5xl font-bold text-accent-orange">
             STEM Volunteering

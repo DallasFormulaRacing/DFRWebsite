@@ -18,15 +18,13 @@ const OfficerComponent = (props: Props) => {
           className={"text-5xl font-bold text-center my-12"}
           initial={{ opacity: 0, y: 50 }}
           whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-        >
+          viewport={{ once: true }}>
           Admin
         </motion.h1>
         <div
           className={
             "grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 justify-items-center gap-12"
-          }
-        >
+          }>
           {officerList.Admin.data.map((officer, index) => (
             <OfficerCardV2 officer={officer} key={index} />
           ))}
@@ -38,15 +36,13 @@ const OfficerComponent = (props: Props) => {
           className={"text-5xl font-bold text-center my-12"}
           initial={{ opacity: 0, y: 50 }}
           whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-        >
+          viewport={{ once: true }}>
           IC
         </motion.h1>
         <div
           className={
             "grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 justify-items-center gap-8"
-          }
-        >
+          }>
           {officerList.IC.data.map((officer, index) => (
             <OfficerCardV2 officer={officer} key={index} />
           ))}
@@ -58,15 +54,13 @@ const OfficerComponent = (props: Props) => {
           className={"text-5xl font-bold text-center my-12"}
           initial={{ opacity: 0, y: 50 }}
           whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-        >
+          viewport={{ once: true }}>
           Business
         </motion.h1>
         <div
           className={
             "grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 justify-items-center gap-8"
-          }
-        >
+          }>
           {officerList.Business.data.map((officer, index) => (
             <OfficerCardV2 officer={officer} key={index} />
           ))}
@@ -78,15 +72,13 @@ const OfficerComponent = (props: Props) => {
           className={"text-5xl font-bold text-center my-12"}
           initial={{ opacity: 0, y: 50 }}
           whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-        >
+          viewport={{ once: true }}>
           EV
         </motion.h1>
         <div
           className={
             "grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 justify-items-center gap-8"
-          }
-        >
+          }>
           {officerList.EV.data.map((officer, index) => (
             <OfficerCardV2 officer={officer} key={index} />
           ))}

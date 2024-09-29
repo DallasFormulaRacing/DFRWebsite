@@ -19,13 +19,8 @@ const OfficerCard = ({ officer }: { officer: Officer }) => {
       }
       initial={{ opacity: 0, y: 50 }}
       whileInView={{ opacity: 1, y: 0 }}
-      viewport={{ once: true }}
-    >
-      <div
-        className={
-          "border-officer-orange border-t-2 border-x-2 w-full p-2"
-        }
-      >
+      viewport={{ once: true }}>
+      <div className={"border-officer-orange border-t-2 border-x-2 w-full p-2"}>
         <h1 className={"text-2xl font-bold text-center mt-2"}>
           {officer.name}
         </h1>
@@ -48,19 +43,16 @@ const OfficerCard = ({ officer }: { officer: Officer }) => {
       <div
         className={
           "text-center h-[400px] p-4 flex flex-col items-center w-full border-officer-orange border-b-2 border-x-2"
-        }
-      >
+        }>
         <div
           className={
             "mt-4 text-lg mx-2 text-center flex flex-col items-center gap-2"
-          }
-        >
+          }>
           <Row className="">
             <Col className="ml-2 text-lg">
               <a
                 className="text-black underline text-center"
-                href={`mailto:${officer.email}`}
-              >
+                href={`mailto:${officer.email}`}>
                 {officer.email}
               </a>
             </Col>
