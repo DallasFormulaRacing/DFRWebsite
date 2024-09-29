@@ -3,7 +3,7 @@ import React from "react";
 import Image from "next/image";
 import CarDash from "@/public/assets/NewPictures/car_dash.jpg";
 import Car2024 from "@/public/assets/Cars/2024/2024_1.png";
-import OrgChart from "@/public/assets/team/OrgChart2024.png";
+import OrgChart from "@/public/assets/team/OrgChartFall2024.png";
 import ImageBreaks from "../components/ImageBreaks";
 import StatsSection from "../components/StatsSection";
 import dynamic from "next/dynamic";

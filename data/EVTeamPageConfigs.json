@@ -1,14 +1,14 @@
 {
   "electrical": {
     "title": "EV Electrical",
-    "meetingTime": "TBD",
+    "meetingTime": "Wednesdays @ 5:00 PM",
     "description": "This team focuses on all electrical aspects of designing and buliding an EV car including wire-harness and pcb circuit design.",
     "header": {
       "image": "",
       "lead": {
-        "image": "/assets/team/Spring2024Officers/AlanFrias.jpg",
-        "name": "Alan Frias",
-        "email": "alan.frias@utdallas.edu",
+        "image": "/assets/team/Fall2024Officers/SeanREVElectrical.jpg",
+        "name": "Sean Rudiak",
+        "email": "sean.rudiak@utdallas.edu",
         "title": "EV Electrical Lead",
         "quote": "\"This team has been the perfect opportunity for me to explore my passion for motorsport engineering and has let me find a niche at UTD that I deeply care about. This team has let me teach other passionate individuals about topics I care about, which is something I'm very grateful for. I hope I can continue this process of learning and teaching for future members to continue to benefit from.\""
       }
@@ -50,7 +50,7 @@
   },
   "embedded": {
     "title": "EV Embedded",
-    "meetingTime": "TBD",
+    "meetingTime": "Fridays @ 4:45 PM",
     "description": "The EV Embedded sub-team is responsible for designing the Dashboard Infotainment Display, Wireless Communication, and Data Acquisition (DAQ) system for sampling data from sensors. To accomplish this, we leverage various platforms and program them to suit our needs — bringing firmware to the hardware.",
     "header": {
       "image": "",
@@ -58,7 +58,7 @@
         "image": "/assets/team/Spring2024Officers/ChadMelhem.jpg",
         "name": "Chad Melhem",
         "email": "chad.melhem@utdallas.edu",
-        "title": "EV Embedde",
+        "title": "EV Embedded",
         "quote": "\"This team has been the perfect opportunity for me to explore my passion for motorsport engineering and has let me find a niche at UTD that I deeply care about. This team has let me teach other passionate individuals about topics I care about, which is something I'm very grateful for. I hope I can continue this process of learning and teaching for future members to continue to benefit from.\""
       }
     },
@@ -99,14 +99,14 @@
   },
   "packaging": {
     "title": "EV Packaging",
-    "meetingTime": "TBD",
-    "description": "This team focuses on the organization and mounting of all systems on car as well as the chassis as a whole to ensure proper compactness, serviceability, safety, and rules compliance.",
+    "meetingTime": "Thursdays @ 6:30 PM",
+    "description": "EV packaging encompasses a lot of projects starting from chassis to accumulator. All of these projects have to do with the structural design and integrity of the car. While working on this team you will learn how to CAD and run FEAs as well as learn electrical components work. You will be working with plenty of other teams and also getting hands on in the manufacturing process.",
     "header": {
       "image": "/assets/team/EVPages/Packaging/Header.png",
       "lead": {
-        "image": "/assets/team/Spring2024Officers/ConnorMyers.jpg",
-        "name": "Connor Myers",
-        "email": "connor.myers@utdallas.edu",
+        "image": "/assets/team/Fall2024Officers/HaavishArtulaEVPackaging.jpg",
+        "name": "Haavish Artula",
+        "email": "haavish.artula@utdallas.edu",
         "title": "EV Packaging Lead",
         "quote": "\"This team has been the perfect opportunity for me to explore my passion for motorsport engineering and has let me find a niche at UTD that I deeply care about. This team has let me teach other passionate individuals about topics I care about, which is something I'm very grateful for. I hope I can continue this process of learning and teaching for future members to continue to benefit from.\""
       }
@@ -148,7 +148,7 @@
   },
   "powertrain": {
     "title": "EV Powertrain",
-    "meetingTime": "TBD",
+    "meetingTime": "Fridays @ 6:00 PM",
     "description": "This team focused on the analysis, mounting, and creation of all powertrain systems on the EV car ensuring proper function and durability",
     "header": {
       "image": "/assets/team/EVPages/Powertrain/Projects.png",
@@ -197,12 +197,12 @@
   },
   "thermals": {
     "title": "EV Thermals",
-    "meetingTime": "TBD",
+    "meetingTime": "Thursdays @ 6:00 PM",
     "description": "This team focuses on running thermal-fluid simulations to analyze our designs to validate proper cooling to ensure safety",
     "header": {
       "image": "/assets/team/EVPages/Thermals/Projects.png",
       "lead": {
-        "image": "/assets/team/Headshots/blank_avatar.png",
+        "image": "/assets/team/Fall2024Officers/TuanNguyenEVThermals.jpg",
         "name": "Tuan Nguyen",
         "email": "tuan.nguyen@utdallas.edu",
         "title": "EV Thermals Lead",
