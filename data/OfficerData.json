@@ -14,12 +14,12 @@
       },
       {
         "name": "Jennifer Briseno",
-        "positions": "Vice President",
+        "positions": "Vice President / Aerodynamics Lead",
         "image": "/assets/team/Spring2024Officers/JenniferBriseno.jpg",
         "section": "Admin",
-        "year": "Junior",
+        "year": "Senior",
         "major": "Mechanical Engineering",
-        "yearsOnTeam": "2",
+        "yearsOnTeam": "3",
         "email": "jennifer.briseno@utdallas.edu",
         "linkedin": "https://linkedin.com/in/jenniferbriseno002"
       },
@@ -35,15 +35,26 @@
         "linkedin": "https://www.linkedin.com/in/aaryan-patel-958ba2291"
       },
       {
-        "name": "Dennis Yermakov",
+        "name": "Nabeel Salman",
         "positions": "Business Director",
-        "section": "Admin",
+        "section": "Business",
         "year": "Junior",
-        "major": "ITSS",
-        "yearsOnTeam": "3",
-        "image": "/assets/team/Spring2024Officers/DennisYermakov.jpg",
-        "email": "dennis.yermakov@utdallas.edu",
-        "linkedin": "https://www.linkedin.com/in/dennis-yermakovs-profile"
+        "major": "Software Engineering",
+        "yearsOnTeam": "2",
+        "image": "/assets/team/Spring2024Officers/NabeelSalman.jpg",
+        "email": "nabeel.salman@utdallas.edu",
+        "linkedin": "https://www.linkedin.com/in/nabeel-salman-31806421a/"
+      },
+      {
+        "name": "Aashish Kambala",
+        "positions": "Business President",
+        "section": "Admin",
+        "year": "Sophomore",
+        "major": "Computer Science",
+        "yearsOnTeam": "2",
+        "image": "/assets/team/Headshots/blank_avatar.png",
+        "email": "aashish.kambala@utdallas.edu",
+        "linkedin": "www.linkedin.com/in/aashish-k-302770210"
       },
       {
         "name": "Abby Ayala",
@@ -91,7 +102,7 @@
       },
       {
         "name": "Manuel De Jesus Contreras",
-        "positions": "EV Chief Engineer",
+        "positions": "EV President",
         "section": "Admin",
         "year": "Sophomore",
         "major": "Electrical Engineering",
@@ -116,31 +127,20 @@
   "Business": {
     "data": [
       {
-        "name": "Nabeel Salman",
-        "positions": "Corporate Relations",
+        "name": "Anush Kambala",
+        "positions": "Business VP",
         "section": "Business",
         "year": "Sophomore",
-        "major": "Software Engineering",
-        "yearsOnTeam": "2",
-        "image": "/assets/team/Spring2024Officers/NabeelSalman.jpg",
-        "email": "nabeel.salman@utdallas.edu",
-        "linkedin": "https://www.linkedin.com/in/nabeel-salman-31806421a/"
+        "major": "Computer Science",
+        "yearsOnTeam": "1",
+        "image": "/assets/team/Headshots/blank_avatar.png",
+        "email": "anush.kambala@utdallas.edu",
+        "linkedin": ""
       }
     ]
   },
-  "Engineering": {
+  "IC": {
     "data": [
-      {
-        "name": "John McAlister",
-        "positions": "Aerodynamics",
-        "image": "/assets/team/Spring2024Officers/JohnMcAlister.jpg",
-        "section": "Engineering",
-        "major": "Mechanical Engineering",
-        "year": "Junior",
-        "yearsOnTeam": "1",
-        "email": "john.mcalister@utdallas.edu",
-        "linkedin": "https://www.linkedin.com/in/john-mcalister-067852286/"
-      },
       {
         "name": "Ethan Gamero",
         "positions": "Chassis",
@@ -164,48 +164,37 @@
         "linkedin": "https://www.linkedin.com/in/derek-fuhr/"
       },
       {
-        "name": "Sam Madhanmohan",
+        "name": "Peter Guy",
         "positions": "Composites",
         "section": "Engineering",
         "major": "Mechanical Engineering",
-        "year": "Senior",
-        "yearsOnTeam": "2",
-        "image": "/assets/team/Spring2024Officers/SamMadhanmohan.jpg",
-        "email": "sam.madhanmohan@utdallas.edu",
-        "linkedin": "https://www.linkedin.com/in/sam-madhanmohan-96b645289/"
+        "year": "Junior",
+        "yearsOnTeam": "1",
+        "image": "/assets/team/Headshots/blank_avatar.png",
+        "email": "peter.guy@utdallas.edu",
+        "linkedin": ""
       },
       {
-        "name": "Nate Ho",
+        "name": "Daniel Apostolov",
         "positions": "Electrical",
         "section": "Engineering",
         "major": "Electrical Engineering",
         "year": "Senior",
         "yearsOnTeam": "3",
-        "image": "/assets/team/Spring2024Officers/NateHo.jpg",
-        "email": "nate.ho@utdallas.edu",
-        "linkedin": "https://www.linkedin.com/in/nathaniel-ho-008ab2203/"
+        "image": "/assets/team/Fall2024Officers/DanielA.jpg",
+        "email": "daniel.apostolov@utdallas.edu",
+        "linkedin": ""
       },
       {
-        "name": "Cristian Cruz",
+        "name": "Nico O.R.",
         "positions": "Embedded",
         "section": "Engineering",
         "major": "Computer Engineering",
-        "year": "Senior",
-        "yearsOnTeam": "3.5",
-        "image": "/assets/team/Spring2024Officers/CristianCruz.jpg",
-        "email": "cristian.cruzlopez@utdallas.edu",
-        "linkedin": "https://www.linkedin.com/in/crsz/"
-      },
-      {
-        "name": "James Moushegian",
-        "positions": "Ergonomics",
-        "section": "Engineering",
-        "major": "Mechanical Engineering",
-        "year": "Senior",
-        "yearsOnTeam": "2",
-        "image": "/assets/team/Spring2024Officers/JamesMoushegian.jpg",
-        "email": "jam170010@utdallas.edu",
-        "linkedin": "https://www.linkedin.com/in/j-moushegian/"
+        "year": "Junior",
+        "yearsOnTeam": "1.5",
+        "image": "/assets/team/Headshots/blank_avatar.png",
+        "email": "nxo220007@utdallas.edu",
+        "linkedin": ""
       },
       {
         "name": "Zoe Lao",
@@ -230,26 +219,37 @@
         "linkedin": "https://www.linkedin.com/in/nolan-westrope-3198ba1b3/"
       },
       {
-        "name": "Brandon Shaffer",
-        "positions": "Powertrain",
+        "name": "Apurva Betgar",
+        "positions": "Powertrain Co-Lead",
         "section": "Engineering",
-        "year": "Senior",
-        "major": "Mechanical Engineering",
-        "yearsOnTeam": "2",
-        "image": "/assets/team/Spring2024Officers/BrandonShaffer.jpg",
-        "email": "brandon.shaffer@utdallas.edu",
-        "linkedin": "https://www.linkedin.com/in/brandon-shaffer-93b013179/"
+        "year": "Sophomore",
+        "major": "Computer Engineering",
+        "yearsOnTeam": "1",
+        "image": "/assets/team/Spring2024Officers/ApurvaBetgar.jpg",
+        "email": "apurva.betgar@utdallas.edu",
+        "linkedin": "www.linkedin.com/in/apurva-betgar"
       },
       {
-        "name": "Noel Johnson",
+        "name": "Chan Pan",
+        "positions": "Powertrain Co-Lead",
+        "section": "Engineering",
+        "year": "Junior",
+        "major": "Mechanical Engineering",
+        "yearsOnTeam": "2",
+        "image": "/assets/team/Headshots/blank_avatar.png",
+        "email": "chan.phan@utdallas.edu",
+        "linkedin": ""
+      },
+      {
+        "name": "Arjun Nayak",
         "positions": "Software",
         "section": "Engineering",
-        "year": "Senior",
+        "year": "Sophomore",
         "major": "Computer Science",
-        "yearsOnTeam": "2",
-        "image": "/assets/team/Spring2024Officers/NoelJohnson.jpg",
-        "email": "noel.johnson@utdallas.edu",
-        "linkedin": "https://www.linkedin.com/in/noel-j-3b82b5105/"
+        "yearsOnTeam": "1",
+        "image": "/assets/team/Headshots/blank_avatar.png",
+        "email": "arjun.nayak@utdallas.edu",
+        "linkedin": "https://www.linkedin.com/in/arjun-s-nayak/"
       },
       {
         "name": "Dillon Saulsberry",
@@ -263,17 +263,6 @@
         "linkedin": "https://www.linkedin.com/in/dillon-saulsberry/"
       },
       {
-        "name": "Apurva Betgar",
-        "positions": "2019 Rebuild Chief Engineer",
-        "section": "Engineering",
-        "year": "Freshman",
-        "major": "Computer Engineering",
-        "yearsOnTeam": "0.5",
-        "image": "/assets/team/Spring2024Officers/ApurvaBetgar.jpg",
-        "email": "apurva.betgar@utdallas.edu",
-        "linkedin": "www.linkedin.com/in/apurva-betgar"
-      },
-      {
         "name": "Francis Cao",
         "positions": "Testing Lead",
         "section": "Engineering",
@@ -283,6 +272,17 @@
         "image": "/assets/team/Spring2024Officers/FrancisCao.jpg",
         "email": "francis.cao@utdallas.edu",
         "linkedin": "http://www.linkedin.com/in/%20francis-cao370978"
+      },
+      {
+        "name": "Will Everson",
+        "positions": "Data Acquisition Lead",
+        "section": "Engineering",
+        "year": "Senior",
+        "major": "Computer Engineering",
+        "yearsOnTeam": "3",
+        "image": "/assets/team/Headshots/blank_avatar.png",
+        "email": "will.everson@utdallas.edu",
+        "linkedin": "https://www.linkedin.com/in/william-everson-747198227/"
       }
     ]
   },
@@ -290,7 +290,7 @@
     "data": [
       {
         "name": "Connor Myers",
-        "positions": "Mechanical | Packaging",
+        "positions": "Chief Engineer",
         "section": "EV",
         "year": "Junior",
         "major": "Mechanical Engineering",
@@ -300,15 +300,15 @@
         "linkedin": "LinkedIn.com/in/connor-my/"
       },
       {
-        "name": "Alan Frias",
+        "name": "Sean Rudiak",
         "positions": "Electrical",
         "section": "EV",
-        "year": "Senior",
+        "year": "Junior",
         "major": "Electrical Engineering",
-        "yearsOnTeam": "3",
-        "image": "/assets/team/Spring2024Officers/AlanFrias.jpg",
-        "email": "alan.frias@utdallas.edu",
-        "linkedin": "https://www.linkedin.com/in/alan-frias-utd-ee/"
+        "yearsOnTeam": "2",
+        "image": "/assets/team/Fall2024Officers/SeanREVElectrical.jpg",
+        "email": "sean.rudiak@utdallas.edu",
+        "linkedin": ""
       },
       {
         "name": "Matthew Carolla",
@@ -331,6 +331,39 @@
         "image": "/assets/team/Spring2024Officers/ChadMelhem.jpg",
         "email": "chad.melhem@utdallas.edu",
         "linkedin": "https://www.linkedin.com/in/chadmelhem/"
+      },
+      {
+        "name": "Haavish Arutla",
+        "positions": "Packaging",
+        "section": "EV",
+        "year": "Junior",
+        "major": "Mechanical Engineering",
+        "yearsOnTeam": "1",
+        "image": "/assets/team/Fall2024Officers/HaavishArtulaEVPackaging.jpg",
+        "email": "haavish.arutla@utdallas.edu",
+        "linkedin": "https://www.linkedin.com/in/haavish-arutla-895916222/"
+      },
+      {
+        "name": "Tuan Nguyen",
+        "positions": "Thermals",
+        "section": "EV",
+        "year": "Junior",
+        "major": "Mechanical Engineering",
+        "yearsOnTeam": "1",
+        "image": "/assets/team/Fall2024Officers/TuanNguyenEVThermals.jpg",
+        "email": "tuan.nguyen@utdallas.edu",
+        "linkedin": ""
+      },
+      {
+        "name": "Shereef Kamel",
+        "positions": "Ergonomics",
+        "section": "EV",
+        "year": "Sophomore",
+        "major": "Mechanical Engineering",
+        "yearsOnTeam": "2",
+        "image": "/assets/team/Fall2024Officers/ShereefKamelEVErgo.jpg",
+        "email": "shereef.kamel@utdallas.edu",
+        "linkedin": "https://www.linkedin.com/in/kamel-shereef"
       }
     ]
   }

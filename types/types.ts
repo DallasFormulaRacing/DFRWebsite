@@ -1,52 +1,52 @@
 export type User = {
-    id: string;
-    email: string;
-    name: string;
-    position: string;
-    //posts: FormattedPost[];
+  id: string;
+  email: string;
+  name: string;
+  position: string;
+  //posts: FormattedPost[];
 };
 
 export type Officer = {
-    name: string;
-    image?: string;
-    positions?: string;
-    section: string;
-    year?: string;
-    major?: string;
-    email?: string;
-    linkedin?: string | null;
-    yearsOnTeam?: string;
+  name: string;
+  image?: string;
+  positions?: string;
+  section: string;
+  year?: string;
+  major?: string;
+  email?: string;
+  linkedin?: string | null;
+  yearsOnTeam?: string;
 };
 
 export type OfficerData = {
-    Admin: {
-        data: Officer[];
-    };
-    Business: {
-        data: Officer[];
-    };
-    Engineering: {
-        data: Officer[];
-    };
-    EV: {
-        data: Officer[];
-    };
+  Admin: {
+    data: Officer[];
+  };
+  Business: {
+    data: Officer[];
+  };
+  IC: {
+    data: Officer[];
+  };
+  EV: {
+    data: Officer[];
+  };
 };
 
 export type FormattedPost = {
-    id: string;
-    createdAt: string;
-    updatedAt: string;
-    title: string;
-    category: string;
-    content: string;
-    author: string;
-    image: string;
-    snippet: string;
+  id: string;
+  createdAt: string;
+  updatedAt: string;
+  title: string;
+  category: string;
+  content: string;
+  author: string;
+  image: string;
+  snippet: string;
 };
 
 export type Sponsor = {
-    name: string;
-    logo: string;
-    link: string;
+  name: string;
+  logo: string;
+  link: string;
 };
