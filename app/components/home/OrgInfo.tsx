@@ -22,7 +22,7 @@ export const OrgInfo = (props: Props) => {
         className={"text-center"}
       >
         <h1 className={"text-6xl mb-20 font-extrabold text-accent-orange"}>
-          Stats & Competion Teams
+          Stats & Competition Teams
         </h1>
         <div className={"flex justify-evenly items-center flex-wrap"}>
           <p className={"my-8 text-3xl w-11/12 md:w-2/12 px-8"}>

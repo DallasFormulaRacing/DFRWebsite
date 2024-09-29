@@ -77,19 +77,6 @@ export const SampleProjects = (props: Props) => {
             about math and science and encourage them to continue their
             education in the STEM field.
           </p>
-
-          <div className="w-11/12 md:w-4/5 text-right mt-12 md:mt-24">
-            <Link href="/team/join-the-team">
-              <motion.button
-                initial={{ opacity: 0, y: 50 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true }}
-                className="bg-[#E87500] text-wh-0 text-lg font-semibold min-w-[10rem] rounded-md p-4 mt-8"
-              >
-                Join the team
-              </motion.button>
-            </Link>
-          </div>
         </div>
         <div className="col-span-1 row-span-1 mt-8  justify-center hidden md:block md:mt-0">
           <Image

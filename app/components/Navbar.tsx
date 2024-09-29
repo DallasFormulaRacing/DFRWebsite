@@ -215,26 +215,22 @@ const NAV_LINKS = [
     label: <a href="/sponsors">Sponsors</a>,
     key: "/sponsors",
   },
-  // {
-  //   label: (
-  //     <a href="/contact-us" rel="noopener noreferrer">
-  //       Contact Us
-  //     </a>
-  //   ),
-  //   key: "/contact-us",
-  // },
+  {
+    label: (
+      <a href="/team/join-the-team" rel="noopener noreferrer">
+        <Button type="primary" className="bg-accent-green rounded-md">
+          Join
+        </Button>
+      </a>
+    ),
+    key: "/team/join-the-team",
+  },
 ];
 
 const items: MenuProps["items"] = [
   NAV_LINKS[0],
   getItem(
-    <a
-      href="/team/join-the-team"
-      rel="noopener noreferrer"
-      className="navbarLink"
-    >
-      Team
-    </a>,
+    <p className="navbarLink">Sub Teams</p>,
     "/team/join-the-team",
     null,
     [

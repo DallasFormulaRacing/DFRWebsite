@@ -40,14 +40,14 @@ const OfficerComponent = (props: Props) => {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
         >
-          Engineering
+          IC
         </motion.h1>
         <div
           className={
             "grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 justify-items-center gap-8"
           }
         >
-          {officerList.Engineering.data.map((officer, index) => (
+          {officerList.IC.data.map((officer, index) => (
             <OfficerCardV2 officer={officer} key={index} />
           ))}
         </div>
