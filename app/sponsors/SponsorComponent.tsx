@@ -13,8 +13,7 @@ export const Sponsors = () => {
       <h1
         className={
           "text-6xl font-extrabold mt-8 text-accent-orange text-center mb-12"
-        }
-      >
+        }>
         Sponsors
       </h1>
       <div className={"grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4"}>
@@ -28,14 +27,12 @@ export const Sponsors = () => {
         <Link
           href="/assets/sponsors/DFR_Sponsorship_Packet2024.pdf"
           target="_blank"
-          rel="noopener"
-        >
+          rel="noopener">
           <motion.button
             initial={{ opacity: 0, y: 50 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
-            className="bg-[#E87500] text-wh-0 text-lg font-semibold min-w-[10rem] rounded-md p-4 mt-8"
-          >
+            className="bg-[#E87500] text-wh-0 text-lg font-semibold min-w-[10rem] rounded-md p-4 mt-8">
             Learn More
           </motion.button>
         </Link>

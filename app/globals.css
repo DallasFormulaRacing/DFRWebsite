@@ -6,11 +6,12 @@ html,
 body,
 #root,
 .app {
-    height: 100%;
-    width: 100%;
-    @apply text-sm;
+  height: 100%;
+  width: 100%;
+  @apply text-sm;
 }
 
-.ant-menu-item-selected, .ant-menu-submenu-selected {
-    background-color: #2d2f34 !important;
+.ant-menu-item-selected,
+.ant-menu-submenu-selected {
+  background-color: #2d2f34 !important;
 }

@@ -19,8 +19,7 @@ const Demographics = () => {
   return (
     <section
       className="leading-7 mx-auto w-11/12 px-20 min-h-screen flex flex-row justify-evenly items-center"
-      suppressHydrationWarning={true}
-    >
+      suppressHydrationWarning={true}>
       <div className="">
         <h3 className="ml-20 text-2xl font-bold my-4 text-primary">Majors</h3>
         <BarChart
@@ -28,8 +27,7 @@ const Demographics = () => {
           height={300}
           data={TeamMajors}
           margin={{ top: 5, right: 30, left: 20, bottom: 5 }}
-          className="my-4"
-        >
+          className="my-4">
           <CartesianGrid strokeDasharray="3 3" />
           <XAxis dataKey="Major" />
           <YAxis />
@@ -53,8 +51,7 @@ const Demographics = () => {
             outerRadius={50}
             fill="#2D8B49"
             labelLine={false}
-            label
-          ></Pie>
+            label></Pie>
           <Tooltip />
           <Legend />
         </PieChart>

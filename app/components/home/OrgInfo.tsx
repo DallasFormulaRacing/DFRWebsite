@@ -19,8 +19,7 @@ export const OrgInfo = (props: Props) => {
         initial={{ opacity: 0, y: 50 }}
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true }}
-        className={"text-center"}
-      >
+        className={"text-center"}>
         <h1 className={"text-6xl mb-20 font-extrabold text-accent-orange"}>
           Stats & Competition Teams
         </h1>

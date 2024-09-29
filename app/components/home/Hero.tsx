@@ -14,15 +14,13 @@ export default function Header() {
         className="w-full min-h-[92svh] max-h-[92svh] object-cover"
         autoPlay
         muted
-        loop
-      ></video>
+        loop></video>
 
       <motion.div
         className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 space-y-6 text-center"
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
-        transition={{ duration: 0.4, delay: 0.4 }}
-      >
+        transition={{ duration: 0.4, delay: 0.4 }}>
         {/* <h1 className="text-5xl md:text-8xl font-extrabold text-wh-75 italic break-words">
           <motion.span
             className="inline-block"

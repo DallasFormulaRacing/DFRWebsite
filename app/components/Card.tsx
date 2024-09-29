@@ -44,8 +44,7 @@ const Card = ({
             className={`font-bold hover:text-accent-green 
                 ${isSmallCard ? "text-base" : "text-lg"}
                 ${isSmallCard ? "line-clamp-2" : ""}
-                `}
-          >
+                `}>
             Title
           </h4>
         </Link>
@@ -56,8 +55,7 @@ const Card = ({
         <p
           className={`text-wh-500 ${
             isLongForm ? "line-clamp-5" : "line-clamp-3"
-          }`}
-        >
+          }`}>
           Description
         </p>
       </div>

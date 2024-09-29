@@ -14,16 +14,14 @@ export const AboutUs = (props: Props) => {
           initial={{ opacity: 0, y: 50 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
-          className="text-6xl font-extrabold text-accent-orange"
-        >
+          className="text-6xl font-extrabold text-accent-orange">
           About Us
         </motion.h1>
         <motion.div
           initial={{ opacity: 0, y: 50 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
-          className="my-8 flex flex-col"
-        >
+          className="my-8 flex flex-col">
           <p className="text-3xl my-4 w-11/12 leading-10">
             Dallas Formula Racing is a student-led organization and is the
             chapter for SAE International at the University of Texas at Dallas.
@@ -44,8 +42,7 @@ export const AboutUs = (props: Props) => {
               initial={{ opacity: 0, y: 50 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
-              className="bg-[#E87500] text-wh-0 text-lg font-semibold min-w-[10rem] rounded-md p-4 mt-8"
-            >
+              className="bg-[#E87500] text-wh-0 text-lg font-semibold min-w-[10rem] rounded-md p-4 mt-8">
               Learn More
             </motion.button>
           </Link>
@@ -56,8 +53,7 @@ export const AboutUs = (props: Props) => {
         src="https://www.youtube.com/embed/1C7s40Cisy8"
         title="Meet the UTD Team Behind Dallas Formula Racing"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-        allowFullScreen
-      ></iframe>
+        allowFullScreen></iframe>
     </section>
   );
 };

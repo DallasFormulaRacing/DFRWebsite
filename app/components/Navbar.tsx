@@ -22,7 +22,7 @@ function getItem(
   key: React.Key,
   icon?: React.ReactNode,
   children?: MenuItem[],
-  type?: "group"
+  type?: "group",
 ): MenuItem {
   return {
     key,
@@ -244,7 +244,7 @@ const items: MenuProps["items"] = [
       },
       IC_LINKS,
       EV_LINKS,
-    ]
+    ],
   ),
   NAV_LINKS[1],
   NAV_LINKS[2],
@@ -288,8 +288,7 @@ const Navbar = () => {
           <Button
             type="primary"
             onClick={() => setNavbarToggle(!navbarToggle)}
-            className="bg-wh-900 text-white"
-          >
+            className="bg-wh-900 text-white">
             {navbarToggle ? <MenuUnfoldOutlined /> : <MenuFoldOutlined />}
           </Button>
 

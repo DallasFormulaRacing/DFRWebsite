@@ -96,8 +96,7 @@ function TimelineItem({
       initial={{ opacity: 0, y: 50 }}
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true }}
-      className="pb-32 min-h-[400px] px-2"
-    >
+      className="pb-32 min-h-[400px] px-2">
       {image && <TimelineImage image={image} />}
       <div>
         <h1 className={"text-5xl font-bold mt-10 md:mt-0 text-accent-orange"}>
@@ -115,8 +114,7 @@ function TimelineImage({ image }: { image: StaticImageData }) {
       initial={{ opacity: 0, y: 50 }}
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true }}
-      className="relative h-[400px]"
-    >
+      className="relative h-[400px]">
       <Image
         alt={"2022AeroPackage"}
         placeholder={"blur"}

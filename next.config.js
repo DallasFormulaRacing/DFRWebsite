@@ -4,7 +4,7 @@ const nextConfig = {};
 module.exports = {
   webpack: (
     config,
-    { buildId, dev, isServer, defaultLoaders, nextRuntime, webpack }
+    { buildId, dev, isServer, defaultLoaders, nextRuntime, webpack },
   ) => {
     config.module.rules.push(
       {
@@ -26,7 +26,7 @@ module.exports = {
       {
         test: /\.(bin)$/,
         type: "asset/resource",
-      }
+      },
     );
     return config;
   },
