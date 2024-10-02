@@ -52,7 +52,7 @@
         "year": "Sophomore",
         "major": "Computer Science",
         "yearsOnTeam": "2",
-        "image": "/assets/team/Headshots/blank_avatar.png",
+        "image": "/dfr-logo-tyre.png",
         "email": "aashish.kambala@utdallas.edu",
         "linkedin": "www.linkedin.com/in/aashish-k-302770210"
       },
@@ -121,6 +121,61 @@
         "image": "/assets/team/Spring2024Officers/ReneeMenezes.jpg",
         "email": "renee.menezes@utdallas.edu",
         "linkedin": "https://www.linkedin.com/in/ren%C3%A9e-menezes-815296291/"
+      },
+      {
+        "name": "Rithvik Kaniganti",
+        "positions": "Marketing/Business",
+        "section": "Admin",
+        "year": "Sophomore",
+        "major": "Business Analytics",
+        "yearsOnTeam": "1",
+        "image": "/dfr-logo-tyre.png",
+        "email": "rithvik-kaniganti@utdallas.edu",
+        "linkedin": "https://www.linkedin.com/in/rithvik-kaniganti-35a496215/"
+      },
+      {
+        "name": "Anastasia Garel",
+        "positions": "Events and Logistics Lead",
+        "section": "Admin",
+        "year": "Junior",
+        "major": "Supply Chain Management and Marketing",
+        "yearsOnTeam": "1",
+        "image": "/dfr-logo-tyre.png",
+        "email": "anastasia.garel@utdallas.edu",
+        "linkedin": "www.linkedin.com/in/anastasia-garel/"
+      },
+      {
+        "name": "Lexus Douangdara",
+        "positions": "Events and Logistics",
+        "section": "Admin",
+        "year": "Freshman",
+        "major": "Business Analytics and Artificial Intelligence",
+        "yearsOnTeam": "0.5",
+        "image": "/dfr-logo-tyre.png",
+        "email": "lexus.douangdara@utdallas.edu",
+        "linkedin": "www.linkedin.com/in/lexusdouangdara/"
+      },
+      {
+        "name": "Abby Nguyen",
+        "positions": "Events and Logistics",
+        "section": "Admin",
+        "year": "Junior",
+        "major": "Neuroscience",
+        "yearsOnTeam": "1",
+        "image": "/dfr-logo-tyre.png",
+        "email": "abby.nguyen@utdallas.edu",
+        "linkedin": ""
+      },
+      {
+        "name": "Ananya Uppalapati",
+        "positions": "Events and Logistics",
+        "section": "Admin",
+        "year": "Freshman",
+        "major": "Computer Engineering",
+        "yearsOnTeam": "1",
+        "image": "/dfr-logo-tyre.png",
+        "email": "ananya.uppalapati@utdallas.edu",
+        "linkedin": "https://www.linkedin.com/in/ananyauppalapati/"
       }
     ]
   },
@@ -133,7 +188,7 @@
         "year": "Sophomore",
         "major": "Computer Science",
         "yearsOnTeam": "1",
-        "image": "/assets/team/Headshots/blank_avatar.png",
+        "image": "/dfr-logo-tyre.png",
         "email": "anush.kambala@utdallas.edu",
         "linkedin": ""
       }
@@ -169,10 +224,10 @@
         "section": "Engineering",
         "major": "Mechanical Engineering",
         "year": "Junior",
-        "yearsOnTeam": "1",
-        "image": "/assets/team/Headshots/blank_avatar.png",
+        "yearsOnTeam": "2",
+        "image": "/dfr-logo-tyre.png",
         "email": "peter.guy@utdallas.edu",
-        "linkedin": ""
+        "linkedin": "https://www.linkedin.com/in/peter-guy-614097186/"
       },
       {
         "name": "Daniel Apostolov",
@@ -192,7 +247,7 @@
         "major": "Computer Engineering",
         "year": "Junior",
         "yearsOnTeam": "1.5",
-        "image": "/assets/team/Headshots/blank_avatar.png",
+        "image": "/dfr-logo-tyre.png",
         "email": "nxo220007@utdallas.edu",
         "linkedin": ""
       },
@@ -236,7 +291,7 @@
         "year": "Junior",
         "major": "Mechanical Engineering",
         "yearsOnTeam": "2",
-        "image": "/assets/team/Headshots/blank_avatar.png",
+        "image": "/dfr-logo-tyre.png",
         "email": "chan.phan@utdallas.edu",
         "linkedin": ""
       },
@@ -247,7 +302,7 @@
         "year": "Sophomore",
         "major": "Computer Science",
         "yearsOnTeam": "1",
-        "image": "/assets/team/Headshots/blank_avatar.png",
+        "image": "/dfr-logo-tyre.png",
         "email": "arjun.nayak@utdallas.edu",
         "linkedin": "https://www.linkedin.com/in/arjun-s-nayak/"
       },
@@ -280,7 +335,7 @@
         "year": "Senior",
         "major": "Computer Engineering",
         "yearsOnTeam": "3",
-        "image": "/assets/team/Headshots/blank_avatar.png",
+        "image": "/dfr-logo-tyre.png",
         "email": "will.everson@utdallas.edu",
         "linkedin": "https://www.linkedin.com/in/william-everson-747198227/"
       }
