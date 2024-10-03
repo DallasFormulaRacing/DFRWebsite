@@ -54,7 +54,7 @@
         "yearsOnTeam": "2",
         "image": "/dfr-logo-tyre.png",
         "email": "aashish.kambala@utdallas.edu",
-        "linkedin": "www.linkedin.com/in/aashish-k-302770210"
+        "linkedin": "https://www.linkedin.com/in/aashish-k-302770210"
       },
       {
         "name": "Abby Ayala",
@@ -135,14 +135,14 @@
       },
       {
         "name": "Anastasia Garel",
-        "positions": "Events and Logistics Lead",
+        "positions": "Events and Logistics",
         "section": "Admin",
         "year": "Junior",
         "major": "Supply Chain Management and Marketing",
         "yearsOnTeam": "1",
         "image": "/dfr-logo-tyre.png",
         "email": "anastasia.garel@utdallas.edu",
-        "linkedin": "www.linkedin.com/in/anastasia-garel/"
+        "linkedin": "https://www.linkedin.com/in/anastasia-garel/"
       },
       {
         "name": "Lexus Douangdara",
@@ -153,7 +153,7 @@
         "yearsOnTeam": "0.5",
         "image": "/dfr-logo-tyre.png",
         "email": "lexus.douangdara@utdallas.edu",
-        "linkedin": "www.linkedin.com/in/lexusdouangdara/"
+        "linkedin": "https://www.linkedin.com/in/lexusdouangdara/"
       },
       {
         "name": "Abby Nguyen",
@@ -174,7 +174,7 @@
         "major": "Computer Engineering",
         "yearsOnTeam": "1",
         "image": "/dfr-logo-tyre.png",
-        "email": "ananya.uppalapati@utdallas.edu",
+        "email": "axu230008@utdallas.edu",
         "linkedin": "https://www.linkedin.com/in/ananyauppalapati/"
       }
     ]
@@ -282,7 +282,7 @@
         "yearsOnTeam": "1",
         "image": "/assets/team/Spring2024Officers/ApurvaBetgar.jpg",
         "email": "apurva.betgar@utdallas.edu",
-        "linkedin": "www.linkedin.com/in/apurva-betgar"
+        "linkedin": "https://www.linkedin.com/in/apurva-betgar"
       },
       {
         "name": "Chan Pan",
@@ -326,7 +326,7 @@
         "yearsOnTeam": "0.5",
         "image": "/assets/team/Spring2024Officers/FrancisCao.jpg",
         "email": "francis.cao@utdallas.edu",
-        "linkedin": "http://www.linkedin.com/in/%20francis-cao370978"
+        "linkedin": "https://www.linkedin.com/in/%20francis-cao370978"
       },
       {
         "name": "Will Everson",
@@ -352,7 +352,7 @@
         "yearsOnTeam": "2",
         "image": "/assets/team/Spring2024Officers/ConnorMyers.jpg",
         "email": "connor.myers2@utdallas.edu",
-        "linkedin": "LinkedIn.com/in/connor-my/"
+        "linkedin": "https://www.linkedin.com/in/connor-my/"
       },
       {
         "name": "Sean Rudiak",
