@@ -30,15 +30,39 @@
   },
 
   {
+    "name": "Bender",
+    "logo": "/assets/sponsors/EVSponsors/Bender.png",
+    "link": "https://benderinc.com/"
+  },
+
+  {
     "name": "CONVERGE CFD",
     "logo": "/assets/sponsors/converge.svg",
     "link": "https://convergecfd.com/"
   },
 
   {
+    "name": "ELEGOO",
+    "logo": "/assets/sponsors/elegoo.png",
+    "link": "https://www.elegoo.com/"
+  },
+
+  {
+    "name": "Engineered Materials Solutions",
+    "logo": "/assets/sponsors/EVSponsors/ems.png",
+    "link": "https://emsclad.com/"
+  },
+
+  {
     "name": "Evan Composites",
     "logo": "/assets/sponsors/evancomposites.webp",
     "link": "https://www.evancomposites.com/"
+  },
+
+  {
+    "name": "Exo Lambda",
+    "logo": "/assets/sponsors/EVSponsors/Exolambda.png",
+    "link": "https://exolambda.com/"
   },
 
   {
@@ -51,6 +75,12 @@
     "name": "HEXAGON",
     "logo": "/assets/sponsors/hexagon.svg",
     "link": "https://hexagon.com/"
+  },
+
+  {
+    "name": "Keysight",
+    "logo": "/assets/sponsors/EVSponsors/keysight.png",
+    "link": "https://keysight.com/us/en/home.html"
   },
 
   {
@@ -72,15 +102,45 @@
   },
 
   {
+    "name": "Mouser Electronics",
+    "logo": "/assets/sponsors/EVSponsors/Mouser.png",
+    "link": "https://www.mouser.com/"
+  },
+
+  {
+    "name": "NOODOE",
+    "logo": "/assets/sponsors/EVSponsors/Noodoe.png",
+    "link": "https://www.noodoe.com/"
+  },
+
+  {
     "name": "NTBAA",
     "logo": "/assets/sponsors/ntbaa.svg",
     "link": "https://ntbaaonline.com/"
   },
 
   {
+    "name": "OEL",
+    "logo": "/assets/sponsors/EVSponsors/oel.svg",
+    "link": "https://oelsales.com/"
+  },
+
+  {
+    "name": "Omni Powertrain",
+    "logo": "/assets/sponsors/omnipowertrain.png",
+    "link": "https://www.omnipowertrain.com/"
+  },
+
+  {
     "name": "Peterbilt",
     "logo": "/assets/sponsors/peterbilt.webp",
     "link": "https://www.peterbilt.com/"
+  },
+
+  {
+    "name": "ProEV",
+    "logo": "/assets/sponsors/EVSponsors/PROEV.png",
+    "link": "https://proelectricvehicle.com/"
   },
 
   {
@@ -150,6 +210,12 @@
   },
 
   {
+    "name": "TT Electronics",
+    "logo": "/assets/sponsors/EVSponsors/TTE.png",
+    "link": "https://www.ttelectronics.com/"
+  },
+
+  {
     "name": "UTD",
     "logo": "/assets/sponsors/utd.svg",
     "link": "https://www.utdallas.edu/"
@@ -158,15 +224,5 @@
     "name": "WelshAdvisors",
     "logo": "/assets/sponsors/welshadvisors.webp",
     "link": "https://www.welshadvisors.com/"
-  },
-  {
-    "name": "Omni Powertrain",
-    "logo": "/assets/sponsors/omnipowertrain.png",
-    "link": "https://www.omnipowertrain.com/"
-  },
-  {
-    "name": "ELEGOO",
-    "logo": "/assets/sponsors/elegoo.png",
-    "link": "https://www.elegoo.com/"
   }
 ]
