@@ -24,6 +24,7 @@ export const SponsorIcon = ({ index }: Props) => {
         <a
           href={sponsors[index].link}
           rel={"noreferrer"}
+          target="_blank"
           key={sponsors[index].name}>
           <Image
             fill
