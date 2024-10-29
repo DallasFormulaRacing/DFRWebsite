@@ -16,6 +16,7 @@ import EventsPreview from "./components/home/Events";
 
 import Head from "next/head";
 import { motion } from "framer-motion";
+import { Metadata } from "next";
 
 const CAROUSEL_GALLERY = [
   {
