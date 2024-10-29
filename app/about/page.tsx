@@ -10,6 +10,7 @@ import FAQSection from "../components/FAQSection";
 import dynamic from "next/dynamic";
 import Link from "next/link";
 import { List, Space } from "antd";
+import { Metadata } from "next";
 
 const Demographics = dynamic(() => import("./Demographics"), { ssr: false });
 

@@ -3,18 +3,16 @@ import React from "react";
 import Image from "next/image";
 import OfficerCard from "./OfficerCard";
 import OfficerComponent from "./OfficerComponent";
+import { Metadata } from "next";
 
-type Props = {};
-
-const testOfficer = {
-  name: "Test Officer",
-  positions: "Test Position",
-  image: "/assets/Officers Page/test.jpg",
-  year: "1 year",
-  major: "Test Major",
-  yearsOnTeam: "1 year",
-  linkedin: "https://www.linkedin.com/in/kevin-chen-1b1b1b1b1/",
-};
+export const metadata: Metadata = {
+  title: 'Dallas Formula Racing - Officers',
+  description: `
+    Meet the dedicated officers of Dallas Formula Racing. Our leadership team is composed of passionate individuals 
+    committed to guiding the organization, fostering collaboration, and driving innovation in formula-style vehicle 
+    design and competition.
+  `,
+}
 
 export default function Officers() {
   return (

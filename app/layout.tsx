@@ -5,6 +5,7 @@ import Navbar from "@/app/components/Navbar";
 import Footer from "@/app/components/Footer";
 import StyledComponentsRegistry from "@/lib/AntdRegistry";
 import { ConfigProvider } from "antd";
+import { icons } from "antd/es/image/PreviewGroup";
 
 const openSans = Open_Sans({
   subsets: ["latin"],
@@ -18,7 +19,15 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
   title: "Dallas Formula Racing",
-  description: "Website for Dallas Formula Racing FSAE team",
+  description: `Dallas Formula Racing is a student-led organization and is the
+    chapter for SAE International at the University of Texas at Dallas.
+    Our team was founded in 2014 and has successfully built three
+    formula-style vehicles for the Formula SAE competition. The diverse
+    array of projects on our team results in student collaboration among
+    four different schools at UT Dallas.`,
+  icons: {
+    icon: '/dfr-logo-tyre.png'
+  }
 };
 
 const antDCustomizeTheme = {
