@@ -13,6 +13,7 @@ import GroupPhoto from "@/public/assets/team/group_photo.jpeg";
 import Car2024 from "@/public/assets/Cars/2024/2024_3.png";
 import NewslettersPreview from "./components/home/Newsletters";
 import EventsPreview from "./components/home/Events";
+import MeetingTimes from "./components/home/MeetingTimes";
 
 import Head from "next/head";
 import { motion } from "framer-motion";
@@ -41,15 +42,17 @@ export default function Home() {
     <main className={"px-0 leading-7"}>
       <Hero />
       <AboutUs />
-      <EventsPreview />
       <OrgInfo />
       {/* <ImageBreaks
         image={Sidebysidecars.src}
         imageHeight={"h-224"}
         imageFit={"object-cover"}
       /> */}
-      <SampleProjects />
-      <NewslettersPreview />
+      <div className="min-h-screen">
+        <EventsPreview />
+        <NewslettersPreview />
+      </div>
+      <MeetingTimes />
       {/* {/* <ImageBreaks
         image={Car2023.src}
         imageHeight={"h-224"}
