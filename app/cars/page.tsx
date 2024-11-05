@@ -17,8 +17,8 @@ export const metadata: Metadata = {
 
 export default function Cars() {
   return (
-    <main className={"px-0 leading-7"}>
-      <div className={"relative"}>
+    <main className={"px-0 leading-7 min-h-screen"}>
+      {/* <div className={"relative"}>
         <ImageBreaks
           image={Car2024.src}
           imageHeight={"h-224"}
@@ -35,7 +35,7 @@ export default function Cars() {
             }
           />
         </div>
-      </div>
+      </div> */}
       <TeamHistory />
     </main>
   );
