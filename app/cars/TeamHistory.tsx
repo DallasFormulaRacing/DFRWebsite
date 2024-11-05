@@ -20,7 +20,7 @@ const CAR_HISTORY_DATA = [
     image: Car2024,
     title: "2024 Michigan",
     description:
-      "Dallas Formula Racing achieved its best ever finish at FSAE Michigan, placing 29th out of 108 teams. This has been a year of many firsts for DFR. It was the first time the car completed the endurance event in 5 years, and the first time in 10 years that the team has completed all events. Additionally, we had our first-ever successful implementation of an aero package. Additionally, we placed 2nd overall for best visual design.",
+      "Dallas Formula Racing had an incredible year at FSAE Michigan, hitting a record 29th place out of 108 teams! This season was packed with firsts: the car completed the endurance event for the first time in 5 years and finished all events for the first time in a decade. We also nailed our debut aero package and scored 2nd place for best visual design.",
   },
   {
     image: Car2023,
@@ -30,54 +30,38 @@ const CAR_HISTORY_DATA = [
   {
     image: Car2022,
     title: "2022 Michigan: Andromeda V2",
-    description: `Due to funding limitations, we reused as much from the previous year while still significantly improved the car. We were still feeling the aftermath of COVID this year with mostly new members. Only four of the 22 people at the competition had gone to a previous FSAE competition. This was a huge learning curve for our members; many needed to learn what was happening. We passed tech and completed Acceleration and Skidpad for the first time. We also competed in Autocross again. During Autocross, our rear wing broke, and we were going to do endurance without it and take the penalty of competing without it, although we passed tech with it and needed to compete with it. We were not able to do endurance because our chain had broken. Our business team also placed #1 among Texas schools for the business presentation and #16 among all teams. We finished with 225.6 points, a 10% increase in points.`,
+    description: `With limited funding, we built on last year’s design and made major improvements, despite still feeling the impact of COVID with a mostly new team. Out of our 22 members, only four had been to FSAE before, making this a steep learning curve. For the first time, we passed tech inspection, completed Acceleration and Skidpad, and competed in Autocross. Though a broken rear wing and chain kept us from the endurance event, we still achieved a 10% boost in points. Our business team excelled, placing #1 among Texas schools and #16 overall. We wrapped up with 225.6 points—a strong finish!`,
   },
   {
     image: Car2021,
     title: "2021 Nevada: Andromeda V1",
-    description: `In 2021, we found developing the car to be an extremely challenging endeavor. Due to the still significant presence of COVID-19 in the country, we received approval to manufacture our vehicle a month before the competition. Furthermore, we needed to gain and retain members as our only way to promote the team at the time was virtual, which was ineffective. It also became more work to motivate people to learn about the car and the skills needed to build one in an online environment. Then, during the competition, we were limited in the number of members we could bring, leaving us with only ten members. Unfortunately, things did not improve. Despite getting a car into the competition, the half shaft popped out, and we could not fix it properly, causing it to break in the middle of endurance. Fortunately, some good did come out of all of the struggles. We competed in a complete autocross for the first time and improved our score with a 13.7% increase in points.`,
+    description: `2021 was a tough year for us. With COVID-19 still impacting the country, we only received approval to manufacture the car a month before competition. Recruiting and retaining members was challenging with virtual-only promotion, and it was hard to keep the team motivated in an online environment. At competition, we were limited to just ten members. Despite our best efforts, a half shaft failure cut our endurance run short. But there were wins: we completed a full autocross for the first time and improved our score by 13.7%!.`,
   },
   {
     image: Car2019,
     title: "2019 Lincoln: Voyager",
-    description: `In 2019, we utilized our four years of accumulated knowledge and development with our 2018 competition vehicle and managed to build our 2019 vehicle, Voyager, in only one year. Then, during the competition, we entered our car into the 22km endurance race, the only dynamic event remaining. Completing the endurance race as a second-year team was unheard of, as countless teams would have needed to possess the process to make their vehicles last long enough to complete it. However, despite these obstacles, our car could handle the strain, and we completed everything. Ultimately, we finished the competition with a 20.7% increase in effectiveness, a significant improvement from the previous year.`,
+    description: `In 2019, we took everything we’d learned over four years—and from our 2018 car—to build our new vehicle, Voyager, in just one year. At competition, we tackled the 22km endurance race, the only dynamic event left. Completing endurance as a second-year team was nearly unheard of, but Voyager held up under the pressure, finishing strong. In the end, we boosted our performance by 20.7% over the previous year—a huge leap forward!`,
   },
   {
     image: Car2018,
     title: "2018 Lincoln: Halley's Comet",
-    description: `Our team was founded in 2014 by a group of engineers and gained massive interest from hundreds of members. Then, after four years of making up for our lack of structure, knowledge, and sponsors, we finished developing our first car, Halley's Comet. In Lincoln 2018, we passed the technical inspection and competed in the static events for the first time. We were able to place 61 out of 67. While this may not seem great, this was a massive accomplishment for our first-year team, and it demonstrates the immense growth the team has seen since then.`,
+    description: `Founded in 2014 by a group of dedicated engineers, our team quickly drew interest from hundreds of members. After four years of building structure, knowledge, and support, we completed our first car, Halley’s Comet. In Lincoln 2018, we passed technical inspection and competed in static events for the first time, finishing 61st out of 67. While modest, this achievement marked a huge milestone for our first-year team and showcased the incredible growth we’ve experienced since those early days.`,
   },
 ];
 
 export const TeamHistory = (props: Props) => {
   return (
-    <section className={"p-8 md:p-24"}>
-      <Timeline
-        items={CAR_HISTORY_DATA.map(({ image, title, description }) => {
-          return {
-            children: (
-              <TimelineItem
-                key={title}
-                image={image}
-                title={title}
-                description={description}
-              />
-            ),
-          };
-        })}
-        className="block md:hidden"
-      />
-
-      <Timeline
-        mode="alternate"
-        items={CAR_HISTORY_DATA.map(({ image, title, description }) => {
-          return {
-            label: <TimelineImage image={image} />,
-            children: <TimelineItem title={title} description={description} />,
-          };
-        })}
-        className="hidden md:block"
-      />
+    <section>
+      {CAR_HISTORY_DATA.map(({ image, title, description }) => {
+        return (
+          <TimelineItem
+            key={title}
+            image={image}
+            title={title}
+            description={description}
+          />
+        );
+      })}
     </section>
   );
 };
@@ -96,13 +80,15 @@ function TimelineItem({
       initial={{ opacity: 0, y: 50 }}
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true }}
-      className="pb-32 min-h-[400px] px-2">
-      {image && <TimelineImage image={image} />}
-      <div>
-        <h1 className={"text-5xl font-bold mt-10 md:mt-0 text-accent-orange"}>
-          {title}
-        </h1>
-        <p className={"text-2xl mt-4"}>{description}</p>
+      className="relative">
+      <div className="relative h-[98svh] w-full overflow-hidden">
+        {image && <TimelineImage image={image} />}
+        <div className="absolute top-0 flex flex-col justify-center items-center bg-black bg-opacity-50 p-20 z-10 text-left">
+          <h1 className="text-xl md:text-5xl font-bold mt-10 md:mt-0 text-accent-orange">
+            {title}
+          </h1>
+          <p className="text-sm md:text-4xl text-white mt-4 max-w-[800px]">{description}</p>
+        </div>
       </div>
     </motion.div>
   );
@@ -114,13 +100,13 @@ function TimelineImage({ image }: { image: StaticImageData }) {
       initial={{ opacity: 0, y: 50 }}
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true }}
-      className="relative h-[400px]">
+      className="relative h-full w-full z-0">
       <Image
         alt={"2022AeroPackage"}
         placeholder={"blur"}
         src={image}
         fill
-        className="object-cover rounded-xl"
+        className="object-cover"
         unoptimized
       />
     </motion.div>
