@@ -7,13 +7,13 @@ import DFRTyreLogo from "@/public/dfr-logo-tyre.png";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: 'Dallas Formula Racing - Cars',
+  title: "Dallas Formula Racing - Cars",
   description: `
     Explore the history of the cars developed by Dallas Formula Racing, the SAE International chapter at UT Dallas. 
     Since its founding in 2014, the team has been committed to designing and building formula-style vehicles, 
     showcasing their engineering prowess and teamwork skills through participation in the Formula SAE competition.
   `,
-}
+};
 
 export default function Cars() {
   return (

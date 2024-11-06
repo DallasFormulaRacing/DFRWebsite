@@ -4,13 +4,13 @@ import Image from "next/image";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: 'Dallas Formula Racing - Gallery',
+  title: "Dallas Formula Racing - Gallery",
   description: `
     Explore the Dallas Formula Racing gallery to see our journey through images capturing the excitement of 
     designing, building, and competing with formula-style vehicles. From team events to competition highlights, 
     our gallery showcases the dedication and passion of our members.
   `,
-}
+};
 
 export default function Gallery() {
   const images = getImages();
