@@ -26,8 +26,8 @@ export const metadata = {
     array of projects on our team results in student collaboration among
     four different schools at UT Dallas.`,
   icons: {
-    icon: '/dfr-logo-tyre.png'
-  }
+    icon: "/dfr-logo-tyre.png",
+  },
 };
 
 const antDCustomizeTheme = {

@@ -5,13 +5,13 @@ import { SponsorHeaderInfo } from "./SponsorHeaderInfo";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: 'Dallas Formula Racing - Sponsors',
+  title: "Dallas Formula Racing - Sponsors",
   description: `
     Discover the valued sponsors of Dallas Formula Racing, the SAE International chapter at UT Dallas. 
     Our sponsors play a crucial role in supporting our mission to design, build, and compete with formula-style vehicles. 
     Their contributions enable our team to foster innovation, enhance engineering skills, and excel in the Formula SAE competition.
   `,
-}
+};
 
 export default function Sponsors() {
   return (

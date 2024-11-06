@@ -20,7 +20,7 @@ const CAR_HISTORY_DATA = [
     image: Car2024,
     title: "2024 Michigan",
     description:
-      "Dallas Formula Racing had an incredible year at FSAE Michigan, hitting a record 29th place out of 108 teams! This season was packed with firsts: the car completed the endurance event for the first time in 5 years and finished all events for the first time in a decade. We also nailed our debut aero package and scored 2nd place for best visual design.",
+      "Dallas Formula Racing had an incredible year at FSAE Michigan, hitting a record 29th place out of 108 teams! This season was packed with firsts: the car completed the endurance event for the first time in 5 years and finished all events for the first time in a decade. We also scored 2nd place overall for best visual design.",
   },
   {
     image: Car2023,
@@ -87,7 +87,9 @@ function TimelineItem({
           <h1 className="text-xl md:text-5xl font-bold mt-10 md:mt-0 text-accent-orange">
             {title}
           </h1>
-          <p className="text-sm md:text-4xl text-white mt-4 max-w-[800px]">{description}</p>
+          <p className="text-sm md:text-4xl text-white mt-4 max-w-[800px]">
+            {description}
+          </p>
         </div>
       </div>
     </motion.div>

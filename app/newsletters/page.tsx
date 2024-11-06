@@ -4,13 +4,13 @@ import Image from "next/image";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: 'Dallas Formula Racing - Newsletters',
+  title: "Dallas Formula Racing - Newsletters",
   description: `
     Stay updated with Dallas Formula Racing through our newsletters, featuring the latest news, events, 
     and achievements of our team. Each edition highlights our progress in designing, building, and competing with 
     formula-style vehicles, as well as the collaborative efforts of our members and sponsors.
   `,
-}
+};
 
 export default function Newsletters() {
   return (
