@@ -1,23 +1,16 @@
 [
   {
-    "date": "11/08/2024",
-    "time": "6:00PM",
-    "location": "ECSW 1.455",
-    "title": "DFR Potluck",
-    "previewImage": "/assets/events/DFR_Potluck.png"
-  },
-  {
-    "date": "11/12/2024",
-    "time": "All Day",
-    "location": "Piada Richardson, Code: 9QEAJX",
-    "title": "DFR - Piada Fundraiser",
-    "previewImage": "/assets/events/piada.png"
-  },
-  {
     "date": "11/21/2024",
     "time": "7:00PM",
     "location": "ECSW 1.315",
     "title": "General Meeting 3",
+    "previewImage": "/assets/events/Gen3.png"
+  },
+  {
+    "date": "12/12/2024",
+    "time": "6:00 - 10:00PM",
+    "location": "UTD | Alumni Center- Ann and Jack Graves Ballroom",
+    "title": "Engineering Gala",
     "previewImage": "/dfr-sae.png"
   }
 ]
