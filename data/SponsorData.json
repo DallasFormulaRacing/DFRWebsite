@@ -85,6 +85,12 @@
 
   {
     "name": "LabJack",
+    "logo": "/assets/sponsors/LILY.png",
+    "link": "https://www.lily-bearing.com/"
+  },
+
+  {
+    "name": "Lily Bearings",
     "logo": "/assets/sponsors/labjack.webp",
     "link": "https://labjack.com/"
   },
