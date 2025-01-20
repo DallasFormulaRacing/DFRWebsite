@@ -1,16 +1,9 @@
 [
   {
-    "date": "11/21/2024",
+    "date": "02/06/2025",
     "time": "7:00PM",
     "location": "ECSW 1.315",
-    "title": "General Meeting 3",
-    "previewImage": "/assets/events/Gen3.png"
-  },
-  {
-    "date": "12/12/2024",
-    "time": "6:00 - 10:00PM",
-    "location": "UTD | Alumni Center- Ann and Jack Graves Ballroom",
-    "title": "Engineering Gala",
-    "previewImage": "/dfr-sae.png"
+    "title": "Spring 2025 Kickoff",
+    "previewImage": "/assets/events/KickoffSpring2025.png"
   }
 ]
