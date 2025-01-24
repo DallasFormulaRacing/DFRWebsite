@@ -230,5 +230,10 @@
     "name": "WelshAdvisors",
     "logo": "/assets/sponsors/welshadvisors.webp",
     "link": "https://www.welshadvisors.com/"
+  },
+  {
+    "name": "Metals4U",
+    "logo": "/assets/sponsors/METALS4U.png",
+    "link": "https://www.metals4u.com"
   }
 ]
