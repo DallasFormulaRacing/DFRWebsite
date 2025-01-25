@@ -70,21 +70,10 @@ export default function MeetingTimes() {
                 backgroundColor: "#E87500",
               },
               {
-                title: "Composites Meeting",
-                rrule: {
-                  freq: "weekly",
-                  byweekday: ["we"], // Every Monday
-                  dtstart: "2024-10-01T19:30:00", // Start date and time
-                  until: "2025-12-31", // Optional: End date for recurrence
-                },
-                extendedProps: { tags: ["Meeting", "Work"] },
-                backgroundColor: "#045295",
-              },
-              {
                 title: "Business Meeting",
                 rrule: {
                   freq: "weekly",
-                  byweekday: ["th"], // Every Monday
+                  byweekday: ["we"], // Every Monday
                   dtstart: "2024-10-01T16:00:00", // Start date and time
                   until: "2025-12-31", // Optional: End date for recurrence
                 },
@@ -125,6 +114,17 @@ export default function MeetingTimes() {
                 backgroundColor: "#E87500",
               },
               {
+                title: "Composites Meeting",
+                rrule: {
+                  freq: "weekly",
+                  byweekday: ["fr"], // Every Monday
+                  dtstart: "2024-10-01T17:00:00", // Start date and time
+                  until: "2025-12-31", // Optional: End date for recurrence
+                },
+                extendedProps: { tags: ["Meeting", "Work"] },
+                backgroundColor: "#045295",
+              },
+              {
                 title: "Business Meeting",
                 rrule: {
                   freq: "weekly",
@@ -163,6 +163,17 @@ export default function MeetingTimes() {
                   freq: "weekly",
                   byweekday: ["we"], // Every Monday
                   dtstart: "2024-10-01T17:30:00", // Start date and time
+                  until: "2025-12-31", // Optional: End date for recurrence
+                },
+                extendedProps: { tags: ["Meeting", "Work"] },
+                backgroundColor: "#2D8B49",
+              },
+              {
+                title: "EV Accumulator ",
+                rrule: {
+                  freq: "weekly",
+                  byweekday: ["we"], // Every Monday
+                  dtstart: "2024-10-01T17:00:00", // Start date and time
                   until: "2025-12-31", // Optional: End date for recurrence
                 },
                 extendedProps: { tags: ["Meeting", "Work"] },
@@ -222,7 +233,7 @@ export default function MeetingTimes() {
                 },
                 extendedProps: { tags: ["Meeting", "Work"] },
                 backgroundColor: "#2D8B49",
-              },
+              },              
               // {
               //   title: "DFR Potluck",
               //   rrule: {
