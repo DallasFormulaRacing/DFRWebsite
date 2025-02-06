@@ -31,6 +31,9 @@ export type OfficerData = {
   EV: {
     data: Officer[];
   };
+  F1Tenth: {
+    data: Officer[];
+  };
 };
 
 export type FormattedPost = {

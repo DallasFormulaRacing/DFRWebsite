@@ -1,10 +1,7 @@
 import OfficerSection from "./OfficerSection";
 import TitleSection from "./TitleSection";
 import Image from "next/image";
-import DennisYermakov from "@/public/assets/team/Headshots/DennisYermakov.png";
 import NabeelSalman from "@/public/assets/team/Headshots/NabeelSalman.png";
-import PrestonWolfe from "@/public/assets/team/Headshots/PrestonWolfe.png";
-import AryanSharma from "@/public/assets/team/Headshots/Aryan Sharma.png";
 import SponsorshipImage from "@/public/assets/team/20220818_183355 1.png";
 import CommunityImage from "@/public/assets/team/IMG_3380 1.png";
 import OutreachImage from "@/public/assets/team/IMG_3239 1.png";
@@ -13,11 +10,11 @@ const OFFICERS = {
   leadership: [
     {
       bigTitle: "Business",
-      image: DennisYermakov,
-      name: "Dennis Yermakov",
+      image: "/assets/team/Spring2025Officers/AashishKambala.png",
+      name: "Aashish Kambala",
       role: "Business Director",
       quote:
-        "With all the design work and manufacturing that the engineering teams do for this formula-style car, naturally, the budgeting and costs for the vehicle tend to be one of the main limiting handicaps of the team. From working on company research to writing proposals for relatively large sums of money, this position has allowed me to talk to some incredible people and help the team accomplish goals and increase the scope of their operations. I hope that by being on the Corporate Relations team, members will be able to make lasting financial impacts on the team and get a chance to network with unique sponsors for the team.",
+        "The business team exists to ensure that all our competition teams have the funding to not only compete but excel. As a part of the business team, you will have the opportunity to engage in corporate outreach and secure partnerships that allow Dallas Formula Racing to grow. You'll have a platform to directly apply the business skills you learn through coursework within a practical setting. It's like a sandbox for business:).",
     },
   ],
   sponsorship: [
@@ -31,22 +28,14 @@ const OFFICERS = {
   ],
   community: [
     {
-      image: PrestonWolfe,
-      name: "Preston Wolfe",
-      role: "Social Media",
+      image: "/assets/team/Spring2025Officers/AnushKambala.png",
+      name: "Anush Kambala",
+      role: "Business VP",
       quote:
-        "Being a part of this team has introduced me to a whole new world of UT Dallas. Taking a part in the leadership has presented opportunities for myself to grow professionally in my field of user experience and learn more about the engineering field.",
+        "There’s a space on the business team for anyone willing to put in the effort to contribute to the DFR mission. The strength of the business team is founded in the immense diversity of our individual opinions",
     },
   ],
-  outreach: [
-    {
-      image: AryanSharma,
-      name: "Aryan Sharma",
-      role: "Events Coordinator",
-      quote:
-        "This club is a perfect place to meet and forage new friends with similar passions and dedication to motorsport. I can not begin to list all the amazing and inspirational people I have met in and outside the team.",
-    },
-  ],
+  
 };
 
 export default function Page() {
@@ -111,12 +100,7 @@ export default function Page() {
         subtitle="Encourage aspiring and future engineers to follow their passions"
         position="BottomLeft"
       />
-      <OfficerSection
-        image={OFFICERS.outreach[0].image}
-        name={OFFICERS.outreach[0].name}
-        role={OFFICERS.outreach[0].role}
-        quote={OFFICERS.outreach[0].quote}
-      />
+     
     </main>
   );
 }

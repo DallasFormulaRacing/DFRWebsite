@@ -45,15 +45,8 @@ const IC_LINKS = {
       ),
       key: "/team/ic/aerodynamics",
     },
-    {
-      label: (
-        <a href="/team/ic/business" rel="noopener noreferrer">
-          Business Team
-        </a>
-      ),
-      key: "/team/ic/aerodynamics",
-    },
-    {
+    
+   /* {
       label: (
         <a href="/team/ic/chassis" rel="noopener noreferrer">
           Chassis Team
@@ -68,7 +61,7 @@ const IC_LINKS = {
         </a>
       ),
       key: "/team/ic/composites",
-    },
+    },*/
     {
       label: (
         <a href="/team/ic/electrical" rel="noopener noreferrer">
@@ -85,7 +78,7 @@ const IC_LINKS = {
       ),
       key: "/team/ic/embedded",
     },
-    {
+   /* {
       label: (
         <a href="/team/ic/ergonomics" rel="noopener noreferrer">
           Ergonomics Team
@@ -93,14 +86,14 @@ const IC_LINKS = {
       ),
       key: "/team/ic/ergonomics",
     },
-    {
+       {
       label: (
         <a href="/team/ic/manufacturing" rel="noopener noreferrer">
           Manufacturing Team
         </a>
       ),
       key: "/team/ic/manufacturing",
-    },
+    },*/
     {
       label: (
         <a href="/team/ic/powertrain" rel="noopener noreferrer">
@@ -181,6 +174,44 @@ const EV_LINKS = {
     },
   ],
 };
+const BusinessandCommunications_LINKS = {
+  label: <p>Communications</p>,
+  key: "/BusinessandCommunications",
+  children: [
+    {
+      label: (
+        <a href="/team/ic/business" rel="noopener noreferrer">
+          Business Team
+        </a>
+      ),
+      key: "/team/ic/business",
+    },
+    {
+      label: (
+        <a href="/team/ic/CreativeMeadia" rel="noopener noreferrer">
+          Creative Meadia
+        </a>
+      ),
+      key: "/team/ic/business",
+    },
+    {
+      label: (
+        <a href="/team/ic/EventsandLogistics" rel="noopener noreferrer">
+          Events and Logistics
+        </a>
+      ),
+      key: "/team/ic/business",
+    },
+    {
+      label: (
+        <a href="/team/ic/Marketing" rel="noopener noreferrer">
+          Marketing
+        </a>
+      ),
+      key: "/team/ic/business",
+    }
+  ],
+};
 
 const NAV_LINKS = [
   {
@@ -242,8 +273,18 @@ const items: MenuProps["items"] = [
         ),
         key: "/team/officers",
       },
+      {
+        label: (
+          <a href="/team/ic/F1Tenth" rel="noopener noreferrer">
+            F1 Tenth
+          </a>
+        ),
+        key: "/team/officers",
+      },
       IC_LINKS,
       EV_LINKS,
+      BusinessandCommunications_LINKS,
+
     ],
   ),
   NAV_LINKS[1],
