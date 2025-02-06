@@ -14,7 +14,7 @@ const OFFICERS = {
       name: "Cristobal Santamaria",
       role: "Creative Media Director",
       quote:
-        "Events and Logistics is the backbone of team operations, handling everything from planning team events to coordinating outreach and competitions. We ensure every event runs smoothly through careful preparation, logistical support, and collaboration with all sub-teams.",
+        "Sometimes you will never know the value of a moment until it becomes a memory. Time is precious and should not be wasted on counting the days, make the days count.",
     },
   ],
 };

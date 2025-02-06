@@ -25,7 +25,7 @@ export default function MeetingTimes() {
                 },
                 extendedProps: { tags: ["Meeting", "Work"] },
                 backgroundColor: "#E87500",
-                url: "https://dallasformularacing.com/team/ic/embedded",
+                url: " /team/ic/embedded",
               },
               {
                 title: "Manufacturing Meeting",
@@ -37,7 +37,19 @@ export default function MeetingTimes() {
                 },
                 extendedProps: { tags: ["Meeting", "Work"] },
                 backgroundColor: "#045295",
-                url: "https://dallasformularacing.com/team/ic/manufacturing",
+                url: " /team/ic/manufacturing",
+              },
+              {
+                title: "Events and logistics Meeting",
+                rrule: {
+                  freq: "weekly",
+                  byweekday: ["mo"], // Every Monday
+                  dtstart: "2024-10-01T20:00:00", // Start date and time
+                  until: "2025-12-31", // Optional: End date for recurrence
+                },
+                extendedProps: { tags: ["Meeting", "Work"] },
+                backgroundColor: "#045295",
+                url: " /team/ic/Eventsandlogistics",
               },
               {
                 title: "IC Aerodynamics Meeting",
@@ -49,19 +61,7 @@ export default function MeetingTimes() {
                 },
                 extendedProps: { tags: ["Meeting", "Work"] },
                 backgroundColor: "#E87500",
-                url: "https://dallasformularacing.com/team/ic/aerodynamics",
-              },
-              {
-                title: "IC System leads",
-                rrule: {
-                  freq: "weekly",
-                  byweekday: ["tu"], // Every Monday
-                  dtstart: "2024-10-01T19:00:00", // Start date and time
-                  until: "2025-12-31", // Optional: End date for recurrence
-                },
-                extendedProps: { tags: ["Meeting", "Work"] },
-                backgroundColor: "#E87500",
-                url: "https://dallasformularacing.com/team/officers",
+                url: " /team/ic/aerodynamics",
               },
               {
                 title: "Ergonomics Meeting",
@@ -73,7 +73,7 @@ export default function MeetingTimes() {
                 },
                 extendedProps: { tags: ["Meeting", "Work"] },
                 backgroundColor: "#045295",
-                url: "https://dallasformularacing.com/team/ic/ergonomics",
+                url: " /team/ic/ergonomics",
               },
               {
                 title: "IC Suspension Meeting",
@@ -85,7 +85,7 @@ export default function MeetingTimes() {
                 },
                 extendedProps: { tags: ["Meeting", "Work"] },
                 backgroundColor: "#E87500",
-                url: "https://dallasformularacing.com/team/ic/suspension",
+                url: " /team/ic/suspension",
               },
               {
                 title: "Business Meeting",
@@ -97,20 +97,21 @@ export default function MeetingTimes() {
                 },
                 extendedProps: { tags: ["Meeting", "Work"] },
                 backgroundColor: "#045295",
-                url: "https://dallasformularacing.com/team/ic/business",
+                url: " /team/ic/business",
               },
               {
-                title: "IC Software Meeting",
+                title: "Steering",
                 rrule: {
                   freq: "weekly",
-                  byweekday: ["th"], // Every Monday
-                  dtstart: "2024-10-01T17:30:00", // Start date and time
+                  byweekday: ["we"], // Every Monday
+                  dtstart: "2024-10-01T19:00:00", // Start date and time
                   until: "2025-12-31", // Optional: End date for recurrence
                 },
                 extendedProps: { tags: ["Meeting", "Work"] },
                 backgroundColor: "#E87500",
-                url: "https://dallasformularacing.com/team/ic/software",
+                //url: " /team/officers",
               },
+
               {
                 title: "IC Powertrain Meeting",
                 rrule: {
@@ -121,19 +122,19 @@ export default function MeetingTimes() {
                 },
                 extendedProps: { tags: ["Meeting", "Work"] },
                 backgroundColor: "#E87500",
-                url: "https://dallasformularacing.com/team/ic/powertrain",
+                url: " /team/ic/powertrain",
               },
               {
                 title: "IC Electrical Meeting",
                 rrule: {
                   freq: "weekly",
-                  byweekday: ["th"], // Every Monday
-                  dtstart: "2024-10-01T19:30:00", // Start date and time
+                  byweekday: ["su"], // Every Monday
+                  dtstart: "2024-10-01T19:00:00", // Start date and time
                   until: "2025-12-31", // Optional: End date for recurrence
                 },
                 extendedProps: { tags: ["Meeting", "Work"] },
                 backgroundColor: "#E87500",
-                url: "https://dallasformularacing.com/team/ic/electrical",
+                url: " /team/ic/electrical",
               },
               {
                 title: "Composites Meeting",
@@ -145,7 +146,19 @@ export default function MeetingTimes() {
                 },
                 extendedProps: { tags: ["Meeting", "Work"] },
                 backgroundColor: "#045295",
-                url: "https://dallasformularacing.com/team/ic/composites",
+                url: " /team/ic/composites",
+              },
+              {
+                title: "IC Software Meeting",
+                rrule: {
+                  freq: "weekly",
+                  byweekday: ["fr"], // Every Monday
+                  dtstart: "2024-10-01T17:00:00", // Start date and time
+                  until: "2025-12-31", // Optional: End date for recurrence
+                },
+                extendedProps: { tags: ["Meeting", "Work"] },
+                backgroundColor: "#E87500",
+                url: " /team/ic/software",
               },
               {
                 title: "Business Meeting",
@@ -157,7 +170,7 @@ export default function MeetingTimes() {
                 },
                 extendedProps: { tags: ["Meeting", "Work"] },
                 backgroundColor: "#045295",
-                url: "https://dallasformularacing.com/team/ic/business",
+                url: " /team/ic/business",
               },
               {
                 title: "Marketing Meeting",
@@ -169,6 +182,7 @@ export default function MeetingTimes() {
                 },
                 extendedProps: { tags: ["Meeting", "Work"] },
                 backgroundColor: "#045295",
+                url: " /team/ic/Marketing",
               },
               {
                 title: "EV General Meeting",
@@ -180,7 +194,7 @@ export default function MeetingTimes() {
                 },
                 extendedProps: { tags: ["Meeting", "Work"] },
                 backgroundColor: "#2D8B49",
-                url: "https://dallasformularacing.com/team/ic/chassis",
+                //url: " /team/ic/chassis",
               },
               {
                 title: "EV Accumulator ",
@@ -198,23 +212,13 @@ export default function MeetingTimes() {
                 rrule: {
                   freq: "weekly",
                   byweekday: ["we"], // Every Monday
-                  dtstart: "2024-10-01T17:00:00", // Start date and time
-                  until: "2025-12-31", // Optional: End date for recurrence
-                },
-                extendedProps: { tags: ["Meeting", "Work"] },
-                backgroundColor: "#2D8B49",
-              },
-              {
-                title: "EV Thermals Meeting",
-                rrule: {
-                  freq: "weekly",
-                  byweekday: ["th"], // Every Monday
                   dtstart: "2024-10-01T18:00:00", // Start date and time
                   until: "2025-12-31", // Optional: End date for recurrence
                 },
                 extendedProps: { tags: ["Meeting", "Work"] },
                 backgroundColor: "#2D8B49",
-                url: "https://dallasformularacing.com/team/ev/thermals",
+                url: " /team/ev/electrical",
+
               },
               {
                 title: "EV Packaging Meeting",
@@ -226,19 +230,19 @@ export default function MeetingTimes() {
                 },
                 extendedProps: { tags: ["Meeting", "Work"] },
                 backgroundColor: "#2D8B49",
-                url: "https://dallasformularacing.com/team/ev/packaging",
+                url: " /team/ev/packaging",
               },
               {
                 title: "EV Embedded Meeting",
                 rrule: {
                   freq: "weekly",
                   byweekday: ["fr"], // Every Monday
-                  dtstart: "2024-10-01T16:45:00", // Start date and time
+                  dtstart: "2024-10-01T16:00:00", // Start date and time
                   until: "2025-12-31", // Optional: End date for recurrence
                 },
                 extendedProps: { tags: ["Meeting", "Work"] },
                 backgroundColor: "#2D8B49",
-                url: "https://dallasformularacing.com/team/ev/embedded",
+                url: " /team/ev/embedded",
               },
               {
                 title: "F1 Tenth",
@@ -250,7 +254,7 @@ export default function MeetingTimes() {
                 },
                 extendedProps: { tags: ["Meeting", "Work"] },
                 backgroundColor: "#2D8B49",
-                url: "https://dallasformularacing.com/team/ev/embedded",
+                url: "/team/ic/F1Tenth",
               },
               {
                 title: "EV Powertrain Meeting",
@@ -262,7 +266,7 @@ export default function MeetingTimes() {
                 },
                 extendedProps: { tags: ["Meeting", "Work"] },
                 backgroundColor: "#2D8B49",
-                url: "https://dallasformularacing.com/team/ev/powertrain",
+                url: "/team/ev/powertrain",
               },              
               // {
               //   title: "DFR Potluck",
