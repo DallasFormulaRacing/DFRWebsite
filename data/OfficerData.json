@@ -222,6 +222,17 @@
   "IC": {
     "data": [
       {
+        "name": "Tuan Nguyen",
+        "positions": "Aerodynamics",
+        "section": "EV",
+        "year": "Junior",
+        "major": "Mechanical Engineering",
+        "yearsOnTeam": "1",
+        "image": "/assets/team/Fall2024Officers/TuanNguyenEVThermals.jpg",
+        "email": "tuan.nguyen@utdallas.edu",
+        "linkedin": ""
+      },
+      {
         "name": "Derek Fuhr",
         "positions": "Composites Lead",
         "section": "Engineering",
@@ -250,8 +261,8 @@
         "major": "Computer Engineering",
         "year": "Junior",
         "yearsOnTeam": "1.5",
-        "image": "/dfr-logo-tyre.png",
-        "email": "nxo220007@utdallas.edu",
+        "image": "/assets/team/Spring2025Officers/WillK.png",
+        "email": "wkim@utdallas.edu",
         "linkedin": ""
       },
       {
@@ -294,7 +305,7 @@
         "year": "Junior",
         "major": "Mechanical Engineering",
         "yearsOnTeam": "2",
-        "image": "/assets/team/Spring2025Officers/ChanPan.png",
+        "image": "/dfr-logo-tyre.png",
         "email": "chan.phan@utdallas.edu",
         "linkedin": "https://www.linkedin.com/in/chanh-phan-fsae/"
       },
@@ -327,7 +338,7 @@
         "year": "Senior",
         "major": "Computer Engineering",
         "yearsOnTeam": "3",
-        "image": "/assets/team/Spring2025Officers/Austin.png",
+        "image": "/assets/team/Spring2025Officers/willE.png",
         "email": "will.everson@utdallas.edu",
         "linkedin": "https://www.linkedin.com/in/william-everson-747198227/"
       }
@@ -390,17 +401,7 @@
         "email": "haavish.arutla@utdallas.edu",
         "linkedin": "https://www.linkedin.com/in/haavish-arutla-895916222/"
       },
-      {
-        "name": "Tuan Nguyen",
-        "positions": "Thermals",
-        "section": "EV",
-        "year": "Junior",
-        "major": "Mechanical Engineering",
-        "yearsOnTeam": "1",
-        "image": "/assets/team/Fall2024Officers/TuanNguyenEVThermals.jpg",
-        "email": "tuan.nguyen@utdallas.edu",
-        "linkedin": ""
-      },
+
       {
         "name": "Cameron LeBlanc",
         "positions": "EV Embedded",

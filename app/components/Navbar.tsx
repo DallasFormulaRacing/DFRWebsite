@@ -53,7 +53,7 @@ const IC_LINKS = {
         </a>
       ),
       key: "/team/ic/chassis",
-    },
+    },*/
     {
       label: (
         <a href="/team/ic/composites" rel="noopener noreferrer">
@@ -61,7 +61,7 @@ const IC_LINKS = {
         </a>
       ),
       key: "/team/ic/composites",
-    },*/
+    },
     {
       label: (
         <a href="/team/ic/electrical" rel="noopener noreferrer">
@@ -78,7 +78,7 @@ const IC_LINKS = {
       ),
       key: "/team/ic/embedded",
     },
-   /* {
+    {
       label: (
         <a href="/team/ic/ergonomics" rel="noopener noreferrer">
           Ergonomics Team
@@ -93,7 +93,7 @@ const IC_LINKS = {
         </a>
       ),
       key: "/team/ic/manufacturing",
-    },*/
+    },
     {
       label: (
         <a href="/team/ic/powertrain" rel="noopener noreferrer">
@@ -150,6 +150,14 @@ const EV_LINKS = {
     },
     {
       label: (
+        <a href="/team/ev/Accumulator" rel="noopener noreferrer">
+          Accumulator
+        </a>
+      ),
+      key: "/team/ev/Accumulator",
+    },
+    {
+      label: (
         <a href="/team/ev/packaging" rel="noopener noreferrer">
           Packaging
         </a>
@@ -164,14 +172,14 @@ const EV_LINKS = {
       ),
       key: "/team/ev/powertrain",
     },
-    {
+    /*{
       label: (
         <a href="/team/ev/thermals" rel="noopener noreferrer">
           Thermals
         </a>
       ),
       key: "/team/ev/thermals",
-    },
+    },*/
   ],
 };
 const BusinessandCommunications_LINKS = {
@@ -192,7 +200,7 @@ const BusinessandCommunications_LINKS = {
           Creative Meadia
         </a>
       ),
-      key: "/team/ic/business",
+      key: "/team/ic/CreativeMeadia",
     },
     {
       label: (
@@ -200,7 +208,7 @@ const BusinessandCommunications_LINKS = {
           Events and Logistics
         </a>
       ),
-      key: "/team/ic/business",
+      key: "/team/ic/EventsandLogistics",
     },
     {
       label: (
@@ -208,7 +216,7 @@ const BusinessandCommunications_LINKS = {
           Marketing
         </a>
       ),
-      key: "/team/ic/business",
+      key: "/team/ic/Marketing",
     }
   ],
 };
@@ -279,7 +287,7 @@ const items: MenuProps["items"] = [
             F1 Tenth
           </a>
         ),
-        key: "/team/officers",
+        key: "/team/ic/F1Tenth",
       },
       IC_LINKS,
       EV_LINKS,
