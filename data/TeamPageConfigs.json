@@ -6,10 +6,10 @@
     "header": {
       "image": "/assets/team/ICPages/Aerodynamics/FullCarStreamlines.png",
       "lead": {
-        "image": "/assets/team/Spring2024Officers/JenniferBriseno.jpg",
-        "name": "Jennifer Briseno",
-        "email": "jennifer.briseno@utdallas.edu",
-        "title": "AERODYNAMICS Lead",
+        "image": "/assets/team/Fall2024Officers/TuanNguyenEVThermals.jpg",
+        "name": "Tuan Nguyen",
+        "email": "Tuan.Nguyen2@UTDallas.edu",
+        "title": "Aerodynamics Lead",
         "quote": "\"This team has been the perfect opportunity for me to explore my passion for motorsport engineering and has let me find a niche at UTD that I deeply care about. This team has let me teach other passionate individuals about topics I care about, which is something I'm very grateful for. I hope I can continue this process of learning and teaching for future members to continue to benefit from.\""
       }
     },
@@ -198,14 +198,14 @@
   },
   "embedded": {
     "title": "Embedded",
-    "meetingTime": "Mondays @ 6 PM",
+    "meetingTime": "Fridays @ 5:30 PM",
     "description": "The Embedded sub-team is responsible for designing the Dashboard Infotainment Display, Wireless Communication, and Data Acquisition (DAQ) system for sampling data from sensors. To accomplish this, we leverage various platforms and program them to suit our needs — bringing firmware to the hardware.",
     "header": {
       "image": "",
       "lead": {
-        "image": "/assets/team/Headshots/blank_avatar.png",
-        "name": "Nico O.R.",
-        "email": "Email: nxo220007@utdallas.edu",
+        "image": "/assets/team/Spring2025Officers/WillK.png",
+        "name": "Will Kim",
+        "email": "Email: Will.Kim@UTDallas.edu",
         "title": "Embedded Lead",
         "quote": "Working with DFR has been my most enjoyable way in building experience while exploring the different technologies that are available to me as a potential career path. The amount of exposure and knowledge I received over the years is invaluable. I am looking forward to sharing these experiences with future members and see the fruit of their work on a functional formula race car!"
       }

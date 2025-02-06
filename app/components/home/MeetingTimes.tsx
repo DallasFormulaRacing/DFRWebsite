@@ -3,13 +3,14 @@ import UTDSAELogo from "@/public/dfr-sae.png";
 import Image from "next/image";
 import Link from "next/link";
 import MeetingTime from "@/components/MeetingTimes";
+import Calendar from '../Calendar';
 
 export default function MeetingTimes() {
   return (
     <div className="w-full pb-8">
       <section className="px-8 md:px-24 py-10">
         <h1 className="text-6xl font-extrabold text-accent-orange mb-20">
-          Meeting Times
+          Calendar
         </h1>
         <div className="flex justify-center">
           <MeetingTime
@@ -24,6 +25,7 @@ export default function MeetingTimes() {
                 },
                 extendedProps: { tags: ["Meeting", "Work"] },
                 backgroundColor: "#E87500",
+                url: " /team/ic/embedded",
               },
               {
                 title: "Manufacturing Meeting",
@@ -35,6 +37,19 @@ export default function MeetingTimes() {
                 },
                 extendedProps: { tags: ["Meeting", "Work"] },
                 backgroundColor: "#045295",
+                url: " /team/ic/manufacturing",
+              },
+              {
+                title: "Events and logistics Meeting",
+                rrule: {
+                  freq: "weekly",
+                  byweekday: ["mo"], // Every Monday
+                  dtstart: "2024-10-01T20:00:00", // Start date and time
+                  until: "2025-12-31", // Optional: End date for recurrence
+                },
+                extendedProps: { tags: ["Meeting", "Work"] },
+                backgroundColor: "#045295",
+                url: " /team/ic/Eventsandlogistics",
               },
               {
                 title: "IC Aerodynamics Meeting",
@@ -46,6 +61,7 @@ export default function MeetingTimes() {
                 },
                 extendedProps: { tags: ["Meeting", "Work"] },
                 backgroundColor: "#E87500",
+                url: " /team/ic/aerodynamics",
               },
               {
                 title: "Ergonomics Meeting",
@@ -57,6 +73,7 @@ export default function MeetingTimes() {
                 },
                 extendedProps: { tags: ["Meeting", "Work"] },
                 backgroundColor: "#045295",
+                url: " /team/ic/ergonomics",
               },
               {
                 title: "IC Suspension Meeting",
@@ -68,6 +85,7 @@ export default function MeetingTimes() {
                 },
                 extendedProps: { tags: ["Meeting", "Work"] },
                 backgroundColor: "#E87500",
+                url: " /team/ic/suspension",
               },
               {
                 title: "Business Meeting",
@@ -79,18 +97,21 @@ export default function MeetingTimes() {
                 },
                 extendedProps: { tags: ["Meeting", "Work"] },
                 backgroundColor: "#045295",
+                url: " /team/ic/business",
               },
               {
-                title: "IC Software Meeting",
+                title: "Steering",
                 rrule: {
                   freq: "weekly",
-                  byweekday: ["th"], // Every Monday
-                  dtstart: "2024-10-01T17:30:00", // Start date and time
+                  byweekday: ["we"], // Every Monday
+                  dtstart: "2024-10-01T19:00:00", // Start date and time
                   until: "2025-12-31", // Optional: End date for recurrence
                 },
                 extendedProps: { tags: ["Meeting", "Work"] },
                 backgroundColor: "#E87500",
+                //url: " /team/officers",
               },
+
               {
                 title: "IC Powertrain Meeting",
                 rrule: {
@@ -101,17 +122,19 @@ export default function MeetingTimes() {
                 },
                 extendedProps: { tags: ["Meeting", "Work"] },
                 backgroundColor: "#E87500",
+                url: " /team/ic/powertrain",
               },
               {
                 title: "IC Electrical Meeting",
                 rrule: {
                   freq: "weekly",
-                  byweekday: ["th"], // Every Monday
-                  dtstart: "2024-10-01T19:30:00", // Start date and time
+                  byweekday: ["su"], // Every Monday
+                  dtstart: "2024-10-01T19:00:00", // Start date and time
                   until: "2025-12-31", // Optional: End date for recurrence
                 },
                 extendedProps: { tags: ["Meeting", "Work"] },
                 backgroundColor: "#E87500",
+                url: " /team/ic/electrical",
               },
               {
                 title: "Composites Meeting",
@@ -123,6 +146,19 @@ export default function MeetingTimes() {
                 },
                 extendedProps: { tags: ["Meeting", "Work"] },
                 backgroundColor: "#045295",
+                url: " /team/ic/composites",
+              },
+              {
+                title: "IC Software Meeting",
+                rrule: {
+                  freq: "weekly",
+                  byweekday: ["fr"], // Every Monday
+                  dtstart: "2024-10-01T17:00:00", // Start date and time
+                  until: "2025-12-31", // Optional: End date for recurrence
+                },
+                extendedProps: { tags: ["Meeting", "Work"] },
+                backgroundColor: "#E87500",
+                url: " /team/ic/software",
               },
               {
                 title: "Business Meeting",
@@ -134,6 +170,7 @@ export default function MeetingTimes() {
                 },
                 extendedProps: { tags: ["Meeting", "Work"] },
                 backgroundColor: "#045295",
+                url: " /team/ic/business",
               },
               {
                 title: "Marketing Meeting",
@@ -145,17 +182,7 @@ export default function MeetingTimes() {
                 },
                 extendedProps: { tags: ["Meeting", "Work"] },
                 backgroundColor: "#045295",
-              },
-              {
-                title: "IC Chassis Meeting",
-                rrule: {
-                  freq: "weekly",
-                  byweekday: ["fr"], // Every Monday
-                  dtstart: "2024-10-01T17:30:00", // Start date and time
-                  until: "2025-12-31", // Optional: End date for recurrence
-                },
-                extendedProps: { tags: ["Meeting", "Work"] },
-                backgroundColor: "#E87500",
+                url: " /team/ic/Marketing",
               },
               {
                 title: "EV General Meeting",
@@ -167,6 +194,7 @@ export default function MeetingTimes() {
                 },
                 extendedProps: { tags: ["Meeting", "Work"] },
                 backgroundColor: "#2D8B49",
+                //url: " /team/ic/chassis",
               },
               {
                 title: "EV Accumulator ",
@@ -184,22 +212,13 @@ export default function MeetingTimes() {
                 rrule: {
                   freq: "weekly",
                   byweekday: ["we"], // Every Monday
-                  dtstart: "2024-10-01T17:00:00", // Start date and time
-                  until: "2025-12-31", // Optional: End date for recurrence
-                },
-                extendedProps: { tags: ["Meeting", "Work"] },
-                backgroundColor: "#2D8B49",
-              },
-              {
-                title: "EV Thermals Meeting",
-                rrule: {
-                  freq: "weekly",
-                  byweekday: ["th"], // Every Monday
                   dtstart: "2024-10-01T18:00:00", // Start date and time
                   until: "2025-12-31", // Optional: End date for recurrence
                 },
                 extendedProps: { tags: ["Meeting", "Work"] },
                 backgroundColor: "#2D8B49",
+                url: " /team/ev/electrical",
+
               },
               {
                 title: "EV Packaging Meeting",
@@ -211,17 +230,31 @@ export default function MeetingTimes() {
                 },
                 extendedProps: { tags: ["Meeting", "Work"] },
                 backgroundColor: "#2D8B49",
+                url: " /team/ev/packaging",
               },
               {
                 title: "EV Embedded Meeting",
                 rrule: {
                   freq: "weekly",
                   byweekday: ["fr"], // Every Monday
-                  dtstart: "2024-10-01T16:45:00", // Start date and time
+                  dtstart: "2024-10-01T16:00:00", // Start date and time
                   until: "2025-12-31", // Optional: End date for recurrence
                 },
                 extendedProps: { tags: ["Meeting", "Work"] },
                 backgroundColor: "#2D8B49",
+                url: " /team/ev/embedded",
+              },
+              {
+                title: "F1 Tenth",
+                rrule: {
+                  freq: "weekly",
+                  byweekday: ["fr"], // Every Monday
+                  dtstart: "2024-10-01T16:30:00", // Start date and time
+                  until: "2025-12-31", // Optional: End date for recurrence
+                },
+                extendedProps: { tags: ["Meeting", "Work"] },
+                backgroundColor: "#2D8B49",
+                url: "/team/ic/F1Tenth",
               },
               {
                 title: "EV Powertrain Meeting",
@@ -233,6 +266,7 @@ export default function MeetingTimes() {
                 },
                 extendedProps: { tags: ["Meeting", "Work"] },
                 backgroundColor: "#2D8B49",
+                url: "/team/ev/powertrain",
               },              
               // {
               //   title: "DFR Potluck",

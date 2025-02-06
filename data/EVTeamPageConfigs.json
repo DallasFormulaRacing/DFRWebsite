@@ -55,9 +55,9 @@
     "header": {
       "image": "",
       "lead": {
-        "image": "/assets/team/Spring2024Officers/ChadMelhem.jpg",
-        "name": "Chad Melhem",
-        "email": "chad.melhem@utdallas.edu",
+        "image": "/assets/team/Spring2025Officers/River.png",
+        "name": "Cameron LeBlanc",
+        "email": "Cameron.Leblanc@UTDallas.edu",
         "title": "EV Embedded",
         "quote": "\"This team has been the perfect opportunity for me to explore my passion for motorsport engineering and has let me find a niche at UTD that I deeply care about. This team has let me teach other passionate individuals about topics I care about, which is something I'm very grateful for. I hope I can continue this process of learning and teaching for future members to continue to benefit from.\""
       }
@@ -94,6 +94,55 @@
     "newMembers": {
       "title": "NEW MEMBERS",
       "description": "New members will begin with programming components that are closely intertwined with electrical hardware. By doing so, members will become exposed to the low-level development environment, version control, team workflow, and testing. The resulting implementation will be added as a feature of the vehicle's embedded system.",
+      "image": ""
+    }
+  }, 
+  "Accumulator": {
+    "title": "EV Accumulator",
+    "meetingTime": "Wednesdays @ 5:00 PM",
+    "description": "The EV Accumulator sub-team is responsible for designing the Dashboard Infotainment Display, Wireless Communication, and Data Acquisition (DAQ) system for sampling data from sensors. To accomplish this, we leverage various platforms and program them to suit our needs—ensuring seamless integration between firmware and hardware.",
+    "header": {
+      "image": "",
+      "lead": {
+        "image": "/assets/team/Spring2025Officers/Conner.png",
+        "name": "Connor Myers",
+        "email": "Connor.Myers@UTDallas.edu",
+        "title": "EV Accumulator",
+        "quote": "\"Joining the EV Accumulator team has given me the perfect opportunity to dive into my passion for energy systems and high-voltage engineering. It has allowed me to find a niche at UTD that I truly care about while working alongside like-minded individuals. Being able to share my knowledge and mentor others has been incredibly rewarding, and I’m grateful for the chance to both learn and teach. I hope to continue this cycle of growth so future members can benefit just as I have.\""
+      }
+    },
+    "projects": [
+      {
+        "title": "2025 Accumulator Assembly",
+        "description": ""
+      },
+      {
+        "title": "2026 Accumulator Design",
+        "description": ""
+      },
+      {
+        "title": "Lap Simulations & Calculations",
+        "description": ""
+      },
+      {
+        "title": "FEA & hand calculations",
+        "description": ""
+      }
+    ],
+    "gallery": [
+      {
+        "source": "/assets/team/EVPages/Embedded/Skills.png",
+        "alt": "placeholder alt text"
+      }
+    ],
+    "skills": {
+      "title": "SKILLS",
+      "description": "New members will gain experience programming in a low-level language, focusing on writing robust, reusable, clean, and maintainable code through Object-Oriented Programming and Polymorphism. Working with the accumulator system will provide exposure to battery management, energy distribution, safety protocols, and interfacing with external monitoring devices. Members will be assigned individual projects to prototype features while following an Agile workflow, gaining experience in both hardware integration and system-level programming.",
+      "image": ""
+    },
+    "newMembers": {
+      "title": "NEW MEMBERS",
+      "description": "New members of the Accumulator team will focus on developing and managing the vehicle’s high-voltage energy storage system. They will gain hands-on experience in battery management, energy distribution, safety protocols, and thermal regulation. Tasks will include monitoring cell voltages, implementing protection mechanisms, optimizing charging and discharging cycles, and ensuring compliance with safety standards. Members will work with hardware and software integration, utilizing low-level programming for real-time data acquisition and control. They will also follow an Agile workflow, collaborate with other sub-teams, and contribute to prototyping and testing features that enhance the accumulator system's performance and reliability.",
       "image": ""
     }
   },

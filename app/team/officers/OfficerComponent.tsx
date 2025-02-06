@@ -84,6 +84,23 @@ const OfficerComponent = (props: Props) => {
           ))}
         </div>
       </div>
+      <div className="py-12">
+        <motion.h1
+          className={"text-5xl font-bold text-center my-12"}
+          initial={{ opacity: 0, y: 50 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}>
+          F1 Tenth
+        </motion.h1>
+        <div
+          className={
+            "grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 justify-items-center gap-8"
+          }>
+          {officerList.F1Tenth.data.map((officer, index) => (
+            <OfficerCardV2 officer={officer} key={index} />
+          ))}
+        </div>
+      </div>
     </section>
   );
 };
