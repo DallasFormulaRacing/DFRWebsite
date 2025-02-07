@@ -22,18 +22,24 @@ const OFFICERS = {
   ],
   sponsorship: [
     {
-      image: NabeelSalman,
+      image: "/assets/team/Spring2025Officers/NabeelSalman.png",
       name: "Nabeel Salman",
-      role: "Corporate Relations",
+      role: "SAE Development Director",
       quote:
         "The corporate relations team is responsible for securing funding for the team through sponsorships, partnerships, and other forms of financial support. We also work to promote the team and its partners to a broader audience and manage the team's relationships with its partners and sponsors to ensure that expectations are met and any issues are addressed. These efforts help to ensure the financial stability and success of the team. As a member of this team, you will get an understanding of how economic and social aspects affect each of the engineering subsystems. Personally, I have gained valuable experience as a public speaker and in the engineering field within this organization.",
     },
   ],
   community: [
     {
+<<<<<<< Updated upstream
       image: PrestonWolfe,
       name: "Preston Wolfe",
       role: "Social Media",
+=======
+      image: "/assets/team/Spring2025Officers/AnushKambala.png",
+      name: "Anush Kambala",
+      role: "Corporate Relations Director",
+>>>>>>> Stashed changes
       quote:
         "Being a part of this team has introduced me to a whole new world of UT Dallas. Taking a part in the leadership has presented opportunities for myself to grow professionally in my field of user experience and learn more about the engineering field.",
     },

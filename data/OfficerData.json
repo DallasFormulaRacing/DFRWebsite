@@ -49,7 +49,7 @@
         "name": "Aashish Kambala",
         "positions": "Business President",
         "section": "Admin",
-        "year": "Sophomore",
+        "year": "Junior",
         "major": "Computer Science",
         "yearsOnTeam": "2",
         "image": "/dfr-logo-tyre.png",
@@ -58,6 +58,18 @@
       },
       {
         "name": "Abby Ayala",
+        "name": "Anush Kambala",
+        "positions": "Business VP",
+        "section": "Business",
+        "year": "Junior",
+        "major": "Computer Science",
+        "yearsOnTeam": "1",
+        "image": "/assets/team/Spring2025Officers/AnushKambala.png",
+        "email": "anush.kambala@utdallas.edu",
+        "linkedin": "https://www.linkedin.com/in/anush-kambala-b7b467204/"
+      },
+      {
+        "name": "Alondra Lopez",
         "positions": "Treasurer",
         "section": "Admin",
         "year": "Sophomore",
@@ -116,7 +128,7 @@
         "positions": "Media Director",
         "section": "Admin",
         "year": "Freshman",
-        "major": "Psychology",
+        "major": "Accounting/Finance",
         "yearsOnTeam": "0.5",
         "image": "/assets/team/Spring2024Officers/ReneeMenezes.jpg",
         "email": "renee.menezes@utdallas.edu",
@@ -241,14 +253,14 @@
         "linkedin": ""
       },
       {
-        "name": "Nico O.R.",
-        "positions": "Embedded",
+        "name": "Will Kim",
+        "positions": "Embedded Lead",
         "section": "Engineering",
         "major": "Computer Engineering",
-        "year": "Junior",
-        "yearsOnTeam": "1.5",
-        "image": "/dfr-logo-tyre.png",
-        "email": "nxo220007@utdallas.edu",
+        "year": "Sophomore",
+        "yearsOnTeam": "1",
+        "image": "/assets/team/Spring2025Officers/WillK.png",
+        "email": "wkim@utdallas.edu",
         "linkedin": ""
       },
       {
@@ -258,7 +270,7 @@
         "year": "Junior",
         "major": "Mechanical Engineering",
         "yearsOnTeam": "0.5",
-        "image": "/assets/team/Spring2024Officers/ZoeLao.jpg",
+        "image": "/assets/team/Spring2025Officers/zoe.png",
         "email": "zoe.lao@utdallas.edu",
         "linkedin": "https://www.linkedin.com/in/zoe-l-619474198/"
       },
@@ -269,7 +281,7 @@
         "year": "Junior",
         "major": "Mechanical Engineering",
         "yearsOnTeam": "3",
-        "image": "/assets/team/Spring2024Officers/NolanWestrope.jpg",
+        "image": "/assets/team/Spring2025Officers/Nolan.png",
         "email": "nolan.westrope@utdallas.edu",
         "linkedin": "https://www.linkedin.com/in/nolan-westrope-3198ba1b3/"
       },
@@ -280,7 +292,7 @@
         "year": "Sophomore",
         "major": "Computer Engineering",
         "yearsOnTeam": "1",
-        "image": "/assets/team/Spring2024Officers/ApurvaBetgar.jpg",
+        "image": "/assets/team/Spring2025Officers/Apurva.png",
         "email": "apurva.betgar@utdallas.edu",
         "linkedin": "https://www.linkedin.com/in/apurva-betgar"
       },
@@ -291,9 +303,9 @@
         "year": "Junior",
         "major": "Mechanical Engineering",
         "yearsOnTeam": "2",
-        "image": "/dfr-logo-tyre.png",
-        "email": "chan.phan@utdallas.edu",
-        "linkedin": ""
+        "image": "/assets/team/Spring2025Officers/Chanh.png",
+        "email": "chanh.phan@utdallas.edu",
+        "linkedin": "https://www.linkedin.com/in/chanh-phan-fsae/"
       },
       {
         "name": "Arjun Nayak",
@@ -307,26 +319,48 @@
         "linkedin": "https://www.linkedin.com/in/arjun-s-nayak/"
       },
       {
-        "name": "Dillon Saulsberry",
+        "name": "Aaryan Patel",
         "positions": "Steering",
         "section": "Engineering",
         "year": "Junior",
         "major": "Mechanical Engineering",
         "yearsOnTeam": "3",
-        "image": "/assets/team/Spring2024Officers/DillonSaulsberry.jpg",
-        "email": "dillon.saulsberry@utdallas.edu",
-        "linkedin": "https://www.linkedin.com/in/dillon-saulsberry/"
+        "image": "/assets/team/Spring2025Officers/AaryanPatel.png",
+        "email": "Aaryan.Patel@utdallas.edu",
+        "linkedin": "https://www.linkedin.com/in/-aaryanpatel/"
       },
       {
-        "name": "Francis Cao",
-        "positions": "Testing Lead",
+        "name": "Ricky Toccoli",
+        "positions": "Suspension Lead",
         "section": "Engineering",
-        "year": "Freshman",
+        "year": "Junior",
         "major": "Mechanical Engineering",
-        "yearsOnTeam": "0.5",
-        "image": "/assets/team/Spring2024Officers/FrancisCao.jpg",
-        "email": "francis.cao@utdallas.edu",
-        "linkedin": "https://www.linkedin.com/in/%20francis-cao370978"
+        "yearsOnTeam": "1",
+        "image": "/assets/team/Spring2025Officers/Rick.png",
+        "email": "Ricky.Toccoli@utdallas.edu",
+        "linkedin": ""
+      },
+      {
+        "name": "Mark Barker",
+        "positions": "Vehicle Dynamics Lead",
+        "section": "Engineering",
+        "year": "Junior",
+        "major": "Mechanical Engineering",
+        "yearsOnTeam": "1",
+        "image": "/dfr-logo-tyre.png",
+        "email": "Mark.Barker@utdallas.edu",
+        "linkedin": ""
+      },
+      {
+        "name": "Austin Heerschap",
+        "positions": "Component Design Lead",
+        "section": "Engineering",
+        "year": "Junior",
+        "major": "Mechanical Engineering",
+        "yearsOnTeam": "1",
+        "image": "/dfr-logo-tyre.png",
+        "email": "Austin.Heerschap@utdallas.edu",
+        "linkedin": ""
       },
       {
         "name": "Will Everson",

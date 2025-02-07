@@ -171,14 +171,52 @@ const EV_LINKS = {
       ),
       key: "/team/ev/powertrain",
     },
-    {
+   /* {
       label: (
         <a href="/team/ev/thermals" rel="noopener noreferrer">
           Thermals
         </a>
       ),
       key: "/team/ev/thermals",
+    },*/
+  ],
+};
+const BusinessandCommunications_LINKS = {
+  label: <p>Admin</p>,
+  key: "/BusinessandCommunications",
+  children: [
+    {
+      label: (
+        <a href="/team/ic/business" rel="noopener noreferrer">
+          Business Team
+        </a>
+      ),
+      key: "/team/ic/business",
     },
+    {
+      label: (
+        <a href="/team/ic/CreativeMeadia" rel="noopener noreferrer">
+          Creative Media
+        </a>
+      ),
+      key: "/team/ic/CreativeMeadia",
+    },
+    {
+      label: (
+        <a href="/team/ic/EventsandLogistics" rel="noopener noreferrer">
+          Events and Logistics
+        </a>
+      ),
+      key: "/team/ic/EventsandLogistics",
+    },
+    {
+      label: (
+        <a href="/team/ic/Marketing" rel="noopener noreferrer">
+          Marketing
+        </a>
+      ),
+      key: "/team/ic/Marketing",
+    }
   ],
 };
 
