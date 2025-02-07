@@ -4,19 +4,33 @@ import OfficerSection from "./OfficerSection";
 import TitleSection from "./TitleSection";
 import Image from "next/image";
 import InstagramEmbed from "./InstagramEmbed";
-import Link from "next/link"; // Import Link from next/link
+import React from "react";
 
 const OFFICERS = {
   leadership: [
     {
-      bigTitle: "Creative Media",
-      image: "/assets/team/Spring2025Officers/Cristobal.png",
-      name: "Cristobal Santamaria",
-      role: "Creative Media Director",
+      bigTitle: "Marketing",
+      image: "/assets/team/Spring2025Officers/rithvik.png",
+      name: "Rithvik Kaniganti",
+      role: "Marketing Director",
       quote:
-        "Sometimes you will never know the value of a moment until it becomes a memory. Time is precious and should not be wasted on counting the days, make the days count.",
+        "At Dallas Formula Racing, marketing isn’t just about promotion—it’s about telling the story of a team built on passion, dedication, and engineering excellence. Every design, every sponsorship, and every social media post serves a purpose: to showcase the relentless effort our members put into building a competitive race car. We’re not just sharing content; we’re building a brand, engaging a community, and inspiring the next generation of innovators. The track is where we compete, but the impact of our brand extends far beyond it",
     },
   ],
+};
+
+const LinkedInLink: React.FC = () => {
+  return (
+    <div>
+      <a
+        href="https://www.linkedin.com/company/dallas-formula-racing/posts/?feedView=all"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="text-blue-600 underline">
+        Visit our LinkedIn page
+      </a>
+    </div>
+  );
 };
 
 export default function Page() {
@@ -54,9 +68,9 @@ export default function Page() {
       </div>
 
       {/* Flex container for Instagram and LinkedIn */}
-      <div className="flex flex-col md:flex-row gap-4 mt-8 justify-center items-center">
+      <div className="flex flex-col md:flex-row gap-4 mt-8">
         {/* Instagram Embed */}
-        <div className="flex-1 flex justify-center items-center">
+        <div className="flex-1">
           <InstagramEmbed url="https://www.instagram.com/dallasformularacing/" />
         </div>
       </div>
