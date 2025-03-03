@@ -8,6 +8,7 @@ import DFRSAELogo from "@/public/dfr-sae.png";
 import TeamPageConfigs from "@/data/TeamPageConfigs.json";
 import type { MenuProps } from "antd";
 import { Menu, Button, Dropdown } from "antd";
+import Calendar from './Calendar';
 import {
   MenuFoldOutlined,
   MenuUnfoldOutlined,
@@ -245,6 +246,10 @@ const NAV_LINKS = [
       </a>
     ),
     key: "/gallery",
+  },
+  {
+    label: <a href="/calendar">Calendar</a>,
+    key: "/calendar",
   },
   {
     label: <a href="/newsletters">Newsletters</a>,
