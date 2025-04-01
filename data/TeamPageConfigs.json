@@ -100,7 +100,7 @@
   },
   "composites": {
     "title": "Composites",
-    "meetingTime": "Wednesdays @ 7:30 pm",
+    "meetingTime": "Fridays @ 5:00 PM",
     "description": "Composites manufactures all body panels including the body covering. We work with the Aerodynamics Team to build feasible designs.",
     "header": {
       "image": "",
@@ -149,7 +149,7 @@
   },
   "electrical": {
     "title": "Electrical",
-    "meetingTime": "Thursdays @ 7:30 PM",
+    "meetingTime": "Sundays @ 7:00 PM",
     "description": "The electrical sub team is responsible for the design and execution of the vehicle’s electrical systems, including the ECU, wire harness, safety systems, and data acquisition.",
     "header": {
       "image": "",
@@ -198,7 +198,7 @@
   },
   "embedded": {
     "title": "Embedded",
-    "meetingTime": "Fridays @ 5:30 PM",
+    "meetingTime": "Mondays @ 6:00 PM",
     "description": "The Embedded sub-team is responsible for designing the Dashboard Infotainment Display, Wireless Communication, and Data Acquisition (DAQ) system for sampling data from sensors. To accomplish this, we leverage various platforms and program them to suit our needs — bringing firmware to the hardware.",
     "header": {
       "image": "",
@@ -345,7 +345,7 @@
   },
   "powertrain": {
     "title": "Powertrain",
-    "meetingTime": "Thursdays @ 6 PM",
+    "meetingTime": "Thursdays @ 6:00 PM",
     "description": "Our powertrain team deals with the engine and all supporting systems to get that power to the wheels, ending at the outer axle bearings. We are responsible for getting as much power out of a sub-700cc engine as necessary, using tools as an engine dynamometer, flow benches, along with wheel dynamometer to analyze and improve our package. The engine and drivetrain are the heart of the racecar. Through our work on the team, it is important to understand the power that a small spark can have when in the perfect environment. Our goal on the powertrain is to provide that perfect environment so that every spark achieves its maximum potential and has the greatest impact- both figuratively on the team and literally within the engine. Bridging the gap between the textbook and the track is one of the most challenging aspects of engineering; we chase it steadily, one lap at a time.",
     "header": {
       "image": "/assets/team/ICPages/Powertrain/header.jpg",
@@ -394,7 +394,7 @@
   },
   "software": {
     "title": "Software",
-    "meetingTime": "Thursdays @ 5:30 PM",
+    "meetingTime": "Fridays @ 5:00 PM",
     "description": "The software subteam specializes in creating programs that help collect and analyze data for our race car. Whenever we push our car to the limit, we need to make sure that all of our components are running smoothly. Our projects like DataAnalyzer and PitSoftware help us do just that.",
     "header": {
       "image": "/assets/team/ICPages/Software/Infrastructure.png",
@@ -443,7 +443,7 @@
   },
   "steering": {
     "title": "Steering",
-    "meetingTime": "Undetermined",
+    "meetingTime": "Wednesdays @ 7:00 PM",
     "description": "",
     "header": {
       "image": "",
