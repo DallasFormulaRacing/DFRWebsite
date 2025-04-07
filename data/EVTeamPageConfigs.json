@@ -1,7 +1,7 @@
 {
   "electrical": {
     "title": "EV Electrical",
-    "meetingTime": "Wednesdays @ 5:00 PM",
+    "meetingTime": "Wednesdays @ 6:00 PM",
     "description": "This team focuses on all electrical aspects of designing and buliding an EV car including wire-harness and pcb circuit design.",
     "header": {
       "image": "",
@@ -50,7 +50,7 @@
   },
   "embedded": {
     "title": "EV Embedded",
-    "meetingTime": "Fridays @ 4:45 PM",
+    "meetingTime": "Fridays @ 4:00 PM",
     "description": "The EV Embedded sub-team is responsible for designing the Dashboard Infotainment Display, Wireless Communication, and Data Acquisition (DAQ) system for sampling data from sensors. To accomplish this, we leverage various platforms and program them to suit our needs — bringing firmware to the hardware.",
     "header": {
       "image": "",

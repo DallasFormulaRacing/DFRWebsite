@@ -32,7 +32,7 @@ export default function MeetingTimes() {
                 rrule: {
                   freq: "weekly",
                   byweekday: ["mo"], // Every Monday
-                  dtstart: "2024-10-01T19:00:00", // Start date and time
+                  dtstart: "2024-10-01T18:30:00", // Start date and time
                   until: "2025-12-31", // Optional: End date for recurrence
                 },
                 extendedProps: { tags: ["Meeting", "Work"] },
