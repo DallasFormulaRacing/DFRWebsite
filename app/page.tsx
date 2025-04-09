@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+import EventsSection from "./components/home/EventsSection";
 import AboutUs from "./components/home/AboutUs";
 import Car2023 from "@/public/assets/car_gallery/2023Car.jpeg";
 import Car2022 from "@/public/assets/Cars/2022Car.jpg";
@@ -41,6 +42,7 @@ export default function Home() {
   return (
     <main className={"px-0 leading-7"}>
       <Hero />
+      <EventsSection />
       <AboutUs />
       <OrgInfo />
       {/* <ImageBreaks
