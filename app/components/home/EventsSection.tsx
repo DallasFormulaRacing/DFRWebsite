@@ -4,7 +4,7 @@ import React from "react";
 import Link from "next/link";
 import { motion } from "framer-motion";
 import Image from "next/image";
-import CarsComets25 from "@/public/assets/events/Cars_Comets25.png";
+import reveal25 from "@/public/assets/events/revealDFR_25.png";
 import cgd25 from "@/public/assets/events/cgd25.png";
 
 const EventsSection = () => {
@@ -19,29 +19,28 @@ const EventsSection = () => {
         className="shadow-lg rounded-2xl p-8 bg-gray-50"
       >
         <Image
-          src={CarsComets25}
+          src={reveal25}
           alt="Cars and Comets Event Banner"
           className="w-full max-w-3xl mx-auto h-auto object-contain rounded-lg mb-6"
           />
         <h2 className="text-4xl font-bold text-accent-orange mb-4">
-          CARS AND COMETS IS BACKKKKK!!!
+          The 2025 Unvailing is Here!!!
         </h2>
         <p className="text-xl mb-2">
-          We’re bringing together car enthusiasts, collectors, and all-around fans of stunning rides for an unforgettable evening.
+        It’s finally here. After months of late nights, tight deadlines, and relentless drive…
+        
         </p>
         <p className="text-xl mb-2">
-          This is your chance to showcase your pride and joy, or simply come out to admire some of the most impressive vehicles around.
+        The 2025 IC/EV Dallas Formula Racing car is ready to be revealed.
         </p>
-        <p className="text-xl mb-4">
-          Whether you’re a gearhead or just love to check out classic, custom, and modern cars, you won’t want to miss this!
-        </p>
+
         <ul className="text-lg mb-4">
-          <li><strong>📅Date:</strong> April 18, 2025</li>
-          <li><strong>🕕Time:</strong> 6:00 PM – 9:00 PM</li>
-          <li><strong>📍Location:</strong> UT Dallas – Lot T Overflow</li>
+          <li><strong>📅Date:</strong> May 8, 2025</li>
+          <li><strong>🕕Time:</strong> 5:00 PM – 7:00 PM</li>
+          <li><strong>📍Location:</strong> UT Dallas – ECSW Axxess Atrium</li>
         </ul>
         <Link
-          href="https://forms.gle/nTZ2YyHDzPNasWPP9"
+          href="https://forms.gle/XkhYYXiza4bAzXJUA"
           target="_blank"
           className="text-lg text-blue-600 underline"
         >
