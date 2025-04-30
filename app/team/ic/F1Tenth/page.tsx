@@ -15,7 +15,7 @@ const OFFICERS = {
   sponsorship: [
     {
       bigTitle: "F1 Tenth",
-      image: "/assets/team/Spring2025Officers/adarsh.png",
+      image: "/assets/team/Spring2025Officers/Adarsh.png",
       name: "Adarsh Goura",
       role: "F1 Tenth Lead",
       quote:"Creating an automated car transcends mere engineering; it's about driving innovation and fostering collaboration. Leading F1 Tenth, I have the honor of steering a dedicated team that is revolutionizing the future of transportation, one line of code at a time.",

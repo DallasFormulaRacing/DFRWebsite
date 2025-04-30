@@ -184,7 +184,7 @@ const EV_LINKS = {
   ],
 };
 const BusinessandCommunications_LINKS = {
-  label: <p>Communications</p>,
+  label: <p>Admin</p>,
   key: "/BusinessandCommunications",
   children: [
     {
