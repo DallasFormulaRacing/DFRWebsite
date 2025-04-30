@@ -44,6 +44,7 @@ export default function Home() {
       <Hero />
       <EventsSection />
       <AboutUs />
+    
       <OrgInfo />
       {/* <ImageBreaks
         image={Sidebysidecars.src}

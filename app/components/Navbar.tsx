@@ -247,10 +247,10 @@ const NAV_LINKS = [
     ),
     key: "/gallery",
   },
-  {
+/*  {
     label: <a href="/calendar">Calendar</a>,
     key: "/calendar",
-  },
+  },*/
   {
     label: <a href="/newsletters">Newsletters</a>,
     key: "/newsletters",
