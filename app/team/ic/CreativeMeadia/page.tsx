@@ -10,7 +10,7 @@ const OFFICERS = {
   leadership: [
     {
       bigTitle: "Creative Media",
-      image: "/assets/team/Spring2025Officers/cristobal.png",
+      image: "/assets/team/Spring2025Officers/Cristobal.png",
       name: "Cristobal Santamaria",
       role: "Creative Media Director",
       quote:
@@ -59,6 +59,7 @@ export default function Page() {
         <div className="flex-1 flex justify-center items-center">
           <InstagramEmbed url="https://www.instagram.com/dallasformularacing/" />
         </div>
+
 
         
       </div>
