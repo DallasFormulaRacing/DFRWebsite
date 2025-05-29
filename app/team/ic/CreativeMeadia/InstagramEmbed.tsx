@@ -27,7 +27,7 @@ const InstagramEmbed = ({ url }: { url: string }) => {
   return (
     <div className="mt-8 w-full flex justify-center">
       <blockquote
-        className="instagram-media max-w-[400px] w-full"
+        className="instagram-media max-w-[600px] w-full"
         data-instgrm-permalink={url}
         data-instgrm-version="14"
         style={{ margin: "0 auto" }}
