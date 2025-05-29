@@ -42,7 +42,9 @@ export default function Home() {
   return (
     <main className={"px-0 leading-7"}>
       <Hero />
-      <EventsSection />
+            {/* 
+     <EventsSection />
+            */}
       <AboutUs />
     
       <OrgInfo />

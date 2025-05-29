@@ -4,13 +4,15 @@ import OfficerSection from "./OfficerSection";
 import TitleSection from "./TitleSection";
 import Image from "next/image";
 import InstagramEmbed from "./InstagramEmbed";
+import TiktokEmbed from "./TiktokEmbed";
+
 import Link from "next/link"; // Import Link from next/link
 
 const OFFICERS = {
   leadership: [
     {
       bigTitle: "Creative Media",
-      image: "/assets/team/Spring2025Officers/cristobal.png",
+      image: "/assets/team/Spring2025Officers/Cristobal.png",
       name: "Cristobal Santamaria",
       role: "Creative Media Director",
       quote:
@@ -59,6 +61,7 @@ export default function Page() {
         <div className="flex-1 flex justify-center items-center">
           <InstagramEmbed url="https://www.instagram.com/dallasformularacing/" />
         </div>
+
 
         
       </div>
