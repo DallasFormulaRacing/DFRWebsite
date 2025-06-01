@@ -114,6 +114,17 @@
         "linkedin": "https://www.linkedin.com/in/manuel-djc/"
       },
       {
+        "name": "Amina Omonullaeva",
+        "positions": "Safety Officer",
+        "section": "Admin",
+        "year": "Junior",
+        "major": "Computer Science",
+        "yearsOnTeam": "2",
+        "image": "/assets/team/Spring2025Officers/Amina.png",
+        "email": "Amina.Omonullaeva@UTDallas.edu",
+        "linkedin": "https://www.linkedin.com/in/aminaomonu/"
+      },
+      {
         "name": "Cristobal Santamaria",
         "positions": "Media Director",
         "section": "Admin",
@@ -167,18 +178,8 @@
         "image": "/dfr-logo-tyre.png",
         "email": "abigail.nguyen@utdallas.edu",
         "linkedin": ""
-      },
-      {
-        "name": "Ananya Uppalapati",
-        "positions": "Events and Logistics",
-        "section": "Admin",
-        "year": "Freshman",
-        "major": "Computer Engineering",
-        "yearsOnTeam": "1",
-        "image": "/assets/team/Spring2025Officers/AnanyaUppalapati.png",
-        "email": "axu230008@utdallas.edu",
-        "linkedin": "https://www.linkedin.com/in/ananyauppalapati/"
       }
+
     ]
   },
   "Business": {
@@ -277,15 +278,15 @@
         "linkedin": "https://www.linkedin.com/in/zoe-l-619474198/"
       },
       {
-        "name": "Nolan Westrope",
+        "name": "Ananya Uppalapati",
         "positions": "Manufacturing",
-        "section": "Engineering",
-        "year": "Junior",
+        "section": "Admin",
+        "year": "Sophomore",
         "major": "Mechanical Engineering",
-        "yearsOnTeam": "3",
-        "image": "/assets/team/Spring2024Officers/NolanWestrope.jpg",
-        "email": "nolan.westrope@utdallas.edu",
-        "linkedin": "https://www.linkedin.com/in/nolan-westrope-3198ba1b3/"
+        "yearsOnTeam": "2",
+        "image": "/assets/team/Spring2025Officers/AnanyaUppalapati.png",
+        "email": "axu230008@utdallas.edu",
+        "linkedin": "https://www.linkedin.com/in/ananyauppalapati/"
       },
       {
         "name": "Apurva Betgar",
