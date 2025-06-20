@@ -1,5 +1,4 @@
 import NewsletterArchive from "@/data/Newsletters.json";
-import UTDSAELogo from "@/public/dfr-sae.png";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -10,12 +9,14 @@ export default function NewslettersPreview() {
         <h1 className="text-6xl font-extrabold text-accent-orange mb-20">
           Newsletters
         </h1>
-        <div className="flex flex-wrap justify-evenly gap-24">
-          {NewsletterArchive.slice(0, 3).map((newsletter, index) => (
+
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-12 place-items-center">
+          {NewsletterArchive.slice(0, 4).map((newsletter, index) => (
             <article
               key={index}
-              className="bg-white shadow-lg w-[20rem] md:w-[36rem] min-h-[24rem] rounded-lg overflow-hidden flex flex-col">
-              <div className="relative h-48 w-full">
+              className="relative bg-white shadow-lg w-[22rem] md:w-[36rem] h-[24rem] rounded-lg overflow-hidden"
+            >
+              <div className="relative w-full h-full">
                 <Image
                   src={newsletter.previewImage}
                   alt={newsletter.title}
@@ -23,29 +24,35 @@ export default function NewslettersPreview() {
                   objectFit="cover"
                   className="bg-gray-200"
                 />
-              </div>
-              <div className="border-t border-gray-200 p-6 flex-grow">
-                <h2 className="text-xl font-semibold mb-2 text-center break-words">
-                  {newsletter.title}
-                </h2>
-                <p className="text-sm text-gray-500 mb-4 text-center">
-                  {newsletter.date}
-                </p>
-                <Link
-                  href={newsletter.url}
-                  target="_blank"
-                  className="text-accent-orange hover:underline block text-center mt-auto">
-                  Read More
-                </Link>
+
+                {/* Overlay */}
+                <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/30 to-transparent p-6 flex flex-col justify-end">
+                  <h2 className="text-white text-2xl font-bold mb-2 drop-shadow-md">
+                    {newsletter.title}
+                  </h2>
+                  <p className="text-white text-sm mb-4 drop-shadow-sm">
+                    {newsletter.date}
+                  </p>
+                  <Link
+                    href={newsletter.url}
+                    target="_blank"
+                    className="bg-accent-orange text-white font-semibold py-2 px-4 rounded hover:bg-orange-600 w-fit"
+                  >
+                    Read More
+                  </Link>
+                </div>
               </div>
             </article>
           ))}
         </div>
-        <Link href="/newsletters">
-          <button className="bg-[#E87500] text-wh-0 text-lg font-semibold min-w-[10rem] rounded-md p-4 mt-20">
-            Read More
-          </button>
-        </Link>
+
+        <div className="flex justify-center md:justify-end mt-16">
+          <Link href="/newsletters">
+            <button className="bg-[#E87500] text-white text-lg font-semibold min-w-[10rem] rounded-md p-4">
+              Read More Newsletters
+            </button>
+          </Link>
+        </div>
       </section>
     </div>
   );
