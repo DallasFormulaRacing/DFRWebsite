@@ -183,9 +183,9 @@ const EV_LINKS = {
     },*/
   ],
 };
-const BusinessandCommunications_LINKS = {
-  label: <p>Communications</p>,
-  key: "/BusinessandCommunications",
+const BusinessandAdmin_LINKS = {
+  label: <p>Admin</p>,
+  key: "/BusinessandAdmin",
   children: [
     {
       label: (
@@ -278,14 +278,17 @@ const items: MenuProps["items"] = [
     "/team/join-the-team",
     null,
     [
+      /*{
       {
         label: (
+          
           <a href="/team/officers" rel="noopener noreferrer">
             Officers
           </a>
         ),
         key: "/team/officers",
       },
+    }*/
       {
         label: (
           <a href="/team/ic/F1Tenth" rel="noopener noreferrer">
@@ -296,7 +299,7 @@ const items: MenuProps["items"] = [
       },
       IC_LINKS,
       EV_LINKS,
-      BusinessandCommunications_LINKS,
+      BusinessandAdmin_LINKS,
 
     ],
   ),
