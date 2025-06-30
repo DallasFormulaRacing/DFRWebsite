@@ -153,7 +153,7 @@ const FAQ = [
   },
   {
     key: "7",
-    label: "How Can I be successful on the team?",
+    label: "How can I be successful on the team?",
     children: (
       <p>
         Some tips to be successful on the team are: 1. Be willing to learn, 2.
@@ -306,7 +306,7 @@ export default function About() {
           </p>
         </div>
       </section>
-      <h1
+      {/*<h1
         id="org-chart"
         className={
           "text-5xl font-bold col-span-1 row-span-1 text-center mt-40 text-accent-orange"
@@ -325,7 +325,7 @@ export default function About() {
           src={OrgChart}
           unoptimized
         />
-      </div>
+      </div>*/}
       <FAQSection faqItems={FAQ} />
     </main>
   );
