@@ -198,7 +198,7 @@ const BusinessandAdmin_LINKS = {
     {
       label: (
         <a href="/team/ic/CreativeMeadia" rel="noopener noreferrer">
-          Creative Meadia
+          Creative Mediaç
         </a>
       ),
       key: "/team/ic/CreativeMeadia",
@@ -260,6 +260,10 @@ const NAV_LINKS = [
     key: "/sponsors",
   },
   {
+    label: <a href="/Merch">Merch</a>,
+    key: "/Merch",
+  },
+  {
     label: (
       <a href="/team/join-the-team" rel="noopener noreferrer">
         <Button type="primary" className="bg-accent-green rounded-md">
@@ -278,7 +282,7 @@ const items: MenuProps["items"] = [
     "/team/join-the-team",
     null,
     [
-      /*{
+      
       {
         label: (
           
@@ -288,7 +292,7 @@ const items: MenuProps["items"] = [
         ),
         key: "/team/officers",
       },
-    }*/
+    
       {
         label: (
           <a href="/team/ic/F1Tenth" rel="noopener noreferrer">
@@ -308,6 +312,7 @@ const items: MenuProps["items"] = [
   NAV_LINKS[3],
   NAV_LINKS[4],
   NAV_LINKS[5],
+  NAV_LINKS[6],
 ];
 
 const Navbar = () => {
@@ -328,7 +333,7 @@ const Navbar = () => {
           </Link>
         </div>
 
-        <div className="ml-auto w-0 invisible md:min-w-[625px] md:visible">
+        <div className="ml-auto w-0 invisible md:min-w-[825px] md:visible">
           <Menu
             mode="horizontal"
             theme="dark"
