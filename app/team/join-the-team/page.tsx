@@ -233,7 +233,7 @@ export default function Page() {
         <div className="absolute top-1/3 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center w-full">
           <div className="flex flex-col justify-center">
             <h1 className="text-5xl sm:text-8xl font-bold">Join the Team</h1>
-            <Link href="https://forms.office.com/r/EACF3H7WbV">
+            <Link href="https://forms.cloud.microsoft/r/YPvudPv7Vu">
               <button className="bg-accent-green w-32 sm:text-lg font-semibold sm:w-48 h-14 rounded-md mt-8 buttonEffect shadow-sm">
                 Apply Now
               </button>

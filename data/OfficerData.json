@@ -2,31 +2,19 @@
   "Admin": {
     "data": [
       {
-        "name": "Safaa Siddiqui",
+        "name": "Aashish Kambala",
         "positions": "President",
-        "image": "/assets/team/Spring2025Officers/Safaa.png",
         "section": "Admin",
-        "year": "Sophomore",
-        "major": "Mechanical Engineering",
-        "yearsOnTeam": "2", 
-        "email": "safaa.siddiqui@utdallas.edu",
-        "linkedin": "https://www.linkedin.com/in/safaa-sid/"
-      },
-
-      {
-        "name": "Aaryan Patel",
-        "positions": "Secretary",
-        "section": "Admin",
-        "year": "Sophomore",
-        "major": "Mechanical Engineering",
-        "yearsOnTeam": "1.5",
-        "image": "/assets/team/Spring2025Officers/AaryanPatel.png",
-        "email": "aaryan.patel@utdallas.edu",
-        "linkedin": "https://www.linkedin.com/in/aaryan-patel-958ba2291"
+        "year": "Senior",
+        "major": "Computer Science",
+        "yearsOnTeam": "3",
+        "image": "/assets/team/Spring2025Officers/AashishKambala.png",
+        "email": "aashish.kambala@utdallas.edu",
+        "linkedin": "https://www.linkedin.com/in/aashish-k-302770210"
       },
       {
         "name": "Nabeel Salman",
-        "positions": "Business Director",
+        "positions": "Vice President",
         "section": "Business",
         "year": "Junior",
         "major": "Software Engineering",
@@ -36,19 +24,19 @@
         "linkedin": "https://www.linkedin.com/in/nabeel-salman-31806421a/"
       },
       {
-        "name": "Aashish Kambala",
-        "positions": "Business President",
+        "name": "Sean Dunn",
+        "positions": "Website Lead",
         "section": "Admin",
-        "year": "Sophomore",
-        "major": "Computer Science",
-        "yearsOnTeam": "2",
-        "image": "/assets/team/Spring2025Officers/AashishKambala.png",
-        "email": "aashish.kambala@utdallas.edu",
-        "linkedin": "https://www.linkedin.com/in/aashish-k-302770210"
+        "year": "Junior",
+        "major": "CIS Tech",
+        "yearsOnTeam": "1",
+        "image": "/dfr-logo-tyre.png",
+        "email": "Sean.Dunn@utdallas.edu",
+        "linkedin": ""
       },
       {
         "name": "Anush Kambala",
-        "positions": "Business VP",
+        "positions": "Business President",
         "section": "Business",
         "year": "Sophomore",
         "major": "Computer Science",
@@ -80,38 +68,27 @@
         "linkedin": "https://www.linkedin.com/in/kevendiaz/"
       },
       {
-        "name": "Abby Ayala",
+        "name": "Brian Jurecka",
         "positions": "IC Chief Engineer",
         "section": "Admin",
         "year": "Sophomore",
-        "major": "Biomedical Engineering | Software Minor",
+        "major": "Mechanical Engineering",
         "yearsOnTeam": "1.5",
-        "image": "/assets/team/Spring2025Officers/Abby.png",
-        "email": "abby.ayalaordaz@utdallas.edu",
-        "linkedin": "https://www.linkedin.com/in/abbyayala4/"
+        "image": "/dfr-logo-tyre.png",
+        "email": "Brian.Jurecka@utdallas.edu",
+        "linkedin": ""
       },
 
       {
         "name": "Shereef Kamel",
         "positions": "EV Chief Engineer",
         "section": "EV",
-        "year": "Sophomore",
+        "year": "Junior",
         "major": "Mechanical Engineering",
-        "yearsOnTeam": "2",
+        "yearsOnTeam": "3",
         "image": "/assets/team/Spring2025Officers/ShereefKamel.png",
         "email": "shereef.kamel@utdallas.edu",
         "linkedin": "https://www.linkedin.com/in/kamel-shereef"
-      },
-      {
-        "name": "Manuel De Jesus Contreras",
-        "positions": "EV Engineering President",
-        "section": "Admin",
-        "year": "Sophomore",
-        "major": "Electrical Engineering",
-        "yearsOnTeam": "2",
-        "image": "/assets/team/Spring2025Officers/ManuelDeJesusContreras.png",
-        "email": "manuel.dejesuscontreras@utdallas.edu",
-        "linkedin": "https://www.linkedin.com/in/manuel-djc/"
       },
       {
         "name": "Amina Omonullaeva",
@@ -129,7 +106,7 @@
         "positions": "Media Director",
         "section": "Admin",
         "year": "Junior",
-        "major": "Economics",
+        "major": "Finance",
         "yearsOnTeam": "0.5",
         "image": "/assets/team/Spring2025Officers/Cristobal.png",
         "email": "Cristobal.Santamaria@UTDallas.edu",
@@ -185,19 +162,8 @@
   "Business": {
     "data": [
       {
-        "name": "Aashish Kambala",
-        "positions": "Business President",
-        "section": "Admin",
-        "year": "Sophomore",
-        "major": "Computer Science",
-        "yearsOnTeam": "2",
-        "image": "/assets/team/Spring2025Officers/AashishKambala.png",
-        "email": "aashish.kambala@utdallas.edu",
-        "linkedin": "https://www.linkedin.com/in/aashish-k-302770210"
-      },
-      {
         "name": "Anush Kambala",
-        "positions": "Business VP",
+        "positions": "Business President",
         "section": "Business",
         "year": "Sophomore",
         "major": "Computer Science",
@@ -207,16 +173,39 @@
         "linkedin": ""
       },
       {
-        "name": "Nabeel Salman",
-        "positions": "Business Director",
+        "name": "Arav",
+        "positions": "Business Director Mentee",
         "section": "Business",
-        "year": "Junior",
-        "major": "Software Engineering",
-        "yearsOnTeam": "2",
-        "image": "/assets/team/Spring2025Officers/NabeelSalman.png",
-        "email": "nabeel.salman@utdallas.edu",
-        "linkedin": "https://www.linkedin.com/in/nabeel-salman-31806421a/"
+        "year": "Sophomore",
+        "major": "Computer Science",
+        "yearsOnTeam": "1",
+        "image": "/dfr-logo-tyre.png",
+        "email": "",
+        "linkedin": ""
+      },
+      {
+        "name": "Avaneesh",
+        "positions": "Corporate Relations Director",
+        "section": "Business",
+        "year": "Sophomore",
+        "major": "Computer Science",
+        "yearsOnTeam": "1",
+        "image": "/dfr-logo-tyre.png",
+        "email": "",
+        "linkedin": ""
+      },
+      {
+        "name": "Aditya",
+        "positions": "Development Director",
+        "section": "Business",
+        "year": "Senior",
+        "major": "Computer Science",
+        "yearsOnTeam": "1",
+        "image": "/dfr-logo-tyre.png",
+        "email": "",
+        "linkedin": ""
       }
+
 
     ]
   },
@@ -234,15 +223,26 @@
         "linkedin": ""
       },
       {
-        "name": "Derek Fuhr",
-        "positions": "Composites Lead",
+        "name": "Quan Tran",
+        "positions": "Composites Co-Lead",
+        "section": "Engineering",
+        "major": "Mechanical Engineering",
+        "year": "Sophomore",
+        "yearsOnTeam": "1",
+        "image": "/dfr-logo-tyre.png",
+        "email": "Quan.Tran@utdallas.edu",
+        "linkedin": "https://www.linkedin.com/in/derek-fuhr/"
+      },
+      {
+        "name": "Sri Arvapalli",
+        "positions": "Composites Co-Lead",
         "section": "Engineering",
         "major": "Mechanical Engineering",
         "year": "Junior",
         "yearsOnTeam": "1",
-        "image": "/assets/team/Spring2024Officers/DerekFuhr.jpg",
-        "email": "derek.fuhr@utdallas.edu",
-        "linkedin": "https://www.linkedin.com/in/derek-fuhr/"
+        "image": "/dfr-logo-tyre.png",
+        "email": "Sri.Arvapalli@utdallas.edu",
+        "linkedin": "https://www.linkedin.com/in/sri-anirudh-arvapalli-1b5395259/"
       },
       {
         "name": "Daniel Apostolov",
@@ -267,13 +267,13 @@
         "linkedin": ""
       },
       {
-        "name": "Zoe Lao",
+        "name": "Conner D",
         "positions": "Ergonomics",
         "section": "Engineering",
         "year": "Junior",
         "major": "Mechanical Engineering",
         "yearsOnTeam": "0.5",
-        "image": "/assets/team/Spring2024Officers/ZoeLao.jpg",
+        "image": "/dfr-logo-tyre.png",
         "email": "zoe.lao@utdallas.edu",
         "linkedin": "https://www.linkedin.com/in/zoe-l-619474198/"
       },
@@ -322,17 +322,6 @@
         "linkedin": "https://www.linkedin.com/in/arjun-s-nayak/"
       },
       {
-        "name": "Dillon Saulsberry",
-        "positions": "Steering",
-        "section": "Engineering",
-        "year": "Junior",
-        "major": "Mechanical Engineering",
-        "yearsOnTeam": "3",
-        "image": "/assets/team/Spring2024Officers/DillonSaulsberry.jpg",
-        "email": "dillon.saulsberry@utdallas.edu",
-        "linkedin": "https://www.linkedin.com/in/dillon-saulsberry/"
-      },
-      {
         "name": "Will Everson",
         "positions": "Data Acquisition Lead",
         "section": "Engineering",
@@ -359,25 +348,25 @@
         "linkedin": "https://www.linkedin.com/in/kamel-shereef"
       },
       {
-        "name": "Connor Myers",
+        "name": "Drake Wilson",
         "positions": "Accumulator Lead",
         "section": "EV",
         "year": "Junior",
         "major": "Mechanical Engineering",
-        "yearsOnTeam": "2",
-        "image": "/assets/team/Spring2025Officers/Conner.png",
-        "email": "connor.myers2@utdallas.edu",
+        "yearsOnTeam": "1",
+        "image": "/dfr-logo-tyre.png",
+        "email": "Drake.Wilson@utdallas.edu",
         "linkedin": "https://www.linkedin.com/in/connor-my/"
       },
       {
-        "name": "Sean Rudiak",
-        "positions": "Electrical",
+        "name": "Sebastian Schommer",
+        "positions": "EV Electrical Systems",
         "section": "EV",
         "year": "Junior",
-        "major": "Electrical Engineering",
+        "major": "Computer Engineering",
         "yearsOnTeam": "2",
-        "image": "/assets/team/Fall2024Officers/SeanREVElectrical.jpg",
-        "email": "sean.rudiak@utdallas.edu",
+        "image": "/dfr-logo-tyre.png",
+        "email": "Sebastian.Schommer@utdallas.edu",
         "linkedin": ""
       },
       {
@@ -401,18 +390,6 @@
         "image": "/assets/team/Fall2024Officers/HaavishArtulaEVPackaging.jpg",
         "email": "haavish.arutla@utdallas.edu",
         "linkedin": "https://www.linkedin.com/in/haavish-arutla-895916222/"
-      },
-
-      {
-        "name": "Cameron LeBlanc",
-        "positions": "EV Embedded",
-        "section": "EV",
-        "year": "Junior",
-        "major": "Computer Engineering",
-        "yearsOnTeam": "1",
-        "image": "/assets/team/Spring2025Officers/River.png",
-        "email": "Cameron.Leblanc@UTDallas.edu",
-        "linkedin": "https://www.linkedin.com/in/crleblanc/"
       }
 
     ]
