@@ -245,28 +245,6 @@
         "linkedin": "https://www.linkedin.com/in/sri-anirudh-arvapalli-1b5395259/"
       },
       {
-        "name": "Daniel Apostolov",
-        "positions": "Electrical Lead",
-        "section": "Engineering",
-        "major": "Electrical Engineering",
-        "year": "Senior",
-        "yearsOnTeam": "3",
-        "image": "/assets/team/Fall2024Officers/DanielA.jpg",
-        "email": "daniel.apostolov@utdallas.edu",
-        "linkedin": ""
-      },
-      {
-        "name": "William Kim",
-        "positions": "Embedded Lead",
-        "section": "Engineering",
-        "major": "Computer Engineering",
-        "year": "Junior",
-        "yearsOnTeam": "1.5",
-        "image": "/assets/team/Spring2025Officers/WillK.png",
-        "email": "wkim@utdallas.edu",
-        "linkedin": ""
-      },
-      {
         "name": "Conner D",
         "positions": "Ergonomics",
         "section": "Engineering",
@@ -367,6 +345,17 @@
         "yearsOnTeam": "2",
         "image": "/dfr-logo-tyre.png",
         "email": "Sebastian.Schommer@utdallas.edu",
+        "linkedin": ""
+      },
+      {
+        "name": "William Kim",
+        "positions": "Embedded Lead",
+        "section": "Engineering",
+        "major": "Computer Engineering",
+        "year": "Junior",
+        "yearsOnTeam": "1.5",
+        "image": "/assets/team/Spring2025Officers/WillK.png",
+        "email": "wkim@utdallas.edu",
         "linkedin": ""
       },
       {
