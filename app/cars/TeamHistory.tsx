@@ -4,6 +4,7 @@ import React from "react";
 import Image from "next/image";
 import { motion } from "framer-motion";
 import { StaticImageData } from "next/image";
+import Car2025 from "@/public/assets/Cars/2024/2025.jpg";
 import Car2024 from "@/public/assets/Cars/2024/2024_3.png";
 import Car2023 from "@/public/assets/Cars/rescalepromo23pic.png";
 import Car2022 from "@/public/assets/Cars/2022Michigan.jpg";
@@ -16,6 +17,12 @@ import { Timeline } from "antd";
 type Props = {};
 
 const CAR_HISTORY_DATA = [
+  {
+    image: Car2025,
+    title: "2025 Michigan",
+    description:
+      "Dallas Formula Racing's first EV car, developed and manufactured over 3 years, made its debut at FSAE Michigan 2025. Earning 18th place in the business event and giving the team a platform to build on.",
+  },
   {
     image: Car2024,
     title: "2024 Michigan",

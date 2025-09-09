@@ -52,7 +52,7 @@
         "year": "Sophomore",
         "major": "Neuroscience",
         "yearsOnTeam": "1",
-        "image": "/assets/team/Spring2025Officers/alondra.png",
+        "image": "/assets/team/Fall2025Officers/alondra.png",
         "email": "asl230003@utdallas.edu",
         "linkedin": "https://www.linkedin.com/in/alondra-lopez-5422862a4/"
       },
@@ -127,7 +127,7 @@
         "name": "Anastasia Garel",
         "positions": "Events and Logistics",
         "section": "Admin",
-        "year": "Junior",
+        "year": "Senior",
         "major": "Supply Chain Management and Marketing",
         "yearsOnTeam": "1",
         "image": "/assets/team/Spring2025Officers/AnastasiaGarel.png",
@@ -138,7 +138,7 @@
         "name": "Lexus Douangdara",
         "positions": "Events and Logistics",
         "section": "Admin",
-        "year": "Freshman",
+        "year": "Sophomore",
         "major": "Business Analytics and Artificial Intelligence",
         "yearsOnTeam": "0.5",
         "image": "/assets/team/Spring2025Officers/LexusDouangdara.png",
@@ -149,7 +149,7 @@
         "name": "Abby Nguyen",
         "positions": "Events and Logistics",
         "section": "Admin",
-        "year": "Junior",
+        "year": "Senior",
         "major": "Neuroscience",
         "yearsOnTeam": "1",
         "image": "/dfr-logo-tyre.png",
@@ -213,13 +213,24 @@
     "data": [
       {
         "name": "Tuan Nguyen",
-        "positions": "Aerodynamics",
+        "positions": "Aerodynamics Co-Lead",
         "section": "EV",
         "year": "Junior",
         "major": "Mechanical Engineering",
         "yearsOnTeam": "1",
         "image": "/assets/team/Fall2024Officers/TuanNguyenEVThermals.jpg",
         "email": "tuan.nguyen@utdallas.edu",
+        "linkedin": ""
+      },
+      {
+        "name": "Anthony",
+        "positions": "Aerodynamics Co-Lead",
+        "section": "EV",
+        "year": "Junior",
+        "major": "Mechanical Engineering",
+        "yearsOnTeam": "1",
+        "image": "/dfr-logo-tyre.png",
+        "email": "",
         "linkedin": ""
       },
       {
@@ -243,28 +254,6 @@
         "image": "/dfr-logo-tyre.png",
         "email": "Sri.Arvapalli@utdallas.edu",
         "linkedin": "https://www.linkedin.com/in/sri-anirudh-arvapalli-1b5395259/"
-      },
-      {
-        "name": "Daniel Apostolov",
-        "positions": "Electrical Lead",
-        "section": "Engineering",
-        "major": "Electrical Engineering",
-        "year": "Senior",
-        "yearsOnTeam": "3",
-        "image": "/assets/team/Fall2024Officers/DanielA.jpg",
-        "email": "daniel.apostolov@utdallas.edu",
-        "linkedin": ""
-      },
-      {
-        "name": "William Kim",
-        "positions": "Embedded Lead",
-        "section": "Engineering",
-        "major": "Computer Engineering",
-        "year": "Junior",
-        "yearsOnTeam": "1.5",
-        "image": "/assets/team/Spring2025Officers/WillK.png",
-        "email": "wkim@utdallas.edu",
-        "linkedin": ""
       },
       {
         "name": "Conner D",
@@ -370,6 +359,17 @@
         "linkedin": ""
       },
       {
+        "name": "William Kim",
+        "positions": "Embedded Lead",
+        "section": "Engineering",
+        "major": "Computer Engineering",
+        "year": "Junior",
+        "yearsOnTeam": "1.5",
+        "image": "/assets/team/Spring2025Officers/WillK.png",
+        "email": "wkim@utdallas.edu",
+        "linkedin": ""
+      },
+      {
         "name": "Matthew Carolla",
         "positions": "Powertrain",
         "section": "EV",
@@ -406,18 +406,7 @@
         "image": "/assets/team/Spring2025Officers/Rovin.png",
         "email": "Rovin.Raj@UTDallas.edu",
         "linkedin": "https://www.linkedin.com/in/rovin-raj/"
-      },
-      {
-        "name": "Adarsh Goura",
-        "positions": "F1 Tenth Lead",
-        "section": "F1 Tenth ",
-        "year": "Junior",
-        "major": "Computer Science",
-        "yearsOnTeam": "1",
-        "image": "/assets/team/Spring2025Officers/Adarsh.png",
-        "email": "Adarsh.Goura@UTDallas.edu",
-        "linkedin": "https://www.linkedin.com/in/adarsh-goura/"
-      }  
+      }
     ]
   }
   
