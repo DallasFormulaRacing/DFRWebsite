@@ -52,6 +52,18 @@ export default function MeetingTimes() {
                 url: " /team/ic/Eventsandlogistics",
               },
               {
+                title: "Website Meeting",
+                rrule: {
+                  freq: "weekly",
+                  byweekday: ["tu"], // Every Monday
+                  dtstart: "2024-10-01T13:00:00", // Start date and time
+                  until: "2025-12-31", // Optional: End date for recurrence
+                },
+                extendedProps: { tags: ["Meeting", "Work"] },
+                backgroundColor: "#045295",
+                url: "",
+              },
+              {
                 title: "IC Aerodynamics Meeting",
                 rrule: {
                   freq: "weekly",
@@ -111,7 +123,18 @@ export default function MeetingTimes() {
                 backgroundColor: "#E87500",
                 //url: " /team/officers",
               },
-
+              {
+                title: "Website Meeting",
+                rrule: {
+                  freq: "weekly",
+                  byweekday: ["th"], // Every Monday
+                  dtstart: "2024-10-01T17:30:00", // Start date and time
+                  until: "2025-12-31", // Optional: End date for recurrence
+                },
+                extendedProps: { tags: ["Meeting", "Work"] },
+                backgroundColor: "#045295",
+                url: "",
+              },
               {
                 title: "IC Powertrain Meeting",
                 rrule: {
@@ -124,6 +147,7 @@ export default function MeetingTimes() {
                 backgroundColor: "#E87500",
                 url: " /team/ic/powertrain",
               },
+            
               {
                 title: "IC Electrical Meeting",
                 rrule: {
