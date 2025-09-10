@@ -24,17 +24,6 @@
         "linkedin": "https://www.linkedin.com/in/nabeel-salman-31806421a/"
       },
       {
-        "name": "Sean Dunn",
-        "positions": "Website Lead",
-        "section": "Admin",
-        "year": "Junior",
-        "major": "CIS Tech",
-        "yearsOnTeam": "1",
-        "image": "/dfr-logo-tyre.png",
-        "email": "Sean.Dunn@utdallas.edu",
-        "linkedin": ""
-      },
-      {
         "name": "Anush Kambala",
         "positions": "Business President",
         "section": "Business",
@@ -122,6 +111,17 @@
         "image": "/assets/team/Spring2025Officers/rithvik.png",
         "email": "rithvik-kaniganti@utdallas.edu",
         "linkedin": "https://www.linkedin.com/in/rithvik-kaniganti-35a496215/"
+      },
+      {
+        "name": "Sean Dunn",
+        "positions": "Website Lead",
+        "section": "Admin",
+        "year": "Junior",
+        "major": "CIS Tech",
+        "yearsOnTeam": "1",
+        "image": "/assets/team/Fall2025Officers/Sean.png",
+        "email": "sqd230001@utdallas.edu",
+        "linkedin": ""
       },
       {
         "name": "Anastasia Garel",
