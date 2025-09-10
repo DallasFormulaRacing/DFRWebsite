@@ -23,8 +23,8 @@ const merchItems = [
   {
     name: "Crewneck",
     description: "Warm and stylish crewneck for cold race days",
-    price: "$35",
-    img: "/dfr-logo-tyre.png",
+    price: "$30",
+    img: "/assets/Merchimg/crewneck.png",
     link: "https://forms.gle/GDXg7cEXr1X5rvBN6",
   },
   {
