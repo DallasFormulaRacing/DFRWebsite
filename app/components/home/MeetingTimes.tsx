@@ -1,10 +1,4 @@
-import EventsArchive from "@/data/Events.json";
-import UTDSAELogo from "@/public/dfr-sae.png";
-import Image from "next/image";
-import Link from "next/link";
 import MeetingTime from "@/components/MeetingTimes";
-import Calendar from '../Calendar';
-import { url } from "inspector";
 
 export default function MeetingTimes() {
   return (
@@ -56,20 +50,8 @@ export default function MeetingTimes() {
                 title: "Events and logistics Meeting",
                 rrule: {
                   freq: "weekly",
-                  byweekday: ["tu"], // Every Monday
-                  dtstart: "2024-10-01T13:00:00", // Start date and time
-                  until: "2025-12-31", // Optional: End date for recurrence
-                },
-                extendedProps: { tags: ["Meeting", "Work"] },
-                backgroundColor: "#045295",
-                url: "/team/ic/Eventsandlogistics",
-              },
-              {
-                title: "Marketing Meeting",
-                rrule: {
-                  freq: "weekly",
-                  byweekday: ["tu"], // Every Monday
-                  dtstart: "2024-10-01T16:00:00", // Start date and time
+                  byweekday: ["mo"], // Every Monday
+                  dtstart: "2024-10-01T20:00:00", // Start date and time
                   until: "2025-12-31", // Optional: End date for recurrence
                 },
                 extendedProps: { tags: ["Meeting", "Work"] },
@@ -221,6 +203,18 @@ export default function MeetingTimes() {
                 extendedProps: { tags: ["Meeting", "Work"] },
                 backgroundColor: "#045295",
                 url: " /team/ic/business",
+              },
+              {
+                title: "Marketing Meeting",
+                rrule: {
+                  freq: "weekly",
+                  byweekday: ["fr"], // Every Monday
+                  dtstart: "2024-10-01T14:00:00", // Start date and time
+                  until: "2025-12-31", // Optional: End date for recurrence
+                },
+                extendedProps: { tags: ["Meeting", "Work"] },
+                backgroundColor: "#045295",
+                url: " /team/ic/Marketing",
               },
               {
                 title: "EV General Meeting",
