@@ -105,13 +105,14 @@
     "header": {
       "image": "",
       "lead": {
-        "image": "/assets/team/Spring2024Officers/DerekFuhr.jpg",
-        "name": "Derek Fuhr",
+        "image": "/dfr-logo-tyre.png",
+        "name": "Quan Tran",
         "email": "Email: daf200000@utdallas.edu",
         "title": "Composites Co-Lead",
         "quote": ""
       }
     },
+
     "projects": [
       {
         "title": "Aero Package",
