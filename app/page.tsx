@@ -43,7 +43,7 @@ export default function Home() {
     <main className={"px-0 leading-7"}>
       <Hero />
             {
-     <EventsSection />
+     /*<EventsSection /> */
             }
       <AboutUs />
     
