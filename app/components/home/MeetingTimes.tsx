@@ -77,18 +77,6 @@ export default function MeetingTimes() {
                 url: " /team/ic/Marketing",
               },
               {
-                title: "IC Aerodynamics Meeting",
-                rrule: {
-                  freq: "weekly",
-                  byweekday: ["tu"], // Every Monday
-                  dtstart: "2024-10-01T16:30:00", // Start date and time
-                  until: "2025-12-31", // Optional: End date for recurrence
-                },
-                extendedProps: { tags: ["Meeting", "Work"] },
-                backgroundColor: "#E87500",
-                url: " /team/ic/aerodynamics",
-              },
-              {
                 title: "EV Powertrain Meeting",
                 rrule: {
                   freq: "weekly",
@@ -284,7 +272,7 @@ export default function MeetingTimes() {
                 url: " /team/ev/embedded",
               },
               {
-                title: "Aero",
+                title: "Aerodynamics Meeting",
                 rrule: {
                   freq: "weekly",
                   byweekday: ["fr"], // Every Monday
@@ -292,8 +280,8 @@ export default function MeetingTimes() {
                   until: "2025-12-31", // Optional: End date for recurrence
                 },
                 extendedProps: { tags: ["Meeting", "Work"] },
-                backgroundColor: "#2D8B49",
-                url: " /team/ev/embedded",
+                backgroundColor: "#E87500",
+                url: " /team/ic/aerodynamics",
               },
               {
                 title: "F1 Tenth",
