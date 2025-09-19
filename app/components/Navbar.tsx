@@ -143,14 +143,6 @@ const EV_LINKS = {
     },
     {
       label: (
-        <a href="/team/ev/embedded" rel="noopener noreferrer">
-          Embedded
-        </a>
-      ),
-      key: "/team/ev/embedded",
-    },
-    {
-      label: (
         <a href="/team/ev/Accumulator" rel="noopener noreferrer">
           Accumulator
         </a>

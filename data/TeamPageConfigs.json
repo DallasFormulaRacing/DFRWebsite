@@ -197,55 +197,7 @@
       "image": ""
     }
   },
-  "embedded": {
-    "title": "Embedded",
-    "meetingTime": "Fridays @ 5:30 PM",
-    "description": "The Embedded sub-team is responsible for designing the Dashboard Infotainment Display, Wireless Communication, and Data Acquisition (DAQ) system for sampling data from sensors. To accomplish this, we leverage various platforms and program them to suit our needs — bringing firmware to the hardware.",
-    "header": {
-      "image": "",
-      "lead": {
-        "image": "/assets/team/Spring2025Officers/WillK.png",
-        "name": "Will Kim",
-        "email": "Email: Will.Kim@UTDallas.edu",
-        "title": "Embedded Lead",
-        "quote": "Working with DFR has been my most enjoyable way in building experience while exploring the different technologies that are available to me as a potential career path. The amount of exposure and knowledge I received over the years is invaluable. I am looking forward to sharing these experiences with future members and see the fruit of their work on a functional formula race car!"
-      }
-    },
-    "projects": [
-      {
-        "title": "Data Acquisition System (DAQ)",
-        "description": "Interfacing with sensors \n Data logging"
-      },
-      {
-        "title": "Dashboard Display",
-        "description": "Reading data from the ECU & DAQ \n Display infotainment to the driver"
-      },
-      {
-        "title": "R&D",
-        "description": "Wireless communication \n Sensor fusion"
-      },
-      {
-        "title": "",
-        "description": ""
-      }
-    ],
-    "gallery": [
-      {
-        "source": "/assets/team/ICPages/Embedded/Projects.png",
-        "alt": "placeholder alt text"
-      }
-    ],
-    "skills": {
-      "title": "SKILLS",
-      "description": "New members will build experience in programming in a low-level language in such a way where the resulting code is robust enough to be re-usable, clean, and maintainable — this is done using Object-Oriented Programming and Polymorphism. Working with embedded systems will bring exposure to bit shifting matching, communication protocols, and interfacing with external devices. Members will be distributed their own projects of prototyping a feature, while following an Agile workflow, and be exposed to both bare-metal programming and embedded Linux.",
-      "image": "/assets/team/ICPages/Embedded/Skills.png"
-    },
-    "newMembers": {
-      "title": "NEW MEMBERS",
-      "description": "New members will begin with programming components that are closely intertwined with electrical hardware. By doing so, members will become exposed to the low-level development environment, version control, team workflow, and testing. The resulting implementation will be added as a feature of the vehicle’s embedded system.",
-      "image": "/assets/team/ICPages/Embedded/NewMembers.png"
-    }
-  },
+
   "ergonomics": {
     "title": "Ergonomics",
     "meetingTime": "Tuesdays @ 7:15 PM",
