@@ -26,7 +26,7 @@ export default function MeetingTimes() {
                 title: "Manufacturing Meeting",
                 rrule: {
                   freq: "weekly",
-                  byweekday: ["tu"], // Every Monday
+                  byweekday: ["tu"], // Every Tuesday
                   dtstart: "2024-10-01T19:00:00", // Start date and time
                   until: "2025-12-31", // Optional: End date for recurrence
                 },
@@ -38,7 +38,7 @@ export default function MeetingTimes() {
                 title: "Website Meeting",
                 rrule: {
                   freq: "weekly",
-                  byweekday: ["tu"], // Every Monday
+                  byweekday: ["tu"], // Every Tuesday
                   dtstart: "2024-10-01T13:00:00", // Start date and time
                   until: "2025-12-31", // Optional: End date for recurrence
                 },
@@ -62,7 +62,7 @@ export default function MeetingTimes() {
                 title: "EV Powertrain Meeting",
                 rrule: {
                   freq: "weekly",
-                  byweekday: ["tu"], // Every Monday
+                  byweekday: ["tu"], // Every Tuesday
                   dtstart: "2024-10-01T19:00:00", // Start date and time
                   until: "2025-12-31", // Optional: End date for recurrence
                 },
@@ -74,7 +74,7 @@ export default function MeetingTimes() {
                 title: "EV Packaging Meeting",
                 rrule: {
                   freq: "weekly",
-                  byweekday: ["tu"], // Every Monday
+                  byweekday: ["tu"], // Every Tuesday
                   dtstart: "2024-10-01T19:00:00", // Start date and time
                   until: "2025-12-31", // Optional: End date for recurrence
                 },
@@ -86,7 +86,7 @@ export default function MeetingTimes() {
                 title: "Ergonomics Meeting",
                 rrule: {
                   freq: "weekly",
-                  byweekday: ["fr"], // Every Monday
+                  byweekday: ["fr"], // Every Friday
                   dtstart: "2024-10-01T17:00:00", // Start date and time
                   until: "2025-12-31", // Optional: End date for recurrence
                 },
@@ -98,8 +98,20 @@ export default function MeetingTimes() {
                 title: "IC Suspension Meeting",
                 rrule: {
                   freq: "weekly",
-                  byweekday: ["we"], // Every Monday
+                  byweekday: ["we"], // Every Wednesday
                   dtstart: "2024-10-01T19:00:00", // Start date and time
+                  until: "2025-12-31", // Optional: End date for recurrence
+                },
+                extendedProps: { tags: ["Meeting", "Work"] },
+                backgroundColor: "#E87500",
+                url: " /team/ic/suspension",
+              },
+              {
+                title: "IC Powertrain Meeting",
+                rrule: {
+                  freq: "weekly",
+                  byweekday: ["we"], // Every Wednesday
+                  dtstart: "2024-10-01T18:00:00", // Start date and time
                   until: "2025-12-31", // Optional: End date for recurrence
                 },
                 extendedProps: { tags: ["Meeting", "Work"] },
@@ -110,7 +122,7 @@ export default function MeetingTimes() {
                 title: "Business Meeting",
                 rrule: {
                   freq: "weekly",
-                  byweekday: ["we"], // Every Monday
+                  byweekday: ["we"], // Every Wednesday
                   dtstart: "2024-10-01T16:00:00", // Start date and time
                   until: "2025-12-31", // Optional: End date for recurrence
                 },
@@ -123,7 +135,7 @@ export default function MeetingTimes() {
                 title: "Website Meeting",
                 rrule: {
                   freq: "weekly",
-                  byweekday: ["th"], // Every Monday
+                  byweekday: ["th"], // Every Thursday
                   dtstart: "2024-10-01T17:30:00", // Start date and time
                   until: "2025-12-31", // Optional: End date for recurrence
                 },
@@ -135,7 +147,7 @@ export default function MeetingTimes() {
                 title: "IC Powertrain Meeting",
                 rrule: {
                   freq: "weekly",
-                  byweekday: ["th"], // Every Monday
+                  byweekday: ["th"], // Every Thursday
                   dtstart: "2024-10-01T18:00:00", // Start date and time
                   until: "2025-12-31", // Optional: End date for recurrence
                 },
@@ -147,7 +159,7 @@ export default function MeetingTimes() {
                 title: "Marketing Meeting",
                 rrule: {
                   freq: "weekly",
-                  byweekday: ["th"], // Every Monday
+                  byweekday: ["th"], // Every Thursday
                   dtstart: "2024-10-01T20:30:00", // Start date and time
                   until: "2025-12-31", // Optional: End date for recurrence
                 },
@@ -159,7 +171,7 @@ export default function MeetingTimes() {
                 title: "IC Electrical Meeting",
                 rrule: {
                   freq: "weekly",
-                  byweekday: ["su"], // Every Monday
+                  byweekday: ["su"], // Every Sunday
                   dtstart: "2024-10-01T19:00:00", // Start date and time
                   until: "2025-12-31", // Optional: End date for recurrence
                 },
@@ -171,7 +183,7 @@ export default function MeetingTimes() {
                 title: "Composites Meeting",
                 rrule: {
                   freq: "weekly",
-                  byweekday: ["fr"], // Every Monday
+                  byweekday: ["fr"], // Every Friday
                   dtstart: "2024-10-01T17:00:00", // Start date and time
                   until: "2025-12-31", // Optional: End date for recurrence
                 },
@@ -183,7 +195,7 @@ export default function MeetingTimes() {
                 title: "IC Software Meeting",
                 rrule: {
                   freq: "weekly",
-                  byweekday: ["fr"], // Every Monday
+                  byweekday: ["fr"], // Every Friday
                   dtstart: "2024-10-01T18:00:00", // Start date and time
                   until: "2025-12-31", // Optional: End date for recurrence
                 },
@@ -196,7 +208,7 @@ export default function MeetingTimes() {
                 title: "Business Meeting",
                 rrule: {
                   freq: "weekly",
-                  byweekday: ["fr"], // Every Monday
+                  byweekday: ["fr"], // Every Friday
                   dtstart: "2024-10-01T14:00:00", // Start date and time
                   until: "2025-12-31", // Optional: End date for recurrence
                 },
@@ -208,7 +220,7 @@ export default function MeetingTimes() {
                 title: "Marketing Meeting",
                 rrule: {
                   freq: "weekly",
-                  byweekday: ["fr"], // Every Monday
+                  byweekday: ["fr"], // Every Friday
                   dtstart: "2024-10-01T14:00:00", // Start date and time
                   until: "2025-12-31", // Optional: End date for recurrence
                 },
@@ -220,7 +232,7 @@ export default function MeetingTimes() {
                 title: "EV General Meeting",
                 rrule: {
                   freq: "weekly",
-                  byweekday: ["we"], // Every Monday
+                  byweekday: ["we"], // Every Wednesday
                   dtstart: "2024-10-01T17:30:00", // Start date and time
                   until: "2025-12-31", // Optional: End date for recurrence
                 },
@@ -232,7 +244,7 @@ export default function MeetingTimes() {
                 title: "EV Accumulator ",
                 rrule: {
                   freq: "weekly",
-                  byweekday: ["fr"], // Every Monday
+                  byweekday: ["fr"], // Every Friday
                   dtstart: "2024-10-01T17:00:00", // Start date and time
                   until: "2025-12-31", // Optional: End date for recurrence
                 },
@@ -244,7 +256,7 @@ export default function MeetingTimes() {
                 title: "EV Electrical ",
                 rrule: {
                   freq: "weekly",
-                  byweekday: ["th"], // Every Monday
+                  byweekday: ["th"], // Every Thursday
                   dtstart: "2024-10-01T19:00:00", // Start date and time
                   until: "2025-12-31", // Optional: End date for recurrence
                 },
@@ -257,7 +269,7 @@ export default function MeetingTimes() {
                 title: "EV Embedded",
                 rrule: {
                   freq: "weekly",
-                  byweekday: ["fr"], // Every Monday
+                  byweekday: ["fr"], // Every Friday
                   dtstart: "2024-10-01T16:00:00", // Start date and time
                   until: "2025-12-31", // Optional: End date for recurrence
                 },
@@ -269,7 +281,7 @@ export default function MeetingTimes() {
                 title: "Aerodynamics Meeting",
                 rrule: {
                   freq: "weekly",
-                  byweekday: ["fr"], // Every Monday
+                  byweekday: ["fr"], // Every Friday
                   dtstart: "2024-10-01T18:30:00", // Start date and time
                   until: "2025-12-31", // Optional: End date for recurrence
                 },
@@ -281,7 +293,7 @@ export default function MeetingTimes() {
                 title: "F1 Tenth",
                 rrule: {
                   freq: "weekly",
-                  byweekday: ["fr"], // Every Monday
+                  byweekday: ["fr"], // Every Friday
                   dtstart: "2024-10-01T17:00:00", // Start date and time
                   until: "2025-12-31", // Optional: End date for recurrence
                 },
