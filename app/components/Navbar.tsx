@@ -63,7 +63,7 @@ const IC_LINKS = {
       ),
       key: "/team/ic/composites",
     },
-    {
+   /* {
       label: (
         <a href="/team/ic/electrical" rel="noopener noreferrer">
           Electrical Team
@@ -78,7 +78,7 @@ const IC_LINKS = {
         </a>
       ),
       key: "/team/ic/embedded",
-    },
+    },*/
     {
       label: (
         <a href="/team/ic/ergonomics" rel="noopener noreferrer">
@@ -111,14 +111,14 @@ const IC_LINKS = {
       ),
       key: "/team/ic/software",
     },
-    {
+   /* {
       label: (
         <a href="/team/ic/steering" rel="noopener noreferrer">
           Steering Team
         </a>
       ),
       key: "/team/ic/steering",
-    },
+    },*/
     {
       label: (
         <a href="/team/ic/suspension" rel="noopener noreferrer">

@@ -201,19 +201,8 @@
   "IC": {
     "data": [
       {
-        "name": "Tuan Nguyen",
-        "positions": "Aerodynamics Co-Lead",
-        "section": "EV",
-        "year": "Junior",
-        "major": "Mechanical Engineering",
-        "yearsOnTeam": "1",
-        "image": "/assets/team/Fall2024Officers/TuanNguyenEVThermals.jpg",
-        "email": "tuan.nguyen@utdallas.edu",
-        "linkedin": ""
-      },
-      {
         "name": "Anthony",
-        "positions": "Aerodynamics Co-Lead",
+        "positions": "Aerodynamics Lead",
         "section": "EV",
         "year": "Junior",
         "major": "Mechanical Engineering",
@@ -298,6 +287,17 @@
         "image": "/dfr-logo-tyre.png",
         "email": "arjun.nayak@utdallas.edu",
         "linkedin": "https://www.linkedin.com/in/arjun-s-nayak/"
+      },
+      {
+        "name": "Nathan Day",
+        "positions": "Suspension Lead",
+        "section": "Engineering",
+        "year": "Sophomore",
+        "major": "Mechanical Engineering",
+        "yearsOnTeam": "1",
+        "image": "/dfr-logo-tyre.png",
+        "email": "Nathan.Day@utdallas.edu",
+        "linkedin": ""
       },
       {
         "name": "Will Everson",
