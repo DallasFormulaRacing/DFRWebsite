@@ -33,7 +33,7 @@ export default function MeetingTimes() {
                 rrule: {
                   freq: "weekly",
                   byweekday: ["tu"], // Every Monday
-                  dtstart: "2024-10-01T19:00:00", // Start date and time
+                  dtstart: "2024-10-01T18:30:00", // Start date and time
                   until: "2025-12-31", // Optional: End date for recurrence
                 },
                 extendedProps: { tags: ["Meeting", "Work"] },
@@ -128,15 +128,38 @@ export default function MeetingTimes() {
                 title: "Business Meeting",
                 rrule: {
                   freq: "weekly",
-                  byweekday: ["we"], // Every Monday
-                  dtstart: "2024-10-01T16:00:00", // Start date and time
+                  byweekday: ["th"], // Every Monday
+                  dtstart: "2024-10-01T14:15:00", // Start date and time
                   until: "2025-12-31", // Optional: End date for recurrence
                 },
                 extendedProps: { tags: ["Meeting", "Work"] },
                 backgroundColor: "#045295",
                 url: " /team/ic/business",
               },
-
+              {
+                title: "Creative Media",
+                rrule: {
+                  freq: "weekly",
+                  byweekday: ["mo"], // Every Monday
+                  dtstart: "2024-10-01T18:00:00", // Start date and time
+                  until: "2025-12-31", // Optional: End date for recurrence
+                },
+                extendedProps: { tags: ["Meeting", "Work"] },
+                backgroundColor: "#045295",
+                url: " /team/ic/business",
+              },
+              {
+                title: "Creative Media",
+                rrule: {
+                  freq: "weekly",
+                  byweekday: ["th"], // Every Monday
+                  dtstart: "2024-10-01T19:00:00", // Start date and time
+                  until: "2025-12-31", // Optional: End date for recurrence
+                },
+                extendedProps: { tags: ["Meeting", "Work"] },
+                backgroundColor: "#045295",
+                url: " /team/ic/creativemedia",
+              },
               {
                 title: "Website Meeting",
                 rrule: {
@@ -153,7 +176,7 @@ export default function MeetingTimes() {
                 title: "IC Powertrain Meeting",
                 rrule: {
                   freq: "weekly",
-                  byweekday: ["th"], // Every Monday
+                  byweekday: ["we"], // Every Monday
                   dtstart: "2024-10-01T18:00:00", // Start date and time
                   until: "2025-12-31", // Optional: End date for recurrence
                 },
@@ -215,7 +238,7 @@ export default function MeetingTimes() {
                 rrule: {
                   freq: "weekly",
                   byweekday: ["fr"], // Every Monday
-                  dtstart: "2024-10-01T14:00:00", // Start date and time
+                  dtstart: "2024-10-01T13:00:00", // Start date and time
                   until: "2025-12-31", // Optional: End date for recurrence
                 },
                 extendedProps: { tags: ["Meeting", "Work"] },
