@@ -35,6 +35,30 @@ export default function MeetingTimes() {
                 url: " /team/ic/manufacturing",
               },
               {
+                title: "Events and Logistics Meeting",
+                rrule: {
+                  freq: "weekly",
+                  byweekday: ["tu"], // Every Tuesday
+                  dtstart: "2024-10-01T13:00:00", // Start date and time
+                  until: "2025-12-31", // Optional: End date for recurrence
+                },
+                extendedProps: { tags: ["Meeting", "Work"] },
+                backgroundColor: "#045295",
+                url: " /team/ic/logistics",
+              },
+              {
+                title: "Marketing Meeting",
+                rrule: {
+                  freq: "weekly",
+                  byweekday: ["tu"], // Every Tuesday
+                  dtstart: "2024-10-01T16:00:00", // Start date and time
+                  until: "2025-12-31", // Optional: End date for recurrence
+                },
+                extendedProps: { tags: ["Meeting", "Work"] },
+                backgroundColor: "#045295",
+                url: " /team/ic/Marketing",
+              },
+              {
                 title: "Website Meeting",
                 rrule: {
                   freq: "weekly",
@@ -45,18 +69,6 @@ export default function MeetingTimes() {
                 extendedProps: { tags: ["Meeting", "Work"] },
                 backgroundColor: "#045295",
                 url: "",
-              },
-              {
-                title: "Events and logistics Meeting",
-                rrule: {
-                  freq: "weekly",
-                  byweekday: ["mo"], // Every Monday
-                  dtstart: "2024-10-01T20:00:00", // Start date and time
-                  until: "2025-12-31", // Optional: End date for recurrence
-                },
-                extendedProps: { tags: ["Meeting", "Work"] },
-                backgroundColor: "#045295",
-                url: " /team/ic/Marketing",
               },
               {
                 title: "EV Powertrain Meeting",
