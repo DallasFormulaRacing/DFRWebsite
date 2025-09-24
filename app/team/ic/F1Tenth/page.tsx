@@ -1,6 +1,10 @@
+"use client"; // Ensures this file works as a Client Component
+
 import OfficerSection from "./OfficerSection";
 import TitleSection from "./TitleSection";
 import Image from "next/image";
+import React from "react";
+
 
 const OFFICERS = {
   leadership: [
@@ -15,46 +19,46 @@ const OFFICERS = {
 };
 
 
+
 export default function Page() {
+  const officer = OFFICERS.leadership[0];
+
   return (
-    <main>
+    <main className="p-4">
       <div className="hidden md:flex md:flex-row gap-4 p-0 sm:p-16">
         <div className="w-1/3 relative">
           <Image
-            src={OFFICERS.leadership[0].image}
-            alt="Business Director"
+            src={officer.image}
+            alt={officer.role}
             fill={true}
             className="rounded-lg object-contain w-full md:ml-36 lg:ml-48"
           />
         </div>
         <div className="w-2/3">
           <OfficerSection
-            bigTitle={OFFICERS.leadership[0].bigTitle}
-            name={OFFICERS.leadership[0].name}
-            role={OFFICERS.leadership[0].role}
-            quote={OFFICERS.leadership[0].quote}
+            bigTitle={officer.bigTitle}
+            name={officer.name}
+            role={officer.role}
+            quote={officer.quote}
           />
         </div>
       </div>
 
-
+      <div className="md:hidden">
+        <OfficerSection
+          bigTitle={officer.bigTitle}
+          image={officer.image}
+          name={officer.name}
+          role={officer.role}
+          quote={officer.quote}
+        />
+      </div>
       <TitleSection
-        image= "/gallery/24compteam.jpg"
+        image= "/gallery/24comp.jpg"
         title=""
         subtitle=""
         position="BottomRight"
       />
-      <div className="md:hidden">
-        <OfficerSection
-          bigTitle={OFFICERS.leadership[0].bigTitle}
-          image={OFFICERS.leadership[0].image}
-          name={OFFICERS.leadership[0].name}
-          role={OFFICERS.leadership[0].role}
-          quote={OFFICERS.leadership[0].quote}
-        />
-      </div>
-
-     
     </main>
   );
 }
