@@ -16,6 +16,7 @@ const OFFICERS = {
       quote:"Building an automated car is not just about engineering; it's about pushing the boundaries of innovation and teamwork. As a leader of F1 Tenth, I have the privilege to guide a passionate group of individuals who are redefining the future of transportation with every line of code.",
     },
   ],
+
 };
 
 
