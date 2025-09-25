@@ -50,7 +50,7 @@
   },
   "embedded": {
     "title": "EV Embedded",
-    "meetingTime": "Fridays @ 4:45 PM",
+    "meetingTime": "Fridays @ 4:00 PM",
     "description": "The EV Embedded sub-team is responsible for designing the Dashboard Infotainment Display, Wireless Communication, and Data Acquisition (DAQ) system for sampling data from sensors. To accomplish this, we leverage various platforms and program them to suit our needs — bringing firmware to the hardware.",
     "header": {
       "image": "",
@@ -99,7 +99,7 @@
   }, 
   "Accumulator": {
     "title": "EV Accumulator",
-    "meetingTime": "Wednesdays @ 5:00 PM",
+    "meetingTime": "Fridays @ 5:00 PM",
     "description": "The EV Accumulator sub-team is responsible for designing the Dashboard Infotainment Display, Wireless Communication, and Data Acquisition (DAQ) system for sampling data from sensors. To accomplish this, we leverage various platforms and program them to suit our needs—ensuring seamless integration between firmware and hardware.",
     "header": {
       "image": "",
@@ -148,7 +148,7 @@
   },
   "packaging": {
     "title": "EV Packaging",
-    "meetingTime": "Thursdays @ 6:30 PM",
+    "meetingTime": "Tuesdays @ 7:00 PM",
     "description": "EV packaging encompasses a lot of projects starting from chassis to accumulator. All of these projects have to do with the structural design and integrity of the car. While working on this team you will learn how to CAD and run FEAs as well as learn electrical components work. You will be working with plenty of other teams and also getting hands on in the manufacturing process.",
     "header": {
       "image": "/assets/team/EVPages/Packaging/Header.png",
@@ -197,7 +197,7 @@
   },
   "powertrain": {
     "title": "EV Powertrain",
-    "meetingTime": "Fridays @ 6:00 PM",
+    "meetingTime": "tuesdays @ 7:00 PM",
     "description": "This team focused on the analysis, mounting, and creation of all powertrain systems on the EV car ensuring proper function and durability",
     "header": {
       "image": "/assets/team/EVPages/Powertrain/Projects.png",
