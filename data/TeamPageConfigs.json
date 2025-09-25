@@ -1,14 +1,14 @@
 {
   "aerodynamics": {
     "title": "Aerodynamics",
-    "meetingTime": "Tuesdays @ 4:30 PM",
+    "meetingTime": "Fridays @ 6:30 PM",
     "description": "This team focuses on the development of aerodynamic devices through CAD and CFD to improve vehicle performance. The main focus to accomplish this includes downforce generation, drag reduction, cooling, and force balance.",
     "header": {
       "image": "/assets/team/ICPages/Aerodynamics/FullCarStreamlines.png",
       "lead": {
-        "image": "/assets/team/Fall2024Officers/TuanNguyenEVThermals.jpg",
-        "name": "Tuan Nguyen",
-        "email": "Tuan.Nguyen2@UTDallas.edu",
+        "image": "/dfr-logo-tyre.png",
+        "name": "Anthony",
+        "email": "Anthony@UTDallas.edu",
         "title": "Aerodynamics Lead",
         "quote": "\"This team has been the perfect opportunity for me to explore my passion for motorsport engineering and has let me find a niche at UTD that I deeply care about. This team has let me teach other passionate individuals about topics I care about, which is something I'm very grateful for. I hope I can continue this process of learning and teaching for future members to continue to benefit from.\""
       }
@@ -100,7 +100,7 @@
   },
   "composites": {
     "title": "Composites",
-    "meetingTime": "Wednesdays @ 7:30 pm",
+    "meetingTime": "Fridays @ 5:00 pm",
     "description": "Composites manufactures all body panels including the body covering. We work with the Aerodynamics Team to build feasible designs.",
     "header": {
       "image": "",
@@ -205,9 +205,9 @@
     "header": {
       "image": "",
       "lead": {
-        "image": "/assets/team/Spring2024Officers/ZoeLao.jpg",
-        "name": "Zoe Lao",
-        "email": "Email: zoe.lao@utdallas.edu",
+        "image": "/dfr-logo-tyre.png",
+        "name": "Conner D",
+        "email": "Email: conner.D@utdallas.edu",
         "title": "Ergonomics Lead",
         "quote": "This team has introduced me to the real world of engineering. I have been able to develop myself as an engineer by working as a part of a dedicated engineering team and gaining experience that will help me in the real world. I find myself surrounded by like-minded and passionate individuals all working together towards a common goal, being fast!"
       }
@@ -298,7 +298,7 @@
   },
   "powertrain": {
     "title": "Powertrain",
-    "meetingTime": "Thursdays @ 6 PM",
+    "meetingTime": "Wednesdays @ 6:00 PM",
     "description": "Our powertrain team deals with the engine and all supporting systems to get that power to the wheels, ending at the outer axle bearings. We are responsible for getting as much power out of a sub-700cc engine as necessary, using tools as an engine dynamometer, flow benches, along with wheel dynamometer to analyze and improve our package. The engine and drivetrain are the heart of the racecar. Through our work on the team, it is important to understand the power that a small spark can have when in the perfect environment. Our goal on the powertrain is to provide that perfect environment so that every spark achieves its maximum potential and has the greatest impact- both figuratively on the team and literally within the engine. Bridging the gap between the textbook and the track is one of the most challenging aspects of engineering; we chase it steadily, one lap at a time.",
     "header": {
       "image": "/assets/team/ICPages/Powertrain/header.jpg",
@@ -347,12 +347,12 @@
   },
   "software": {
     "title": "Software",
-    "meetingTime": "Thursdays @ 5:30 PM",
+    "meetingTime": "Fridays @ 6:00 pm",
     "description": "The software subteam specializes in creating programs that help collect and analyze data for our race car. Whenever we push our car to the limit, we need to make sure that all of our components are running smoothly. Our projects like DataAnalyzer and PitSoftware help us do just that.",
     "header": {
       "image": "/assets/team/ICPages/Software/Infrastructure.png",
       "lead": {
-        "image": "/assets/team/Headshots/blank_avatar.png",
+        "image": "/dfr-logo-tyre.png",
         "name": "Arjun Nayak",
         "email": "Email: arjun.nayak@utdallas.edu",
         "title": "Software Lead",
@@ -451,8 +451,8 @@
       "image": "/assets/team/ICPages/Suspension/NewMembers.png",
       "lead": {
         "image": "/assets/team/Spring2024Officers/ZheerSeyan.jpg",
-        "name": "Zheer Seyan",
-        "email": "Email: zjs210000@utdallas.edu",
+        "name": "Nathan Day",
+        "email": "Email:Nathan.Day@utdallas.edu",
         "title": "Suspension Lead",
         "quote": "Dallas Formula Racing has given me the opportunity to develop my skills as a young engineer while keeping my passion for motorsports alive. Experiencing the engineering design process through hands-on work is one of the most exciting aspects of this team and something I can apply elsewhere and into the future. I have grown a lot through the help of mentors and challenging projects, and I hope to continue this cycle for many passionate engineers."
       }
