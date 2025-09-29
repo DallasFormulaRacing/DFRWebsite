@@ -22,7 +22,3 @@ export default function Page({ params: { team } }: Params) {
 
   return <ICLayout config={config} />;
 }
-
-export const rewrites = [
-  { source: "/(.*)", destination: "/" }
-];
