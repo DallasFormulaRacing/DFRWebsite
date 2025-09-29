@@ -6,6 +6,7 @@
     "header": {
       "image": "/assets/team/ICPages/Aerodynamics/FullCarStreamlines.png",
       "leads": [{
+
         "image": "/dfr-logo-tyre.png",
         "name": "Anthony",
         "email": "Anthony@UTDallas.edu",
@@ -56,12 +57,14 @@
     "header": {
       "image": "/assets/team/ICPages/Chassis/Chasis-1.png",
       "leads": [{
+
         "image": "/assets/team/Spring2024Officers/EthanGamero.jpg",
         "name": "Ethan Gamero",
         "email": "eag180006@utdallas.edu",
         "title": "Chassis Lead",
         "quote": "\"I'm exicted to be your 2024 and 2025 chassis lead!\""
       }]
+
     },
     "projects": [
       {
@@ -105,20 +108,13 @@
     "header": {
       "image": "",
       "leads":[ {
+
         "image": "/dfr-logo-tyre.png",
         "name": "Quan Tran",
         "email": "Email: Quan.Tran.edu",
         "title": "Composites Co-Lead",
         "quote": ""
-      },
-      {
-        "image": "/dfr-logo-tyre.png",
-        "name": "Sri Arvapalli",
-        "email": "Email: Sri.Arvapalli@utdallas.edu",
-        "title": "Composites Co-Lead",
-        "quote": ""
       }
-    ]
     },
 
     "projects": [
@@ -163,12 +159,14 @@
     "header": {
       "image": "",
       "leads":[ {
+
         "image": "/assets/team/Fall2024Officers/DanielA.jpg",
         "name": "Daniel Apostolov",
         "email": "Email: daniel.apostolov@utdallas.edu",
         "title": "Electrical Lead",
         "quote": "Working with DFR has been my most enjoyable way in building experience while exploring the different technologies that are available to me as a potential career path. The amount of exposure and knowledge I received over the years is invaluable. I am looking forward to sharing these experiences with future members and see the fruit of their work on a functional formula race car!"
       }]
+
     },
     "projects": [
       {
@@ -213,12 +211,14 @@
     "header": {
       "image": "",
       "leads":[ {
+
         "image": "/dfr-logo-tyre.png",
         "name": "Conner D",
         "email": "Email: conner.D@utdallas.edu",
         "title": "Ergonomics Lead",
         "quote": "This team has introduced me to the real world of engineering. I have been able to develop myself as an engineer by working as a part of a dedicated engineering team and gaining experience that will help me in the real world. I find myself surrounded by like-minded and passionate individuals all working together towards a common goal, being fast!"
       }]
+
     },
     "projects": [
       {
@@ -262,12 +262,14 @@
     "header": {
       "image": "/assets/team/ICPages/Manufacturing/Projects.jpg",
       "leads": [{
+
         "image": "/assets/team/Spring2025Officers/AnanyaUppalapati.png",
         "name": "Ananya Uppalapati",
         "email": "Email: axu230008@utdallas.edu",
         "title": "Manufacturing Lead",
         "quote": "This team helped me expand my knowledge not only in mechanical engineering but also in the fabrication of parts. By having some understanding of the fabrication process, I can design better parts that are more feasible, and I understand the drawbacks that each manufacturing process has."
       }]
+
     },
     "projects": [
       {
@@ -369,12 +371,14 @@
     "header": {
       "image": "/assets/team/ICPages/Software/Infrastructure.png",
       "leads": [{
+
         "image": "/dfr-logo-tyre.png",
         "name": "Arjun Nayak",
         "email": "Email: arjun.nayak@utdallas.edu",
         "title": "Software Lead",
         "quote": "Being a part of this team has taught me so much about the parts of the car and how they interact with each other. I came into this team with a passion for programming and engineering and was able to watch both of these disciplines interact with each other to form a cohesive product. I hope to involve more people and teach them how to program and how we use it to analyze vehicle dynamics."
       }]
+
     },
     "projects": [
       {
@@ -418,12 +422,14 @@
     "header": {
       "image": "",
       "leads": [{
+
         "image": "/assets/team/Spring2024Officers/DillonSaulsberry.jpg",
         "name": "Dillon Saulsberry",
         "email": "Email: dxs200078@utdallas.edu",
         "title": "Steering Lead",
         "quote": "In the past few years of my time here at UTD, I would say that the best decision I made was most definitely joining Dallas Formula Racing back in my freshman year. With this team, I was able to jump-start my growth as a young mechanical engineer and further strengthen my love for automotive design through the team’s provision of exciting engineering projects and guidance from seniors. In addition, I’ve had many wonderful experiences outside of engineering through my interactions with my loveable, kindhearted, and talented peers. I’m looking forward to continuing my role as steering lead and sharing my learning experiences with all who decide to join my team!"
       }]
+
     },
     "projects": [
       {

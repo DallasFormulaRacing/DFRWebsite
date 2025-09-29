@@ -11,7 +11,7 @@ export interface Config {
 
 export interface Header {
   image: string;
-  leads: Lead[];
+  lead: Lead;
 }
 
 export interface Lead {

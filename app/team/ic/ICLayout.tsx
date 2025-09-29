@@ -23,32 +23,28 @@ export default function ICLayout({ config }: { config: Config }) {
         </div>
 
         <div className="space-y-24">
-          
           <div
             className={
               "flex justify-center items-center flex-col px-8 md:px-32 md:flex-row"
             }>
-             
-            {config["header"]["leads"]?.map((lead, index) => (
-            <div key ={index} className="flex justify-center items-center flex-col px-8 md:px-16 md:flex-column">
+            <div className="flex justify-center flex-col py-4">
               <img
-                src = {lead["image"]}
+                src={config["header"]["lead"]["image"]}
                 alt="headshot of lead"
                 className="max-w-[300px] md:max-w-[400px]"
               />
               <div className={"py-4 text-center"}>
                 <div className={"p-2 font-semibold text-[32px]"}>
-                  {lead["name"]}
+                  {config["header"]["lead"]["name"]}
                 </div>
                 <div className={"p-2 font-light text-[16px]"}>
-                  {lead["email"]}
+                  {config["header"]["lead"]["email"]}
                 </div>
                 <div className={"p-1 font-regular text-[24px]"}>
-                  {lead["title"]}
+                  {config["header"]["lead"]["title"]}
                 </div>
               </div>
             </div>
-            ))}
             <div className={"flex flex-col items-center text-center gap-8"}>
               {config?.header?.image && (
                 <img
@@ -62,17 +58,10 @@ export default function ICLayout({ config }: { config: Config }) {
                 className={
                   "font-light leading-relaxed w-full text-lg md:w-4/5 md:text-lg"
                 }>
-                
-                  
-+                {
-                config["header"]["leads"]?.map((lead) => lead["quote"]).join(" \n\n ")
-}
-
+                {config["header"]["lead"]["quote"]}
               </div>
             </div>
-            
           </div>
-          
         </div>
       </section>
       <section
