@@ -14,7 +14,7 @@ interface TeamPageConfigsInterface {
 
 export default function Page({ params: { team } }: Params) {
   const config: Config | null =
-    (TeamPageConfigs as TeamPageConfigsInterface)[team] ;
+    (TeamPageConfigs as TeamPageConfigsInterface)[team] || null;
 
   if (!config) {
     return "Not Found";
@@ -22,3 +22,7 @@ export default function Page({ params: { team } }: Params) {
 
   return <ICLayout config={config} />;
 }
+
+export const rewrites = [
+  { source: "/(.*)", destination: "/" }
+];
