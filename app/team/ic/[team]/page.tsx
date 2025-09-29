@@ -14,7 +14,7 @@ interface TeamPageConfigsInterface {
 
 export default function Page({ params: { team } }: Params) {
   const config: Config | null =
-    (TeamPageConfigs as TeamPageConfigsInterface)[team] || null;
+    (TeamPageConfigs as TeamPageConfigsInterface)[team] ;
 
   if (!config) {
     return "Not Found";
