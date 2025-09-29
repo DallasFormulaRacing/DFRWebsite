@@ -5,13 +5,14 @@
     "description": "This team focuses on the development of aerodynamic devices through CAD and CFD to improve vehicle performance. The main focus to accomplish this includes downforce generation, drag reduction, cooling, and force balance.",
     "header": {
       "image": "/assets/team/ICPages/Aerodynamics/FullCarStreamlines.png",
-      "lead": {
+      "leads": [{
+
         "image": "/dfr-logo-tyre.png",
         "name": "Anthony",
         "email": "Anthony@UTDallas.edu",
         "title": "Aerodynamics Lead",
-        "quote": "\"This team has been the perfect opportunity for me to explore my passion for motorsport engineering and has let me find a niche at UTD that I deeply care about. This team has let me teach other passionate individuals about topics I care about, which is something I'm very grateful for. I hope I can continue this process of learning and teaching for future members to continue to benefit from.\""
-      }
+        "quote": "This team has been the perfect opportunity for me to explore my passion for motorsport engineering and has let me find a niche at UTD that I deeply care about. This team has let me teach other passionate individuals about topics I care about, which is something I'm very grateful for. I hope I can continue this process of learning and teaching for future members to continue to benefit from.\""
+      }]
     },
     "projects": [
       {
@@ -55,13 +56,15 @@
     "description": "Working as the backbone of the vehicle, a well-designed chassis will promote better performance of the vehicle, safety, and comfort to the driver. Strict FSAE rules must be followed to ensure a properly designed frame will protect the driver at all times. This being the case, there continue to be endless design possibilities that allow young engineers to design a chassis that can take a vehicles performance to its fullest extent. An understanding of vehicle dynamics, manufacturing, driver ergonomics, and integration of other vehicle subsystems is needed to successfully build a chassis. For this reason, members with diverse set skills and passion to learn is required. ",
     "header": {
       "image": "/assets/team/ICPages/Chassis/Chasis-1.png",
-      "lead": {
+      "leads": [{
+
         "image": "/assets/team/Spring2024Officers/EthanGamero.jpg",
         "name": "Ethan Gamero",
         "email": "eag180006@utdallas.edu",
         "title": "Chassis Lead",
         "quote": "\"I'm exicted to be your 2024 and 2025 chassis lead!\""
-      }
+      }]
+
     },
     "projects": [
       {
@@ -104,10 +107,11 @@
     "description": "Composites manufactures all body panels including the body covering. We work with the Aerodynamics Team to build feasible designs.",
     "header": {
       "image": "",
-      "lead": {
+      "leads":[ {
+
         "image": "/dfr-logo-tyre.png",
         "name": "Quan Tran",
-        "email": "Email: daf200000@utdallas.edu",
+        "email": "Email: Quan.Tran.edu",
         "title": "Composites Co-Lead",
         "quote": ""
       }
@@ -154,13 +158,15 @@
     "description": "The electrical sub team is responsible for the design and execution of the vehicle’s electrical systems, including the ECU, wire harness, safety systems, and data acquisition.",
     "header": {
       "image": "",
-      "lead": {
+      "leads":[ {
+
         "image": "/assets/team/Fall2024Officers/DanielA.jpg",
         "name": "Daniel Apostolov",
         "email": "Email: daniel.apostolov@utdallas.edu",
         "title": "Electrical Lead",
         "quote": "Working with DFR has been my most enjoyable way in building experience while exploring the different technologies that are available to me as a potential career path. The amount of exposure and knowledge I received over the years is invaluable. I am looking forward to sharing these experiences with future members and see the fruit of their work on a functional formula race car!"
-      }
+      }]
+
     },
     "projects": [
       {
@@ -204,13 +210,15 @@
     "description": "This team focuses on crucial control systems of the vehicle including the brakes system, shifting system, dash interface, and pedal box while also engineering with account to the ergonomic aspects of the vehicle such as the steering wheel and seat.",
     "header": {
       "image": "",
-      "lead": {
+      "leads":[ {
+
         "image": "/dfr-logo-tyre.png",
         "name": "Conner D",
         "email": "Email: conner.D@utdallas.edu",
         "title": "Ergonomics Lead",
         "quote": "This team has introduced me to the real world of engineering. I have been able to develop myself as an engineer by working as a part of a dedicated engineering team and gaining experience that will help me in the real world. I find myself surrounded by like-minded and passionate individuals all working together towards a common goal, being fast!"
-      }
+      }]
+
     },
     "projects": [
       {
@@ -253,13 +261,15 @@
     "description": "The manufacturing subteam is responsible for welding, waterjetting, and overall manufacturing all non electrical and composite components of the car",
     "header": {
       "image": "/assets/team/ICPages/Manufacturing/Projects.jpg",
-      "lead": {
+      "leads": [{
+
         "image": "/assets/team/Spring2025Officers/AnanyaUppalapati.png",
         "name": "Ananya Uppalapati",
         "email": "Email: axu230008@utdallas.edu",
         "title": "Manufacturing Lead",
         "quote": "This team helped me expand my knowledge not only in mechanical engineering but also in the fabrication of parts. By having some understanding of the fabrication process, I can design better parts that are more feasible, and I understand the drawbacks that each manufacturing process has."
-      }
+      }]
+
     },
     "projects": [
       {
@@ -301,14 +311,22 @@
     "meetingTime": "Wednesdays @ 6:00 PM",
     "description": "Our powertrain team deals with the engine and all supporting systems to get that power to the wheels, ending at the outer axle bearings. We are responsible for getting as much power out of a sub-700cc engine as necessary, using tools as an engine dynamometer, flow benches, along with wheel dynamometer to analyze and improve our package. The engine and drivetrain are the heart of the racecar. Through our work on the team, it is important to understand the power that a small spark can have when in the perfect environment. Our goal on the powertrain is to provide that perfect environment so that every spark achieves its maximum potential and has the greatest impact- both figuratively on the team and literally within the engine. Bridging the gap between the textbook and the track is one of the most challenging aspects of engineering; we chase it steadily, one lap at a time.",
     "header": {
-      "image": "/assets/team/ICPages/Powertrain/header.jpg",
-      "lead": {
+      "image": "",
+      "leads": [{
         "image": "/assets/team/Spring2024Officers/ApurvaBetgar.jpg",
         "name": "Apurva Betgar",
         "email": "Email: apurva.betgar@utdallas.edu",
         "title": "Powertrain Co-Lead",
-        "quote": "The engine and drivetrain are the heart of the racecar. Through our work on the team, it is important to understand the power that a small spark can have when in the perfect environment. My goal on the powertrain is to provide that perfect environment so that every spark achieves its maximum potential and has the greatest impact- both figuratively on the team and literally within the engine. Bridging the gap between the textbook and the track is one of the most challenging aspects of engineering; we chase it steadily, one lap at a time."
-      }
+        "quote": ""
+      },
+      {
+      "image": "/assets/team/Fall2024Officers/ChanPhan.jpg",
+      "name": "Chanh Phan",
+      "email": "Email: Chanh.Phan@utdallas.edu",
+      "title": "Powertrain Co-Lead",
+      "quote": ""
+    }
+    ]
     },
     "projects": [
       {
@@ -343,7 +361,8 @@
       "title": "NEW MEMBERS",
       "description": "New members can expect to learn how to design a well-engineered part, engine tuning, rebuilding an engine, working with sponsors and so much more. The number one quality of a new member is motivation and being eager to learn. We would much rather work with someone who does not know anything about cars but is willing to learn, than someone that thinks they know everything. FSAE is a lot more work than your average organization, so those that continue to stick with it and always looking for ways to improve are the ones that stand out.",
       "image": "/assets/team/ICPages/Powertrain/newmembers.jpg"
-    }
+    },
+    "link": "/powertrain"
   },
   "software": {
     "title": "Software",
@@ -351,13 +370,15 @@
     "description": "The software subteam specializes in creating programs that help collect and analyze data for our race car. Whenever we push our car to the limit, we need to make sure that all of our components are running smoothly. Our projects like DataAnalyzer and PitSoftware help us do just that.",
     "header": {
       "image": "/assets/team/ICPages/Software/Infrastructure.png",
-      "lead": {
+      "leads": [{
+
         "image": "/dfr-logo-tyre.png",
         "name": "Arjun Nayak",
         "email": "Email: arjun.nayak@utdallas.edu",
         "title": "Software Lead",
         "quote": "Being a part of this team has taught me so much about the parts of the car and how they interact with each other. I came into this team with a passion for programming and engineering and was able to watch both of these disciplines interact with each other to form a cohesive product. I hope to involve more people and teach them how to program and how we use it to analyze vehicle dynamics."
-      }
+      }]
+
     },
     "projects": [
       {
@@ -400,13 +421,15 @@
     "description": "",
     "header": {
       "image": "",
-      "lead": {
+      "leads": [{
+
         "image": "/assets/team/Spring2024Officers/DillonSaulsberry.jpg",
         "name": "Dillon Saulsberry",
         "email": "Email: dxs200078@utdallas.edu",
         "title": "Steering Lead",
         "quote": "In the past few years of my time here at UTD, I would say that the best decision I made was most definitely joining Dallas Formula Racing back in my freshman year. With this team, I was able to jump-start my growth as a young mechanical engineer and further strengthen my love for automotive design through the team’s provision of exciting engineering projects and guidance from seniors. In addition, I’ve had many wonderful experiences outside of engineering through my interactions with my loveable, kindhearted, and talented peers. I’m looking forward to continuing my role as steering lead and sharing my learning experiences with all who decide to join my team!"
-      }
+      }]
+
     },
     "projects": [
       {
@@ -449,13 +472,13 @@
     "description": "The suspension system is designed to maintain the tire's contact patch with the road in the optimal position during steady-state and transient conditions. The suspension must absorb bumps in the road to allow the sprung mass (chassis, driver, engine, etc.), which is the components supported by the springs, to actuate under accelerations. The suspension geometry controls the motion relative motion between the wheel and the unsprung mass, which are the components of the vehicle not supported by the springs (wheel, upright, hub, caliper, etc.), and the sprung mass, and allows the force to be transferred between them.",
     "header": {
       "image": "/assets/team/ICPages/Suspension/NewMembers.png",
-      "lead": {
-        "image": "/assets/team/Spring2024Officers/ZheerSeyan.jpg",
+      "leads": [{
+        "image": "/dfr-logo-tyre.png",
         "name": "Nathan Day",
         "email": "Email:Nathan.Day@utdallas.edu",
         "title": "Suspension Lead",
         "quote": "Dallas Formula Racing has given me the opportunity to develop my skills as a young engineer while keeping my passion for motorsports alive. Experiencing the engineering design process through hands-on work is one of the most exciting aspects of this team and something I can apply elsewhere and into the future. I have grown a lot through the help of mentors and challenging projects, and I hope to continue this cycle for many passionate engineers."
-      }
+      }]
     },
     "projects": [
       {

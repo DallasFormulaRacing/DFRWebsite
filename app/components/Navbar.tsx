@@ -190,7 +190,7 @@ const BusinessandAdmin_LINKS = {
     {
       label: (
         <a href="/team/ic/CreativeMeadia" rel="noopener noreferrer">
-          Creative Mediaç
+          Creative Media
         </a>
       ),
       key: "/team/ic/CreativeMeadia",
