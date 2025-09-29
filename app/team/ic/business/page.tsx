@@ -26,15 +26,7 @@ const OFFICERS = {
         "The Development team is responsible for securing funding for the team through sponsorships, partnerships, and other forms of financial support. We also work to promote the team and its partners to a broader audience and manage the team's relationships with its partners and sponsors to ensure that expectations are met and any issues are addressed. These efforts help to ensure the financial stability and success of the team. As a member of this team, you will get an understanding of how economic and social aspects affect each of the engineering subsystems. Personally, I have gained valuable experience as a public speaker and in the engineering field within this organization.",
     },
   ],
-  community: [
-    {
-      image: "/assets/team/Fall2025Officers/Avaneesh.png",
-      name: "Avaneesh Kilaru",
-      role: "Corporate Relations Director",
-      quote:
-        "There’s a space on the business team for anyone willing to put in the effort to contribute to the DFR mission. The strength of the business team is founded in the immense diversity of our individual opinions",
-    },
-  ],
+
   
 };
 
@@ -88,18 +80,8 @@ export default function Page() {
         subtitle="Engage with our local community through initiatives, events and more"
         position="BottomRight"
       />
-      <OfficerSection
-        image={OFFICERS.community[0].image}
-        name={OFFICERS.community[0].name}
-        role={OFFICERS.community[0].role}
-        quote={OFFICERS.community[0].quote}
-      />
-      <TitleSection
-        image={OutreachImage}
-        title="Outreach"
-        subtitle="Encourage aspiring and future engineers to follow their passions"
-        position="BottomLeft"
-      />
+
+
      
     </main>
   );

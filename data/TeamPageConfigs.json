@@ -481,9 +481,14 @@
     "description": "The suspension system is designed to maintain the tire's contact patch with the road in the optimal position during steady-state and transient conditions. The suspension must absorb bumps in the road to allow the sprung mass (chassis, driver, engine, etc.), which is the components supported by the springs, to actuate under accelerations. The suspension geometry controls the motion relative motion between the wheel and the unsprung mass, which are the components of the vehicle not supported by the springs (wheel, upright, hub, caliper, etc.), and the sprung mass, and allows the force to be transferred between them.",
     "header": {
       "image": "/assets/team/ICPages/Suspension/NewMembers.png",
+<<<<<<< Updated upstream
       "leads": [
         {
         "image": "/assets/team/Spring2024Officers/ZheerSeyan.jpg",
+=======
+      "lead": {
+        "image": "/dfr-logo-tyre.png",
+>>>>>>> Stashed changes
         "name": "Nathan Day",
         "email": "Email:Nathan.Day@utdallas.edu",
         "title": "Suspension Lead",
