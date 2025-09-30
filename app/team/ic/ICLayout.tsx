@@ -27,41 +27,42 @@ export default function ICLayout({ config }: { config: Config }) {
             className={
               "flex justify-center items-center flex-col px-8 md:px-32 md:flex-row"
             }>
-            <div className="flex justify-center flex-col py-4">
-              <img
-                src={config["header"]["lead"]["image"]}
-                alt="headshot of lead"
-                className="max-w-[300px] md:max-w-[400px]"
-              />
-              <div className={"py-4 text-center"}>
-                <div className={"p-2 font-semibold text-[32px]"}>
-                  {config["header"]["lead"]["name"]}
-                </div>
-                <div className={"p-2 font-light text-[16px]"}>
-                  {config["header"]["lead"]["email"]}
-                </div>
-                <div className={"p-1 font-regular text-[24px]"}>
-                  {config["header"]["lead"]["title"]}
-                </div>
-              </div>
-            </div>
-            <div className={"flex flex-col items-center text-center gap-8"}>
-              {config?.header?.image && (
-                <img
-                  src={config["header"]["image"]}
-                  className={
-                    "p-4 w-full max-h-96 object-contain hidden md:w-3/5 md:max-w-4xl md:block"
-                  }
-                />
-              )}
+            {config["header"]["leads"]?.map((lead, index) => (
               <div
-                className={
-                  "font-light leading-relaxed w-full text-lg md:w-4/5 md:text-lg"
-                }>
-                {config["header"]["lead"]["quote"]}
+                key={index}
+                className="flex justify-center flex-col py-4 items-center text-center px-8 md:px-16">
+                <img
+                  src={lead["image"]}
+                  alt={`headshot of ${lead["name"]}`}
+                  className="max-w-[300px] md:max-w-[400px]"
+                />
+                <div className={"py-4"}>
+                  <div className={"p-2 font-semibold text-[32px]"}>
+                    {lead["name"]}
+                  </div>
+                  <div className={"p-2 font-light text-[16px]"}>
+                    {lead["email"]}
+                  </div>
+                  <div className={"p-1 font-regular text-[24px]"}>
+                    {lead["title"]}
+                  </div>
+                  <div className={"font-light leading-relaxed text-lg"}>
+                    {lead["quote"]}
+                  </div>
+                </div>
               </div>
-            </div>
+            ))}
           </div>
+          {config?.header?.image && (
+            <div className="flex justify-center">
+              <img
+                src={config["header"]["image"]}
+                className={
+                  "p-4 w-full max-h-96 object-contain hidden md:w-3/5 md:max-w-4xl md:block"
+                }
+              />
+            </div>
+          )}
         </div>
       </section>
       <section
