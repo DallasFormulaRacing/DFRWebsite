@@ -15,6 +15,9 @@ import {
   ArrowDownOutlined,
   CaretDownOutlined,
 } from "@ant-design/icons";
+import { notFound } from "next/navigation";
+
+
 
 type MenuItem = Required<MenuProps>["items"][number];
 
@@ -165,14 +168,7 @@ const EV_LINKS = {
       ),
       key: "/team/ev/powertrain",
     },
-    /*{
-      label: (
-        <a href="/team/ev/thermals" rel="noopener noreferrer">
-          Thermals
-        </a>
-      ),
-      key: "/team/ev/thermals",
-    },*/
+
   ],
 };
 const BusinessandAdmin_LINKS = {
@@ -189,11 +185,11 @@ const BusinessandAdmin_LINKS = {
     },
     {
       label: (
-        <a href="/team/ic/CreativeMeadia" rel="noopener noreferrer">
+        <a href="/team/ic/CreativeMedia" rel="noopener noreferrer">
           Creative Media
         </a>
       ),
-      key: "/team/ic/CreativeMeadia",
+      key: "/team/ic/CreativeMedia",
     },
     {
       label: (
