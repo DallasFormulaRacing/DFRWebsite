@@ -35,7 +35,7 @@ export default function Page() {
         <div className="w-1/3 relative">
           <Image
             src={OFFICERS.leadership[0].image}
-            alt="Business Director"
+            alt="Treasury Director"
             fill={true}
             className="rounded-lg object-contain w-full md:ml-36 lg:ml-48"
           />
