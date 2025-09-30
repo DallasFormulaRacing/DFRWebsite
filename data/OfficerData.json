@@ -116,7 +116,7 @@
         "name": "Sean Dunn",
         "positions": "Website Lead",
         "section": "Admin",
-        "year": "Junior",
+        "year": "Sophomore",
         "major": "CIS Tech",
         "yearsOnTeam": "1",
         "image": "/assets/team/Fall2025Officers/Sean.png",
@@ -155,7 +155,19 @@
         "image": "/assets/team/Fall2025Officers/Gideon.png",
         "email": "woof@utdallas.edu",
         "linkedin": ""
+      },
+      {
+        "name": "Gideon",
+        "positions": "Team Mascot",
+        "section": "Admin",
+        "year": "Sophomore",
+        "major": "",
+        "yearsOnTeam": "1",
+        "image": "/assets/team/Fall2025Officers/Gideon.png",
+        "email": "Woof@utdallas.edu",
+        "linkedin": ""
       }
+
 
     ]
   },
