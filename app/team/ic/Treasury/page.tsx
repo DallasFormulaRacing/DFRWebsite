@@ -1,6 +1,5 @@
 import PlaceHolderImage from "@/public/assets/Cars/rescalepromo23pic.png";
 import SponsorshipImage from "@/public/assets/newsletters/September2024NewsletterPreview.jpg";
-import KevenDiaz from "@/public/assets/team/Spring2025Officers/KevenDiaz.png";
 import Image from "next/image";
 import OfficerSection from "./OfficerSection";
 import TitleSection from "./TitleSection";
@@ -11,21 +10,21 @@ const OFFICERS = {
       bigTitle: "Treasury",
       image: "/assets/team/Fall2025Officers/Alondra.png",
       name: "Alondra Lopez",
-      role: "Treasury Director",
+      role: "Treasury Lead",
       quote:
-        "The business team exists to ensure that all our competition teams have the funding to not only compete but excel. As a part of the business team, you will have the opportunity to engage in corporate outreach and secure partnerships that allow Dallas Formula Racing to grow. You'll have a platform to directly apply the business skills you learn through coursework within a practical setting. It's like a sandbox for business:).",
+        "The treasury team exists to ensure that Dallas Formula Racing manages its resources wisely so every team can perform at its best. As part of treasury, you’ll gain hands-on experience with budgeting, forecasting, and financial planning that directly support our success on and off the track. It’s a chance to turn financial concepts from the classroom into real-world impact, where every dollar fuels performance.",
     },
   ],
   sponsorship: [
     {
-      image: KevenDiaz,
+      bigTitle: "Treasury",
+      image: "/assets/team/Spring2025Officers/KevenDiaz.png",
       name: "Keven Diaz",
-      role: "Tresurer",
+      role: "Tresury Lead",
       quote:
-        "The corporate relations team is responsible for securing funding for the team through sponsorships, partnerships, and other forms of financial support. We also work to promote the team and its partners to a broader audience and manage the team's relationships with its partners and sponsors to ensure that expectations are met and any issues are addressed. These efforts help to ensure the financial stability and success of the team. As a member of this team, you will get an understanding of how economic and social aspects affect each of the engineering subsystems. Personally, I have gained valuable experience as a public speaker and in the engineering field within this organization.",
+        "The treasury team is where strategy meets impact. We’re responsible for making sure every dollar helps Dallas Formula Racing go further, from fine-tuning budgets to supporting each competition team’s needs. Joining treasury means you’ll play a direct role in shaping how our resources fuel performance, while building financial skills that carry far beyond the track.",
     },
   ],
-
 };
 
 export default function Page() {
@@ -61,8 +60,8 @@ export default function Page() {
       </div>
       <TitleSection
         image={SponsorshipImage}
-        title="Sponsorship"
-        subtitle="Build and develop relations with leaders in engineering and business to expand our knowledge and resources"
+        title=""
+        subtitle=""
         position="BottomLeft"
       />
       <OfficerSection
