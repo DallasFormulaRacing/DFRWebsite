@@ -1,20 +1,14 @@
 "use client";
-import React, { useState } from "react";
-import Link from "next/link";
-import Image from "next/image";
 import DFRLogo from "@/public/DFR-Logo.png";
-import DFRTyreLogo from "@/public/dfr-logo-tyre.png";
-import DFRSAELogo from "@/public/dfr-sae.png";
-import TeamPageConfigs from "@/data/TeamPageConfigs.json";
-import type { MenuProps } from "antd";
-import { Menu, Button, Dropdown } from "antd";
-import Calendar from './Calendar';
 import {
   MenuFoldOutlined,
-  MenuUnfoldOutlined,
-  ArrowDownOutlined,
-  CaretDownOutlined,
+  MenuUnfoldOutlined
 } from "@ant-design/icons";
+import type { MenuProps } from "antd";
+import { Button, Menu } from "antd";
+import Image from "next/image";
+import Link from "next/link";
+import React, { useState } from "react";
 
 type MenuItem = Required<MenuProps>["items"][number];
 
@@ -189,7 +183,8 @@ const BusinessandAdmin_LINKS = {
     },
     {
       label: (
-        <a href="/team/ic/CreativeMeadia" rel="noopener noreferrer">
+        <a href="/team/ic/CreativeMedia" rel="noopener noreferrer">
+
           Creative Media
         </a>
       ),
@@ -210,6 +205,14 @@ const BusinessandAdmin_LINKS = {
         </a>
       ),
       key: "/team/ic/Marketing",
+    },
+    {
+      label: (
+        <a href="/team/ic/Treasury" rel="noopener noreferrer">
+          Treasury
+        </a>
+      ),
+      key: "/team/ic/Treasury",
     }
   ],
 };
