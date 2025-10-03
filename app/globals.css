@@ -35,7 +35,7 @@ header {
 header + *:has(> h1:first-child),
 header + *:not(main),
 header + main:has(> div:first-child > div:first-child > h1:first-child){
-  padding-top: 120px !important;
+  padding-top: 110px !important;
 }
 
 header nav, 

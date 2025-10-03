@@ -29,7 +29,7 @@ export const metadata = {
     Our team was founded in 2014 and has successfully built three
     formula-style vehicles for the Formula SAE competition. The diverse
     array of projects on our team results in student collaboration among
-    four different schools at UT Dallas.`,
+    four different schools at UT Dallas.`, 
   icons: {
     icon: "/dfr-logo-tyre.png",
   },
