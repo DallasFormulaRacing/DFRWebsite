@@ -16,6 +16,7 @@ import {
   CaretDownOutlined,
 } from "@ant-design/icons";
 
+
 type MenuItem = Required<MenuProps>["items"][number];
 
 function getItem(
@@ -63,7 +64,7 @@ const IC_LINKS = {
       ),
       key: "/team/ic/composites",
     },
-    {
+   /* {
       label: (
         <a href="/team/ic/electrical" rel="noopener noreferrer">
           Electrical Team
@@ -78,7 +79,7 @@ const IC_LINKS = {
         </a>
       ),
       key: "/team/ic/embedded",
-    },
+    },*/
     {
       label: (
         <a href="/team/ic/ergonomics" rel="noopener noreferrer">
@@ -111,14 +112,14 @@ const IC_LINKS = {
       ),
       key: "/team/ic/software",
     },
-    {
+   /* {
       label: (
         <a href="/team/ic/steering" rel="noopener noreferrer">
           Steering Team
         </a>
       ),
       key: "/team/ic/steering",
-    },
+    },*/
     {
       label: (
         <a href="/team/ic/suspension" rel="noopener noreferrer">
@@ -165,14 +166,7 @@ const EV_LINKS = {
       ),
       key: "/team/ev/powertrain",
     },
-    /*{
-      label: (
-        <a href="/team/ev/thermals" rel="noopener noreferrer">
-          Thermals
-        </a>
-      ),
-      key: "/team/ev/thermals",
-    },*/
+
   ],
 };
 const BusinessandAdmin_LINKS = {
@@ -189,11 +183,11 @@ const BusinessandAdmin_LINKS = {
     },
     {
       label: (
-        <a href="/team/ic/CreativeMeadia" rel="noopener noreferrer">
-          Creative Mediaç
+        <a href="/team/ic/CreativeMedia" rel="noopener noreferrer">
+          Creative Media
         </a>
       ),
-      key: "/team/ic/CreativeMeadia",
+      key: "/team/ic/CreativeMedia",
     },
     {
       label: (
@@ -210,6 +204,14 @@ const BusinessandAdmin_LINKS = {
         </a>
       ),
       key: "/team/ic/Marketing",
+    },
+    {
+      label: (
+        <a href="/team/ic/Treasury" rel="noopener noreferrer">
+          Treasury
+        </a>
+      ),
+      key: "/team/ic/Treasury",
     }
   ],
 };
