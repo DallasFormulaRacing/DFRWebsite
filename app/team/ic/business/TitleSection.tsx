@@ -2,7 +2,7 @@ import Image from "next/image";
 import { StaticImageData } from "next/image";
 
 type Position = "TopLeft" | "TopRight" | "BottomLeft" | "BottomRight";
-
+  
 const POSITIONS_TO_CLASS = {
   TopLeft: "absolute top-6 left-6",
   TopRight: "absolute top-6 right-6 text-right",

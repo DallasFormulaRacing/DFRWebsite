@@ -10,8 +10,8 @@ const OFFICERS = {
   leadership: [
     {
       bigTitle: "Business",
-      image: "/assets/team/Spring2025Officers/AashishKambala.png",
-      name: "Aashish Kambala",
+      image: "/assets/team/Spring2025Officers/AnushKambala.png",
+      name: "Anush Kambala",
       role: "Business Director",
       quote:
         "The business team exists to ensure that all our competition teams have the funding to not only compete but excel. As a part of the business team, you will have the opportunity to engage in corporate outreach and secure partnerships that allow Dallas Formula Racing to grow. You'll have a platform to directly apply the business skills you learn through coursework within a practical setting. It's like a sandbox for business:).",
@@ -19,22 +19,14 @@ const OFFICERS = {
   ],
   sponsorship: [
     {
-      image: NabeelSalman,
-      name: "Nabeel Salman",
-      role: "Corporate Relations",
+      image: "/assets/team/Fall2025Officers/Aditya.png",
+      name: "Aditya Praveen",
+      role: "Development Director",
       quote:
-        "The corporate relations team is responsible for securing funding for the team through sponsorships, partnerships, and other forms of financial support. We also work to promote the team and its partners to a broader audience and manage the team's relationships with its partners and sponsors to ensure that expectations are met and any issues are addressed. These efforts help to ensure the financial stability and success of the team. As a member of this team, you will get an understanding of how economic and social aspects affect each of the engineering subsystems. Personally, I have gained valuable experience as a public speaker and in the engineering field within this organization.",
+        "The Development team is responsible for securing funding for the team through sponsorships, partnerships, and other forms of financial support. We also work to promote the team and its partners to a broader audience and manage the team's relationships with its partners and sponsors to ensure that expectations are met and any issues are addressed. These efforts help to ensure the financial stability and success of the team. As a member of this team, you will get an understanding of how economic and social aspects affect each of the engineering subsystems. Personally, I have gained valuable experience as a public speaker and in the engineering field within this organization.",
     },
   ],
-  community: [
-    {
-      image: "/assets/team/Spring2025Officers/AnushKambala.png",
-      name: "Anush Kambala",
-      role: "Business VP",
-      quote:
-        "There’s a space on the business team for anyone willing to put in the effort to contribute to the DFR mission. The strength of the business team is founded in the immense diversity of our individual opinions",
-    },
-  ],
+
   
 };
 
@@ -88,18 +80,8 @@ export default function Page() {
         subtitle="Engage with our local community through initiatives, events and more"
         position="BottomRight"
       />
-      <OfficerSection
-        image={OFFICERS.community[0].image}
-        name={OFFICERS.community[0].name}
-        role={OFFICERS.community[0].role}
-        quote={OFFICERS.community[0].quote}
-      />
-      <TitleSection
-        image={OutreachImage}
-        title="Outreach"
-        subtitle="Encourage aspiring and future engineers to follow their passions"
-        position="BottomLeft"
-      />
+
+
      
     </main>
   );

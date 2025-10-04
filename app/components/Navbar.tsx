@@ -1,20 +1,16 @@
 "use client";
-import React, { useState } from "react";
-import Link from "next/link";
-import Image from "next/image";
 import DFRLogo from "@/public/DFR-Logo.png";
-import DFRTyreLogo from "@/public/dfr-logo-tyre.png";
-import DFRSAELogo from "@/public/dfr-sae.png";
-import TeamPageConfigs from "@/data/TeamPageConfigs.json";
-import type { MenuProps } from "antd";
-import { Menu, Button, Dropdown } from "antd";
-import Calendar from './Calendar';
 import {
   MenuFoldOutlined,
-  MenuUnfoldOutlined,
-  ArrowDownOutlined,
-  CaretDownOutlined,
+  MenuUnfoldOutlined
 } from "@ant-design/icons";
+import { notFound } from "next/navigation";
+import type { MenuProps } from "antd";
+import { Button, Menu } from "antd";
+import Image from "next/image";
+import Link from "next/link";
+import React, { useState } from "react";
+
 
 
 type MenuItem = Required<MenuProps>["items"][number];
