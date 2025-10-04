@@ -3,6 +3,7 @@ import { Config } from "../../../types/ICPageConfig";
 export default function ICLayout({ config }: { config: Config }) {
   return (
     <>
+
       <section
         id="lead"
         className={
