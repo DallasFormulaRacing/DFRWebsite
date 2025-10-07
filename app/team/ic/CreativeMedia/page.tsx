@@ -1,10 +1,8 @@
 "use client"; // Ensures this file works as a Client Component
 
-import OfficerSection from "./OfficerSection";
-import TitleSection from "./TitleSection";
 import Image from "next/image";
 import InstagramEmbed from "./InstagramEmbed";
-import Link from "next/link"; // Import Link from next/link
+import OfficerSection from "./OfficerSection";
 
 const OFFICERS = {
   leadership: [
@@ -59,9 +57,6 @@ export default function Page() {
         <div className="flex-1 flex justify-center items-center">
           <InstagramEmbed url="https://www.instagram.com/dallasformularacing/" />
         </div>
-
-
-        
       </div>
     </main>
   );

@@ -188,7 +188,7 @@ const BusinessandAdmin_LINKS = {
           Creative Media
         </a>
       ),
-      key: "/team/ic/CreativeMeadia",
+      key: "/team/ic/CreativeMedia",
     },
     {
       label: (

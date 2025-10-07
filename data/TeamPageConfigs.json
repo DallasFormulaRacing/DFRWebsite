@@ -107,8 +107,7 @@
     "description": "Composites manufactures all body panels including the body covering. We work with the Aerodynamics Team to build feasible designs.",
     "header": {
       "image": "",
-      "leads":[ {
-
+      "leads":{
         "image": "/dfr-logo-tyre.png",
         "name": "Quan Tran",
         "email": "Email: Quan.Tran.edu",
