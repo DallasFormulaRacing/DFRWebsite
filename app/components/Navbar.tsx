@@ -213,6 +213,14 @@ const BusinessandAdmin_LINKS = {
         </a>
       ),
       key: "/team/ic/Treasury",
+    },
+    {
+      label: (
+        <a href="/team/ic/website" rel="noopener noreferrer">
+          Website Team
+        </a>
+      ),
+      key: "/team/ic/website",
     }
   ],
 };
