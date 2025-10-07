@@ -4,11 +4,14 @@ import {
   MenuFoldOutlined,
   MenuUnfoldOutlined
 } from "@ant-design/icons";
+import { notFound } from "next/navigation";
 import type { MenuProps } from "antd";
 import { Button, Menu } from "antd";
 import Image from "next/image";
 import Link from "next/link";
 import React, { useState } from "react";
+
+
 
 type MenuItem = Required<MenuProps>["items"][number];
 
@@ -159,14 +162,7 @@ const EV_LINKS = {
       ),
       key: "/team/ev/powertrain",
     },
-    /*{
-      label: (
-        <a href="/team/ev/thermals" rel="noopener noreferrer">
-          Thermals
-        </a>
-      ),
-      key: "/team/ev/thermals",
-    },*/
+
   ],
 };
 const BusinessandAdmin_LINKS = {
@@ -184,7 +180,6 @@ const BusinessandAdmin_LINKS = {
     {
       label: (
         <a href="/team/ic/CreativeMedia" rel="noopener noreferrer">
-
           Creative Media
         </a>
       ),

@@ -20,5 +20,6 @@ export default function Page({ params: { team } }: Params) {
     return "Not Found";
   }
 
+
   return <ICLayout config={config} />;
 }
