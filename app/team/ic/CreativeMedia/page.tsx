@@ -59,9 +59,6 @@ export default function Page() {
         <div className="flex-1 flex justify-center items-center">
           <InstagramEmbed url="https://www.instagram.com/dallasformularacing/" />
         </div>
-
-
-        
       </div>
     </main>
   );
