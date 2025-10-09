@@ -1,6 +1,6 @@
 import "./globals.css";
 import { Analytics } from "@vercel/analytics/react";
-import { Inter, Open_Sans, Raleway } from "next/font/google";
+import { Inter, Open_Sans, Raleway, Questrial } from "next/font/google";
 import Navbar from "@/app/components/Navbar";
 import Footer from "@/app/components/Footer";
 import StyledComponentsRegistry from "@/lib/AntdRegistry";
@@ -16,6 +16,11 @@ const raleway = Raleway({
 });
 
 const inter = Inter({ subsets: ["latin"] });
+
+const questrial = Questrial({
+  weight: '400',
+  subsets: ["latin"]
+});
 
 export const metadata = {
   title: "Dallas Formula Racing",
@@ -48,7 +53,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html className={raleway.className} lang="en">
+    <html className={questrial.className} lang="en">
       <body>
         <StyledComponentsRegistry>
           <ConfigProvider theme={antDCustomizeTheme}>
