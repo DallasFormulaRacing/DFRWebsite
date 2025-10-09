@@ -158,15 +158,7 @@ const EV_LINKS = {
         </a>
       ),
       key: "/team/ev/powertrain",
-    },
-    /*{
-      label: (
-        <a href="/team/ev/thermals" rel="noopener noreferrer">
-          Thermals
-        </a>
-      ),
-      key: "/team/ev/thermals",
-    },*/
+    }
   ],
 };
 const BusinessandAdmin_LINKS = {
@@ -175,44 +167,44 @@ const BusinessandAdmin_LINKS = {
   children: [
     {
       label: (
-        <a href="/team/ic/business" rel="noopener noreferrer">
+        <a href="/team/Admin/business" rel="noopener noreferrer">
           Business Team
         </a>
       ),
-      key: "/team/ic/business",
+      key: "/team/Admin/business",
     },
     {
       label: (
-        <a href="/team/ic/CreativeMedia" rel="noopener noreferrer">
+        <a href="/team/Admin/CreativeMedia" rel="noopener noreferrer">
 
           Creative Media
         </a>
       ),
-      key: "/team/ic/CreativeMedia",
+      key: "/team/Admin/CreativeMedia",
     },
     {
       label: (
-        <a href="/team/ic/EventsandLogistics" rel="noopener noreferrer">
+        <a href="/team/Admin/EventsandLogistics" rel="noopener noreferrer">
           Events and Logistics
         </a>
       ),
-      key: "/team/ic/EventsandLogistics",
+      key: "/team/Admin/EventsandLogistics",
     },
     {
       label: (
-        <a href="/team/ic/Marketing" rel="noopener noreferrer">
+        <a href="/team/Admin/Marketing" rel="noopener noreferrer">
           Marketing
         </a>
       ),
-      key: "/team/ic/Marketing",
+      key: "/team/Admin/Marketing",
     },
     {
       label: (
-        <a href="/team/ic/Treasury" rel="noopener noreferrer">
+        <a href="/team/Admin/Treasury" rel="noopener noreferrer">
           Treasury
         </a>
       ),
-      key: "/team/ic/Treasury",
+      key: "/team/Admin/Treasury",
     },
     {
       label: (
@@ -298,11 +290,11 @@ const items: MenuProps["items"] = [
     
       {
         label: (
-          <a href="/team/ic/F1Tenth" rel="noopener noreferrer">
+          <a href="/team/F1Tenth" rel="noopener noreferrer">
             F1 Tenth
           </a>
         ),
-        key: "/team/ic/F1Tenth",
+        key: "/team/F1Tenth",
       },
       IC_LINKS,
       EV_LINKS,
