@@ -4,7 +4,6 @@ import {
   MenuFoldOutlined,
   MenuUnfoldOutlined
 } from "@ant-design/icons";
-import { notFound } from "next/navigation";
 import type { MenuProps } from "antd";
 import { Button, Menu } from "antd";
 import Image from "next/image";
@@ -162,8 +161,6 @@ const BusinessandAdmin_LINKS = {
     {
       label: (
         <a href="/team/Admin/CreativeMedia" rel="noopener noreferrer">
-
-        <a href="/team/ic/CreativeMedia" rel="noopener noreferrer">
           Creative Media
         </a>
       ),
