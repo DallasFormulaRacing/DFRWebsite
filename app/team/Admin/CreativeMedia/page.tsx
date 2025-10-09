@@ -1,8 +1,10 @@
 "use client"; // Ensures this file works as a Client Component
 
+import OfficerSection from "./OfficerSection";
+import TitleSection from "./TitleSection";
 import Image from "next/image";
 import InstagramEmbed from "./InstagramEmbed";
-import OfficerSection from "./OfficerSection";
+import Link from "next/link"; // Import Link from next/link
 
 const OFFICERS = {
   leadership: [

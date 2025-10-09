@@ -4,11 +4,14 @@ import {
   MenuFoldOutlined,
   MenuUnfoldOutlined
 } from "@ant-design/icons";
+import { notFound } from "next/navigation";
 import type { MenuProps } from "antd";
 import { Button, Menu } from "antd";
 import Image from "next/image";
 import Link from "next/link";
 import React, { useState } from "react";
+
+
 
 type MenuItem = Required<MenuProps>["items"][number];
 
@@ -40,15 +43,6 @@ const IC_LINKS = {
       ),
       key: "/team/ic/aerodynamics",
     },
-    
-   /* {
-      label: (
-        <a href="/team/ic/chassis" rel="noopener noreferrer">
-          Chassis Team
-        </a>
-      ),
-      key: "/team/ic/chassis",
-    },*/
     {
       label: (
         <a href="/team/ic/composites" rel="noopener noreferrer">
@@ -105,14 +99,6 @@ const IC_LINKS = {
       ),
       key: "/team/ic/software",
     },
-   /* {
-      label: (
-        <a href="/team/ic/steering" rel="noopener noreferrer">
-          Steering Team
-        </a>
-      ),
-      key: "/team/ic/steering",
-    },*/
     {
       label: (
         <a href="/team/ic/suspension" rel="noopener noreferrer">
@@ -158,7 +144,7 @@ const EV_LINKS = {
         </a>
       ),
       key: "/team/ev/powertrain",
-    }
+    },
   ],
 };
 const BusinessandAdmin_LINKS = {
@@ -177,6 +163,7 @@ const BusinessandAdmin_LINKS = {
       label: (
         <a href="/team/Admin/CreativeMedia" rel="noopener noreferrer">
 
+        <a href="/team/ic/CreativeMedia" rel="noopener noreferrer">
           Creative Media
         </a>
       ),
