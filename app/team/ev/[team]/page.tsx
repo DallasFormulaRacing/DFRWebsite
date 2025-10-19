@@ -20,5 +20,5 @@ export default function Page({ params: { team } }: Params) {
     return "Not Found";
   }
 
-  return <EVLayout config={config} />;
+  return <EVLayout config={config} />;  
 }
