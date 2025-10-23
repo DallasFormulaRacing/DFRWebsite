@@ -20,20 +20,7 @@ const OFFICERS = {
   ],
 };
 
-const LinkedInLink: React.FC = () => {
-  return (
-    <div>
-      <a
-        href="https://www.linkedin.com/company/dallas-formula-racing/posts/?feedView=all"
-        target="_blank"
-        rel="noopener noreferrer"
-        className="text-blue-600 underline"
-      >
-        Visit our LinkedIn page
-      </a>
-    </div>
-  );
-};
+
 
 export default function Page() {
   const officer = OFFICERS.leadership[0];
@@ -69,11 +56,9 @@ export default function Page() {
         />
       </div>
 
-      {/* Flex container for Instagram and LinkedIn */}
       <div className="flex flex-col md:flex-row gap-4 mt-8">
-        {/* Instagram Embed */}
         <div className="flex-1">
-          <InstagramEmbed url="https://www.instagram.com/dallasformularacing/" />
+          <InstagramEmbed url="https://www.instagram.com/p/DQCXb2hjYL7/?img_index=1" />
         </div>
 
       </div>
