@@ -9,6 +9,7 @@ import SampleProjects from "./components/home/SampleProjects";
 import ImageBreaks from "./components/ImageBreaks";
 import { OrgInfo } from "./components/home/OrgInfo";
 import Sponsors from "./sponsors/SponsorComponent";
+import SponsorBar from "./sponsors/SponsorBar";
 import Hero from "./components/home/Hero";
 import GroupPhoto from "@/public/assets/team/group_photo.jpeg";
 import Car2024 from "@/public/assets/Cars/2024/2024_3.png";
@@ -69,8 +70,11 @@ export default function Home() {
         image={Car2024.src}
         imageHeight={"h-224"}
         imageFit={"object-cover object-bottom"}
-      /> */}
-      <Sponsors />
+      /> 
+      <Sponsors />*/
+      }
+      
+      <SponsorBar />
     </main>
   );
 }
