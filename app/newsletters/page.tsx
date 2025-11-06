@@ -19,11 +19,22 @@ export default function Newsletters() {
         <h1 className="text-6xl font-extrabold text-accent-orange mb-20">
           Newsletters
         </h1>
-        <div className="flex flex-wrap justify-evenly gap-24">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 news-cards text-center">
           {NewsletterArchive.map((newsletter, index) => (
             <article
               key={index}
-              className="bg-white shadow-lg w-[20rem] md:w-[36rem] min-h-[24rem] rounded-lg overflow-hidden flex flex-col">
+              className="relative bg-white shadow-lg min-h-[24rem] rounded-lg overflow-hidden flex flex-col">
+              <p className="date absolute z-10 text-white text-center text-lg/6 m-4 py-1.5 drop-shadow-sm rounded-md min-w-[5rem]">
+                {(() => {
+                  const date = new Date(newsletter.date);
+                  const month = date.toLocaleString("en-US", { month: "short" }).toUpperCase();
+                  const day = date.toLocaleString("en-US", { day: "2-digit" });
+                  const year = date.toLocaleString("en-US", { year: "numeric" });
+                  return (
+                    <>{month} <strong className="text-3xl leading-none">{day}</strong> {year}</>
+                  );
+                })()}
+              </p>
               <div className="relative h-48 w-full">
                 <Image
                   src={newsletter.previewImage}
@@ -33,17 +44,15 @@ export default function Newsletters() {
                   className="bg-gray-200"
                 />
               </div>
-              <div className="border-t border-gray-200 p-6 flex-grow">
-                <h2 className="text-xl font-semibold mb-2 text-center break-words">
+
+              <div className="m-auto inset-0 py-4 px-10 grow flex flex-col place-items-center">
+                <h2 className="text-white text-xl md:text-2xl font-bold md:max-w-[25rem] m-auto">
                   {newsletter.title}
                 </h2>
-                <p className="text-sm text-gray-500 mb-4 text-center">
-                  {newsletter.date}
-                </p>
                 <Link
                   href={newsletter.url}
                   target="_blank"
-                  className="text-accent-orange hover:underline block text-center mt-auto">
+                  className="mt-4 bg-accent-orange text-white text-lg font-semibold py-2 px-4 rounded hover:bg-orange-600 w-fit">
                   Read More
                 </Link>
               </div>
