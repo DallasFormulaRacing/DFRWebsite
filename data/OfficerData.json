@@ -27,7 +27,7 @@
         "name": "Anush Kambala",
         "positions": "Business President",
         "section": "Business",
-        "year": "Sophomore",
+        "year": "Senior",
         "major": "Computer Science",
         "yearsOnTeam": "1",
         "image": "/assets/team/Spring2025Officers/AnushKambala.png",
@@ -63,7 +63,7 @@
         "year": "Sophomore",
         "major": "Mechanical Engineering",
         "yearsOnTeam": "1.5",
-        "image": "/dfr-logo-tyre.png",
+        "image": "/assets/team/Fall2025Officers/Brian.png",
         "email": "Brian.Jurecka@utdallas.edu",
         "linkedin": ""
       },
@@ -108,7 +108,7 @@
         "year": "Sophomore",
         "major": "Business Analytics",
         "yearsOnTeam": "1",
-        "image": "/assets/team/Spring2025Officers/rithvik.png",
+        "image": "/assets/team/Fall2025Officers/Rick.png",
         "email": "rithvik-kaniganti@utdallas.edu",
         "linkedin": "https://www.linkedin.com/in/rithvik-kaniganti-35a496215/"
       },
@@ -116,12 +116,12 @@
         "name": "Sean Dunn",
         "positions": "Website Lead",
         "section": "Admin",
-        "year": "Sophomore",
+        "year": "Senior",
         "major": "CIS Tech",
         "yearsOnTeam": "1",
         "image": "/assets/team/Fall2025Officers/Sean.png",
         "email": "sqd230001@utdallas.edu",
-        "linkedin": ""
+        "linkedin": "https://www.linkedin.com/in/sean-quinlan-dunn/"
       },
       {
         "name": "Anastasia Garel",
@@ -146,11 +146,22 @@
         "linkedin": "https://www.linkedin.com/in/lexusdouangdara/"
       },
       {
+        "name": "Garret Castilleja",
+        "positions": "Shop Manager",
+        "section": "Admin",
+        "year": "Senior",
+        "major": "Mechanical Engineering",
+        "yearsOnTeam": "0.5",
+        "image": "/assets/team/Fall2025Officers/Garrett.png",
+        "email": "garret.castilleja@utdallas.edu",
+        "linkedin": "https://www.linkedin.com/in/garret-castilleja/"
+      },
+      {
         "name": "Gideon",
         "positions": "Team Mascot",
         "section": "Admin",
         "year": "Sophomore",
-        "major": "",
+        "major": "Animal Science",
         "yearsOnTeam": "1",
         "image": "/assets/team/Fall2025Officers/Gideon.png",
         "email": "Woof@utdallas.edu",
@@ -166,7 +177,7 @@
         "name": "Anush Kambala",
         "positions": "Business President",
         "section": "Business",
-        "year": "Sophomore",
+        "year": "Senior",
         "major": "Computer Science",
         "yearsOnTeam": "1",
         "image": "/assets/team/Spring2025Officers/AnushKambala.png",
@@ -213,15 +224,15 @@
   "IC": {
     "data": [
       {
-        "name": "Anthony",
+        "name": "Anthony Nguyen",
         "positions": "Aerodynamics Lead",
         "section": "EV",
         "year": "Junior",
         "major": "Mechanical Engineering",
         "yearsOnTeam": "1",
-        "image": "/dfr-logo-tyre.png",
-        "email": "",
-        "linkedin": ""
+        "image": "/assets/team/Fall2025Officers/Anthony.png",
+        "email": "Anthony.Nguyen6@UTDallas.edu",
+        "linkedin": "https://www.linkedin.com/in/anthony-h-nguyen-mecheng/"
       },
       {
         "name": "Quan Tran",
@@ -307,7 +318,7 @@
         "year": "Sophomore",
         "major": "Mechanical Engineering",
         "yearsOnTeam": "1",
-        "image": "/dfr-logo-tyre.png",
+        "image": "/assets/team/Fall2025Officers/Nathan.png",
         "email": "Nathan.Day@utdallas.edu",
         "linkedin": ""
       },
@@ -327,6 +338,17 @@
   "EV": {
     "data": [
       {
+        "name": "Aiden Fenstermacher",
+        "positions": "EV Hardware Lead",
+        "section": "Admin",
+        "year": "Junior",
+        "major": "Computer Engineering",
+        "yearsOnTeam": "1",
+        "image": "/assets/team/Fall2025Officers/Aidan.png",
+        "email": "Aiden.Fenstermacher@UTDallas.edu",
+        "linkedin": "https://www.linkedin.com/in/aiden-fenstermacher/"
+      },
+      {
         "name": "Shereef Kamel",
         "positions": "EV Chief Engineer",
         "section": "EV",
@@ -344,7 +366,7 @@
         "year": "Junior",
         "major": "Mechanical Engineering",
         "yearsOnTeam": "1",
-        "image": "/dfr-logo-tyre.png",
+        "image": "/assets/team/Fall2025Officers/Drake.png",
         "email": "Drake.Wilson@utdallas.edu",
         "linkedin": "https://www.linkedin.com/in/connor-my/"
       },
