@@ -20,8 +20,14 @@ body,
  [class^="ant-"] {
   font-family: '__Questrial_493e68', '__Questrial_Fallback_493e68', "Questrial", sans-serif !important;
   font-weight: 400;
-
  }
+
+header div > ul {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 600;;
+}
+
 
 @media (width >= 1060px) {
 
@@ -35,8 +41,6 @@ body:has(.home-hero) header {
 body:has(.home-hero) header nav, 
 body:has(.home-hero) header div > ul {
   background-color: transparent !important;
-  text-transform: uppercase;
-  letter-spacing: 1px;
 }
 
 body:has(.home-hero) header:after {
@@ -53,9 +57,14 @@ body:has(.home-hero) header:after {
 
 }
 
-.news-cards article{
+.news-cards article,
+.news-cards .date {
   border: 4px solid #2D8B49;
   background-color: #2D8B49;
+}
+
+.news-cards .date > * {
+  display: block;
 }
 
 .news-cards article > div:has(h2) {
