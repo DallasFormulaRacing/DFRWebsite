@@ -48,35 +48,84 @@
       "image": "/assets/team/EVPages/Electrical/Projects.png"
     }
   },
-  "embedded": {
-    "title": "EV Embedded",
-    "meetingTime": "Fridays @ 4:00 PM",
-    "description": "The EV Embedded sub-team is responsible for designing the Dashboard Infotainment Display, Wireless Communication, and Data Acquisition (DAQ) system for sampling data from sensors. To accomplish this, we leverage various platforms and program them to suit our needs — bringing firmware to the hardware.",
+  "Hardware": {
+    "title": "EV Hardware",
+    "meetingTime": "Fridays @ 5:30 PM",
+    "description": "The EV Hardware sub-team is responsible for designing ",
     "header": {
       "image": "",
       "lead": {
-        "image": "/assets/team/Spring2025Officers/River.png",
-        "name": "Cameron LeBlanc",
-        "email": "Cameron.Leblanc@UTDallas.edu",
-        "title": "EV Embedded",
-        "quote": "\"This team has been the perfect opportunity for me to explore my passion for motorsport engineering and has let me find a niche at UTD that I deeply care about. This team has let me teach other passionate individuals about topics I care about, which is something I'm very grateful for. I hope I can continue this process of learning and teaching for future members to continue to benefit from.\""
+        "image": "/assets/team/Fall2025Officers/Aiden.png",
+        "name": "Aiden Fenstermacher",
+        "email": "Aiden.Fenstermacher@UTDallas.edu",
+        "title": "EV Hardware",
+        "quote": "This team has been the perfect opportunity for me to explore my passion for motorsport engineering and has let me find a niche at UTD that I deeply care about. This team has let me teach other passionate individuals about topics I care about, which is something I'm very grateful for. I hope I can continue this process of learning and teaching for future members to continue to benefit from.\""
       }
     },
     "projects": [
       {
-        "title": "Data Communication",
+        "title": "BMS Integration",
         "description": "Communication and integration between battery management system, inverter, pedals, DAQ, and VCU"
       },
       {
-        "title": "System Design",
+        "title": "Shutdown Circuit",
         "description": "Design circuits and PCB through simulations for integration with CAN bus"
       },
       {
-        "title": "VCU Calibration",
+        "title": " ",
         "description": ""
       },
       {
-        "title": "Motor Testing",
+        "title": "",
+        "description": ""
+      }
+    ],
+    "gallery": [
+      {
+        "source": "/assets/team/EVPages/Embedded/Skills.png",
+        "alt": "placeholder alt text"
+      }
+    ],
+    "skills": {
+      "title": "SKILLS",
+      "description": "New members will build experience in programming in a low-level language in such a way where the resulting code is robust enough to be re-usable, clean, and maintainable — this is done using Object-Oriented Programming and Polymorphism. Working with embedded systems will bring exposure to bit shifting matching, communication protocols, and interfacing with external devices. Members will be distributed their own projects of prototyping a feature, while following an Agile workflow, and be exposed to both bare-metal programming and embedded Linux.",
+      "image": ""
+    },
+    "newMembers": {
+      "title": "NEW MEMBERS",
+      "description": "New members will begin with programming components that are closely intertwined with electrical hardware. By doing so, members will become exposed to the low-level development environment, version control, team workflow, and testing. The resulting implementation will be added as a feature of the vehicle's embedded system.",
+      "image": ""
+    }
+  }, 
+  "Firmware": {
+    "title": "EV Firmware",
+    "meetingTime": "Fridays @ 5:30 PM",
+    "description": "The EV Firmware sub-team is responsible for designing ",
+    "header": {
+      "image": "",
+      "lead": {
+        "image": "/assets/team/Spring2025Officers/WillK.png",
+        "name": "William Kim",
+        "email": "William.Kim@UTDallas.edu",
+        "title": "EV Firmware",
+        "quote": "This team has been the perfect opportunity for me to explore my passion for motorsport engineering and has let me find a niche at UTD that I deeply care about. This team has let me teach other passionate individuals about topics I care about, which is something I'm very grateful for. I hope I can continue this process of learning and teaching for future members to continue to benefit from.\""
+      }
+    },
+    "projects": [
+      {
+        "title": "BMS Integration",
+        "description": "Communication and integration between battery management system, inverter, pedals, DAQ, and VCU"
+      },
+      {
+        "title": "Shutdown Circuit",
+        "description": "Design circuits and PCB through simulations for integration with CAN bus"
+      },
+      {
+        "title": " ",
+        "description": ""
+      },
+      {
+        "title": "",
         "description": ""
       }
     ],

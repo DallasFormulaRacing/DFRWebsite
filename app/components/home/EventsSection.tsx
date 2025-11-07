@@ -11,6 +11,7 @@ import cgd25 from "@/public/assets/events/cgd25.png";
 const EventsSection = () => {
   return (
     <>
+    {/*
     <section className="px-8 md:px-24 py-20 flex flex-col gap-16 bg-white">
       
 
@@ -81,6 +82,7 @@ const EventsSection = () => {
       </motion.div>
 
     </section>
+*/}
     </>
   );
 };

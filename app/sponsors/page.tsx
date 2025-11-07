@@ -1,7 +1,7 @@
 import React from "react";
 import SponsorIcon from "./SponsorIcon";
 import SponsorsComponent from "./SponsorComponent";
-import Sponsorthanks from "./Sponsorthanks";
+import MotionDivCarousel from "./Sponsorthanks";
 import { SponsorHeaderInfo } from "./SponsorHeaderInfo";
 import { Metadata } from "next";
 
@@ -19,7 +19,7 @@ export default function Sponsors() {
     <main className={"px-0 leading-7"}>
       <div>
         <SponsorHeaderInfo />
-        <Sponsorthanks />  
+        <MotionDivCarousel />  
         <SponsorsComponent />
       </div>
     </main>
