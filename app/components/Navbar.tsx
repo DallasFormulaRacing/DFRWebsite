@@ -122,6 +122,14 @@ const EV_LINKS = {
     },
     {
       label: (
+        <a href="/team/ev/Firmware" rel="noopener noreferrer">
+          Firmware
+        </a>
+      ),
+      key: "/team/ev/Firmware",
+    },
+    {
+      label: (
         <a href="/team/ev/Accumulator" rel="noopener noreferrer">
           Accumulator
         </a>
@@ -135,6 +143,14 @@ const EV_LINKS = {
         </a>
       ),
       key: "/team/ev/packaging",
+    },
+    {
+      label: (
+        <a href="/team/ev/Hardware" rel="noopener noreferrer">
+          Hardware
+        </a>
+      ),
+      key: "/team/ev/Hardware",
     },
     {
       label: (
