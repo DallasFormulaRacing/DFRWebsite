@@ -67,23 +67,6 @@ body:has(.home-hero) header:after {
   display: block;
 }
 
-.news-cards article > div:has(h2) {
-   background-color: #2D8B49;
-   position: absolute;
-   bottom: 0;
-   top: auto;
-   text-align: center;
-}
-
 .news-cards h2 {
-
-  overflow: hidden;
-  text-overflow: ellipsis; /* Optional: adds "..." at the end if text overflows */
-  display: -webkit-box;
-  -webkit-line-clamp: 2; /* Specifies the number of lines */
-  -webkit-box-orient: vertical;
-  /* For wider browser support, add the standard line-clamp property */
-  line-clamp: 2;
-
   text-wrap: balance;
 }
