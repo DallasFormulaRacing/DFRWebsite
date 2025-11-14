@@ -54,7 +54,7 @@ export default function Home() {
         imageHeight={"h-224"}
         imageFit={"object-cover"}
       /> */}
-      <div className="min-h-screen">
+      <div>
         {/*
         <EventsPreview />
 */}
