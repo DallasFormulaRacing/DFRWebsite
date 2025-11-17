@@ -162,6 +162,21 @@ const EV_LINKS = {
       ),
       key: "/team/ev/powertrain",
     },
+    {
+      label: (
+        <a href="/team/ev/Firmware" rel="noopener noreferrer">
+          Firmware
+        </a>
+      ),
+      key: "/team/ev/Firmware",
+    },    {
+      label: (
+        <a href="/team/ev/Hardware" rel="noopener noreferrer">
+          Hardware
+        </a>
+      ),
+      key: "/team/ev/Hardware",
+    },
 
   ],
 };
@@ -212,7 +227,7 @@ const BusinessandAdmin_LINKS = {
     {
       label: (
         <a href="/team/ic/website" rel="noopener noreferrer">
-          wensite
+          Website
         </a>
       ),
       key: "/team/ic/website",
@@ -293,11 +308,11 @@ const items: MenuProps["items"] = [
     
       {
         label: (
-          <a href="/team/ic/F1Tenth" rel="noopener noreferrer">
+          <a href="/team/F1Tenth" rel="noopener noreferrer">
             F1 Tenth
           </a>
         ),
-        key: "/team/ic/F1Tenth",
+        key: "/team/F1Tenth",
       },
       IC_LINKS,
       EV_LINKS,
