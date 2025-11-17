@@ -171,43 +171,43 @@ const BusinessandAdmin_LINKS = {
   children: [
     {
       label: (
-        <a href="/team/ic/business" rel="noopener noreferrer">
+        <a href="/team/Admin/business" rel="noopener noreferrer">
           Business Team
         </a>
       ),
-      key: "/team/ic/business",
+      key: "/team/Admin/business",
     },
     {
       label: (
-        <a href="/team/ic/CreativeMedia" rel="noopener noreferrer">
+        <a href="/team/Admin/CreativeMedia" rel="noopener noreferrer">
           Creative Media
         </a>
       ),
-      key: "/team/ic/CreativeMedia",
+      key: "/team/Admin/CreativeMedia",
     },
     {
       label: (
-        <a href="/team/ic/EventsandLogistics" rel="noopener noreferrer">
+        <a href="/team/Admin/EventsandLogistics" rel="noopener noreferrer">
           Events and Logistics
         </a>
       ),
-      key: "/team/ic/EventsandLogistics",
+      key: "/team/Admin/EventsandLogistics",
     },
     {
       label: (
-        <a href="/team/ic/Marketing" rel="noopener noreferrer">
+        <a href="/team/Admin/Marketing" rel="noopener noreferrer">
           Marketing
         </a>
       ),
-      key: "/team/ic/Marketing",
+      key: "/team/Admin/Marketing",
     },
     {
       label: (
-        <a href="/team/ic/Treasury" rel="noopener noreferrer">
+        <a href="/team/Admin/Treasury" rel="noopener noreferrer">
           Treasury
         </a>
       ),
-      key: "/team/ic/Treasury",
+      key: "/team/Admin/Treasury",
     }
   ],
 };
