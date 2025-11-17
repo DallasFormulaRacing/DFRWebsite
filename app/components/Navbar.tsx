@@ -4,6 +4,7 @@ import {
   MenuFoldOutlined,
   MenuUnfoldOutlined
 } from "@ant-design/icons";
+import { notFound } from "next/navigation";
 import type { MenuProps } from "antd";
 import { Button, Menu } from "antd";
 import Image from "next/image";
@@ -42,6 +43,15 @@ const IC_LINKS = {
       ),
       key: "/team/ic/aerodynamics",
     },
+    
+   /* {
+      label: (
+        <a href="/team/ic/chassis" rel="noopener noreferrer">
+          Chassis Team
+        </a>
+      ),
+      key: "/team/ic/chassis",
+    },*/
     {
       label: (
         <a href="/team/ic/composites" rel="noopener noreferrer">
@@ -98,6 +108,14 @@ const IC_LINKS = {
       ),
       key: "/team/ic/software",
     },
+   /* {
+      label: (
+        <a href="/team/ic/steering" rel="noopener noreferrer">
+          Steering Team
+        </a>
+      ),
+      key: "/team/ic/steering",
+    },*/
     {
       label: (
         <a href="/team/ic/suspension" rel="noopener noreferrer">
@@ -122,14 +140,6 @@ const EV_LINKS = {
     },
     {
       label: (
-        <a href="/team/ev/Firmware" rel="noopener noreferrer">
-          Firmware
-        </a>
-      ),
-      key: "/team/ev/Firmware",
-    },
-    {
-      label: (
         <a href="/team/ev/Accumulator" rel="noopener noreferrer">
           Accumulator
         </a>
@@ -146,20 +156,28 @@ const EV_LINKS = {
     },
     {
       label: (
-        <a href="/team/ev/Hardware" rel="noopener noreferrer">
-          Hardware
-        </a>
-      ),
-      key: "/team/ev/Hardware",
-    },
-    {
-      label: (
         <a href="/team/ev/powertrain" rel="noopener noreferrer">
           Powertrain
         </a>
       ),
       key: "/team/ev/powertrain",
     },
+    {
+      label: (
+        <a href="/team/ev/Firmware" rel="noopener noreferrer">
+          Firmware
+        </a>
+      ),
+      key: "/team/ev/Firmware",
+    },    {
+      label: (
+        <a href="/team/ev/Hardware" rel="noopener noreferrer">
+          Hardware
+        </a>
+      ),
+      key: "/team/ev/Hardware",
+    },
+
   ],
 };
 const BusinessandAdmin_LINKS = {
@@ -209,7 +227,7 @@ const BusinessandAdmin_LINKS = {
     {
       label: (
         <a href="/team/ic/website" rel="noopener noreferrer">
-          Website Team
+          Website
         </a>
       ),
       key: "/team/ic/website",

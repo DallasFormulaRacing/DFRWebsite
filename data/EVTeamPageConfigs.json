@@ -51,7 +51,7 @@
   "Hardware": {
     "title": "EV Hardware",
     "meetingTime": "Fridays @ 5:30 PM",
-    "description": "The EV Hardware sub-team is responsible for designing ",
+    "description": "The EV Hardware sub-team is responsible for designing, developing, and validating all the low-voltage systems and the battery management system (BMS). We design several custom printed circuit boards (PCBs) for controls, data acquisition, and communication systems, along with a few high-voltage sensing circuits. Basically, we select and implement almost all the electronic components and wiring on the vehicle. ",
     "header": {
       "image": "",
       "lead": {
