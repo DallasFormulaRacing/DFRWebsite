@@ -505,54 +505,5 @@
       "description": "The suspension team has one main objective which is to make the car handle and perform as best as possible. Formula SAE tracks consist of almost 80% corners and turns so the performance comes from mechanical grip. Our goal is to get the most out of our tires as possible. Our goal for new team members is to teach them as much as we can so we can make this happen as a team.",
       "image": "/assets/team/ICPages/Suspension/Projects2.png"
     }
-  },
-  "website": {
-    "title": "Website",
-    "meetingTime": "Tuesdays @ 1:00 PM and Thursdays @ 5:30 PM",
-    "description": "This team focuses on the development of the Dallas Formula Racing website.",
-    "header": {
-      "image": "",
-      "lead": {
-        "image": "/assets/team/Spring2025Officers/Sean.png",
-        "name": "Sean Dunn",
-        "email": "Sean.Dunn@utdallas.edu",
-        "title": "Website Lead",
-        "quote": "\"Being part of this team has given me the chance to grow as a designer while contributing to something larger than myself. Website design has allowed me to blend creativity with functionality, and I’ve loved sharing what I know with others who are just as eager to learn. I’m excited to keep building resources and mentoring future members so they can push our team’s online presence even further.\""
-      }
-    },
-    "projects": [
-      {
-        "title": "FRONTEND DESIGN",
-        "description": "Our frontend design work focuses on creating a clean, intuitive, and responsive user experience."
-      },
-      {
-        "title": "BACKEND DEVELOPMENT",
-        "description": "Our backend development work focuses on building and managing the infrastructure that powers the website."
-      },
-      {
-        "title": "",
-        "description": ""
-      },
-      {
-        "title": "",
-        "description": ""
-      }
-    ],
-    "gallery": [
-      {
-        "source": "/assets/car_gallery/2023Car.jpeg",
-        "alt": "placeholder alt text"
-      }
-    ],
-    "skills": {
-      "title": "SKILLS",
-      "description": "New members can expect to gain practical experience in both frontend and backend web development. They will participate in the full development process, from planning and design to implementation and deployment. Throughout this process, members will become proficient with technologies such as TypeScript and Tailwind CSS, and gain exposure to backend development concepts like database management and APIs. Members will also collaborate closely with other subteams to ensure the website accurately represents the team’s identity and functionality. In addition, they will strengthen valuable soft skills such as communication, collaboration, and project management, preparing them to succeed in professional software development environments.",
-      "image": "/assets/team/ICPages/Website/CodeGraphic.png"
-    },
-    "newMembers": {
-      "title": "NEW MEMBERS",
-      "description": "New members will spend their time learning the fundamentals of web development through hands-on projects that build both technical and design skills. By the end of the semester, members will have contributed to real projects that strengthen the team’s online presence. Our goal is to provide a comprehensive learning experience that equips members with the skills and confidence to excel in web development, while also fostering a collaborative and creative team environment. The experience gained through this subteam offers valuable, real-world project work that stands out on a resume and helps members prepare for future career opportunities.",
-      "image": "/assets/team/ICPages/Software/Labjack.png"
-    }
   }
 }

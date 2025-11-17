@@ -4,6 +4,7 @@ import {
   MenuFoldOutlined,
   MenuUnfoldOutlined
 } from "@ant-design/icons";
+import { notFound } from "next/navigation";
 import type { MenuProps } from "antd";
 import { Button, Menu } from "antd";
 import Image from "next/image";
@@ -42,6 +43,15 @@ const IC_LINKS = {
       ),
       key: "/team/ic/aerodynamics",
     },
+    
+   /* {
+      label: (
+        <a href="/team/ic/chassis" rel="noopener noreferrer">
+          Chassis Team
+        </a>
+      ),
+      key: "/team/ic/chassis",
+    },*/
     {
       label: (
         <a href="/team/ic/composites" rel="noopener noreferrer">
@@ -98,6 +108,14 @@ const IC_LINKS = {
       ),
       key: "/team/ic/software",
     },
+   /* {
+      label: (
+        <a href="/team/ic/steering" rel="noopener noreferrer">
+          Steering Team
+        </a>
+      ),
+      key: "/team/ic/steering",
+    },*/
     {
       label: (
         <a href="/team/ic/suspension" rel="noopener noreferrer">
@@ -122,14 +140,6 @@ const EV_LINKS = {
     },
     {
       label: (
-        <a href="/team/ev/Firmware" rel="noopener noreferrer">
-          Firmware
-        </a>
-      ),
-      key: "/team/ev/Firmware",
-    },
-    {
-      label: (
         <a href="/team/ev/Accumulator" rel="noopener noreferrer">
           Accumulator
         </a>
@@ -146,20 +156,13 @@ const EV_LINKS = {
     },
     {
       label: (
-        <a href="/team/ev/Hardware" rel="noopener noreferrer">
-          Hardware
-        </a>
-      ),
-      key: "/team/ev/Hardware",
-    },
-    {
-      label: (
         <a href="/team/ev/powertrain" rel="noopener noreferrer">
           Powertrain
         </a>
       ),
       key: "/team/ev/powertrain",
     },
+
   ],
 };
 const BusinessandAdmin_LINKS = {
@@ -168,51 +171,43 @@ const BusinessandAdmin_LINKS = {
   children: [
     {
       label: (
-        <a href="/team/Admin/business" rel="noopener noreferrer">
+        <a href="/team/ic/business" rel="noopener noreferrer">
           Business Team
         </a>
       ),
-      key: "/team/Admin/business",
+      key: "/team/ic/business",
     },
     {
       label: (
-        <a href="/team/Admin/CreativeMedia" rel="noopener noreferrer">
+        <a href="/team/ic/CreativeMedia" rel="noopener noreferrer">
           Creative Media
         </a>
       ),
-      key: "/team/Admin/CreativeMedia",
+      key: "/team/ic/CreativeMedia",
     },
     {
       label: (
-        <a href="/team/Admin/EventsandLogistics" rel="noopener noreferrer">
+        <a href="/team/ic/EventsandLogistics" rel="noopener noreferrer">
           Events and Logistics
         </a>
       ),
-      key: "/team/Admin/EventsandLogistics",
+      key: "/team/ic/EventsandLogistics",
     },
     {
       label: (
-        <a href="/team/Admin/Marketing" rel="noopener noreferrer">
+        <a href="/team/ic/Marketing" rel="noopener noreferrer">
           Marketing
         </a>
       ),
-      key: "/team/Admin/Marketing",
+      key: "/team/ic/Marketing",
     },
     {
       label: (
-        <a href="/team/Admin/Treasury" rel="noopener noreferrer">
+        <a href="/team/ic/Treasury" rel="noopener noreferrer">
           Treasury
         </a>
       ),
-      key: "/team/Admin/Treasury",
-    },
-    {
-      label: (
-        <a href="/team/ic/website" rel="noopener noreferrer">
-          Website Team
-        </a>
-      ),
-      key: "/team/ic/website",
+      key: "/team/ic/Treasury",
     }
   ],
 };
@@ -290,11 +285,11 @@ const items: MenuProps["items"] = [
     
       {
         label: (
-          <a href="/team/F1Tenth" rel="noopener noreferrer">
+          <a href="/team/ic/F1Tenth" rel="noopener noreferrer">
             F1 Tenth
           </a>
         ),
-        key: "/team/F1Tenth",
+        key: "/team/ic/F1Tenth",
       },
       IC_LINKS,
       EV_LINKS,

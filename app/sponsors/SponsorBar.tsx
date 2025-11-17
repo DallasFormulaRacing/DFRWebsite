@@ -11,7 +11,7 @@ export const Sponsors = () => {
   const sponsors = [...SponsorData, ...SponsorData];
 
   return (
-    <div className="relative py-24 min-h-screen overflow-hidden">
+    <div className="relative py-24  overflow-hidden">
       <h1 className="text-6xl font-extrabold mt-8 text-accent-orange text-center mb-12">
         Sponsors
       </h1>
