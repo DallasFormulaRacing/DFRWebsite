@@ -34,7 +34,11 @@
     "logo": "/assets/sponsors/EVSponsors/Bender.png",
     "link": "https://benderinc.com/"
   },
-
+  {
+    "name": "Brembo",
+    "logo": "/assets/sponsors/Brembo.png",
+    "link": "https://www.brembo.com/en"
+  },
   {
     "name": "CONVERGE CFD",
     "logo": "/assets/sponsors/converge.svg",
@@ -100,7 +104,11 @@
     "logo": "/assets/sponsors/liquimoly.svg",
     "link": "https://www.liqui-moly.com"
   },
-
+  {
+    "name": "Metals4U",
+    "logo": "/assets/sponsors/METALS4U.png",
+    "link": "https://www.metals4u.com"
+  },
   {
     "name": "Micro Measurements",
     "logo": "/assets/sponsors/micromeasurements.svg",
@@ -136,7 +144,11 @@
     "logo": "/assets/sponsors/omnipowertrain.png",
     "link": "https://www.omnipowertrain.com/"
   },
-
+  {
+    "name": "Online Metals",
+    "logo": "/assets/sponsors/OnlineMetals.png",
+    "link": "https://www.onlinemetals.com/?gad_source=1&gad_campaignid=6502026653&gbraid=0AAAAADs4Iv2dYFQSJ7-ilRpv4R1xeSX5x&gclid=CjwKCAjwlaTGBhANEiwAoRgXBUde4UJKNOfS0NUESVCZOeW_Cf1fw-iSLK-wErUfKZvfgBXkpdRXeBoCbI4QAvD_BwE"
+  },
   {
     "name": "Peterbilt",
     "logo": "/assets/sponsors/peterbilt.webp",
@@ -208,7 +220,11 @@
     "logo": "/assets/sponsors/tesla.webp",
     "link": "https://www.tesla.com/"
   },
-
+  {
+    "name": "Titan circuits",
+    "logo": "/assets/sponsors/Titan4.png",
+    "link": "https://pcbassembly.com/"
+  },
   {
     "name": "TTA",
     "logo": "/assets/sponsors/tta.svg",
@@ -230,20 +246,7 @@
     "name": "WelshAdvisors",
     "logo": "/assets/sponsors/welshadvisors.webp",
     "link": "https://www.welshadvisors.com/"
-  },
-  {
-    "name": "Metals4U",
-    "logo": "/assets/sponsors/METALS4U.png",
-    "link": "https://www.metals4u.com"
-  },
-  {
-    "name": "Brembo",
-    "logo": "/assets/sponsors/Brembo.png",
-    "link": "https://www.brembo.com/en"
-  },
-  {
-    "name": "Online Metals",
-    "logo": "/assets/sponsors/OnlineMetals.png",
-    "link": "https://www.onlinemetals.com/?gad_source=1&gad_campaignid=6502026653&gbraid=0AAAAADs4Iv2dYFQSJ7-ilRpv4R1xeSX5x&gclid=CjwKCAjwlaTGBhANEiwAoRgXBUde4UJKNOfS0NUESVCZOeW_Cf1fw-iSLK-wErUfKZvfgBXkpdRXeBoCbI4QAvD_BwE"
   }
+
+
 ]
