@@ -35,12 +35,7 @@ It was an exciting opportunity to showcase the dedication, creativity, and techn
 We look forward to continuing to work closely with Mayor Omar and the City of Richardson as we expand our presence, inspire future engineers, and contribute to the growth of our local community.
 `,
     },
-    {
-      id: 3,
-      image: Jsom,
-      title: "Thank you to Department of Mechanical engineering at UTD!",
-      content: ``,
-    },
+
   ];
   const [current, setCurrent] = useState(0);
 

@@ -51,7 +51,7 @@ export const Sponsors = () => {
             viewport={{ once: true }}
             className="bg-[#E87500] text-wh-0 text-lg font-semibold min-w-[10rem] rounded-md p-4 mt-8"
           >
-            Learn More
+            Learn More  
           </motion.button>
         </Link>
       </div>
