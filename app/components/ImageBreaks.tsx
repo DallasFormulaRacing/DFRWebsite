@@ -1,4 +1,4 @@
-import React, { CSSProperties, ReactPropTypes } from "react";
+import React, { CSSProperties } from "react";
 import Image from "next/image";
 
 type ImageBreaksProps = {
