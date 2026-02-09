@@ -160,7 +160,16 @@
     "logo": "/assets/sponsors/EVSponsors/PROEV.png",
     "link": "https://proelectricvehicle.com/"
   },
-
+  {
+    "name": "Quanser",
+    "logo": "/assets/sponsors/quanser.png",
+    "link": "https://www.quanser.com/"
+  },
+  {
+    "name": "Rapid Harness",
+    "logo": "/assets/sponsors/RapidHarness.png",
+    "link": "https://rapidharness.com/"
+  },
   {
     "name": "RedBull",
     "logo": "/assets/sponsors/redbull.webp",
@@ -236,11 +245,15 @@
     "logo": "/assets/sponsors/EVSponsors/TTE.png",
     "link": "https://www.ttelectronics.com/"
   },
-
   {
     "name": "UTD",
     "logo": "/assets/sponsors/utd.svg",
     "link": "https://www.utdallas.edu/"
+  },
+  {
+    "name": "Velvet Taco",
+    "logo": "/assets/sponsors/Velvet_Taco.png",
+    "link": "https://www.VelvetTaco.com"
   },
   {
     "name": "WelshAdvisors",

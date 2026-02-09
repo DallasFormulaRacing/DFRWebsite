@@ -10,13 +10,17 @@ import DashboardImage from "@/public/assets/team/ICPages/Software/Dashboard.png"
 import SkillsImage from "@/public/assets/team/ICPages/Software/Skills.png"
 import SoftwareInfrastructureImage from "@/public/assets/team/ICPages/Software/Infrastructure.png"
 import DFRWheelImage from "@/public/dfr-logo-tyre.png"
-
+import william from "@/public/assets/team/Fall2025Officers/william.png"
+import joshua from "@/public/assets/team/Fall2025Officers/Joshua.png"
+import Farah from "@/public/assets/team/Fall2025Officers/Farah.png"
+import Reid from "@/public/assets/team/Fall2025Officers/Reid.png"
+import arjun from "@/public/assets/team/Fall2025Officers/arjun.png"
 const OFFICERS = {
   leadership: [
     {
       bigTitle: "Software",
-      timings: "Fridays @ 6:00 pm",
-      image: "/dfr-logo-tyre.png",
+      timings: "Fridays @ 6:00 pm", 
+      image: arjun,
       name: "Arjun Nayak",
       role: "Software Lead",
       quote:
@@ -32,14 +36,14 @@ const OFFICERS = {
         "The Web Dashboard is a new platform for analyzing and visualizing data from our racing sessions. It will connect to our Postgres database and provide tools for quadrant analysis, driver comparisons, and live dashboards. Members can view and analyze entire sessions, helping drivers and engineers make data-driven decisions to improve performance. This project will be started from scratch, using modern web development technologies to ensure a responsive and user-friendly experience.",
     },
     {
-      image: DFRWheelImage,
+      image: joshua,
       name: "Joshua John",
       role: "CI/CD & Infrastructure",
       quote:
         "Implementing CI/CD pipelines for 4 different dashboards. The primary objective of these projects is to automate, deploy, and observe all our software. We use Infrastructure As Code products such as Terraform to provision and manage infrastructure. Using tools like Datadog and Sentry, we can observe the status of our software and enable quicker responses to failures. This ensures maximum scalability and reliability for engineers to see all their needs and data to assist with not only the development of the car, but also the management of the finances.",
     },
     {
-      image: DFRWheelImage,
+      image: Reid,
       name: "Ried Minton",
       role: "Cloud Infrastructure",
       quote:
@@ -53,14 +57,14 @@ const OFFICERS = {
         "A telemetry pipeline designed to run on a vehicle-mounted embedded system (Raspberry Pi). Its primary objective is to continuously read CAN bus data from the car's sensors and deliver it to our cloud infrastructure. The architecture ensures zero data loss through connectivity interruptions.",
     },
     {
-      image: DFRWheelImage,
+      image: Farah,
       name: "Farah Munavary",
       role: "Finance Dashboard",
       quote:
         "The Finance Dashboard is designed to help SAE treasurers and admin team manage DFR finances in a more efficient manner. Features include centralized views of  budget breakdowns and incoming donations, as well as data visualization on subteam spending activity. By streamlining these elements into a single interface, the dashboard allows treasurers to monitor financial performance and allocate funds effectively. This platform is built using a Next.js framework, with shadcn UI components for an organized, responsive frontend, and a PostgreSQL database to securely store financial records.",
     },
     {
-      image: DFRWheelImage,
+      image: william,
       name: "William Davis",
       role: "Software Ops",
       quote:
