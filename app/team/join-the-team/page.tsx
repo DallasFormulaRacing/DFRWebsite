@@ -1,269 +1,62 @@
 "use client";
-import Image from "next/image";
 import Link from "next/link";
 
-import DallasFormulaRacingGaragaeOutside from "@/public/assets/team/Dallas_Formula_Racing_Web-29 1.png";
-import AutoCrossTeamPic from "@/public/assets/team/AutoCrossTeamPic.jpg";
+const FORM_URL = 'https://forms.office.com/r/EACF3H7WbV';
+const WHEN2MEET_URL = 'https://www.when2meet.com/?34974688-bTXd4';
+const BUSINESS_FORM_URL = 'https://docs.google.com/forms/d/1A7eQ6ZpAQxi-2UpL4BIhciA5miw4H8BkI8XNTGJuXhU/edit?ts=698a58e2';
+const HARDWARE_FORM_URL = 'https://forms.office.com/pages/responsepage.aspx?id=HR0ojU2c90uxbgMtFd6fbMF4rCKSNNFEpHD3UrZ2rEtUMkhGSEZGSFdXVjhXNUEzTjNCVFlVQ0dUTS4u&origin=QRCode&route=shorturl';
 
-import OverviewSection from "./OverviewSection";
-import BecomeALeadSection from "./BecomeALeadSection";
-import DriverSeatSection from "./DriverSeatSection";
-import AttendingCompetitionSection from "./AttendingCompetitionSection";
-import FAQSection from "../../components/FAQSection";
-import { List, Space } from "antd";
+interface Team {
+  name: string;
+  image: string;
+  category: string;
+}
 
-const memberTasks = [
-  "Part Design",
-  "Manufacturing",
-  "Testing",
-  "Marketing/Fundraising",
-  "Data Analysis",
-  "Simulation Modeling",
-];
-
-const joinTheTeam = [
-  "1. Join our discord server by filling out this form, or come by the shop (ECSW 1.455)",
-  "2. Join the channel(s) for the subteam(s) you are interested in",
-  '3. Introduce yourself and ask any questions such as "How can I get involved? Are there any projects that need an extra hand? Here are my skills…"',
-  "4. Find meeting dates for subteam meetings under the #about channel",
-  "5. Attend the meeting and get started on projects!",
-];
-
-const becomeALead = [
-  "Being well-versed in vehicle dynamics",
-  "Understanding system limits",
-  "Having an effective engineering process",
-  "Being an effective teammate",
-  "Working closely with other subsystems and leads",
-  "Having proficient communication skills with your team",
-  "Being an active and hard-working member of DFR",
-  "Taking initative on projects",
-  "Contributing unique interpretations withing FSAE limits",
-  "Commiting more time to the team throughout the year",
-  "Attending team volunteeting opportunities",
-  "Taking on independent projects",
-  "Learning new or needed skills for bettering the team",
-];
-
-const text = `something`;
-
-const FAQ = [
-  {
-    key: "0",
-    label: "How do I join?",
-    children: (
-      <List
-        header={
-          <Space
-            direction="vertical"
-            align="center"
-            size={"middle"}
-            className="w-full px-2">
-            <p>
-              Welcome to the team. We are excited to have you! We do not require
-              any experience or requirements to join. Our leads will teach you
-              everything you need to know.
-            </p>
-            <p>Here is how you can join the team and get involved:</p>
-            <a
-              href="https://forms.office.com/r/EACF3H7WbV"
-              target="_blank"
-              rel="noopener noreferrer">
-              Interest Form to Join the Discord
-            </a>
-          </Space>
-        }
-        bordered
-        dataSource={joinTheTeam}
-        renderItem={(item) => <List.Item>{item}</List.Item>}></List>
-    ),
-  },
-  {
-    key: "1",
-    label: "Can I still join if I don't have any experience?",
-    children: (
-      <p>
-        Yes! We are open to all UT Dallas students at any skill level or major,
-        and we will teach the skills needed to be successful on the team. All we
-        ask for is the willingness to learn!
-      </p>
-    ),
-  },
-  {
-    key: "2",
-    label: "What can I do as a member?",
-    children: (
-      <List
-        header={
-          <div>
-            It takes a village to build a car and requires months of dedication.
-            The process includes, but is not limited to the following:
-          </div>
-        }
-        bordered
-        dataSource={memberTasks}
-        renderItem={(item) => <List.Item>{item}</List.Item>}></List>
-    ),
-  },
-  {
-    key: "3",
-    label: "What if I'm not an Engineering major?",
-    children: (
-      <Space>
-        <p>
-          All majors are welcome to join. If you do not have the skills or
-          knowledge for a certain subsystem, you can be paired with an
-          experienced member to learn from.
-        </p>
-        <br />
-        <p>
-          For those interested in joining, but would not like to contribute to
-          the engineering side, we have a business sub-team as well that works
-          on marketing, event planning, and fundraising.
-        </p>
-      </Space>
-    ),
-  },
-  {
-    key: "4",
-    label: "Where can I find out about meetings?",
-    children: (
-      <p>
-        Join our discord and check out the #about channel. If you can't find it
-        there, the times are also posted outside the shop, or you can also ask a
-        lead.
-      </p>
-    ),
-  },
-  {
-    key: "5",
-    label: "How do I get shop access?",
-    children: <p>Only team leads are given card access to the shop.</p>,
-  },
-  {
-    key: "6",
-    label:
-      "If I am unavailable during the meetings, can I come in at another time?",
-    children: (
-      <p>Schedule a time with the respective system lead to catch up.</p>
-    ),
-  },
-  {
-    key: "7",
-    label: "How Can I be successful on the team?",
-    children: (
-      <p>
-        Some tips to be successful on the team are: 1. Be willing to learn, 2.
-        Ask questions, 3. Take initiative
-      </p>
-    ),
-  },
-  {
-    key: "8",
-    label: "What is the time commitment?",
-    children: (
-      <p>
-        There is not a required time commitment to the team, so you can decide
-        what time commitment works best with your schedule. We recommend at
-        least attending weekly sub team meetings and taking on projects to get
-        the most of your experience.
-      </p>
-    ),
-  },
-  {
-    key: "9",
-    label: "How can I become a lead?",
-    children: (
-      <List
-        header={
-          <p>
-            We will have applications for open lead positions when positions
-            open up, typically after each competition season, where our
-            Admin/System Leads will pick the best applicant. The following may
-            increase your chances of getting selected:
-          </p>
-        }
-        bordered
-        dataSource={becomeALead}
-        renderItem={(item) => <List.Item>{item}</List.Item>}></List>
-    ),
-  },
-  {
-    key: "10",
-    label: "How can I become a driver?",
-    children: (
-      <Space
-        direction="vertical"
-        align="start"
-        size={"middle"}
-        className="w-full px-2">
-        <p>
-          Drivers are required to attend and assist testing day procedures. The
-          seat is earned through commitment to the team and earning the trust of
-          the leads and admin which must be kept to maintain the driver seat.
-        </p>
-        <br />
-        <p>
-          To drive at competition, there will be a form of tryouts conducted
-          towards the end of the spring semester leading up to competition. You
-          must already have earned the trust of the team and be cleared to drive
-          beforehand.
-        </p>
-        <br />
-        <p>
-          Do not expect to show up to a testing session and drive your first
-          time there.
-        </p>
-      </Space>
-    ),
-  },
+const teams: Team[] = [
+  { name: 'Software', image: '/gallery/24mainsponsors.jpg', category: 'IC' },
+  { name: 'Business', image: '/gallery/24mainsponsors.jpg', category: 'Admin' },
+  { name: 'Hardware,Electrical and Firmware', image: '/gallery/24endurance.jpg', category: 'EV' },
+  { name: 'Website', image: '/gallery/24mainsponsors.jpg', category: 'Admin' },
 ];
 
 export default function Page() {
   return (
-    <main className="tracking-wide">
-      {/* hero section */}
-      <div className="h-[80svh] relative text-white">
-        <Image
-          src={AutoCrossTeamPic.src}
-          alt="team image"
-          className="object-cover brightness-50"
-          fill
-        />
-        <div className="absolute top-1/3 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center w-full">
-          <div className="flex flex-col justify-center">
-            <h1 className="text-5xl sm:text-8xl font-bold">Join the Team</h1>
-            <Link href="https://forms.cloud.microsoft/r/YPvudPv7Vu">
-              <button className="bg-accent-green w-32 sm:text-lg font-semibold sm:w-48 h-14 rounded-md mt-8 buttonEffect shadow-sm">
-                Apply Now
-              </button>
-            </Link>
-          </div>
-
-          <div className="flex flex-row justify-center mt-8 text-xs sm:text-xl">
-            <p className="px-4 border-r-2">No previous experience needed</p>
-            <p className="px-4 border-r-2">Join multiple teams</p>
-            <p className="px-4 border-r-2">Open to all majors</p>
-            <p className="px-4">No time commitment</p>
-          </div>
-        </div>
-        <div className="absolute bottom-[15%] sm:bottom-1/4 left-1/2 transform -translate-x-1/2 text-center">
-          <div className="mt-4 text-xl sm:text-3xl">
-            <Link
-              className="text-accent-orange underline"
-              href="/team/join-the-team/#FAQ-Section">
-              FAQ
-            </Link>
-            <p className="mt-4">Shop Location: ECSW RM 1.455</p>
-          </div>
+    <main className="tracking-wide min-h-screen bg-[#2f3136] text-white p-8 py-16">
+      <div className="container mx-auto max-w-7xl">
+        <h1 className="text-4xl font-bold mb-8 text-center">Apply to a Team</h1>
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+          {teams.map((team, index) => (
+            <div
+              key={index}
+              className="bg-gray-800 rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-200"
+            >
+              <div className="relative w-full aspect-square overflow-hidden">
+                <img
+                  src={team.image}
+                  alt={team.name}
+                  className="w-full h-full object-cover"
+                />
+                <div className="absolute top-2 right-2 bg-green-500 text-white text-xs px-2 py-1 rounded-full">
+                  Open
+                </div>
+              </div>
+              <div className="p-4">
+                <h3 className="text-xl font-semibold mb-3 text-center">{team.name}</h3>
+                <Link href={
+                  team.name === 'Website' ? WHEN2MEET_URL : 
+                  team.name === 'Business' ? BUSINESS_FORM_URL : 
+                  team.name === 'Hardware,Electrical and Firmware' ? HARDWARE_FORM_URL : 
+                  FORM_URL
+                } target="_blank" rel="noopener noreferrer">
+                  <button className="block w-full text-center font-bold py-2 px-4 rounded-lg transition-colors duration-200 bg-accent-orange hover:bg-orange-600 text-white">
+                    Apply Here
+                  </button>
+                </Link>
+              </div>
+            </div>
+          ))}
         </div>
       </div>
-
-      <OverviewSection />
-      <BecomeALeadSection />
-      <DriverSeatSection />
-      <AttendingCompetitionSection />
-      <FAQSection faqItems={FAQ} />
     </main>
   );
 }
