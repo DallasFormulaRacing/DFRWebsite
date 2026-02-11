@@ -279,8 +279,8 @@ const NAV_LINKS = [
   {
     label: (
       <a href="/team/join-the-team" rel="noopener noreferrer">
-        <Button type="primary" className="bg-accent-green rounded-md">
-          Join
+        <Button type="primary" className="bg-accent-orange rounded-md">
+          Apply
         </Button>
       </a>
     ),
