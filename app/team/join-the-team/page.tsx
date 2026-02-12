@@ -5,7 +5,7 @@ const FORM_URL = 'https://forms.office.com/r/EACF3H7WbV';
 const WHEN2MEET_URL = 'https://www.when2meet.com/?34974688-bTXd4';
 const BUSINESS_FORM_URL = 'https://docs.google.com/forms/d/1A7eQ6ZpAQxi-2UpL4BIhciA5miw4H8BkI8XNTGJuXhU/edit?ts=698a58e2';
 const HARDWARE_FORM_URL = 'https://forms.office.com/r/83K3VQ16yT';
-const Software_URL = 'https://software.dallasformularacing.com/onboarding/onboarding-project/';
+const Software_URL = 'https://github.com/DallasFormulaRacing/Onboarding';
 interface Team {
   name: string;
   image: string;
