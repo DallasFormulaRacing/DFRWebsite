@@ -42,7 +42,7 @@ export default function Page() {
               </div>
               <div className="p-4">
                 <h3 className="text-xl font-semibold mb-3 text-center">{team.name}</h3>
-                <Link href={
+                <a href={
                   team.name === 'Website' ? WHEN2MEET_URL : 
                   team.name === 'Business' ? BUSINESS_FORM_URL : 
                   team.name === 'Software' ? Software_URL :
@@ -52,7 +52,7 @@ export default function Page() {
                   <button className="block w-full text-center font-bold py-2 px-4 rounded-lg transition-colors duration-200 bg-accent-orange hover:bg-orange-600 text-white">
                     Apply Here
                   </button>
-                </Link>
+                </a>
               </div>
             </div>
           ))}
