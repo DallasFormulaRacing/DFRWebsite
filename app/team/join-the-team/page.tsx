@@ -45,8 +45,8 @@ export default function Page() {
                 <Link href={
                   team.name === 'Website' ? WHEN2MEET_URL : 
                   team.name === 'Business' ? BUSINESS_FORM_URL : 
-                  team.name === 'Hardware,Electrical and Firmware' ? HARDWARE_FORM_URL : 
                   team.name === 'Software' ? Software_URL :
+                  team.name === 'Hardware,Electrical and Firmware' ? HARDWARE_FORM_URL : 
                   FORM_URL
                 } target="_blank" rel="noopener noreferrer">
                   <button className="block w-full text-center font-bold py-2 px-4 rounded-lg transition-colors duration-200 bg-accent-orange hover:bg-orange-600 text-white">
