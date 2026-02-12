@@ -4,8 +4,8 @@ import Link from "next/link";
 const FORM_URL = 'https://forms.office.com/r/EACF3H7WbV';
 const WHEN2MEET_URL = 'https://www.when2meet.com/?34974688-bTXd4';
 const BUSINESS_FORM_URL = 'https://docs.google.com/forms/d/1A7eQ6ZpAQxi-2UpL4BIhciA5miw4H8BkI8XNTGJuXhU/edit?ts=698a58e2';
-const HARDWARE_FORM_URL = 'https://forms.office.com/pages/responsepage.aspx?id=HR0ojU2c90uxbgMtFd6fbMF4rCKSNNFEpHD3UrZ2rEtUMkhGSEZGSFdXVjhXNUEzTjNCVFlVQ0dUTS4u&origin=QRCode&route=shorturl';
-
+const HARDWARE_FORM_URL = 'https://forms.office.com/r/83K3VQ16yT';
+const Software_URL = 'https://software.dallasformularacing.com/onboarding/onboarding-project/';
 interface Team {
   name: string;
   image: string;
@@ -46,6 +46,7 @@ export default function Page() {
                   team.name === 'Website' ? WHEN2MEET_URL : 
                   team.name === 'Business' ? BUSINESS_FORM_URL : 
                   team.name === 'Hardware,Electrical and Firmware' ? HARDWARE_FORM_URL : 
+                  team.name === 'Software' ? Software_URL :
                   FORM_URL
                 } target="_blank" rel="noopener noreferrer">
                   <button className="block w-full text-center font-bold py-2 px-4 rounded-lg transition-colors duration-200 bg-accent-orange hover:bg-orange-600 text-white">
