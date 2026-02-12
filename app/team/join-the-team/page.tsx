@@ -23,7 +23,7 @@ export default function Page() {
   return (
     <main className="tracking-wide min-h-screen bg-[#2f3136] text-white p-8 py-16">
       <div className="container mx-auto max-w-7xl">
-        <h1 className="text-4xl font-bold mb-8 text-center">Apply to a Team</h1>
+        <h1 className="text-4xl font-bold mb-8 text-center">Apply to a position</h1>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
           {teams.map((team, index) => (
             <div
