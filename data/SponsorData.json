@@ -30,6 +30,12 @@
   },
 
   {
+    "name": "BBV",
+    "logo": "/assets/sponsors/BroadBrushVentures.png",
+    "link": "https://guengerich.wordpress.com/bbventures/"
+  },
+
+  {
     "name": "Bender",
     "logo": "/assets/sponsors/EVSponsors/Bender.png",
     "link": "https://benderinc.com/"
