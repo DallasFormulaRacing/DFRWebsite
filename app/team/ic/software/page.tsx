@@ -20,11 +20,11 @@ const OFFICERS = {
     {
       bigTitle: "Software",
       timings: "Fridays @ 6:00 pm", 
-      image: arjun,
-      name: "Arjun Nayak",
+      image: DFRWheelImage,
+      name: "Andrew Klundt",
       role: "Software Lead",
       quote:
-        "Being a part of this team has taught me so much about the parts of the car and how they interact with each other. I came into this team with a passion for programming and engineering and was able to watch both of these disciplines interact with each other to form a cohesive product. I hope to involve more people and teach them how to program and how we use it to analyze vehicle dynamics.",
+       "Joining this team transformed my understanding of how software breathes life into hardware. Seeing the synergy between programming and mechanical engineering firsthand has been invaluable, and I’m eager to pass that knowledge on—helping others see how code can be a powerful lens for decyphering vehicle dynamics.",
     },
   ],
   projects: [

@@ -67,7 +67,7 @@ export default function MerchGrid() {
             </p>
             <ul className="pl-4 list-disc">
               <li>Alondra Lopez | 682-702-9339 | Asl230003@utdallas.edu | Discord: alondra_0407</li>
-              <li>Keven Diaz | 214-407-3935 | Keven.diaz@utdallas.edu | Discord: kevendiaz</li>
+              <li>Parker Floyd | 512-508-7827 | Parker.Floyd@UTDallas.edu | Discord: arcticsalmon</li>
             </ul>
           </div>
           <div>

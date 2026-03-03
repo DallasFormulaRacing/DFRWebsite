@@ -19,9 +19,9 @@ const OFFICERS = {
  sponsorship: [
    {
      bigTitle: "Treasury",
-     image: "/assets/team/Spring2025Officers/KevenDiaz.png",
-     name: "Keven Diaz",
-     role: "Tresury Lead",
+     image: "/assets/team/Fall2025Officers/Parker.png" ,
+     name: "Parker Floyd",
+     role: "Treasury Lead",
      quote:
        "The treasury team is where strategy meets impact. We’re responsible for making sure every dollar helps Dallas Formula Racing go further, from fine-tuning budgets to supporting each competition team’s needs. Joining treasury means you’ll play a direct role in shaping how our resources fuel performance, while building financial skills that carry far beyond the track.",
    },
