@@ -16,32 +16,42 @@ export default function TitleSection({
   subtitle,
   position,
   timing,
+  href,
 }: {
   image: StaticImageData | string;
   title: string;
   subtitle: string;
   position: Position;
   timing?: string;
+  href?: string;
 }) {
-  return (
-    <section className="h-[70svh] relative">
-      <Image
-        src={image}
-        alt={`Section for ${title} - ${subtitle}`}
-        fill={true}
-        className="object-cover w-full brightness-[40%]"
-      />
+    return (
+      <section className="h-[70svh] relative">
+        <Image
+          src={image}
+          alt={`Section for ${title} - ${subtitle}`}
+          fill={true}
+          className="object-cover w-full brightness-[40%]"
+        />
 
-      <div
-        className={
-          POSITIONS_TO_CLASS[position] + " text-white flex flex-col gap-6"
-        }>
-        <h1 className="text-6xl font-bold break-before-all sm:text-9xl">
-          {title}
-        </h1>
-        <h3 className="text-3xl font-bold break-before-all pl-2">{timing}</h3>
-        <h2 className="text-2xl break-before-all pl-2">{subtitle}</h2>
-      </div>
-    </section>
-  );
+        <div
+          className={
+            POSITIONS_TO_CLASS[position] + " text-white flex flex-col gap-6"
+          }>
+          <h1 className="text-6xl font-bold break-before-all sm:text-9xl">
+            {title}
+          </h1>
+          <h3 className="text-3xl font-bold break-before-all pl-2">{timing}</h3>
+          <h2 className="text-2xl break-before-all pl-2">{subtitle}</h2>
+          {href && (
+            <a
+              href={href}
+              className="text-blue-500 hover:underline mt-4 pl-2 text-lg"
+            >
+              Learn More
+            </a>
+          )}
+        </div>
+      </section>
+    );
 }

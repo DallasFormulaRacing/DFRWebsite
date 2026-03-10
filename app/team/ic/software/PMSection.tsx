@@ -4,6 +4,7 @@ import Image from "next/image";
 import { StaticImageData } from "next/image";
 import { motion, AnimatePresence } from "framer-motion";
 import React, { useState } from "react";
+import github_logo from "@/public/github-logo.png";
 
 export default function OfficerSection({
   image,
@@ -18,6 +19,9 @@ export default function OfficerSection({
   quote,
   quote_2,
   quote_3,
+  github_url,
+  github_url_2,
+  github_url_3,
 }: {
   image?: StaticImageData | string;
   image_2?: StaticImageData | string;
@@ -31,6 +35,9 @@ export default function OfficerSection({
   quote?: string;
   quote_2?: string;
   quote_3?: string;
+  github_url?: string;
+  github_url_2?: string;
+  github_url_3?: string;
 }) {
   // State to track which div is active (null means none)
   const [activeDiv, setActiveDiv] = useState<"div1" | "div2" | "div3" | null>(
@@ -50,6 +57,11 @@ export default function OfficerSection({
     div1: quote,
     div2: quote_2,
     div3: quote_3,
+  };
+  const github_urls = {
+    div1: github_url,
+    div2: github_url_2,
+    div3: github_url_3,
   };
 
   return (
@@ -132,6 +144,13 @@ export default function OfficerSection({
                 className="max-w-6xl mx-auto text-gray-800 bg-orange-100 border-l-4 border-orange-500 p-8 rounded-xl text-lg leading-relaxed overflow-hidden"
               >
                 <p>{quotes[activeDiv]}</p>
+                <a
+                  href={github_urls[activeDiv]}
+                  target="_blank"
+                  rel="noopener noreferrer external"
+                >
+                    <Image src={github_logo} alt="GitHub Logo" className="inline-block mr-1 w-12 h-12 p-3" />
+                </a>
               </motion.div>
             )}
           </AnimatePresence>
