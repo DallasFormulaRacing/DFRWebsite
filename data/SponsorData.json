@@ -74,7 +74,11 @@
     "logo": "/assets/sponsors/EVSponsors/Exolambda.png",
     "link": "https://exolambda.com/"
   },
-
+  {
+    "name": "ExtremeCanopy",
+    "logo": "/assets/sponsors/Extreme_Canopy.png",
+    "link": "https://www.extremecanopy.com"
+  },
   {
     "name": "Fibre Glast",
     "logo": "/assets/sponsors/fibreglast.webp",
