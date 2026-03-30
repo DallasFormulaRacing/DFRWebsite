@@ -25,11 +25,11 @@
       },
       {
         "name": "Anush Kambala",
-        "positions": "Business President",
+        "positions": "Business Director",
         "section": "Business",
         "year": "Senior",
         "major": "Computer Science",
-        "yearsOnTeam": "1",
+        "yearsOnTeam": "3",
         "image": "/assets/team/Spring2025Officers/AnushKambala.png",
         "email": "anush.kambala@utdallas.edu",
         "linkedin": "https://www.linkedin.com/in/anush-kambala-b7b467204/"
@@ -38,12 +38,34 @@
         "name": "Alondra Lopez",
         "positions": "Treasurer",
         "section": "Admin",
-        "year": "Sophomore",
+        "year": "Junior",
         "major": "Neuroscience",
-        "yearsOnTeam": "1",
+        "yearsOnTeam": "3",
         "image": "/assets/team/Fall2025Officers/Alondra.png",
         "email": "asl230003@utdallas.edu",
         "linkedin": "https://www.linkedin.com/in/alondra-lopez-5422862a4/"
+      },
+      {
+        "name": "Travis Hall,",
+        "positions": "Treasurer",
+        "section": "Admin",
+        "year": "Junior",
+        "major": "Finance",
+        "yearsOnTeam": "1",
+        "image": "/assets/team/Fall2025Officers/Travis.png",
+        "email": "Travis.Hall@utdallas.edu",
+        "linkedin": ""
+      },
+      {
+        "name": "Andrew Reed",
+        "positions": "Treasurer",
+        "section": "Admin",
+        "year": "Sophomore",
+        "major": "Accounting",
+        "yearsOnTeam": "1",
+        "image": "/assets/team/Fall2025Officers/Andrew.png",
+        "email": "Andrew.Reed@utdallas.edu",
+        "linkedin": ""
       },
       {
         "name": "Parker Floyd",
@@ -62,7 +84,7 @@
         "section": "Admin",
         "year": "Sophomore",
         "major": "Mechanical Engineering",
-        "yearsOnTeam": "1.5",
+        "yearsOnTeam": "2",
         "image": "/assets/team/Fall2025Officers/Brian.png",
         "email": "Brian.Jurecka@utdallas.edu",
         "linkedin": "https://www.linkedin.com/in/brian-jurecka/"
@@ -96,7 +118,7 @@
         "section": "Admin",
         "year": "Junior",
         "major": "Finance",
-        "yearsOnTeam": "0.5",
+        "yearsOnTeam": "2",
         "image": "/assets/team/Spring2025Officers/Cristobal.png",
         "email": "Cristobal.Santamaria@UTDallas.edu",
         "linkedin": "https://www.linkedin.com/in/cristobal-santamaria-243ab22ab/"
@@ -107,7 +129,7 @@
         "section": "Admin",
         "year": "Sophomore",
         "major": "Business Analytics",
-        "yearsOnTeam": "1",
+        "yearsOnTeam": "3",
         "image": "/assets/team/Fall2025Officers/Rick.png",
         "email": "rithvik-kaniganti@utdallas.edu",
         "linkedin": "https://www.linkedin.com/in/rithvik-kaniganti-35a496215/"
@@ -118,7 +140,7 @@
         "section": "Admin",
         "year": "Senior",
         "major": "CIS Tech",
-        "yearsOnTeam": "1",
+        "yearsOnTeam": "2",
         "image": "/assets/team/Fall2025Officers/Sean.png",
         "email": "sqd230001@utdallas.edu",
         "linkedin": "https://www.linkedin.com/in/sean-quinlan-dunn/"
@@ -129,7 +151,7 @@
         "section": "Admin",
         "year": "Senior",
         "major": "Supply Chain Management and Marketing",
-        "yearsOnTeam": "1",
+        "yearsOnTeam": "3",
         "image": "/assets/team/Spring2025Officers/AnastasiaGarel.png",
         "email": "anastasia.garel@utdallas.edu",
         "linkedin": "https://www.linkedin.com/in/anastasia-garel/"
@@ -140,7 +162,7 @@
         "section": "Admin",
         "year": "Sophomore",
         "major": "Business Analytics and Artificial Intelligence",
-        "yearsOnTeam": "0.5",
+        "yearsOnTeam": "2",
         "image": "/assets/team/Spring2025Officers/LexusDouangdara.png",
         "email": "lexus.douangdara@utdallas.edu",
         "linkedin": "https://www.linkedin.com/in/lexusdouangdara/"
@@ -151,7 +173,7 @@
         "section": "Admin",
         "year": "Senior",
         "major": "Mechanical Engineering",
-        "yearsOnTeam": "0.5",
+        "yearsOnTeam": "2",
         "image": "/assets/team/Fall2025Officers/Garrett.png",
         "email": "garret.castilleja@utdallas.edu",
         "linkedin": "https://www.linkedin.com/in/garret-castilleja/"
@@ -354,7 +376,7 @@
         "section": "EV",
         "year": "Sophomore",
         "major": "Mechanical Engineering",
-        "yearsOnTeam": "2",
+        "yearsOnTeam": "3",
         "image": "/assets/team/Spring2025Officers/ShereefKamel.png",
         "email": "shereef.kamel@utdallas.edu",
         "linkedin": "https://www.linkedin.com/in/kamel-shereef"
@@ -387,7 +409,7 @@
         "section": "Engineering",
         "major": "Computer Engineering",
         "year": "Junior",
-        "yearsOnTeam": "1.5",
+        "yearsOnTeam": "2",
         "image": "/assets/team/Spring2025Officers/WillK.png",
         "email": "wkim@utdallas.edu",
         "linkedin": "https://www.linkedin.com/in/wxkim/"
@@ -398,7 +420,7 @@
         "section": "EV",
         "year": "Sophomore",
         "major": "Mechanical Engineering",
-        "yearsOnTeam": "2",
+        "yearsOnTeam": "3",
         "image": "/assets/team/Spring2024Officers/MatthewCarolla.jpg",
         "email": "matthew.carolla@utdallas.edu",
         "linkedin": "https://www.linkedin.com/in/matthew-carolla-1b4b36281"
@@ -409,7 +431,7 @@
         "section": "EV",
         "year": "Junior",
         "major": "Mechanical Engineering",
-        "yearsOnTeam": "1",
+        "yearsOnTeam": "2",
         "image": "/assets/team/Fall2024Officers/HaavishArtulaEVPackaging.jpg",
         "email": "haavish.arutla@utdallas.edu",
         "linkedin": "https://www.linkedin.com/in/haavish-arutla-895916222/"
