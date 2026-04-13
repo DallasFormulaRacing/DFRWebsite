@@ -11,6 +11,7 @@
         "image": "/assets/team/Spring2025Officers/AashishKambala.png",
         "email": "aashish.kambala@utdallas.edu",
         "linkedin": "https://www.linkedin.com/in/aashish-k-302770210"
+        
       },
       {
         "name": "Nabeel Salman",
@@ -362,7 +363,7 @@
       {
         "name": "Aiden Fenstermacher",
         "positions": "EV Hardware Lead",
-        "section": "Admin",
+        "section": "EV",
         "year": "Junior",
         "major": "Computer Engineering",
         "yearsOnTeam": "1",
@@ -406,7 +407,7 @@
       {
         "name": "William Kim",
         "positions": "Embedded Lead",
-        "section": "Engineering",
+        "section": "EV",
         "major": "Computer Engineering",
         "year": "Junior",
         "yearsOnTeam": "2",

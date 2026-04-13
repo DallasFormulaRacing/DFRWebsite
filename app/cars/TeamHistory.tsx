@@ -4,7 +4,7 @@ import React from "react";
 import Image from "next/image";
 import { motion } from "framer-motion";
 import { StaticImageData } from "next/image";
-import Car2025 from "@/public/assets/Cars/2024/2025.jpg";
+import Car2025 from "@/public/assets/Cars/EVcar26.jpeg";
 import Car2024 from "@/public/assets/Cars/2024/2024_3.png";
 import Car2023 from "@/public/assets/Cars/rescalepromo23pic.png";
 import Car2022 from "@/public/assets/Cars/2022Michigan.jpg";
