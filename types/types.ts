@@ -16,22 +16,13 @@ export type Officer = {
   email?: string;
   linkedin?: string | null;
   yearsOnTeam?: string;
+  resume?: string;
+  websiteHref?: string;
+  quote?: string;
 };
 
 export type OfficerData = {
-  Admin: {
-    data: Officer[];
-  };
-  Business: {
-    data: Officer[];
-  };
-  IC: {
-    data: Officer[];
-  };
-  EV: {
-    data: Officer[];
-  };
-  F1Tenth: {
+  [section: string]: {
     data: Officer[];
   };
 };

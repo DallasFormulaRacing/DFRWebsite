@@ -273,8 +273,8 @@ const NAV_LINKS = [
     key: "/sponsors",
   },
   {
-    label: <a href="/Merch">Merch</a>,
-    key: "/Merch",
+    label: <a href="/team/leads">Recruitment</a>,
+    key: "/team/leads",
   },
   {
     label: (
