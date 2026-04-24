@@ -264,10 +264,10 @@ const NAV_LINKS = [
     label: <a href="/calendar">Calendar</a>,
     key: "/calendar",
   },*/
-  {
+  /*{
     label: <a href="/newsletters">Newsletters</a>,
     key: "/newsletters",
-  },
+  },*/
   {
     label: <a href="/sponsors">Sponsors</a>,
     key: "/sponsors",
