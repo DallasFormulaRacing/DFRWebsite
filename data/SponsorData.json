@@ -86,10 +86,23 @@
   },
 
   {
+    "name": "Hawkeye",
+    "logo": "/assets/sponsors/hawkeye_industries_logo.png",
+    "link": ""
+  },
+
+  {
     "name": "HEXAGON",
     "logo": "/assets/sponsors/hexagon.svg",
     "link": "https://hexagon.com/"
   },
+
+  {
+    "name": "High_Power",
+    "logo": "/assets/sponsors/HP.png",
+    "link": ""
+  },
+
 
   {
     "name": "Keysight",
@@ -265,6 +278,13 @@
     "logo": "/assets/sponsors/Velvet_Taco.png",
     "link": "https://www.VelvetTaco.com"
   },
+
+  {
+    "name": "Vigrade",
+    "logo": "/assets/sponsors/Vi-Grade.png",
+    "link": "https://www.vi-grade.com/"
+  },
+  
   {
     "name": "WelshAdvisors",
     "logo": "/assets/sponsors/welshadvisors.webp",

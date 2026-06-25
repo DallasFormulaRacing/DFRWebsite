@@ -11,7 +11,7 @@ const OFFICERS = {
     {
       bigTitle: "Business",
       image: "/assets/team/Fall2025Officers/Arav.png",
-      name: "Arav Kambala",
+      name: "Arav Neroth",
       role: "Business Director",
       quote:
         "The business team exists to ensure that all our competition teams have the funding to not only compete but excel. As a part of the business team, you will have the opportunity to engage in corporate outreach and secure partnerships that allow Dallas Formula Racing to grow. You'll have a platform to directly apply the business skills you learn through coursework within a practical setting. It's like a sandbox for business:).",
