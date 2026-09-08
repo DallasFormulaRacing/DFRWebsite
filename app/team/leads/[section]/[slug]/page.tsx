@@ -11,7 +11,7 @@ import {
 import OfficerList from "@/data/Hiredata.json";
 import type { Officer, OfficerData } from "@/types/types";
 import Linkedin from "/public/assets/social_links/linkedin_blue.png";
-import BlankAvatar from "/public/assets/team/Headshots/blank_avatar.png";
+import BlankAvatar from "/public/assets/team/old Headshots/blank_avatar.png";
 
 type PageProps = {
   params: {
