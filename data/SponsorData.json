@@ -96,7 +96,11 @@
     "logo": "/assets/sponsors/hexagon.svg",
     "link": "https://hexagon.com/"
   },
-
+  {
+    "name": "HGSI",
+    "logo": "/assets/sponsors/HGSI.jpg",
+    "link": "https://thesensorconnection.com/"
+  },
   {
     "name": "High_Power",
     "logo": "/assets/sponsors/HP.png",
