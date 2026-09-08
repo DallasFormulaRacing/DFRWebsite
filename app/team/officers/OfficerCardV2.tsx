@@ -6,7 +6,7 @@ import { Officer } from "@/types/types";
 import Image from "next/image";
 import Linkedin from "/public/assets/social_links/linkedin_blue.png";
 import Link from "next/link";
-import BlankAvatar from "/public/assets/team/Headshots/blank_avatar.png";
+import BlankAvatar from "/public/assets/team/old Headshots/blank_avatar.png";
 import { Row, Col } from "antd";
 
 type Props = {};
