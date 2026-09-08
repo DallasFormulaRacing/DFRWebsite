@@ -268,8 +268,8 @@ export default function About() {
             competition.
           </p>
           <Link href="/team/join-the-team">
-            <button className="bg-accent-green w-32 sm:text-lg font-semibold sm:w-48 h-14 rounded-md my-8 buttonEffect shadow-sm">
-              Join
+            <button className="bg-accent-orange w-32 sm:text-lg font-semibold sm:w-48 h-14 rounded-md my-8 buttonEffect shadow-sm">
+              Apply
             </button>
           </Link>
         </div>

@@ -1,20 +1,17 @@
 "use client";
-import React, { useState } from "react";
-import Link from "next/link";
-import Image from "next/image";
 import DFRLogo from "@/public/DFR-Logo.png";
-import DFRTyreLogo from "@/public/dfr-logo-tyre.png";
-import DFRSAELogo from "@/public/dfr-sae.png";
-import TeamPageConfigs from "@/data/TeamPageConfigs.json";
-import type { MenuProps } from "antd";
-import { Menu, Button, Dropdown } from "antd";
-import Calendar from './Calendar';
 import {
   MenuFoldOutlined,
-  MenuUnfoldOutlined,
-  ArrowDownOutlined,
-  CaretDownOutlined,
+  MenuUnfoldOutlined
 } from "@ant-design/icons";
+import { notFound } from "next/navigation";
+import type { MenuProps } from "antd";
+import { Button, Menu } from "antd";
+import Image from "next/image";
+import Link from "next/link";
+import React, { useState } from "react";
+
+
 
 type MenuItem = Required<MenuProps>["items"][number];
 
@@ -165,14 +162,22 @@ const EV_LINKS = {
       ),
       key: "/team/ev/powertrain",
     },
-    /*{
+    {
       label: (
-        <a href="/team/ev/thermals" rel="noopener noreferrer">
-          Thermals
+        <a href="/team/ev/Firmware" rel="noopener noreferrer">
+          Firmware
         </a>
       ),
-      key: "/team/ev/thermals",
-    },*/
+      key: "/team/ev/Firmware",
+    },    {
+      label: (
+        <a href="/team/ev/Hardware" rel="noopener noreferrer">
+          Hardware
+        </a>
+      ),
+      key: "/team/ev/Hardware",
+    },
+
   ],
 };
 const BusinessandAdmin_LINKS = {
@@ -181,35 +186,51 @@ const BusinessandAdmin_LINKS = {
   children: [
     {
       label: (
-        <a href="/team/ic/business" rel="noopener noreferrer">
+        <a href="/team/Admin/business" rel="noopener noreferrer">
           Business Team
         </a>
       ),
-      key: "/team/ic/business",
+      key: "/team/Admin/business",
     },
     {
       label: (
-        <a href="/team/ic/CreativeMeadia" rel="noopener noreferrer">
+        <a href="/team/Admin/CreativeMedia" rel="noopener noreferrer">
           Creative Media
         </a>
       ),
-      key: "/team/ic/CreativeMeadia",
+      key: "/team/Admin/CreativeMedia",
     },
     {
       label: (
-        <a href="/team/ic/EventsandLogistics" rel="noopener noreferrer">
+        <a href="/team/Admin/EventsandLogistics" rel="noopener noreferrer">
           Events and Logistics
         </a>
       ),
-      key: "/team/ic/EventsandLogistics",
+      key: "/team/Admin/EventsandLogistics",
     },
     {
       label: (
-        <a href="/team/ic/Marketing" rel="noopener noreferrer">
+        <a href="/team/Admin/Marketing" rel="noopener noreferrer">
           Marketing
         </a>
       ),
-      key: "/team/ic/Marketing",
+      key: "/team/Admin/Marketing",
+    },
+    {
+      label: (
+        <a href="/team/Admin/Treasury" rel="noopener noreferrer">
+          Treasury
+        </a>
+      ),
+      key: "/team/Admin/Treasury",
+    },
+    {
+      label: (
+        <a href="/team/ic/website" rel="noopener noreferrer">
+          Website
+        </a>
+      ),
+      key: "/team/ic/website",
     }
   ],
 };
@@ -243,23 +264,23 @@ const NAV_LINKS = [
     label: <a href="/calendar">Calendar</a>,
     key: "/calendar",
   },*/
-  {
+  /*{
     label: <a href="/newsletters">Newsletters</a>,
     key: "/newsletters",
-  },
+  },*/
   {
     label: <a href="/sponsors">Sponsors</a>,
     key: "/sponsors",
   },
   {
-    label: <a href="/Merch">Merch</a>,
-    key: "/Merch",
+    label: <a href="/team/leads">Recruitment</a>,
+    key: "/team/leads",
   },
   {
     label: (
       <a href="/team/join-the-team" rel="noopener noreferrer">
-        <Button type="primary" className="bg-accent-green rounded-md">
-          Join
+        <Button type="primary" className="bg-accent-orange rounded-md">
+          Apply
         </Button>
       </a>
     ),
@@ -287,11 +308,11 @@ const items: MenuProps["items"] = [
     
       {
         label: (
-          <a href="/team/ic/F1Tenth" rel="noopener noreferrer">
+          <a href="/team/F1Tenth" rel="noopener noreferrer">
             F1 Tenth
           </a>
         ),
-        key: "/team/ic/F1Tenth",
+        key: "/team/F1Tenth",
       },
       IC_LINKS,
       EV_LINKS,

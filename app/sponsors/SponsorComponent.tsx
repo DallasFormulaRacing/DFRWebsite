@@ -25,7 +25,7 @@ export const Sponsors = () => {
       </div>
       <div className="flex items-center justify-center mt-8 md:mt-16">
         <Link
-          href="/assets/sponsors/DFR_Sponsorship_Packet2024.pdf"
+          href="/assets/sponsors/DFR_Sponsor_Packet 2026.pdf"
           target="_blank"
           rel="noopener">
           <motion.button

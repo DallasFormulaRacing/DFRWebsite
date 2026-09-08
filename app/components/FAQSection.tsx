@@ -1,4 +1,5 @@
 import { Collapse } from "antd";
+import { JSX } from "react";
 
 interface FAQItem {
   key: string;
