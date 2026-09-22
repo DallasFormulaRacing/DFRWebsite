@@ -186,6 +186,28 @@
   "IC": {
     "data": [
       {
+        "name": "Michael Dahl",
+        "positions": "EV Electrical Systems Lead",
+        "section": "EV",
+        "year": "Junior",
+        "major": "Electrical Engineering",
+        "yearsOnTeam": "2",
+        "image": "/assets/team/Headshots 2026 Fall/Michael.png",
+        "email": "Michael.Dahl@utdallas.edu",
+        "linkedin": "https://www.linkedin.com/in/michael-k-dahl/"
+      },
+      {
+        "name": "Phillip Gendel",
+        "positions": "IC Powertrain Lead",
+        "section": "IC",
+        "year": "Freshman",
+        "major": "Computer Science",
+        "yearsOnTeam": "1",
+        "image": "/assets/team/Headshots 2026 Fall/Paul.png",
+        "email": "Phillip.Gendel@utdallas.edu",
+        "linkedin": ""
+      },
+      {
         "name": "Daniel Dorak",
         "positions": "Aerodynamics Lead",
         "section": "IC",
