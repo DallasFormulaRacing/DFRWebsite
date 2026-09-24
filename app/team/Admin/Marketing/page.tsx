@@ -10,18 +10,18 @@ import React from "react";
 const OFFICERS = {
   leadership: [
     {
-      bigTitle: "Marketing",
-      image: "/assets/team/Spring2025Officers/rithvik.png",
-      name: "Rithvik Kaniganti",
-      role: "Marketing Director",
+      bigTitle: "Media",
+      image: "/assets/team/Headshots 2026 Fall/Shaheer.png",
+      name: "Shaheer",
+      role: "Media Director",
       quote:
         "At Dallas Formula Racing, marketing isn’t just about promotion—it’s about telling the story of a team built on passion, dedication, and engineering excellence. Every design, every sponsorship, and every social media post serves a purpose: to showcase the relentless effort our members put into building a competitive race car. We’re not just sharing content; we’re building a brand, engaging a community, and inspiring the next generation of innovators. The track is where we compete, but the impact of our brand extends far beyond it.",
     },
     {
       bigTitle: "Marketing",
-      image: "/assets/team/Fall2025Officers/Bouvie.png",
-      name: "Bhuvi T.",
-      role: "Marketing Co-Lead",
+      image: "/assets/team/Headshots 2026 Fall/Carys.png",
+      name: "Carys Farrar",
+      role: "Marketing Director",
       quote:
         "Dallas Formula Racing marketing is an opportunity to connect with like-minded individuals about a passion project! We are all interested in being helpful, creative, innovative. By being a part of this organization, I have realized the importance of every part of social media, brand presence, and presentation because it all reflects on our whole organization. It’s not just content that is being shared, it’s a community we are representing.",
     },

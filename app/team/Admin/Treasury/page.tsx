@@ -10,8 +10,8 @@ const OFFICERS = {
  leadership: [
    {
      bigTitle: "Treasury",
-     image: "/assets/team/Fall2025Officers/Alondra.png",
-     name: "Alondra Lopez",
+     image: "/assets/team/Headshots 2026 Fall/Rebecca.png",
+     name: "Rebecca Berney",
      role: "Treasury Lead",
      quote:
        "The treasury team exists to ensure that Dallas Formula Racing manages its resources wisely so every team can perform at its best. As part of treasury, you’ll gain hands-on experience with budgeting, forecasting, and financial planning that directly support our success on and off the track. It’s a chance to turn financial concepts from the classroom into real-world impact, where every dollar fuels performance.",
@@ -20,7 +20,7 @@ const OFFICERS = {
  sponsorship: [
    {
      bigTitle: "Treasury",
-     image: "/assets/team/Fall2025Officers/Parker.png" ,
+     image: "/assets/team/Headshots 2026 Fall/Parker.png",
      name: "Parker Floyd",
      role: "Treasury Lead",
      quote:
@@ -30,23 +30,23 @@ const OFFICERS = {
  Honor: [
   {
     bigTitle: "Treasury",
-    image: "/assets/team/Fall2025Officers/Andrew.png" ,
+    image: "/assets/team/Headshots 2026 Fall/Andrew_T.png" ,
     name: "Andrew Reed",
     role: "Treasury Lead",
     quote:
       "The treasury team keeps Dallas Formula Racing moving. We manage budgets, allocate resources, and make sure every competition team has what it needs to perform. Join us and build real financial skills while directly shaping how the club operates.",
   },
-],
-Respect: [
-  {
-    bigTitle: "Treasury",
-    image: "/assets/team/Fall2025Officers/Travis.png" ,
-    name: "Travis Hall",
-    role: "Treasury Lead",
-    quote:
-      "Want your financial decisions to actually matter? Treasury manages the budgets that keep Dallas Formula Racing competitive. You'll develop practical skills in planning and resource allocation while contributing directly to how the team performs on and off the track.",
-  },
-],
+]
+// Respect: [
+//   {
+//     bigTitle: "Treasury",
+//     image: "/assets/team/Fall2025Officers/Travis.png" ,
+//     name: "Travis Hall",
+//     role: "Treasury Lead",
+//     quote:
+//       "Want your financial decisions to actually matter? Treasury manages the budgets that keep Dallas Formula Racing competitive. You'll develop practical skills in planning and resource allocation while contributing directly to how the team performs on and off the track.",
+//   },
+// ],
 };
 
 
@@ -100,12 +100,12 @@ export default function Page() {
        subtitle=""
        position="BottomLeft"
      />
-          <OfficerSection
+          {/* <OfficerSection
        image={OFFICERS.Respect[0].image}
        name={OFFICERS.Respect[0].name}
        role={OFFICERS.Respect[0].role}
        quote={OFFICERS.Respect[0].quote}
-     />
+     /> */}
           <TitleSection
        image={Car}
        title=""

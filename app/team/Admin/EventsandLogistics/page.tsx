@@ -6,30 +6,21 @@ const OFFICERS = {
   leadership: [
     {
       bigTitle: "Events and Logistics",
-      image: "/assets/team/Spring2025Officers/AnanyaUppalapati.png",
-      name: "Ananya Uppalapati",
-      role: "Events and Logistics Director",
-      quote:"Events and Logistics is the backbone of team operations, handling everything from planning team events to coordinating outreach and competitions. We ensure every event runs smoothly through careful preparation, logistical support, and collaboration with all sub-teams.",
-    },
-  ],
-  sponsorship: [
-    {
-      bigTitle: "Events and Logistics",
-      image: "/assets/team/Spring2025Officers/AnastasiaGarel.png",
-      name: "Anastasia Garel",
-      role: "Events and Logistics Director",
-      quote:"Events and Logistics form the foundation of team operations, managing everything from event planning to coordinating outreach and competitions. Through meticulous preparation, logistical support, and collaboration with all sub-teams, we ensure every event runs seamlessly.",
-    },
-  ],
-  community: [
-    {
-      bigTitle: "Events and Logistics",
-      image: "/assets/team/Spring2025Officers/LexusDouangdara.png",
+      image: "/assets/team/Headshots 2026 Fall/Lexus.png",
       name: "Lexus Douangdara",
       role: "Events and Logistics Director",
       quote:"The Events and Logistics team is the core of operations, managing everything from event planning to coordinating outreach and competitions. Through careful preparation, logistical support, and collaboration with all sub-teams, we ensure every event is executed seamlessly.",
     },
   ],
+  sponsorship: [
+    {
+      bigTitle: "Events and Logistics",
+      image: "public/dfr-logo-tyre.png",
+      name: "Alexia Camille Viejo",
+      role: "Events and Logistics Director",
+      quote:"Events and Logistics form the foundation of team operations, managing everything from event planning to coordinating outreach and competitions. Through meticulous preparation, logistical support, and collaboration with all sub-teams, we ensure every event runs seamlessly.",
+    },
+  ]
 };
 
 
@@ -60,24 +51,24 @@ export default function Page() {
         subtitle="Engage with our local community through initiatives, events and more"
         position="BottomRight"
       />
-            <OfficerSection
+            {/* <OfficerSection
               image={OFFICERS.sponsorship[0].image}
               name={OFFICERS.sponsorship[0].name}
               role={OFFICERS.sponsorship[0].role}
               quote={OFFICERS.sponsorship[0].quote}
-            />
+            /> */}
       <TitleSection
         image= "/assets/events/event2.jpg"
         title=""
         subtitle=""
         position="BottomRight"
       />
-            <OfficerSection
+            {/* <OfficerSection
               image={OFFICERS.community[0].image}
               name={OFFICERS.community[0].name}
               role={OFFICERS.community[0].role}
               quote={OFFICERS.community[0].quote}
-            />
+            /> */}
       <TitleSection
         image= "/assets/events/event3.jpg"
         title=""
