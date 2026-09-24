@@ -105,6 +105,18 @@ export default function Page() {
         role={OFFICERS.leadership[0].role}
         quote={OFFICERS.leadership[0].quote}
       />
+      <TitleSection
+        image={OFFICERS.leadership[0].image}
+        title="Outreach"
+        subtitle="Engage with our local community through initiatives, events and more"
+        position="BottomRight"
+      />
+      <OfficerSection
+        image={OFFICERS.leadership[0].image}
+        name={OFFICERS.outreach[0].name}
+        role={OFFICERS.outreach[0].role}
+        quote={OFFICERS.outreach[0].quote}
+      />
 
      
     </main>
