@@ -5,7 +5,8 @@ import NabeelSalman from "@/public/assets/team/Headshots/NabeelSalman.png";
 import SponsorshipImage from "@/public/assets/team/20220818_183355 1.png";
 import CommunityImage from "@/public/assets/team/IMG_3380 1.png";
 import OutreachImage from "@/public/assets/team/IMG_3239 1.png";
-
+import DFRWheelImage from "@/public/dfr-logo-tyre.png"
+import Anvi from "@/public/assets/team/Headshots 2026 Fall/Anvi.png";
 const OFFICERS = {
   my_goat: [
     {
@@ -20,7 +21,7 @@ const OFFICERS = {
   leadership: [
     {
       bigTitle: "Business",
-      image: "public/dfr-logo-tyre.png",
+      image: DFRWheelImage,
       name: "Fawaz Jamshed",
       role: "Business Director",
       quote:
@@ -38,7 +39,7 @@ const OFFICERS = {
   ],
   outreach: [
     {
-      image: "public/assets/team/Headshots 2026 Fall/Anvi.png",
+      image: Anvi,
       name: "Anvi Sharma",
       role: "Development Director",
       quote:
@@ -106,13 +107,13 @@ export default function Page() {
         quote={OFFICERS.leadership[0].quote}
       />
       <TitleSection
-        image={OFFICERS.leadership[0].image}
+        image={OutreachImage}
         title="Outreach"
         subtitle="Engage with our local community through initiatives, events and more"
         position="BottomRight"
       />
       <OfficerSection
-        image={OFFICERS.leadership[0].image}
+        image={OFFICERS.outreach[0].image}
         name={OFFICERS.outreach[0].name}
         role={OFFICERS.outreach[0].role}
         quote={OFFICERS.outreach[0].quote}
