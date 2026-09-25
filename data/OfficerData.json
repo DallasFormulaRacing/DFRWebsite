@@ -25,7 +25,7 @@
       },
       {
         "name": "Arav Neroth",
-        "positions": "Business President",
+        "positions": "Business Director",
         "section": "Business",
         "year": "Junior",
         "major": "Computer Information Systems & Technologys",
@@ -101,14 +101,14 @@
         "linkedin": "https://www.linkedin.com/in/gia-jimenez-a62384378?utm_source=share_via&utm_content=profile&utm_medium=member_ios"
       },
       {
-        "name": "Shaheer",
+        "name": "Shaheer Hamad",
         "positions": "Media Director",
         "section": "Admin",
         "year": "Junior",
         "major": "Finance",
         "yearsOnTeam": "1",
         "image": "/assets/team/Headshots 2026 Fall/Shaheer.png",
-        "email": "@UTDallas.edu",
+        "email": "Shaheer.Hamad@UTDallas.edu",
         "linkedin": "https://www.linkedin.com/in/cristobal-santamaria-243ab22ab/"
       },
       {
@@ -138,7 +138,7 @@
         "positions": "Events and Logistics",
         "section": "Admin",
         "year": "Sophomore",
-        "major": "Business Analytics and Artificial Intelligence",
+        "major": "Business Analytics and Artificial Intelligence & Supply Chain Management",
         "yearsOnTeam": "0.5",
         "image": "/assets/team/Headshots 2026 Fall/Lexus.png",
         "email": "lexus.douangdara@utdallas.edu",
@@ -149,8 +149,19 @@
   "Business": {
     "data": [
       {
+        "name": "Fawaz Jamshed",
+        "positions": "Development Director Mentee",
+        "section": "Business",
+        "year": "Sophmore",
+        "major": "Electrical Engineering",
+        "yearsOnTeam": "2",
+        "image": "",
+        "email": "Fawaz.Jamshed@utdallas.edu",
+        "linkedin": "https://www.linkedin.com/in/fawazjamshed/"
+      },
+      {
         "name": "Arav Neroth",
-        "positions": "Business President",
+        "positions": "Business Director",
         "section": "Business",
         "year": "Junior",
         "major": "Computer Information Systems & Technologys",
@@ -163,8 +174,8 @@
         "name": "Aditya Praveen",
         "positions": "Development Director",
         "section": "Business",
-        "year": "Freshman",
-        "major": "Computer Science",
+        "year": "Senior",
+        "major": "Finance",
         "yearsOnTeam": "1",
         "image": "/assets/team/Headshots 2026 Fall/Aditya.png",
         "email": "Aditya.Praveen@utdallas.edu",
@@ -172,7 +183,7 @@
       },
       {
         "name": "Anvi Sharma",
-        "positions": "Buisness Director",
+        "positions": "Business Director Mentee",
         "section": "Business",
         "year": "Sophmore",
         "major": "Business Analytics & Artificial Intelligence",
@@ -192,7 +203,7 @@
         "year": "Junior",
         "major": "Electrical Engineering",
         "yearsOnTeam": "2",
-        "image": "/assets/team/Headshots 2026 Fall/Michael.png",
+        "image": "public/assets/team/Fall2025Officers/michael.png",
         "email": "Michael.Dahl@utdallas.edu",
         "linkedin": "https://www.linkedin.com/in/michael-k-dahl/"
       },

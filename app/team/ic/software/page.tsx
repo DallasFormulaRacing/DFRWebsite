@@ -16,12 +16,13 @@ import Farah from "@/public/assets/team/Fall2025Officers/Farah.png"
 import Reid from "@/public/assets/team/Fall2025Officers/Reid.png"
 import arjun from "@/public/assets/team/Fall2025Officers/arjun.png"
 import OnboardingImage from "@/public/assets/team/Dallas Formula Racing Web-32 1.png"
+import { kill } from "process";
 
 const OFFICERS = {
   leadership: [
     {
       bigTitle: "Software",
-      timings: "Fridays @ 6:00 pm", 
+      timings: "Fridays @ 6:00 pm",
       image: DFRWheelImage,
       name: "Andrew Klundt",
       role: "Software Lead",
@@ -32,7 +33,7 @@ const OFFICERS = {
   projects: [
     {
       image: DFRWheelImage,
-      name: "Sai Chauhan",
+      name: "Prakrit Chauhan",
       role: "DFR Dashboard",
       quote:
         "The Web Dashboard is a new platform for analyzing and visualizing data from our racing sessions. It will connect to our Postgres database and provide tools for quadrant analysis, driver comparisons, and live dashboards. Members can view and analyze entire sessions, helping drivers and engineers make data-driven decisions to improve performance. This project will be started from scratch, using modern web development technologies to ensure a responsive and user-friendly experience.",
