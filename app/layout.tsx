@@ -1,4 +1,4 @@
-import "./globals.css";
+
 import { Analytics } from "@vercel/analytics/react";
 import { Inter, Open_Sans, Raleway, Questrial } from "next/font/google";
 import Navbar from "@/app/components/Navbar";
