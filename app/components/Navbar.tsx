@@ -278,7 +278,7 @@ const NAV_LINKS = [
   },
   {
     label: (
-      <a href="/team/join-the-team" rel="noopener noreferrer">
+      <a href="https://forms.cloud.microsoft/r/aFTXise4RV" target="_blank" rel="noopener noreferrer">
         <Button type="primary" className="bg-accent-orange rounded-md">
           Apply
         </Button>
