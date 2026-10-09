@@ -6,6 +6,7 @@ import MeetingTime from "@/app/components/MeetingTimes";
 import Calendar from '../../components/Calendar';
 import { url } from "inspector";
 
+
 export default function MeetingTimes() {
   return (
     <div className="w-full pb-8">
@@ -14,7 +15,7 @@ export default function MeetingTimes() {
           Meeting Times 
         </h1>
         <div className="flex justify-center">
-          <MeetingTime
+          <Calendar
             events={[
              
               {
@@ -51,7 +52,7 @@ export default function MeetingTimes() {
                 },
                 extendedProps: { tags: ["Meeting", "Work"] },
                 backgroundColor: "#045295",
-                url: "/team/Admin/Eventsandlogistics",
+                url: "team/Admin/EventsandLogistics",
               },
               {
                 title: "Events and logistics Meeting",
@@ -63,7 +64,7 @@ export default function MeetingTimes() {
                 },
                 extendedProps: { tags: ["Meeting", "Work"] },
                 backgroundColor: "#045295",
-                url: "/team/Admin/Eventsandlogistics",
+                url: "team/Admin/EventsandLogistics",
               },
               {
                 title: "Business Meeting",
@@ -152,18 +153,6 @@ export default function MeetingTimes() {
               {
                 title: "Composites Meeting",
                 rrule: {
-                  freq: "weekly", //meeting time on slide
-                  byweekday: ["fr"], // Every Friday 
-                  dtstart: "2024-10-01T12:00:00", // Start date and time
-                  until: "2027-12-31", // Optional: End date for recurrence
-                },
-                extendedProps: { tags: ["Meeting", "Work"] },
-                backgroundColor: "#045295",
-                url: " /team/ic/composites",
-              },
-              {
-                title: "Composites Meeting",
-                rrule: {
                   freq: "weekly", //workshop time on slide
                   byweekday: ["fr"], // Every Friday
                   dtstart: "2024-10-01T13:00:00", // Start date and time
@@ -232,7 +221,7 @@ export default function MeetingTimes() {
                 },
                 extendedProps: { tags: ["Meeting", "Work"] },
                 backgroundColor: "#2D8B49",
-                url: "/team/ic/F1Tenth",
+                url: "/team/F1Tenth",
               } 
             ]}
           />
