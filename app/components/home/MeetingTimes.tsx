@@ -127,6 +127,18 @@ export default function MeetingTimes() {
                 url: " /team/ic/powertrain",
               },
               {
+                title: "IC Steering Meeting",
+                rrule: {
+                  freq: "weekly",
+                  byweekday: ["Th"], // Every Monday
+                  dtstart: "2024-10-01T17:30:00", // Start date and time
+                  until: "2027-12-31", // Optional: End date for recurrence
+                },
+                extendedProps: { tags: ["Meeting", "Work"] },
+                backgroundColor: "#E87500",
+                url: " /team/ic/steering",
+              },
+              {
                 title: "Marketing and Media Meeting",
                 rrule: {
                   freq: "weekly",
@@ -159,7 +171,7 @@ export default function MeetingTimes() {
                   until: "2027-12-31", // Optional: End date for recurrence
                 },
                 extendedProps: { tags: ["Meeting", "Work"] },
-                backgroundColor: "#045295",
+                backgroundColor: "#E87500",
                 url: " /team/ic/composites",
               },
               {
@@ -179,7 +191,7 @@ export default function MeetingTimes() {
                 rrule: {
                   freq: "weekly",
                   byweekday: ["tu"], // Every Tuesday
-                  dtstart: "2024-10-01T17:00:00", // Start date and time
+                  dtstart: "2024-10-01T19:00:00", // Start date and time
                   until: "2027-12-31", // Optional: End date for recurrence
                 },
                 extendedProps: { tags: ["Meeting", "Work"] },

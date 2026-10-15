@@ -69,7 +69,7 @@ const FAQ = [
             </p>
             <p>Here is how you can join the team and get involved:</p>
             <a
-              href="https://forms.office.com/r/EACF3H7WbV"
+              href="https://forms.cloud.microsoft/r/aFTXise4RV"
               target="_blank"
               rel="noopener noreferrer">
               Interest Form to Join the Discord
@@ -267,7 +267,7 @@ export default function About() {
             showcase their abilities through participation in the Formula SAE
             competition.
           </p>
-          <Link href="/team/join-the-team">
+          <Link href="https://forms.cloud.microsoft/r/aFTXise4RV" target="_blank" rel="noopener noreferrer">
             <button className="bg-accent-orange w-32 sm:text-lg font-semibold sm:w-48 h-14 rounded-md my-8 buttonEffect shadow-sm">
               Apply
             </button>

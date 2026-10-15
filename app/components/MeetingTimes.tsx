@@ -47,7 +47,8 @@ export default function Calendar({ events }: { events: any }) {
         </div>
       </div>
 
-      {/* <div className="bg-white shadow-md rounded-lg p-4 w-full">
+      {/* The TBD Section for when meeting times aren't set
+      <div className="bg-white shadow-md rounded-lg p-4 w-full">
         <h2 className="text-xl font-bold mb-3">TBD</h2>
         <ul className="space-y-2">
           <li className="rounded-md border border-gray-200 px-4 py-2 text-[0.9rem]">
