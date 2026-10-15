@@ -124,6 +124,15 @@ const IC_LINKS = {
       ),
       key: "/team/ic/suspension",
     },
+
+    {
+      label: (
+        <a href="/team/ic/steering" rel="noopener noreferrer">
+          Steering Team
+        </a>
+      ),
+      key: "/team/ic/steering",
+    },
   ],
 };
 const EV_LINKS = {
