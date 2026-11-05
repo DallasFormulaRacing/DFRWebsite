@@ -1,11 +1,5 @@
 [
   {
-    "name": "AEZION",
-    "logo": "/assets/sponsors/aeizon.webp",
-    "link": "https://www.aezion.com/"
-  },
-
-  {
     "name": "Airtech",
     "logo": "/assets/sponsors/airtech.webp",
     "link": "https://airtech.com/"
@@ -24,9 +18,9 @@
   },
 
   {
-    "name": "ANSYS",
-    "logo": "/assets/sponsors/ansys.svg",
-    "link": "https://www.ansys.com/"
+    "name": "Analog Devices",
+    "logo": "/assets/sponsors/F26_NewSponsors/Analog_Devices_Logo.svg.webp",
+    "link": "https://www.analog.com/en/index.html"
   },
 
   {
@@ -36,19 +30,27 @@
   },
 
   {
-    "name": "Bender",
-    "logo": "/assets/sponsors/EVSponsors/Bender.png",
-    "link": "https://benderinc.com/"
+    "name": "Bell",
+    "logo": "/assets/sponsors/F26_NewSponsors/Bell_Textron_logo.png",
+    "link": "https://www.bellflight.com"
   },
+
   {
     "name": "Brembo",
     "logo": "/assets/sponsors/Brembo.png",
     "link": "https://www.brembo.com/en"
   },
+
   {
-    "name": "CONVERGE CFD",
-    "logo": "/assets/sponsors/converge.svg",
-    "link": "https://convergecfd.com/"
+    "name": "Dusold",
+    "logo": "/assets/sponsors/F26_NewSponsors/logo_Background_Removed.png.webp",
+    "link": "https://shopdusolddesigns.com"
+  },
+
+  {
+    "name": "Eagles Canyon Raceways",
+    "logo": "/assets/sponsors/F26_NewSponsors/eaglescanon.png",
+    "link": "https://eaglescanyon.com"
   },
 
   {
@@ -58,55 +60,16 @@
   },
 
   {
-    "name": "Engineered Materials Solutions",
-    "logo": "/assets/sponsors/EVSponsors/ems.png",
-    "link": "https://emsclad.com/"
+    "name": "Evolution Dynamics",
+    "logo": "/assets/sponsors/F26_NewSponsors/evodynamicslogo.png.avif",
+    "link": "https://www.evodynamics.com"
   },
 
-  {
-    "name": "Evan Composites",
-    "logo": "/assets/sponsors/evancomposites.webp",
-    "link": "https://www.evanscomposites.com"
-  },
-
-  {
-    "name": "Exo Lambda",
-    "logo": "/assets/sponsors/EVSponsors/Exolambda.png",
-    "link": "https://exolambda.com/"
-  },
   {
     "name": "ExtremeCanopy",
     "logo": "/assets/sponsors/Extreme_Canopy.png",
     "link": "https://www.extremecanopy.com"
   },
-  {
-    "name": "Fibre Glast",
-    "logo": "/assets/sponsors/fibreglast.webp",
-    "link": "https://www.fibreglast.com/"
-  },
-
-  {
-    "name": "Hawkeye",
-    "logo": "/assets/sponsors/hawkeye_industries_logo.png",
-    "link": ""
-  },
-
-  {
-    "name": "HEXAGON",
-    "logo": "/assets/sponsors/hexagon.svg",
-    "link": "https://hexagon.com/"
-  },
-  {
-    "name": "HGSI",
-    "logo": "/assets/sponsors/HGSI.jpg",
-    "link": "https://thesensorconnection.com/"
-  },
-  {
-    "name": "High_Power",
-    "logo": "/assets/sponsors/HP.png",
-    "link": ""
-  },
-
 
   {
     "name": "Keysight",
@@ -115,31 +78,9 @@
   },
 
   {
-    "name": "LabJack",
-    "logo": "/assets/sponsors/LILY.png",
-    "link": "https://www.lily-bearing.com/"
-  },
-
-  {
-    "name": "Lily Bearings",
-    "logo": "/assets/sponsors/labjack.webp",
-    "link": "https://labjack.com/"
-  },
-
-  {
-    "name": "Liqui Moly",
-    "logo": "/assets/sponsors/liquimoly.svg",
-    "link": "https://www.liqui-moly.com"
-  },
-  {
-    "name": "Metals4U",
-    "logo": "/assets/sponsors/METALS4U.png",
-    "link": "https://www.metals4u.com"
-  },
-  {
-    "name": "Micro Measurements",
-    "logo": "/assets/sponsors/micromeasurements.svg",
-    "link": "https://micro-measurements.com/"
+    "name": "Kuttek",
+    "logo": "/assets/sponsors/F26_NewSponsors/kuttek.png",
+    "link": "https://kuttek.com"
   },
 
   {
@@ -149,70 +90,21 @@
   },
 
   {
-    "name": "NOODOE",
-    "logo": "/assets/sponsors/EVSponsors/Noodoe.png",
-    "link": "https://www.noodoe.com/"
+    "name": "Orion Fans",
+    "logo": "/assets/sponsors/F26_NewSponsors/orion_fans.png",
+    "link": "https://orionfans.com"
   },
 
-  {
-    "name": "NTBAA",
-    "logo": "/assets/sponsors/ntbaa.svg",
-    "link": "https://ntbaaonline.com/"
-  },
-
-  {
-    "name": "OEL",
-    "logo": "/assets/sponsors/EVSponsors/oel.svg",
-    "link": "https://oelsales.com/"
-  },
-
-  {
-    "name": "Omni Powertrain",
-    "logo": "/assets/sponsors/omnipowertrain.png",
-    "link": "https://www.omnipowertrain.com/"
-  },
-  {
-    "name": "Online Metals",
-    "logo": "/assets/sponsors/OnlineMetals.png",
-    "link": "https://www.onlinemetals.com/?gad_source=1&gad_campaignid=6502026653&gbraid=0AAAAADs4Iv2dYFQSJ7-ilRpv4R1xeSX5x&gclid=CjwKCAjwlaTGBhANEiwAoRgXBUde4UJKNOfS0NUESVCZOeW_Cf1fw-iSLK-wErUfKZvfgBXkpdRXeBoCbI4QAvD_BwE"
-  },
   {
     "name": "Peterbilt",
     "logo": "/assets/sponsors/peterbilt.webp",
     "link": "https://www.peterbilt.com/"
   },
-
-  {
-    "name": "ProEV",
-    "logo": "/assets/sponsors/EVSponsors/PROEV.png",
-    "link": "https://proelectricvehicle.com/"
-  },
-  {
-    "name": "Quanser",
-    "logo": "/assets/sponsors/quanser.png",
-    "link": "https://www.quanser.com/"
-  },
+  
   {
     "name": "Rapid Harness",
     "logo": "/assets/sponsors/RapidHarness.png",
     "link": "https://rapidharness.com/"
-  },
-  {
-    "name": "RedBull",
-    "logo": "/assets/sponsors/redbull.webp",
-    "link": "https://www.redbull.com/us-en/"
-  },
-
-  {
-    "name": "Rescale",
-    "logo": "/assets/sponsors/rescale.svg",
-    "link": "https://www.rescale.com/"
-  },
-
-  {
-    "name": "Rockwall MakerSpace",
-    "logo": "/assets/sponsors/rockwallmakerspace.webp",
-    "link": "https://rockwallmakerspace.org/"
   },
 
   {
@@ -222,11 +114,11 @@
   },
 
   {
-    "name": "Schroth Racing",
-    "logo": "/assets/sponsors/schroth.svg",
-    "link": "https://www.schrothracing.com/"
+    "name": "Shield AI",
+    "logo": "/assets/sponsors/F26_NewSponsors/shieldAi.webp",
+    "link": "https://shield.ai"
   },
-
+  
   {
     "name": "Sherwin Williams",
     "logo": "/assets/sponsors/sherwinwilliams.webp",
@@ -234,21 +126,27 @@
   },
 
   {
-    "name": "Siemens",
-    "logo": "/assets/sponsors/siemens.png",
-    "link": "https://www.siemens.com/"
-  },
-
-  {
-    "name": "SKF",
-    "logo": "/assets/sponsors/skf_logo.webp",
-    "link": "https://www.skf.com/us"
+    "name": "SigmaTex",
+    "logo": "/assets/sponsors/F26_NewSponsors/sigmatex.png",
+    "link": "https://www.sigmatex.com/"
   },
 
   {
     "name": "SolidWorks",
     "logo": "/assets/sponsors/solidworks.svg",
     "link": "https://www.solidworks.com/"
+  },
+
+  {
+    "name": "StrataSys",
+    "logo": "/assets/sponsors/F26_NewSponsors/Stratasys_New_Logo.png",
+    "link": "https://www.stratasys.com/en/"
+  },
+
+  {
+    "name": "TE Connectivity",
+    "logo": "/assets/sponsors/F26_NewSponsors/TE_Connectivity_logo.svg",
+    "link": "https://www.te.com/en/home.html"
   },
 
   {
@@ -261,17 +159,13 @@
     "logo": "/assets/sponsors/Titan4.png",
     "link": "https://pcbassembly.com/"
   },
-  {
-    "name": "TTA",
-    "logo": "/assets/sponsors/tta.svg",
-    "link": "https://www.testtechnology.com/"
-  },
 
   {
-    "name": "TT Electronics",
-    "logo": "/assets/sponsors/EVSponsors/TTE.png",
-    "link": "https://www.ttelectronics.com/"
+    "name": "TruScott",
+    "logo": "/assets/sponsors/F26_NewSponsors/truscott.webp",
+    "link": "https://truscott.insure"
   },
+
   {
     "name": "UTD",
     "logo": "/assets/sponsors/utd.svg",
@@ -282,18 +176,11 @@
     "logo": "/assets/sponsors/Velvet_taco.png",
     "link": "https://www.VelvetTaco.com"
   },
-
-  {
-    "name": "Vigrade",
-    "logo": "/assets/sponsors/Vi-Grade.png",
-    "link": "https://www.vi-grade.com/"
-  },
   
   {
     "name": "WelshAdvisors",
     "logo": "/assets/sponsors/welshadvisors.webp",
     "link": "https://www.welshadvisors.com/"
   }
-
 
 ]
