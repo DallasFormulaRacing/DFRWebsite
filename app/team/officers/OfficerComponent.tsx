@@ -1,6 +1,6 @@
 "use client";
 import { motion } from "framer-motion";
-import React from "react";
+import React, { useState } from "react";
 import OfficerCardV2 from "./OfficerCardV2";
 import { OfficerData } from "@/types/types";
 import OfficerList from "@/data/OfficerData.json";
@@ -10,6 +10,7 @@ type Props = {};
 const OfficerComponent = (props: Props) => {
   const officerList: OfficerData = OfficerList;
   const officerSections = Object.entries(officerList);
+  const [expandedKey, setExpandedKey] = useState<string | null>(null);
 
   return (
     <section className="flex flex-col justify-center w-5/6 mx-auto">
@@ -24,11 +25,21 @@ const OfficerComponent = (props: Props) => {
           </motion.h1>
           <div
             className={
-              "grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 justify-items-center gap-8"
+              "grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 grid-flow-row-dense justify-items-center gap-8"
             }>
-            {sectionData.data.map((officer, index) => (
-              <OfficerCardV2 officer={officer} key={`${sectionName}-${index}`} />
-            ))}
+            {sectionData.data.map((officer, index) => {
+              const key = `${sectionName}-${index}`;
+              return (
+                <OfficerCardV2
+                  officer={officer}
+                  key={key}
+                  isExpanded={expandedKey === key}
+                  onToggle={() =>
+                    setExpandedKey((prev) => (prev === key ? null : key))
+                  }
+                />
+              );
+            })}
           </div>
         </div>
       ))}
